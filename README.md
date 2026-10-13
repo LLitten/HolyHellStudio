@@ -40,7 +40,7 @@ src/
   pages/[...lang]/          one file per page; each builds all three languages
 ```
 
-The studio logo goes at `src/assets/brand/studio-logo.svg`. Once it's there, it replaces the text in the header.
+The studio logo is `src/assets/brand/studio-logo.svg` (the white version from Drive, Admin > Distribution). The tab icon, home-screen icon and default share image in `public/` were made from it.
 
 ## Game data
 

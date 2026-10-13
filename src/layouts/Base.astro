@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import { htmlLang, type Lang } from '../i18n/ui';
-import { langs, switchLang, useTranslations, localePath } from '../i18n/utils';
+import { langs, switchLang, useTranslations, localePath, assetPath } from '../i18n/utils';
 import { site } from '../site';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -39,8 +39,11 @@ const fonts =
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={desc} />
     <meta property="og:url" content={canonical} />
-    {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
-    <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+    <meta property="og:image" content={new URL(image ?? assetPath('og-default.png'), Astro.site)} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href={assetPath('favicon.svg')} type="image/svg+xml" />
+    <link rel="apple-touch-icon" href={assetPath('apple-touch-icon.png')} />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
