@@ -1,14 +1,15 @@
 /* Colors and fonts live here. Change a value once and it updates everywhere.
+   Neutrals are earth tones taken from Vash's art (moss cloak, khaki highlights, leather).
    Gold and purple are the game's Angel (#FFE680) and Demon (#9933CC) colors from FactionPalette. */
 :root {
-  --bg: #1b1a1e;
-  --surface: #26242b;
-  --surface-raised: #312e37;
-  --surface-sunk: #131216;
+  --bg: #1a1916;
+  --surface: #25261f;
+  --surface-raised: #303128;
+  --surface-sunk: #12120f;
 
-  --gold: #ecd27e;
+  --gold: #e6cc7c;
   --gold-bright: #ffe680;
-  --gold-dim: #9c8648;
+  --gold-dim: #96804a;
 
   --demon: #9933cc;
   --demon-bright: #b45ce0;
@@ -16,8 +17,8 @@
   /* Filled backgrounds behind text; the game's purple itself is slightly too light for that. */
   --demon-deep: #7a2aa3;
 
-  --text: #ece2cf;
-  --text-muted: #bfb4a2;
+  --text: #e9dfc9;
+  --text-muted: #b9ae99;
 
   --rarity-1: #b8b0a0;
   --rarity-2: #74b0e0;
@@ -37,15 +38,15 @@
   --radius: 4px;
 
   /* Ornaments drawn after the game's card frame and logo: a tapered lance with diamond
-     nodes for dividers, and thorned corners for framed boxes. Gold is #ecd27e (%23 = #). */
-  --lance-left: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M0 7 L100 5 L100 9 Z' fill='%23ecd27e'/%3E%3C/svg%3E");
-  --lance-right: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M100 7 L0 5 L0 9 Z' fill='%23ecd27e'/%3E%3C/svg%3E");
-  --lance-node: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M7 1 L13 7 L7 13 L1 7 Z' fill='%23ecd27e'/%3E%3C/svg%3E");
-  --lance-center: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M9 1 L15 9 L9 17 L3 9 Z' fill='none' stroke='%23ecd27e' stroke-width='1.6'/%3E%3C/svg%3E");
-  --corner-tl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23ecd27e'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
-  --corner-tr: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23ecd27e' transform='matrix(-1 0 0 1 40 0)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
-  --corner-bl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23ecd27e' transform='matrix(1 0 0 -1 0 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
-  --corner-br: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23ecd27e' transform='matrix(-1 0 0 -1 40 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+     nodes for dividers, and thorned corners for framed boxes. Gold is #e6cc7c (%23 = #). */
+  --lance-left: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M0 7 L100 5 L100 9 Z' fill='%23e6cc7c'/%3E%3C/svg%3E");
+  --lance-right: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M100 7 L0 5 L0 9 Z' fill='%23e6cc7c'/%3E%3C/svg%3E");
+  --lance-node: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M7 1 L13 7 L7 13 L1 7 Z' fill='%23e6cc7c'/%3E%3C/svg%3E");
+  --lance-center: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M9 1 L15 9 L9 17 L3 9 Z' fill='none' stroke='%23e6cc7c' stroke-width='1.6'/%3E%3C/svg%3E");
+  --corner-tl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23e6cc7c'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-tr: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23e6cc7c' transform='matrix(-1 0 0 1 40 0)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-bl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23e6cc7c' transform='matrix(1 0 0 -1 0 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-br: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23e6cc7c' transform='matrix(-1 0 0 -1 40 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
   --width: 72rem;
   --gutter: 1rem;
 }
@@ -79,8 +80,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--bg);
-  /* A faint purple glow from the top of the page. */
-  background-image: radial-gradient(ellipse 120% 60% at 50% 0%, rgb(153 51 204 / 0.12), transparent 70%);
+  /* A faint khaki glow from the top of the page. */
+  background-image: radial-gradient(ellipse 120% 60% at 50% 0%, rgb(120 107 85 / 0.16), transparent 70%);
   background-attachment: fixed;
   color: var(--text);
   font-family: var(--font-body);
@@ -187,7 +188,7 @@ hr,
   content: '';
   position: absolute;
   inset: 4px;
-  border: 1px solid rgb(236 210 126 / 0.3);
+  border: 1px solid rgb(230 204 124 / 0.3);
   border-radius: 10px;
   pointer-events: none;
   z-index: 1;
