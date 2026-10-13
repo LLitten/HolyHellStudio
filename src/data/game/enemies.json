@@ -286,7 +286,7 @@
               "tc": "神性呼喚"
             },
             "detail": {
-              "en": "Accept the embrance of the Gods...<br>Increases both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>.",
+              "en": "Accept the embrance of the Gods...<br>Increases both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>.",
               "sc": "接受众神之拥吧…<br>同时增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
               "tc": "接受眾神之擁吧…<br>同時增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
             }
@@ -300,7 +300,7 @@
               "tc": "持續呼喚..."
             },
             "detail": {
-              "en": "They are coming...<br>Increases both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>.",
+              "en": "They are coming...<br>Increases both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>.",
               "sc": "祂们即将到来…<br>同时增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
               "tc": "祂們即將到來…<br>同時增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
             }
@@ -1673,7 +1673,7 @@
               "tc": "褻瀆碎片"
             },
             "detail": {
-              "en": "Deals moderate damage and increases your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>.",
+              "en": "Deals moderate damage and increases your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>.",
               "sc": "造成中等伤害，并增加你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
               "tc": "造成中等傷害，並增加你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
             }

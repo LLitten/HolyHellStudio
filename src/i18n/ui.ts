@@ -1,3 +1,5 @@
+import gameLabels from '../data/game/labels.json';
+
 export const languages = {
   en: 'English',
   sc: '简体中文',
@@ -15,6 +17,8 @@ export const htmlLang: Record<Lang, string> = {
 };
 
 // Interface text. Page content lives in src/content; game text comes from the game's own localization.
+// Labels for game terms (card stats, item types, enemy ranks...) aren't here: they're pulled from the
+// game's text by the data sync so the wording matches the game. See LABELS in scripts/sync-game-data.mjs.
 // Missing keys fall back to English.
 export const ui = {
   en: {
@@ -66,28 +70,13 @@ export const ui = {
     'lore.enemies.blurb': 'What waits for you out there.',
     'lore.cards': 'Cards',
     'lore.cards.blurb': 'Every card you can find so far.',
-    'lore.equipment': 'Equipment',
     'lore.equipment.blurb': 'Gear to carry into a delve.',
-    'lore.materials': 'Materials',
     'lore.materials.blurb': 'Packs, fragments and upgrade materials.',
     'lore.empty': 'Nothing here yet.',
     'lore.jump': 'Jump to',
     'lore.scope': 'Showing everything found in Windchime Village. More will be added as development continues.',
 
-    'card.inherent': 'Inherent',
-    'card.cost': 'Action cost',
-    'card.durability': 'Durability',
-    'card.angel': 'Angel gauge',
-    'card.demon': 'Demon gauge',
-    'card.faction': 'Faction',
-    'card.god': 'Godhood',
-    'card.type': 'Action type',
-    'card.noGod': 'Unaligned',
 
-    'item.type': 'Type',
-    'item.attack': 'Attack',
-    'item.hp': 'HP',
-    'item.defense': 'Defense',
     'item.price': 'Shop price',
     'item.howToGet': 'How to get',
     'item.lore': 'Lore',
@@ -96,24 +85,10 @@ export const ui = {
     'item.source.upgrade': 'Upgraded from {item}',
     'item.source.merge': 'Combine 5 {item}',
     'item.source.event': 'Found in dungeon events',
-    'subtype.Offense': 'Offense',
-    'subtype.Defense': 'Defense',
-    'subtype.Other': 'Other',
-    'subtype.CardPack': 'Card pack',
-    'subtype.SoulFragment': 'Soul fragment',
-    'subtype.Material': 'Material',
-    'subtype.RareMaterial': 'Rare material',
 
-    'rarity': 'Rarity',
-    'rarity.value': 'Tier {n}',
 
     'enemy.rank': 'Rank',
     'enemy.rank.Minion': 'Minion',
-    'enemy.rank.Elite': 'Elite',
-    'enemy.rank.Boss': 'Boss',
-    'enemy.hp': 'HP',
-    'enemy.attack': 'Attack',
-    'enemy.defense': 'Defense',
     'enemy.foundIn': 'Found in',
     'enemy.summonedBy': 'Summoned by {enemy}',
     'enemy.skills': 'Skills',
@@ -198,28 +173,13 @@ export const ui = {
     'lore.enemies.blurb': '在外面等着你的东西。',
     'lore.cards': '卡牌',
     'lore.cards.blurb': '目前可以取得的所有卡牌。',
-    'lore.equipment': '装备',
     'lore.equipment.blurb': '带进地城的装备。',
-    'lore.materials': '材料',
     'lore.materials.blurb': '卡包、碎片与升级材料。',
     'lore.empty': '这里还没有内容。',
     'lore.jump': '跳转到',
     'lore.scope': '目前显示风铃村中的所有内容，后续会随开发进度增加。',
 
-    'card.inherent': '固有',
-    'card.cost': '行动点消耗',
-    'card.durability': '耐久',
-    'card.angel': '天使量表',
-    'card.demon': '恶魔量表',
-    'card.faction': '阵营',
-    'card.god': '神格',
-    'card.type': '行动类型',
-    'card.noGod': '无',
 
-    'item.type': '类型',
-    'item.attack': '攻击',
-    'item.hp': '生命',
-    'item.defense': '防御',
     'item.price': '商店价格',
     'item.howToGet': '获取方式',
     'item.lore': '背景',
@@ -228,24 +188,10 @@ export const ui = {
     'item.source.upgrade': '由{item}升级',
     'item.source.merge': '集齐 5 个{item}合成',
     'item.source.event': '地城事件中获得',
-    'subtype.Offense': '攻击',
-    'subtype.Defense': '防御',
-    'subtype.Other': '其他',
-    'subtype.CardPack': '卡包',
-    'subtype.SoulFragment': '灵魂碎片',
-    'subtype.Material': '材料',
-    'subtype.RareMaterial': '稀有材料',
 
-    'rarity': '稀有度',
-    'rarity.value': '{n} 阶',
 
     'enemy.rank': '等级',
     'enemy.rank.Minion': '普通',
-    'enemy.rank.Elite': '精英',
-    'enemy.rank.Boss': '首领',
-    'enemy.hp': '生命',
-    'enemy.attack': '攻击',
-    'enemy.defense': '防御',
     'enemy.foundIn': '出没地点',
     'enemy.summonedBy': '由{enemy}召唤',
     'enemy.skills': '技能',
@@ -330,28 +276,13 @@ export const ui = {
     'lore.enemies.blurb': '在外頭等著你的東西。',
     'lore.cards': '卡牌',
     'lore.cards.blurb': '目前可以取得的所有卡牌。',
-    'lore.equipment': '裝備',
     'lore.equipment.blurb': '帶進地城的裝備。',
-    'lore.materials': '材料',
     'lore.materials.blurb': '卡包、碎片與升級材料。',
     'lore.empty': '這裡還沒有內容。',
     'lore.jump': '跳至',
     'lore.scope': '目前顯示風鈴村中的所有內容，之後會隨開發進度增加。',
 
-    'card.inherent': '固有',
-    'card.cost': '行動點消耗',
-    'card.durability': '耐久',
-    'card.angel': '天使量表',
-    'card.demon': '惡魔量表',
-    'card.faction': '陣營',
-    'card.god': '神格',
-    'card.type': '行動類型',
-    'card.noGod': '無',
 
-    'item.type': '類型',
-    'item.attack': '攻擊',
-    'item.hp': '生命',
-    'item.defense': '防禦',
     'item.price': '商店價格',
     'item.howToGet': '取得方式',
     'item.lore': '背景',
@@ -360,24 +291,10 @@ export const ui = {
     'item.source.upgrade': '由{item}升級',
     'item.source.merge': '集滿 5 個{item}合成',
     'item.source.event': '地城事件中取得',
-    'subtype.Offense': '攻擊',
-    'subtype.Defense': '防禦',
-    'subtype.Other': '其他',
-    'subtype.CardPack': '卡包',
-    'subtype.SoulFragment': '靈魂碎片',
-    'subtype.Material': '材料',
-    'subtype.RareMaterial': '稀有材料',
 
-    'rarity': '稀有度',
-    'rarity.value': '{n} 階',
 
     'enemy.rank': '等級',
     'enemy.rank.Minion': '普通',
-    'enemy.rank.Elite': '菁英',
-    'enemy.rank.Boss': '首領',
-    'enemy.hp': '生命',
-    'enemy.attack': '攻擊',
-    'enemy.defense': '防禦',
     'enemy.foundIn': '出沒地點',
     'enemy.summonedBy': '由{enemy}召喚',
     'enemy.skills': '技能',
@@ -414,4 +331,4 @@ export const ui = {
   },
 } as const;
 
-export type UIKey = keyof (typeof ui)['en'];
+export type UIKey = keyof (typeof ui)['en'] | keyof (typeof gameLabels)['en'];

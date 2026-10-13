@@ -12,9 +12,9 @@ const t = useTranslations(lang);
 const tier = Math.min(Math.max(value, 1), 5);
 ---
 
-<span class="rarity" style={`--tier: var(--rarity-${tier})`} title={`${t('rarity')}: ${t('rarity.value', { n: value })}`}>
+<span class="rarity" style={`--tier: var(--rarity-${tier})`} title={t('rarity.value', { n: value })}>
   <span aria-hidden="true">{'◆'.repeat(Math.max(value, 1))}</span>
-  <span class="visually-hidden">{t('rarity')}: {t('rarity.value', { n: value })}</span>
+  <span class="visually-hidden">{t('rarity.value', { n: value })}</span>
 </span>
 
 <style>

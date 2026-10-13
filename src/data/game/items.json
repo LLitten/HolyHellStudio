@@ -878,10 +878,7 @@
     "icon": "juicy_fruit.png",
     "tint": null,
     "rarity": 1,
-    "price": {
-      "min": 120,
-      "max": 200
-    },
+    "price": null,
     "stats": {
       "attack": 0,
       "hp": 23,
@@ -891,9 +888,6 @@
       {
         "type": "drop",
         "enemy": "131001"
-      },
-      {
-        "type": "shop"
       }
     ],
     "name": {
@@ -958,10 +952,7 @@
     "icon": "hemostatic_bandage.png",
     "tint": null,
     "rarity": 1,
-    "price": {
-      "min": 120,
-      "max": 200
-    },
+    "price": null,
     "stats": {
       "attack": 9,
       "hp": 7,
@@ -975,9 +966,6 @@
       {
         "type": "drop",
         "enemy": "130003"
-      },
-      {
-        "type": "shop"
       }
     ],
     "name": {
@@ -1003,10 +991,7 @@
     "icon": "flickering_candle.png",
     "tint": null,
     "rarity": 1,
-    "price": {
-      "min": 120,
-      "max": 200
-    },
+    "price": null,
     "stats": {
       "attack": 18,
       "hp": 5,
@@ -1020,9 +1005,6 @@
       {
         "type": "drop",
         "enemy": "130001"
-      },
-      {
-        "type": "shop"
       }
     ],
     "name": {
@@ -1081,43 +1063,6 @@
     }
   },
   {
-    "id": "520019",
-    "kind": "equipment",
-    "subType": "Other",
-    "icon": "bracers.png",
-    "tint": null,
-    "rarity": 1,
-    "price": {
-      "min": 120,
-      "max": 200
-    },
-    "stats": {
-      "attack": 18,
-      "hp": 5,
-      "defense": 2
-    },
-    "sources": [
-      {
-        "type": "shop"
-      }
-    ],
-    "name": {
-      "en": "Bracers",
-      "sc": "护手甲",
-      "tc": "護手甲"
-    },
-    "description": {
-      "en": "When you take damage, gain 20% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 1 turn.",
-      "sc": "受到击中时获得 20% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 1 回合。",
-      "tc": "受到擊中時獲得 20% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 1 回合。"
-    },
-    "lore": {
-      "en": "Originally, Intereon was tasked solely with the banishment and punishment of heretics. Yet, no matter how many triumphant victories He achieved in battle, mortals soon learned a grim truth: heresy would always take root anew in the days to come.",
-      "sc": "昔日，英提力恩仅背负着驱逐与惩戒异端的职权。然而，即便祂无数次于征战中凯旋，人们却绝望地发现，异端邪说总会在不久后再次萌芽。",
-      "tc": "昔日，英提力恩僅背負著驅逐與懲戒異端的職權。然而，即便祂無數次於征戰中凱旋，人們卻絕望地發現，異端邪說總會在不久後再次萌芽。"
-    }
-  },
-  {
     "id": "520020",
     "kind": "equipment",
     "subType": "Defense",
@@ -1154,43 +1099,6 @@
       "en": "&quot;Here, take this. Every household hangs one beneath their eaves. They say even if kin travel far from home, as long as they hear the chimes, they will find their way back. Me? Oh, I could always see the path, anyway.&quot; — Mara",
       "sc": "「给你，这是家家户户都要在屋檐下挂的风铃。即使是远在他乡的亲友，只要听见这铃声，就能找到回家的路……我吗？我本来就已经看得见了哦。」 - 玛拉",
       "tc": "「給你，這是家家戶戶都要在屋簷下掛的風鈴。即使是遠在他鄉的親友，只要聽見這鈴聲，就能找到回家的路……我嗎？我本來就已經看得見了哦。」 - 瑪拉"
-    }
-  },
-  {
-    "id": "520021",
-    "kind": "equipment",
-    "subType": "Defense",
-    "icon": "sanctuary_amulet.png",
-    "tint": null,
-    "rarity": 1,
-    "price": {
-      "min": 120,
-      "max": 200
-    },
-    "stats": {
-      "attack": 0,
-      "hp": 10,
-      "defense": 4
-    },
-    "sources": [
-      {
-        "type": "shop"
-      }
-    ],
-    "name": {
-      "en": "Sanctuary Amulet",
-      "sc": "庇护项链",
-      "tc": "庇護項鍊"
-    },
-    "description": {
-      "en": "Gain 3 additional <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> in elite encounters.",
-      "sc": "和菁英战斗时获得 3 点额外<span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>。",
-      "tc": "和菁英戰鬥時獲得 3 點額外<span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>。"
-    },
-    "lore": {
-      "en": "Long ago, the Pale Realm was merely a nameless region on the map. Yet upon their founding, both kingdoms laid claim to the land, igniting relentless border skirmishes. Ravaged by endless years of war and conflict, the residents eventually shed the feverish zeal of their faith, driven solely by the desperate need to survive.",
-      "sc": "很久以前，「苍白之地」曾不过是地图上的一角。然而在两大王国相继建立后，皆声称这片土地归其所有，边境的摩擦与冲突便从未停歇。饱受经年累月战火摧残的居民，最终抛弃了对信仰的狂热，仅求在这乱世中苟活。",
-      "tc": "很久以前，「蒼白之地」曾不過是地圖上的一角。然而在兩大王國相繼建立後，皆聲稱這片土地歸其所有，邊境的摩擦與衝突便從未停歇。飽受經年累月戰火摧殘的居民，最終拋棄了對信仰的狂熱，僅求在這亂世中苟活。"
     }
   },
   {
@@ -1239,10 +1147,7 @@
     "icon": "cardpack_Select.png",
     "tint": null,
     "rarity": 2,
-    "price": {
-      "min": 180,
-      "max": 180
-    },
+    "price": null,
     "stats": null,
     "sources": [
       {
@@ -1264,9 +1169,6 @@
       {
         "type": "drop",
         "enemy": "130006"
-      },
-      {
-        "type": "shop"
       }
     ],
     "name": {
@@ -1292,10 +1194,7 @@
     "icon": "cardpack_Angel.png",
     "tint": null,
     "rarity": 2,
-    "price": {
-      "min": 130,
-      "max": 130
-    },
+    "price": null,
     "stats": null,
     "sources": [
       {
@@ -1309,9 +1208,6 @@
       {
         "type": "drop",
         "enemy": "131001"
-      },
-      {
-        "type": "shop"
       }
     ],
     "name": {
@@ -1337,10 +1233,7 @@
     "icon": "cardpack_Demon.png",
     "tint": null,
     "rarity": 2,
-    "price": {
-      "min": 130,
-      "max": 130
-    },
+    "price": null,
     "stats": null,
     "sources": [
       {
@@ -1354,9 +1247,6 @@
       {
         "type": "drop",
         "enemy": "130006"
-      },
-      {
-        "type": "shop"
       }
     ],
     "name": {
@@ -1382,15 +1272,9 @@
     "icon": "cardpack_Intereon.png",
     "tint": null,
     "rarity": 2,
-    "price": {
-      "min": 90,
-      "max": 90
-    },
+    "price": null,
     "stats": null,
     "sources": [
-      {
-        "type": "shop"
-      },
       {
         "type": "merge",
         "from": "500011"
@@ -1419,15 +1303,9 @@
     "icon": "cardpack_Florentis.png",
     "tint": null,
     "rarity": 2,
-    "price": {
-      "min": 90,
-      "max": 90
-    },
+    "price": null,
     "stats": null,
     "sources": [
-      {
-        "type": "shop"
-      },
       {
         "type": "merge",
         "from": "500012"
@@ -1456,18 +1334,12 @@
     "icon": "cardpack_Evinor.png",
     "tint": null,
     "rarity": 2,
-    "price": {
-      "min": 90,
-      "max": 90
-    },
+    "price": null,
     "stats": null,
     "sources": [
       {
         "type": "drop",
         "enemy": "131001"
-      },
-      {
-        "type": "shop"
       },
       {
         "type": "merge",
@@ -1497,18 +1369,12 @@
     "icon": "cardpack_Oculyth.png",
     "tint": null,
     "rarity": 2,
-    "price": {
-      "min": 90,
-      "max": 90
-    },
+    "price": null,
     "stats": null,
     "sources": [
       {
         "type": "drop",
         "enemy": "121001"
-      },
-      {
-        "type": "shop"
       },
       {
         "type": "merge",
@@ -1538,18 +1404,12 @@
     "icon": "cardpack_Hedalis.png",
     "tint": null,
     "rarity": 2,
-    "price": {
-      "min": 90,
-      "max": 90
-    },
+    "price": null,
     "stats": null,
     "sources": [
       {
         "type": "drop",
         "enemy": "121001"
-      },
-      {
-        "type": "shop"
       },
       {
         "type": "merge",
@@ -1579,15 +1439,9 @@
     "icon": "cardpack_Vortherect.png",
     "tint": null,
     "rarity": 2,
-    "price": {
-      "min": 90,
-      "max": 90
-    },
+    "price": null,
     "stats": null,
     "sources": [
-      {
-        "type": "shop"
-      },
       {
         "type": "merge",
         "from": "500016"

@@ -486,7 +486,7 @@
       "tc": "誓約：效忠"
     },
     "description": {
-      "en": "<span class=\"kw\" title=\"The card's effect will only trigger if it is the first card played this turn.\">Intuitive</span>. <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> not to change your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>: next turn, gain 3 additional <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 1.",
+      "en": "<span class=\"kw\" title=\"The card's effect will only trigger if it is the first card played this turn.\">Intuitive</span>. <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> not to change your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span>: next turn, gain 3 additional <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 1.",
       "sc": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一张打出的牌时才会触发。\">直觉</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即视为达成誓约，触发其奖励。破誓没有惩罚，只是不会触发奖励效果。\">誓约</span>不改变你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>：下回合额外获得 3 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>： 1。",
       "tc": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一張打出的牌時才會觸發。\">直覺</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即視為達成誓約，觸發其獎勵。破誓沒有懲罰，只是不會觸發獎勵效果。\">誓約</span>不改變你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>：下回合額外獲得 3 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>： 1。"
     }
@@ -576,7 +576,7 @@
       "tc": "誓約：狂信"
     },
     "description": {
-      "en": "<span class=\"kw\" title=\"The card's effect will only trigger if it is the first card played this turn.\">Intuitive</span>. <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> Intereon cards: at the end of this turn, reduce your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> by 70.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 1.",
+      "en": "<span class=\"kw\" title=\"The card's effect will only trigger if it is the first card played this turn.\">Intuitive</span>. <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> Intereon cards: at the end of this turn, reduce your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> by 70.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 1.",
       "sc": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一张打出的牌时才会触发。\">直觉</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即视为达成誓约，触发其奖励。破誓没有惩罚，只是不会触发奖励效果。\">誓约</span>英提力恩牌：本回合结束时你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 减少 70。<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>： 1。",
       "tc": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一張打出的牌時才會觸發。\">直覺</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即視為達成誓約，觸發其獎勵。破誓沒有懲罰，只是不會觸發獎勵效果。\">誓約</span>英提力恩牌：本回合結束時你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 減少 70。<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>： 1。"
     }
@@ -664,7 +664,7 @@
       "tc": "神降"
     },
     "description": {
-      "en": "Deal 55 damage.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥65: Costs 1 less <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥85: It costs 2 less instead.<br><span class=\"kw\" title=\"Trigger the additional effects when the player deals lethal damage with this card.\">Onkill</span>: Loses no durability.",
+      "en": "Deal 55 damage.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥65: Costs 1 less <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥85: It costs 2 less instead.<br><span class=\"kw\" title=\"Trigger the additional effects when the player deals lethal damage with this card.\">Onkill</span>: Loses no durability.",
       "sc": "造成 55 点伤害。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥65：少消耗 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥85：改为少消耗 2 点。<br><span class=\"kw\" title=\"当玩家以此牌造成致命伤害时，触发额外效果。\">击杀时</span>：不消耗耐久。",
       "tc": "造成 55 點傷害。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥65：少消耗 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥85：改為少消耗 2 點。<br><span class=\"kw\" title=\"當玩家以此牌造成致命傷害時，觸發額外效果。\">擊殺時</span>：不消耗耐久。"
     }
@@ -781,7 +781,7 @@
       "tc": "束縛聖約"
     },
     "description": {
-      "en": "This dungeon: your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> limit is reduced by 10. Gain 1 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
+      "en": "This dungeon: your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> limit is reduced by 10. Gain 1 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
       "sc": "在本次地城中，你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 上限降低 10。获得 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。",
       "tc": "在本次地城中，你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 上限降低 10。獲得 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。"
     }
@@ -810,7 +810,7 @@
       "tc": "極巨恩典"
     },
     "description": {
-      "en": "Draw 2 cards.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥75: Spend 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and gain 2 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
+      "en": "Draw 2 cards.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥75: Spend 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> and gain 2 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
       "sc": "抽 2 张牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥75：消耗 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，获得 2 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。",
       "tc": "抽 2 張牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥75：消耗 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，獲得 2 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。"
     }
@@ -839,7 +839,7 @@
       "tc": "意志淬鍊"
     },
     "description": {
-      "en": "Gain 25% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 2 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤30: Gain 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>.",
+      "en": "Gain 25% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 2 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≤30: Gain 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span>.",
       "sc": "获得 25% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 2 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤30：获得 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。",
       "tc": "獲得 25% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 2 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤30：獲得 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。"
     }
@@ -898,7 +898,7 @@
       "tc": "肅清異端"
     },
     "description": {
-      "en": "Deal 8 damage and gain 5% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 1 turn.<br><span class=\"kw\" title=\"Spend up to the maximum listed resource. Trigger the effect once for every increment.\">Funnel</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>: up to 60. For every 15, repeat the above.",
+      "en": "Deal 8 damage and gain 5% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 1 turn.<br><span class=\"kw\" title=\"Spend up to the maximum listed resource. Trigger the effect once for every increment.\">Funnel</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span>: up to 60. For every 15, repeat the above.",
       "sc": "造成 8 点伤害，并获得 5% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 1 回合。<br><span class=\"kw\" title=\"最多消耗所列上限的资源。每消耗一个增量，便触发一次效果。\">倾注</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>：至多 60。每 15 点，重复以上效果。",
       "tc": "造成 8 點傷害，並獲得 5% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 1 回合。<br><span class=\"kw\" title=\"最多消耗所列上限的資源。每消耗一個增量，便觸發一次效果。\">傾注</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>：至多 60。每 15 點，重複以上效果。"
     }
@@ -927,7 +927,7 @@
       "tc": "信仰神盾"
     },
     "description": {
-      "en": "Gain <span class=\"kw\" title=\"An unstackable buff that grants complete immunity to the next incoming attack within x turns.\">Guard</span> for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥50: Remove 1 random debuff from yourself.",
+      "en": "Gain <span class=\"kw\" title=\"An unstackable buff that grants complete immunity to the next incoming attack within x turns.\">Guard</span> for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥50: Remove 1 random debuff from yourself.",
       "sc": "获得 <span class=\"kw\" title=\"不可叠加的增益，在 x 回合内完全免疫下一次受到的攻击。\">守护</span>，持续 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：随机移除自身 1 个减益。",
       "tc": "獲得 <span class=\"kw\" title=\"不可疊加的增益，在 x 回合內完全免疫下一次受到的攻擊。\">守護</span>，持續 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：隨機移除自身 1 個減益。"
     }
@@ -985,7 +985,7 @@
       "tc": "教義壁壘"
     },
     "description": {
-      "en": "Gain 15 <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥50: It lasts 3 turn instead.",
+      "en": "Gain 15 <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥50: It lasts 3 turn instead.",
       "sc": "获得 15 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>，持续 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：改为持续 3 回合。",
       "tc": "獲得 15 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>，持續 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：改為持續 3 回合。"
     }
@@ -1014,7 +1014,7 @@
       "tc": "聖化恐懼"
     },
     "description": {
-      "en": "Apply 50% <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> to an enemy for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥50: It lasts 2 turn instead.",
+      "en": "Apply 50% <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> to an enemy for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥50: It lasts 2 turn instead.",
       "sc": "施加 50% <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：改为持续 2 回合。",
       "tc": "施加 50% <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：改為持續 2 回合。"
     }
@@ -1043,7 +1043,7 @@
       "tc": "眾聚意念"
     },
     "description": {
-      "en": "Gain 10% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 2 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥50: Spend 25 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and gain 50% instead.",
+      "en": "Gain 10% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 2 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥50: Spend 25 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> and gain 50% instead.",
       "sc": "获得 10% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 2 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：消耗 25 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，改为获得 50%。",
       "tc": "獲得 10% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 2 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：消耗 25 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，改為獲得 50%。"
     }
@@ -1101,7 +1101,7 @@
       "tc": "神聖淨化"
     },
     "description": {
-      "en": "Draw 2 Rosricon cards.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤50: Gain 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥50: Reduce your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> by 20.",
+      "en": "Draw 2 Rosricon cards.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≤50: Gain 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span>.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥50: Reduce your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> by 20.",
       "sc": "抽 2 张罗斯里坎牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤50：获得 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥50：你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 减少 20。",
       "tc": "抽 2 張羅斯里坎牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤50：獲得 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥50：你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 減少 20。"
     }
@@ -1191,7 +1191,7 @@
       "tc": "撥燃餘燼"
     },
     "description": {
-      "en": "Deal 8 damage. For each <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> stack on the target, gain 4 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>.",
+      "en": "Deal 8 damage. For each <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> stack on the target, gain 4 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span>.",
       "sc": "造成 8 点伤害。目标每有 1 层 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>，获得 4 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。",
       "tc": "造成 8 點傷害。目標每有 1 層 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>，獲得 4 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。"
     }
@@ -1221,7 +1221,7 @@
       "tc": "野火"
     },
     "description": {
-      "en": "Apply 10 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to all enemies.<br><span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span>: Apply 16 instead.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥30: Apply 16 instead.",
+      "en": "Apply 10 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to all enemies.<br><span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span>: Apply 16 instead.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥30: Apply 16 instead.",
       "sc": "对所有敌人施加 10 层 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。<br><span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>：改为施加 16 层。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：改为施加 16 层。",
       "tc": "對所有敵人施加 10 層 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。<br><span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>：改為施加 16 層。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：改為施加 16 層。"
     }
@@ -1251,7 +1251,7 @@
       "tc": "燎原之火"
     },
     "description": {
-      "en": "This dungeon: apply 16 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to all enemies and 8 to yourself.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥30: Gain 5% <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span> for 3 turn.",
+      "en": "This dungeon: apply 16 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to all enemies and 8 to yourself.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥30: Gain 5% <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span> for 3 turn.",
       "sc": "在本次地城中，对所有敌人施加 16 层 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>，并对自身施加 8 层。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：获得 5% <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>，持续 3 回合。",
       "tc": "在本次地城中，對所有敵人施加 16 層 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>，並對自身施加 8 層。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：獲得 5% <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>，持續 3 回合。"
     }
@@ -1282,8 +1282,8 @@
     },
     "description": {
       "en": "<span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≥50: Target an enemy, and gain <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> equal to its <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> stack count for 2 turn.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤49: Gain <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span> equal to that count for 2 turn instead.",
-      "sc": "<span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≥50：选择一名敌人，获得等同其 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span> 层数的 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>，持续 2 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤49：改为获得等同该层数的 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>，持续 2 回合。",
-      "tc": "<span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≥50：選擇一名敵人，獲得等同其 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span> 層數的 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>，持續 2 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤49：改為獲得等同該層數的 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>，持續 2 回合。"
+      "sc": "<span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≥50：选择一名敌人，获得等同其 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span> 层数的 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>，持续 2 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤49：改为获得等同该层数的 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>，持续 2 回合。",
+      "tc": "<span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≥50：選擇一名敵人，獲得等同其 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span> 層數的 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>，持續 2 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤49：改為獲得等同該層數的 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>，持續 2 回合。"
     }
   },
   {
@@ -1342,7 +1342,7 @@
       "tc": "蒼翠恩典"
     },
     "description": {
-      "en": "Gain 5% <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span> for 2 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥30: It lasts for 4 turn instead.",
+      "en": "Gain 5% <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span> for 2 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥30: It lasts for 4 turn instead.",
       "sc": "获得 5% <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>，持续 2 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：改为持续 4 回合。",
       "tc": "獲得 5% <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>，持續 2 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：改為持續 4 回合。"
     }
@@ -1402,7 +1402,7 @@
       "tc": "播種者"
     },
     "description": {
-      "en": "Shuffle 5 cards into your draw pile that heal you when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤50: Shuffle in 3 enhanced versions instead, which also grant <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>.",
+      "en": "Shuffle 5 cards into your draw pile that heal you when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≤50: Shuffle in 3 enhanced versions instead, which also grant <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span>.",
       "sc": "将 5 张抽到时能回复生命的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤50：改为洗入 3 张强化版本，额外提供 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。",
       "tc": "將 5 張抽到時能回復生命的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤50：改為洗入 3 張強化版本，額外提供 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。"
     }
@@ -1462,7 +1462,7 @@
       "tc": "宣洩"
     },
     "description": {
-      "en": "Gain 30% <span class=\"kw\" title=\"A stackable buff that increases the owner's received healing amount by a percentage within x turns.\">Purified</span> for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥15: Spend 15 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and gain 50% instead.",
+      "en": "Gain 30% <span class=\"kw\" title=\"A stackable buff that increases the owner's received healing amount by a percentage within x turns.\">Purified</span> for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥15: Spend 15 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> and gain 50% instead.",
       "sc": "获得 30% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者受到的治疗量提升一定百分比。\">净化</span>，持续 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥15：消耗 15 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，改为获得 50%。",
       "tc": "獲得 30% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者受到的治療量提升一定百分比。\">淨化</span>，持續 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥15：消耗 15 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，改為獲得 50%。"
     }
@@ -1492,7 +1492,7 @@
       "tc": "凋零凝視"
     },
     "description": {
-      "en": "Apply 30% <span class=\"kw\" title=\"A stackable debuff that reduces the owner's attack by a percentage within x turns.\">Intimidate</span> to an enemy for 1 turn.<br><span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span>: It lasts 2 turn instead.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≤30: Apply 50% instead.",
+      "en": "Apply 30% <span class=\"kw\" title=\"A stackable debuff that reduces the owner's attack by a percentage within x turns.\">Intimidate</span> to an enemy for 1 turn.<br><span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span>: It lasts 2 turn instead.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≤30: Apply 50% instead.",
       "sc": "施加 30% <span class=\"kw\" title=\"可叠加的减益，在 x 回合内使持有者的攻击降低一定百分比。\">威吓</span>，持续 1 回合。<br><span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>：改为持续 2 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≤30：改为施加 50%。",
       "tc": "施加 30% <span class=\"kw\" title=\"可疊加的減益，在 x 回合內使持有者的攻擊降低一定百分比。\">威嚇</span>，持續 1 回合。<br><span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>：改為持續 2 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≤30：改為施加 50%。"
     }
@@ -1552,7 +1552,7 @@
       "tc": "焚化"
     },
     "description": {
-      "en": "Apply 28 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to an enemy.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥50: Spend 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and trigger the target's <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> 1 times.",
+      "en": "Apply 28 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to an enemy.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥50: Spend 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> and trigger the target's <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> 1 times.",
       "sc": "施加 28 层 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：消耗 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，立即引爆目标的 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span> 1 次。",
       "tc": "施加 28 層 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：消耗 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，立即引爆目標的 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span> 1 次。"
     }
@@ -1612,7 +1612,7 @@
       "tc": "創造之拳"
     },
     "description": {
-      "en": "Shuffle 3 cards into your draw pile that deal damage to all enemies based on your hand size when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥60: Shuffle in 5 instead and draw 2 of them immediately.",
+      "en": "Shuffle 3 cards into your draw pile that deal damage to all enemies based on your hand size when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥60: Shuffle in 5 instead and draw 2 of them immediately.",
       "sc": "将 3 张抽到时依手牌数对所有敌人造成伤害的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：改为洗入 5 张，并立即抽取其中 2 张。",
       "tc": "將 3 張抽到時依手牌數對所有敵人造成傷害的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：改為洗入 5 張，並立即抽取其中 2 張。"
     }
@@ -1670,7 +1670,7 @@
       "tc": "光輝之價"
     },
     "description": {
-      "en": "<span class=\"kw\" title=\"Spend up to the maximum listed resource. Trigger the effect once for every increment.\">Funnel</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>: up to 30. For every 10, draw 1 card.",
+      "en": "<span class=\"kw\" title=\"Spend up to the maximum listed resource. Trigger the effect once for every increment.\">Funnel</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span>: up to 30. For every 10, draw 1 card.",
       "sc": "<span class=\"kw\" title=\"最多消耗所列上限的资源。每消耗一个增量，便触发一次效果。\">倾注</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>：至多 30。每 10 点，抽 1 张牌。",
       "tc": "<span class=\"kw\" title=\"最多消耗所列上限的資源。每消耗一個增量，便觸發一次效果。\">傾注</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>：至多 30。每 10 點，抽 1 張牌。"
     }
@@ -1699,7 +1699,7 @@
       "tc": "倍化信仰"
     },
     "description": {
-      "en": "Increase your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> changes by 25% and your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> changes by 25% (gains and losses) for 1 turn.",
+      "en": "Increase your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> changes by 25% and your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> changes by 25% (gains and losses) for 1 turn.",
       "sc": "你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 变化量提升 25%，<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 变化量提升 25%（增加与减少皆算），持续 1 回合。",
       "tc": "你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 變化量提升 25%，<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 變化量提升 25%（增加與減少皆算），持續 1 回合。"
     }
@@ -1728,7 +1728,7 @@
       "tc": "幽暗再造"
     },
     "description": {
-      "en": "<span class=\"kw\" title=\"When a card's durability reaches 0, it will be destroyed and will become unplayable for the rest of the dungeon.\">Destroy</span> up to 5 Generated Evinor cards in your draw pile. For each card destroyed, draw 1 card.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥60: Each card destroyed also reduces your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> by 10.",
+      "en": "<span class=\"kw\" title=\"When a card's durability reaches 0, it will be destroyed and will become unplayable for the rest of the dungeon.\">Destroy</span> up to 5 Generated Evinor cards in your draw pile. For each card destroyed, draw 1 card.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥60: Each card destroyed also reduces your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> by 10.",
       "sc": "<span class=\"kw\" title=\"当卡牌的耐久值归零时，该牌会被摧毁，在本次地牢探索的剩余时间内无法使用。\">摧毁</span>你牌堆中至多 5 张【伊维诺】的衍生牌。每摧毁一张，抽 1 张牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：每摧毁一张，你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 额外减少 10。",
       "tc": "<span class=\"kw\" title=\"當卡牌的耐久值歸零時，該牌會被摧毀，在本次地城探索的剩餘時間內無法使用。\">摧毀</span>你牌堆中至多 5 張【伊維諾】的衍生牌。每摧毀一張，抽 1 張牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：每摧毀一張，你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 額外減少 10。"
     }
@@ -1757,7 +1757,7 @@
       "tc": "迴響震盪"
     },
     "description": {
-      "en": "Gain <span class=\"kw\" title=\"A stackable buff that makes your next played card's effect trigger x additional times within y turns.\">Resonate</span> 1 for your next 1 card this turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥60: It applies to your next 2 cards instead.",
+      "en": "Gain <span class=\"kw\" title=\"A stackable buff that makes your next played card's effect trigger x additional times within y turns.\">Resonate</span> 1 for your next 1 card this turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥60: It applies to your next 2 cards instead.",
       "sc": "本回合接下来 1 张牌获得 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内使你下一张打出的牌的效果额外发动 x 次。\">共鸣</span> 1。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：改为套用于接下来 2 张牌。",
       "tc": "本回合接下來 1 張牌獲得 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內使你下一張打出的牌的效果額外發動 x 次。\">共鳴</span> 1。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：改為套用於接下來 2 張牌。"
     }
@@ -1786,7 +1786,7 @@
       "tc": "利者抽成"
     },
     "description": {
-      "en": "Gain 5 gold for each card you play after this one this turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≤30: Also gain 30 gold at the end of combat.",
+      "en": "Gain 5 gold for each card you play after this one this turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≤30: Also gain 30 gold at the end of combat.",
       "sc": "本回合在此牌之后每打出一张牌，获得 5 金币。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≤30：战斗结束时额外获得 30 金币。",
       "tc": "本回合在此牌之後每打出一張牌，獲得 5 金幣。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≤30：戰鬥結束時額外獲得 30 金幣。"
     }
@@ -1844,7 +1844,7 @@
       "tc": "創世姿態"
     },
     "description": {
-      "en": "Shuffle 3 cards into your draw pile that grant <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥30: Also shuffle in 3 that grant <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span>.",
+      "en": "Shuffle 3 cards into your draw pile that grant <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥30: Also shuffle in 3 that grant <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span>.",
       "sc": "将 3 张抽到时提供 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span> 的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：额外洗入 3 张提供 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span> 的牌。",
       "tc": "將 3 張抽到時提供 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span> 的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：額外洗入 3 張提供 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span> 的牌。"
     }
@@ -1902,7 +1902,7 @@
       "tc": "洞見之幣"
     },
     "description": {
-      "en": "Shuffle 3 cards into your draw pile that draw cards when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥70: Shuffle up to 10 chosen cards from your hand back into your draw pile and draw that many.",
+      "en": "Shuffle 3 cards into your draw pile that draw cards when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥70: Shuffle up to 10 chosen cards from your hand back into your draw pile and draw that many.",
       "sc": "将 3 张抽到时能抽牌的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥70：将至多 10 张选定的手牌洗回牌堆，并抽取等量的牌。",
       "tc": "將 3 張抽到時能抽牌的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥70：將至多 10 張選定的手牌洗回牌堆，並抽取等量的牌。"
     }
@@ -1931,7 +1931,7 @@
       "tc": "回響之幣"
     },
     "description": {
-      "en": "Shuffle 3 cards into your draw pile that grant <span class=\"kw\" title=\"A stackable buff that makes your next played card's effect trigger x additional times within y turns.\">Resonate</span> when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥60: Costs 1 less <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
+      "en": "Shuffle 3 cards into your draw pile that grant <span class=\"kw\" title=\"A stackable buff that makes your next played card's effect trigger x additional times within y turns.\">Resonate</span> when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥60: Costs 1 less <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
       "sc": "将 3 张抽到时提供 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内使你下一张打出的牌的效果额外发动 x 次。\">共鸣</span> 的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：少消耗 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。",
       "tc": "將 3 張抽到時提供 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內使你下一張打出的牌的效果額外發動 x 次。\">共鳴</span> 的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：少消耗 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。"
     }
@@ -1960,7 +1960,7 @@
       "tc": "永恆重聚"
     },
     "description": {
-      "en": "<span class=\"kw\" title=\"When a card's durability reaches 0, it will be destroyed and will become unplayable for the rest of the dungeon.\">Destroy</span> up to 10 Generated cards in your draw pile. For each card destroyed, deal 8 damage.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≤50: Deal 10 instead.",
+      "en": "<span class=\"kw\" title=\"When a card's durability reaches 0, it will be destroyed and will become unplayable for the rest of the dungeon.\">Destroy</span> up to 10 Generated cards in your draw pile. For each card destroyed, deal 8 damage.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≤50: Deal 10 instead.",
       "sc": "<span class=\"kw\" title=\"当卡牌的耐久值归零时，该牌会被摧毁，在本次地牢探索的剩余时间内无法使用。\">摧毁</span>你牌堆中至多 10 张衍生牌。每摧毁一张，造成 8 点伤害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≤50：改为造成 10 点。",
       "tc": "<span class=\"kw\" title=\"當卡牌的耐久值歸零時，該牌會被摧毀，在本次地城探索的剩餘時間內無法使用。\">摧毀</span>你牌堆中至多 10 張衍生牌。每摧毀一張，造成 8 點傷害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≤50：改為造成 10 點。"
     }
@@ -2018,7 +2018,7 @@
       "tc": "熔毀"
     },
     "description": {
-      "en": "<span class=\"kw\" title=\"When a card's durability reaches 0, it will be destroyed and will become unplayable for the rest of the dungeon.\">Destroy</span> up to 3 Generated Evinor cards in your draw pile. For each card destroyed, gain 5 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤50: Gain 10 instead.",
+      "en": "<span class=\"kw\" title=\"When a card's durability reaches 0, it will be destroyed and will become unplayable for the rest of the dungeon.\">Destroy</span> up to 3 Generated Evinor cards in your draw pile. For each card destroyed, gain 5 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span>.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≤50: Gain 10 instead.",
       "sc": "<span class=\"kw\" title=\"当卡牌的耐久值归零时，该牌会被摧毁，在本次地牢探索的剩余时间内无法使用。\">摧毁</span>你牌堆中至多 3 张【伊维诺】的衍生牌。每摧毁一张，获得 5 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤50：改为获得 10。",
       "tc": "<span class=\"kw\" title=\"當卡牌的耐久值歸零時，該牌會被摧毀，在本次地城探索的剩餘時間內無法使用。\">摧毀</span>你牌堆中至多 3 張【伊維諾】的衍生牌。每摧毀一張，獲得 5 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤50：改為獲得 10。"
     }
@@ -2047,7 +2047,7 @@
       "tc": "碎裂洗禮"
     },
     "description": {
-      "en": "<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥50: Costs 1 less <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥50: It costs a further 1 less.",
+      "en": "<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥50: Costs 1 less <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥50: It costs a further 1 less.",
       "sc": "<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：少消耗 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥50：再少消耗 1 点。",
       "tc": "<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：少消耗 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥50：再少消耗 1 點。"
     }
@@ -2105,7 +2105,7 @@
       "tc": "匯聚凶兆"
     },
     "description": {
-      "en": "Apply 36 <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span> (3 turn).<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥45: Spend 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>; delay becomes 2 turn.",
+      "en": "Apply 36 <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span> (3 turn).<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥45: Spend 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>; delay becomes 2 turn.",
       "sc": "施加 36 点 <span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span>（3 回合）。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥45：消耗 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>，延迟缩短为 2 回合。",
       "tc": "施加 36 點 <span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span>（3 回合）。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥45：消耗 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>，延遲縮短為 2 回合。"
     }
@@ -2163,7 +2163,7 @@
       "tc": "割裂幻象"
     },
     "description": {
-      "en": "Shuffle two different Vision cards into your draw pile. With both in hand, playing either one heals you.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥45: Shuffle in two of each instead.",
+      "en": "Shuffle two different Vision cards into your draw pile. With both in hand, playing either one heals you.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥45: Shuffle in two of each instead.",
       "sc": "将两张不同的幻象牌洗入你的牌堆。两张集齐时，打出任一张即可回复生命。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥45：改为各洗入两张。",
       "tc": "將兩張不同的幻象牌洗入你的牌堆。兩張集齊時，打出任一張即可回復生命。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥45：改為各洗入兩張。"
     }
@@ -2309,7 +2309,7 @@
       "tc": "蔓延疑慮"
     },
     "description": {
-      "en": "Apply 30% <span class=\"kw\" title=\"A stackable debuff that reduces the owner's attack by a percentage within x turns.\">Intimidate</span> to all enemies for 1 turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥15: Spend 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> and apply a further 20%.",
+      "en": "Apply 30% <span class=\"kw\" title=\"A stackable debuff that reduces the owner's attack by a percentage within x turns.\">Intimidate</span> to all enemies for 1 turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥15: Spend 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> and apply a further 20%.",
       "sc": "对所有敌人施加 30% <span class=\"kw\" title=\"可叠加的减益，在 x 回合内使持有者的攻击降低一定百分比。\">威吓</span>，持续 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥15：消耗 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>，再额外施加 20%。",
       "tc": "對所有敵人施加 30% <span class=\"kw\" title=\"可疊加的減益，在 x 回合內使持有者的攻擊降低一定百分比。\">威嚇</span>，持續 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥15：消耗 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>，再額外施加 20%。"
     }
@@ -2397,7 +2397,7 @@
       "tc": "搜尋：憤怒"
     },
     "description": {
-      "en": "Inspect up to 3 Attack cards in your deck and draw 1.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥30: Repeat this effect.",
+      "en": "Inspect up to 3 Attack cards in your deck and draw 1.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥30: Repeat this effect.",
       "sc": "检视你牌堆中至多 3 张攻击牌，并抽取 1 张。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥30：重复此效果一次。",
       "tc": "檢視你牌堆中至多 3 張攻擊牌，並抽取 1 張。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥30：重複此效果一次。"
     }
@@ -2426,7 +2426,7 @@
       "tc": "搜尋：慰藉"
     },
     "description": {
-      "en": "Inspect up to 3 Heal cards in your deck and draw 1.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥30: Reduce the cost of your next played card by 1.",
+      "en": "Inspect up to 3 Heal cards in your deck and draw 1.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥30: Reduce the cost of your next played card by 1.",
       "sc": "检视你牌堆中至多 3 张治疗牌，并抽取 1 张。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥30：下一张打出的牌费用减少 1。",
       "tc": "檢視你牌堆中至多 3 張治療牌，並抽取 1 張。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥30：下一張打出的牌費用減少 1。"
     }
@@ -2455,7 +2455,7 @@
       "tc": "搜尋：守護"
     },
     "description": {
-      "en": "Inspect up to 3 Buff cards in your draw pile and draw 1.<br>Hand size≤4: Reduce your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> changes (gains and losses) by 50% for 1 turn.",
+      "en": "Inspect up to 3 Buff cards in your draw pile and draw 1.<br>Hand size≤4: Reduce your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> changes (gains and losses) by 50% for 1 turn.",
       "sc": "检视你牌堆中至多 3 张增益牌，并抽取其中 1 张。<br>手牌≤4：你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 变化量（增加与减少）降低 50%，持续 1 回合。",
       "tc": "檢視你牌堆中至多 3 張增益牌，並抽取其中 1 張。<br>手牌≤4：你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 變化量（增加與減少）降低 50%，持續 1 回合。"
     }
@@ -2514,7 +2514,7 @@
       "tc": "真實之眼"
     },
     "description": {
-      "en": "Reveal the enemy's next intent for the rest of the combat.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤30: Each Attack card you play this turn deals 5 extra damage to enemies whose intent is revealed.",
+      "en": "Reveal the enemy's next intent for the rest of the combat.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≤30: Each Attack card you play this turn deals 5 extra damage to enemies whose intent is revealed.",
       "sc": "在本场战斗的剩余时间内揭露该敌人的下一个意图。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤30：本回合每打出一张攻击牌，对意图已揭露的敌人额外造成 5 点伤害。",
       "tc": "在本場戰鬥的剩餘時間內揭露該敵人的下一個意圖。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤30：本回合每打出一張攻擊牌，對意圖已揭露的敵人額外造成 5 點傷害。"
     }
@@ -2543,7 +2543,7 @@
       "tc": "凋零預兆"
     },
     "description": {
-      "en": "Apply 75% <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> to an enemy for 1 turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥30: It lasts 2 turn instead.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥60: It lasts 3 turn instead.",
+      "en": "Apply 75% <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> to an enemy for 1 turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥30: It lasts 2 turn instead.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥60: It lasts 3 turn instead.",
       "sc": "施加 75% <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥30：改为持续 2 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥60：改为持续 3 回合。",
       "tc": "施加 75% <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥30：改為持續 2 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥60：改為持續 3 回合。"
     }
@@ -2572,7 +2572,7 @@
       "tc": "命定彗星"
     },
     "description": {
-      "en": "Spend all <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>. Apply <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span> equal to the amount spent (3 turn).",
+      "en": "Spend all <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>. Apply <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span> equal to the amount spent (3 turn).",
       "sc": "消耗所有 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。施加等同消耗量的 <span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span>（3 回合）。",
       "tc": "消耗所有 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。施加等同消耗量的 <span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span>（3 回合）。"
     }
@@ -2601,7 +2601,7 @@
       "tc": "漣漪打擊"
     },
     "description": {
-      "en": "Deal 4 damage 3 times.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥30 + <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥30: Strike 4 times instead.",
+      "en": "Deal 4 damage 3 times.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥30 + <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥30: Strike 4 times instead.",
       "sc": "造成 4 点伤害 3 次。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30 + <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥30：改为攻击 4 次。",
       "tc": "造成 4 點傷害 3 次。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30 + <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥30：改為攻擊 4 次。"
     }
@@ -2631,8 +2631,8 @@
     },
     "description": {
       "en": "Deal 6 damage to all enemies 2 times.<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"Durability\"></span>≤5: Deal 6 damage 3 times instead. <br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"Durability\"></span>≤3: Deal 6 damage 4 times instead.",
-      "sc": "对所有敌人造成 6 点伤害 2 次。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久\"></span>≤5：改为造成 6 点伤害 3 次。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久\"></span>≤3：改为造成 6 点伤害 4 次。",
-      "tc": "對所有敵人造成 6 點傷害 2 次。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久\"></span>≤5：改為造成 6 點傷害 3 次。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久\"></span>≤3：改為造成 6 點傷害 4 次。"
+      "sc": "对所有敌人造成 6 点伤害 2 次。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久值\"></span>≤5：改为造成 6 点伤害 3 次。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久值\"></span>≤3：改为造成 6 点伤害 4 次。",
+      "tc": "對所有敵人造成 6 點傷害 2 次。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久值\"></span>≤5：改為造成 6 點傷害 3 次。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久值\"></span>≤3：改為造成 6 點傷害 4 次。"
     }
   },
   {
@@ -2659,7 +2659,7 @@
       "tc": "狂潮暴漲"
     },
     "description": {
-      "en": "<span class=\"kw\" title=\"Spend up to the maximum listed resource. Trigger the effect once for every increment.\">Funnel</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>: up to 30. For every 10, gain 3 <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> for 1 turn.",
+      "en": "<span class=\"kw\" title=\"Spend up to the maximum listed resource. Trigger the effect once for every increment.\">Funnel</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>: up to 30. For every 10, gain 3 <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> for 1 turn.",
       "sc": "<span class=\"kw\" title=\"最多消耗所列上限的资源。每消耗一个增量，便触发一次效果。\">倾注</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>：至多 30。每 10 点，获得 3 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span>，持续 1 回合。",
       "tc": "<span class=\"kw\" title=\"最多消耗所列上限的資源。每消耗一個增量，便觸發一次效果。\">傾注</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>：至多 30。每 10 點，獲得 3 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span>，持續 1 回合。"
     }
@@ -2717,7 +2717,7 @@
       "tc": "掙脫枷鎖"
     },
     "description": {
-      "en": "Gain 1 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>, then reduce the durability of 5 random cards in your deck by 1.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥55: No durability is lost.",
+      "en": "Gain 1 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>, then reduce the durability of 5 random cards in your deck by 1.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥55: No durability is lost.",
       "sc": "获得 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>，并随机使牌堆中 5 张牌的耐久减少 1。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥55：不损失任何耐久。",
       "tc": "獲得 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>，並隨機使牌堆中 5 張牌的耐久減少 1。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥55：不損失任何耐久。"
     }
@@ -2776,8 +2776,8 @@
     },
     "description": {
       "en": "Gain <span class=\"kw\" title=\"An unstackable buff that grants complete immunity to the next incoming attack within x turns.\">Guard</span> for 1 turn. <br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"Durability\"></span>≤3: Gain it for 2 turn instead.",
-      "sc": "获得 <span class=\"kw\" title=\"不可叠加的增益，在 x 回合内完全免疫下一次受到的攻击。\">守护</span>，持续 1 回合。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久\"></span>≤3：改为持续 2 回合。",
-      "tc": "獲得 <span class=\"kw\" title=\"不可疊加的增益，在 x 回合內完全免疫下一次受到的攻擊。\">守護</span>，持續 1 回合。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久\"></span>≤3：改為持續 2 回合。"
+      "sc": "获得 <span class=\"kw\" title=\"不可叠加的增益，在 x 回合内完全免疫下一次受到的攻击。\">守护</span>，持续 1 回合。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久值\"></span>≤3：改为持续 2 回合。",
+      "tc": "獲得 <span class=\"kw\" title=\"不可疊加的增益，在 x 回合內完全免疫下一次受到的攻擊。\">守護</span>，持續 1 回合。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久值\"></span>≤3：改為持續 2 回合。"
     }
   },
   {
@@ -2804,7 +2804,7 @@
       "tc": "洋流之引"
     },
     "description": {
-      "en": "Shuffle 3 cards into your draw pile that reduce your next played card's cost when drawn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥60: Shuffle in 3 enhanced versions instead, which also draw a card.",
+      "en": "Shuffle 3 cards into your draw pile that reduce your next played card's cost when drawn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥60: Shuffle in 3 enhanced versions instead, which also draw a card.",
       "sc": "将 3 张抽到时能降低下一张牌费用的牌洗入你的牌堆。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥60：改为洗入 3 张强化版本，额外抽一张牌。",
       "tc": "將 3 張抽到時能降低下一張牌費用的牌洗入你的牌堆。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥60：改為洗入 3 張強化版本，額外抽一張牌。"
     }
@@ -2833,7 +2833,7 @@
       "tc": "魯莽激湧"
     },
     "description": {
-      "en": "Gain 4 <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> for 1 turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥30: Gain 8 instead.",
+      "en": "Gain 4 <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> for 1 turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥30: Gain 8 instead.",
       "sc": "获得 4 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span>，持续 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥30：改为获得 8。",
       "tc": "獲得 4 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span>，持續 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥30：改為獲得 8。"
     }
@@ -2891,7 +2891,7 @@
       "tc": "翻騰之水"
     },
     "description": {
-      "en": "Randomly change the cost of 3 cards in your hand to between 0 and 3. The cost resets when played or at the end of the turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥60: Change 10 cards instead.",
+      "en": "Randomly change the cost of 3 cards in your hand to between 0 and 3. The cost resets when played or at the end of the turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥60: Change 10 cards instead.",
       "sc": "随机将手牌中 3 张牌的费用改为 0～3。费用于打出或回合结束时重置。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥60：改为 10 张牌。",
       "tc": "隨機將手牌中 3 張牌的費用改為 0～3。費用於打出或回合結束時重置。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥60：改為 10 張牌。"
     }
@@ -2920,7 +2920,7 @@
       "tc": "打撈"
     },
     "description": {
-      "en": "Inspect up to 4 cards in your discard pile and draw 1.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤30 &amp; <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≤30: Also play 1 random card from your discard pile.",
+      "en": "Inspect up to 4 cards in your discard pile and draw 1.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≤30 &amp; <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≤30: Also play 1 random card from your discard pile.",
       "sc": "检视你弃牌堆中至多 4 张牌，并抽取 1 张。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤30 &amp; <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≤30：额外从弃牌堆随机打出 1 张牌。",
       "tc": "檢視你棄牌堆中至多 4 張牌，並抽取 1 張。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤30 &amp; <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≤30：額外從棄牌堆隨機打出 1 張牌。"
     }
@@ -2978,7 +2978,7 @@
       "tc": "慈悲之念"
     },
     "description": {
-      "en": "Play 1 random card from your deck.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥30: It is guaranteed to be a Heal card.",
+      "en": "Play 1 random card from your deck.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥30: It is guaranteed to be a Heal card.",
       "sc": "从你的牌堆随机打出 1 张牌。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥30：必定为治疗牌。",
       "tc": "從你的牌堆隨機打出 1 張牌。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥30：必定為治療牌。"
     }
@@ -3007,7 +3007,7 @@
       "tc": "幸運之念"
     },
     "description": {
-      "en": "Play 1 random card from your discard pile.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥30: It is guaranteed to be a Buff card.",
+      "en": "Play 1 random card from your discard pile.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥30: It is guaranteed to be a Buff card.",
       "sc": "从你的弃牌堆随机打出 1 张牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：必定为增益牌。",
       "tc": "從你的棄牌堆隨機打出 1 張牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：必定為增益牌。"
     }
@@ -3036,7 +3036,7 @@
       "tc": "逆流"
     },
     "description": {
-      "en": "Also play the first 1 cards to its left for free.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥60: Play the first 2 cards to its left instead.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥80: Play the first 3 cards to its left instead.",
+      "en": "Also play the first 1 cards to its left for free.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥60: Play the first 2 cards to its left instead.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥80: Play the first 3 cards to its left instead.",
       "sc": "免费连带打出这张牌左侧前 1 张牌。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥60：改为连带打出其左侧前 2 张牌。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥80：改为连带打出其左侧前 3 张牌。",
       "tc": "免費連帶打出這張牌左側前 1 張牌。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥60：改為連帶打出其左側前 2 張牌。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥80：改為連帶打出其左側前 3 張牌。"
     }
@@ -3095,7 +3095,7 @@
       "tc": "暗流激湧"
     },
     "description": {
-      "en": "Deal 6 damage 2 times.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥35: Spend 35 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> to also play the first 1 cards to its right for free.",
+      "en": "Deal 6 damage 2 times.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥35: Spend 35 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> to also play the first 1 cards to its right for free.",
       "sc": "造成 6 点伤害 2 次。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥35：消耗 35 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>，免费连带打出这张牌右侧前 1 张牌。",
       "tc": "造成 6 點傷害 2 次。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥35：消耗 35 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>，免費連帶打出這張牌右側前 1 張牌。"
     }
@@ -3124,9 +3124,9 @@
       "tc": "收割靈魂"
     },
     "description": {
-      "en": "Deal 9 damage to all enemies.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥40: Deal 18 instead.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤50: Deal 18 instead.",
-      "sc": "对所有敌人造成 9 点伤害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥40：改为造成 18 点。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤50：改为造成 18 点。",
-      "tc": "對所有敵人造成 9 點傷害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥40：改為造成 18 點。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤50：改為造成 18 點。"
+      "en": "Deal 9 damage to all enemies.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥40: Deal 18 instead.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤50: Deal 18 instead.",
+      "sc": "对所有敌人造成 9 点伤害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥40：改为造成 18 点。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤50：改为造成 18 点。",
+      "tc": "對所有敵人造成 9 點傷害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥40：改為造成 18 點。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤50：改為造成 18 點。"
     }
   },
   {
@@ -3153,7 +3153,7 @@
       "tc": "腥紅之舞"
     },
     "description": {
-      "en": "Apply 5% <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> to all enemies and 10% to yourself.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤40: Apply only 5% to yourself.",
+      "en": "Apply 5% <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> to all enemies and 10% to yourself.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≤40: Apply only 5% to yourself.",
       "sc": "对所有敌人施加 5% <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>，并对自身施加 10%。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤40：对自身仅施加 5%。",
       "tc": "對所有敵人施加 5% <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>，並對自身施加 10%。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤40：對自身僅施加 5%。"
     }
@@ -3213,8 +3213,8 @@
     },
     "description": {
       "en": "Deal 24 damage to all enemies.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤30: Deal 32 instead.<br><span class=\"kw\" title=\"Trigger the additional effects when the player deals lethal damage with this card.\">Onkill</span>: Deal 24 damage again.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤30 + <span class=\"kw\" title=\"Trigger the additional effects when the player deals lethal damage with this card.\">Onkill</span>: Deal 32 instead.",
-      "sc": "对所有敌人造成 24 点伤害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改为造成 32 点。<br><span class=\"kw\" title=\"当玩家以此牌造成致命伤害时，触发额外效果。\">击杀时</span>：再造成 24 点伤害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30 + <span class=\"kw\" title=\"当玩家以此牌造成致命伤害时，触发额外效果。\">击杀时</span>：改为造成 32 点。",
-      "tc": "對所有敵人造成 24 點傷害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改為造成 32 點。<br><span class=\"kw\" title=\"當玩家以此牌造成致命傷害時，觸發額外效果。\">擊殺時</span>：再造成 24 點傷害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30 + <span class=\"kw\" title=\"當玩家以此牌造成致命傷害時，觸發額外效果。\">擊殺時</span>：改為造成 32 點。"
+      "sc": "对所有敌人造成 24 点伤害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤30：改为造成 32 点。<br><span class=\"kw\" title=\"当玩家以此牌造成致命伤害时，触发额外效果。\">击杀时</span>：再造成 24 点伤害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤30 + <span class=\"kw\" title=\"当玩家以此牌造成致命伤害时，触发额外效果。\">击杀时</span>：改为造成 32 点。",
+      "tc": "對所有敵人造成 24 點傷害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤30：改為造成 32 點。<br><span class=\"kw\" title=\"當玩家以此牌造成致命傷害時，觸發額外效果。\">擊殺時</span>：再造成 24 點傷害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤30 + <span class=\"kw\" title=\"當玩家以此牌造成致命傷害時，觸發額外效果。\">擊殺時</span>：改為造成 32 點。"
     }
   },
   {
@@ -3271,8 +3271,8 @@
     },
     "description": {
       "en": "Gain <span class=\"kw\" title=\"A stackable buff that makes the owner's next x hits heal for the damage dealt within y turns.\">Lifesteal</span> 1 for 1 turn.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤30: Gain 2 instead.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤50: Costs 1 less <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
-      "sc": "获得 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内使持有者接下来 x 次命中依造成的伤害回复生命。\">生命偷取</span> 1，持续 1 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改为获得 2。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤50：少消耗 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。",
-      "tc": "獲得 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內使持有者接下來 x 次命中依造成的傷害回復生命。\">生命偷取</span> 1，持續 1 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改為獲得 2。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤50：少消耗 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。"
+      "sc": "获得 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内使持有者接下来 x 次命中依造成的伤害回复生命。\">生命偷取</span> 1，持续 1 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤30：改为获得 2。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤50：少消耗 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。",
+      "tc": "獲得 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內使持有者接下來 x 次命中依造成的傷害回復生命。\">生命偷取</span> 1，持續 1 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤30：改為獲得 2。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤50：少消耗 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。"
     }
   },
   {
@@ -3328,9 +3328,9 @@
       "tc": "骸骨之盾"
     },
     "description": {
-      "en": "Gain 20 <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> for 3 turn.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤30: Gain 40 instead.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥45: Gain 40 instead.",
-      "sc": "获得 20 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>，持续 3 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改为获得 40。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥45：改为获得 40。",
-      "tc": "獲得 20 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>，持續 3 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改為獲得 40。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥45：改為獲得 40。"
+      "en": "Gain 20 <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> for 3 turn.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤30: Gain 40 instead.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥45: Gain 40 instead.",
+      "sc": "获得 20 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>，持续 3 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤30：改为获得 40。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥45：改为获得 40。",
+      "tc": "獲得 20 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>，持續 3 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤30：改為獲得 40。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥45：改為獲得 40。"
     }
   },
   {
@@ -3357,7 +3357,7 @@
       "tc": "威壓"
     },
     "description": {
-      "en": "Apply 100% <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> to all enemies for 1 turn, then deal 12 damage to yourself.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥50: Spend 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> and it lasts 2 turn instead.",
+      "en": "Apply 100% <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> to all enemies for 1 turn, then deal 12 damage to yourself.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥50: Spend 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> and it lasts 2 turn instead.",
       "sc": "对所有敌人施加 100% <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合，然后对自身造成 12 点伤害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥50：消耗 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>，改为持续 2 回合。",
       "tc": "對所有敵人施加 100% <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合，然後對自身造成 12 點傷害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥50：消耗 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>，改為持續 2 回合。"
     }
@@ -3415,9 +3415,9 @@
       "tc": "混沌衝鋒"
     },
     "description": {
-      "en": "<span class=\"kw\" title=\"Spend up to the maximum listed resource. Trigger the effect once for every increment.\">Funnel</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>: up to 30. For every 10, repeat the below.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≥60: Deal 10 damage to yourself.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤40: Heal 10 HP.",
-      "sc": "<span class=\"kw\" title=\"最多消耗所列上限的资源。每消耗一个增量，便触发一次效果。\">倾注</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>：至多 30。每 10 点，重复下列效果。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≥60：对自身造成 10 点伤害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤40：回复 10 点生命。",
-      "tc": "<span class=\"kw\" title=\"最多消耗所列上限的資源。每消耗一個增量，便觸發一次效果。\">傾注</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>：至多 30。每 10 點，重複下列效果。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≥60：對自身造成 10 點傷害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤40：回復 10 點生命。"
+      "en": "<span class=\"kw\" title=\"Spend up to the maximum listed resource. Trigger the effect once for every increment.\">Funnel</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>: up to 30. For every 10, repeat the below.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≥60: Deal 10 damage to yourself.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤40: Heal 10 HP.",
+      "sc": "<span class=\"kw\" title=\"最多消耗所列上限的资源。每消耗一个增量，便触发一次效果。\">倾注</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>：至多 30。每 10 点，重复下列效果。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≥60：对自身造成 10 点伤害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤40：回复 10 点生命。",
+      "tc": "<span class=\"kw\" title=\"最多消耗所列上限的資源。每消耗一個增量，便觸發一次效果。\">傾注</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>：至多 30。每 10 點，重複下列效果。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≥60：對自身造成 10 點傷害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤40：回復 10 點生命。"
     }
   },
   {
@@ -3444,7 +3444,7 @@
       "tc": "暴食"
     },
     "description": {
-      "en": "<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥50: Set your HP to 30 and gain <span class=\"kw\" title=\"An unstackable buff that grants complete immunity to the next incoming attack within x turns.\">Guard</span> for 1 turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≤49: Gain 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>.",
+      "en": "<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≥50: Set your HP to 30 and gain <span class=\"kw\" title=\"An unstackable buff that grants complete immunity to the next incoming attack within x turns.\">Guard</span> for 1 turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> ≤49: Gain 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>.",
       "sc": "<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥50：将你的生命设为 30，并获得 <span class=\"kw\" title=\"不可叠加的增益，在 x 回合内完全免疫下一次受到的攻击。\">守护</span>，持续 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≤49：获得 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
       "tc": "<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥50：將你的生命設為 30，並獲得 <span class=\"kw\" title=\"不可疊加的增益，在 x 回合內完全免疫下一次受到的攻擊。\">守護</span>，持續 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≤49：獲得 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
     }
@@ -3473,7 +3473,7 @@
       "tc": "吞噬神性"
     },
     "description": {
-      "en": "Reduce the durability of 5 Angel cards in your deck by 1, and gain 50% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥40: Reduce 5 cards by 2 and gain 75% instead.",
+      "en": "Reduce the durability of 5 Angel cards in your deck by 1, and gain 50% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> ≥40: Reduce 5 cards by 2 and gain 75% instead.",
       "sc": "使你牌堆中 5 张天使牌的耐久减少 1，并获得 50% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥40：改为使 5 张牌减少 2，并获得 75%。",
       "tc": "使你牌堆中 5 張天使牌的耐久減少 1，並獲得 50% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥40：改為使 5 張牌減少 2，並獲得 75%。"
     }
@@ -3531,7 +3531,7 @@
       "tc": "混沌意圖"
     },
     "description": {
-      "en": "Gain <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> equal to your <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> stack count for 1 turn. If you have 10 or more stacks of <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span>, reduce your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> by 20 and remove all <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> from yourself.",
+      "en": "Gain <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> equal to your <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> stack count for 1 turn. If you have 10 or more stacks of <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span>, reduce your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> by 20 and remove all <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> from yourself.",
       "sc": "获得等同于你 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span> 层数的 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 1 回合。若你的 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span> ≥ 10 层，你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 减少 20，并移除自身的所有 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
       "tc": "獲得等同於你 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span> 層數的 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 1 回合。若你的 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span> ≥ 10 層，你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 減少 20，並移除自身的所有 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
     }
@@ -3589,9 +3589,9 @@
       "tc": "饗宴"
     },
     "description": {
-      "en": "Deal damage to all enemies equal to 25% of your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤30: Deal 50% instead.",
-      "sc": "对所有敌人造成等同你 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 25% 的伤害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改为 50%。",
-      "tc": "對所有敵人造成等同你 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 25% 的傷害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改為 50%。"
+      "en": "Deal damage to all enemies equal to 25% of your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤30: Deal 50% instead.",
+      "sc": "对所有敌人造成等同你 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 25% 的伤害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤30：改为 50%。",
+      "tc": "對所有敵人造成等同你 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 25% 的傷害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命值\"></span>≤30：改為 50%。"
     }
   },
   {
@@ -3618,7 +3618,7 @@
       "tc": "饑荒"
     },
     "description": {
-      "en": "Reduce the maximum value of both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> by 15 for 3 turn, then heal 25 HP.",
+      "en": "Reduce the maximum value of both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span> by 15 for 3 turn, then heal 25 HP.",
       "sc": "你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 与 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 上限皆降低 15，持续 3 回合，接着回复 25 点生命。",
       "tc": "你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 與 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 上限皆降低 15，持續 3 回合，接著回復 25 點生命。"
     }
@@ -3647,7 +3647,7 @@
       "tc": "強念偏移"
     },
     "description": {
-      "en": "Swap the values of your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>.",
+      "en": "Swap the values of your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>.",
       "sc": "交换你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 与 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 数值。",
       "tc": "交換你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 與 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 數值。"
     }

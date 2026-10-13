@@ -1,4 +1,5 @@
 import { ui, languages, defaultLang, type Lang, type UIKey } from './ui';
+import gameLabels from '../data/game/labels.json';
 
 export const langs = Object.keys(languages) as Lang[];
 
@@ -13,8 +14,8 @@ export function getLang(param: string | undefined): Lang {
 
 export function useTranslations(lang: Lang) {
   return function t(key: UIKey, vars: Record<string, string | number> = {}) {
-    const table = ui[lang] as Record<string, string>;
-    let text = table[key] ?? ui[defaultLang][key];
+    const table = { ...ui[lang], ...gameLabels[lang] } as Record<string, string>;
+    let text = table[key] ?? (ui[defaultLang] as Record<string, string>)[key];
     for (const [name, value] of Object.entries(vars)) text = text.replace(`{${name}}`, String(value));
     return text;
   };

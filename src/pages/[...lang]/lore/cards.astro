@@ -13,7 +13,7 @@ const t = useTranslations(lang);
 // Inherent cards first, then one group per god, then anything left (faction-only and neutral cards).
 const byCost = (a: Card, b: Card) => a.rarity - b.rarity || a.cost - b.cost || a.id.localeCompare(b.id);
 const groups: { id: string; label: string; cards: Card[] }[] = [
-  { id: 'inherent', label: t('card.inherent'), cards: cards.filter((c) => c.inherent) },
+  { id: 'inherent', label: t('card.inherentGroup'), cards: cards.filter((c) => c.inherent) },
   ...GOD_ORDER.map((god) => ({
     id: god.toLowerCase(),
     label: term('gods', god, lang),

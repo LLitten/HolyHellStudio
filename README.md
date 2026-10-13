@@ -58,7 +58,9 @@ HOLYHELL_PATH=/path/to/HolyHell npm run sync-data
 
 The script only reads from the game repo. It writes `src/data/game/*.json` and copies art into `src/assets/game/`, then prints a summary (how many cards and items, and any missing art). Commit the result like any other change.
 
-Only content reachable from Windchime Village is included for now. To open up later regions, add their dungeon group to `IN_SCOPE_GROUPS` at the top of `scripts/sync-game-data.mjs`.
+The summary also lists any text tokens the site doesn't know how to display yet (for example, if the game starts using a new `{something}` placeholder in card descriptions). Those would otherwise appear on the site as raw text, so they're worth passing on to whoever maintains the script.
+
+Only content reachable from Windchime Village is included for now, and shops are left out until they're finished (`INCLUDE_SHOP`). To open up later regions, add their dungeon group to `IN_SCOPE_GROUPS` at the top of `scripts/sync-game-data.mjs`.
 
 ## Deploying
 

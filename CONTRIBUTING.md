@@ -85,3 +85,5 @@ Add an entry to `src/content/team/members.yaml` and put the photo in `src/conten
 ## Menu and button text
 
 All interface text is in `src/i18n/ui.ts`, with one block per language. Add a new key to all three blocks.
+
+Labels for game terms (Cost, Durability, Angel Meter, item types, Elite, Boss and so on) aren't in that file. They come from the game's own translations through the data sync, so the site always uses the same words as the game. To change one, change it in the game's `LanguageParam` sheet. The list of labels is `LABELS` in `scripts/sync-game-data.mjs`.

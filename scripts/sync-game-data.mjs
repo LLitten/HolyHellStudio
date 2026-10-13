@@ -17,6 +17,8 @@ const IN_SCOPE_GROUPS = ['1'];
 const EXTRA_BATTLES = ['tut_battle'];
 // Debug entries borrow real art, so they're caught by name instead (XddHit, xddDummyNo.1, ...).
 const isDebug = (name) => /^xdd/i.test(name);
+// The shops aren't finished yet. Turn this back on to list them under "How to get" (with prices).
+const INCLUDE_SHOP = false;
 
 const GAME = resolve(process.env.HOLYHELL_PATH || '../HolyHell');
 const RES = join(GAME, 'HolyHell/Assets/Res_Local/Global');
@@ -24,7 +26,7 @@ const TABLES = join(RES, 'Tables');
 const OUT_DATA = resolve('src/data/game');
 const OUT_ART = resolve('src/assets/game');
 
-const LANGS = { en: 'En', 'sc': 'Sc', 'tc': 'Zh' };
+const LANGS = { en: 'En', sc: 'Sc', tc: 'Zh' };
 
 if (!existsSync(TABLES)) {
   console.error(`Can't find the game tables at ${TABLES}`);
@@ -80,12 +82,16 @@ const keywordDefs = new Map(table('Keyword').map((k) => [k.KeywordID, k.Definiti
 const escape = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const stripRichText = (s) => s.replace(/<\/?[a-z][^>]*>/gi, '');
 
-const ICON_LABELS = {
-  ameter: { en: 'Angel gauge', 'sc': '天使量表', 'tc': '天使量表' },
-  dmeter: { en: 'Demon gauge', 'sc': '恶魔量表', 'tc': '惡魔量表' },
-  hp: { en: 'HP', 'sc': '生命', 'tc': '生命' },
-  durability: { en: 'Durability', 'sc': '耐久', 'tc': '耐久' },
+// Screen-reader names for the icons in card text, in the game's own words.
+const ICON_LABEL_IDS = {
+  ameter: 'Keyword_Ameter',
+  dmeter: 'Keyword_Dmeter',
+  hp: 'Term_Stat_HP',
+  durability: 'UI_DeckBuild_Durability',
 };
+const ICON_LABELS = Object.fromEntries(
+  Object.entries(ICON_LABEL_IDS).map(([name, id]) => [name, allLangs((lang) => text(lang, id, name))]),
+);
 
 const icon = (lang, name) =>
   ICON_LABELS[name] ? `<span class="icon icon-${name}" role="img" aria-label="${ICON_LABELS[name][lang]}"></span>` : null;
@@ -257,12 +263,14 @@ function addSource(itemId, source) {
 const drops = table('MonsterDrop').filter((d) => enemyScope.has(d.EnemyID) && d.ItemID !== GOLD);
 for (const d of drops) addSource(d.ItemID, { type: 'drop', enemy: d.EnemyID });
 
-for (const row of table('ShopGoodsPool_SoulPack')) addSource(row.ItemID, { type: 'shop' });
-for (const row of table('ShopGoodsPool_Accessory')) {
-  const groups = split(row.DungeonGroup);
-  const inGroup = groups.length === 0 || groups.some((g) => IN_SCOPE_GROUPS.includes(g));
-  const weight = Math.max(...IN_SCOPE_GROUPS.map((g) => num(row[`Group${g}Weight`])));
-  if (inGroup && weight > 0) addSource(row.ItemID, { type: 'shop' });
+if (INCLUDE_SHOP) {
+  for (const row of table('ShopGoodsPool_SoulPack')) addSource(row.ItemID, { type: 'shop' });
+  for (const row of table('ShopGoodsPool_Accessory')) {
+    const groups = split(row.DungeonGroup);
+    const inGroup = groups.length === 0 || groups.some((g) => IN_SCOPE_GROUPS.includes(g));
+    const weight = Math.max(...IN_SCOPE_GROUPS.map((g) => num(row[`Group${g}Weight`])));
+    if (inGroup && weight > 0) addSource(row.ItemID, { type: 'shop' });
+  }
 }
 
 const events = table('DungeonEvent_Main').filter(
@@ -459,6 +467,54 @@ const locations = IN_SCOPE_GROUPS.map((group) => ({
     })),
 }));
 
+// Site labels the game already has text for, so the site uses the game's wording.
+// Site key -> localization id. "{0}" placeholders are dropped, except in rarity.value.
+const LABELS = {
+  'card.cost': 'UI_DeckBuild_Cost',
+  'card.durability': 'UI_DeckBuild_Durability',
+  'card.angel': 'Keyword_Ameter',
+  'card.demon': 'Keyword_Dmeter',
+  'card.faction': 'UI_DeckBuild_Faction',
+  'card.god': 'UI_DeckBuild_God',
+  'card.type': 'UI_DeckBuild_ActionType',
+  'card.inherent': 'UI_Battle_inherent',
+  'card.inherentGroup': 'UI_DeckBuild_BasicSlots',
+  'card.noGod': 'Term_Faction_Neutral',
+  'rarity': 'UI_DeckBuild_Rarity',
+  'rarity.value': 'UI_Item_RarityLevel',
+  'item.type': 'UI_Inventory_Sort_Type',
+  'item.attack': 'UI_EntityDetail_Atk',
+  'item.hp': 'UI_Item_StatMaxHP',
+  'item.defense': 'UI_EntityDetail_Def',
+  'subtype.Offense': 'UI_Inventory_SubType_Offense',
+  'subtype.Defense': 'UI_Inventory_SubType_Defense',
+  'subtype.Other': 'UI_Inventory_SubType_Other',
+  'subtype.CardPack': 'UI_Inventory_SubType_CardPack',
+  'subtype.SoulFragment': 'UI_Inventory_SubType_SoulFragment',
+  'subtype.Material': 'UI_Inventory_SubType_Material',
+  'subtype.RareMaterial': 'UI_Inventory_SubType_RareMaterial',
+  'enemy.hp': 'Term_Stat_HP',
+  'enemy.attack': 'UI_EntityDetail_Atk',
+  'enemy.defense': 'UI_EntityDetail_Def',
+  'enemy.rank.Elite': 'UI_Map_NodeElite',
+  'enemy.rank.Boss': 'UI_Map_NodeBoss',
+  'lore.equipment': 'Term_ItemCategory_Equipment',
+  'lore.materials': 'UI_Item_Materials',
+};
+
+const missingLabels = [];
+const labels = allLangs((lang) =>
+  Object.fromEntries(
+    Object.entries(LABELS).map(([key, id]) => {
+      const value = loc[lang].get(id) ?? loc.en.get(id);
+      if (!value) missingLabels.push(`${lang} ${id}`);
+      const label =
+        key === 'rarity.value' ? (value ?? '{0}').replace('{0}', '{n}') : (value ?? '').replace(/\{\d\}/g, '').trim();
+      return [key, label];
+    }),
+  ),
+);
+
 const terms = {
   factions: Object.fromEntries(['Neutral', 'Angel', 'Demon'].map((f) => [f, localized(`Term_Faction_${f}`, f)])),
   gods: Object.fromEntries(Object.keys(GOD_PACKS).map((g) => [g, localized(`Term_God_${g}`, g)])),
@@ -479,6 +535,7 @@ write('enemies', [...enemyPages.values()]);
 write('locations', locations);
 write('terms', terms);
 write('meta', { enemySlugById });
+write('labels', labels);
 
 const equipment = items.filter((i) => i.kind === 'equipment');
 const materials = items.filter((i) => i.kind === 'material');
@@ -489,3 +546,17 @@ console.log(`  ${enemyPages.size} enemy pages from ${enemyScope.size} enemies`);
 const noIcon = items.filter((i) => !i.icon).map((i) => `${i.id} ${i.name.en}`);
 if (noIcon.length) console.log(`  ${noIcon.length} items have no icon yet:\n    ${noIcon.join('\n    ')}`);
 if (missingArt.length) console.log(`  Missing art files:\n    ${missingArt.join('\n    ')}`);
+if (missingLabels.length) console.log(`  Missing labels:\n    ${missingLabels.join('\n    ')}`);
+
+// Any {token} left in the output is one the formatter above doesn't know yet (the game added a
+// new kind). It would show up on the site as raw text, so say where.
+const leftovers = new Map();
+for (const [file, data] of [['cards', cards], ['items', items], ['enemies', [...enemyPages.values()]]]) {
+  for (const match of JSON.stringify(data).matchAll(/\{[A-Za-z]+\d*[:,][^}"]*\}/g)) {
+    leftovers.set(match[0], `${file}.json`);
+  }
+}
+if (leftovers.size) {
+  console.log('  Unrecognized text tokens (these show up as raw text on the site):');
+  for (const [token, file] of leftovers) console.log(`    ${token} in ${file}`);
+}
