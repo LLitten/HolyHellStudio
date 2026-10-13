@@ -41,6 +41,7 @@ const loreLinks = [
       </h1>
       <hr class="lance hero-lance" />
       <p class="tagline">{t('home.tagline')}</p>
+      <p class="pitch">{t('home.about.body')}</p>
       {
         site.steamUrl && (
           <a class="button" href={site.steamUrl}>
@@ -49,29 +50,6 @@ const loreLinks = [
         )
       }
     </div>
-  </section>
-
-  <section class="container about">
-    <div class="panel">
-      <h2>{t('home.about.title')}</h2>
-      <p>{t('home.about.body')}</p>
-    </div>
-  </section>
-
-  <section class="container">
-    <h2 class="section-title">{t('home.posts.title')}</h2>
-    {
-      posts.length ? (
-        <div class="posts">
-          {posts.map((post) => (
-            <PostCard lang={lang} post={post} />
-          ))}
-        </div>
-      ) : (
-        <p class="empty">{t('devlog.empty')}</p>
-      )
-    }
-    <p class="more"><a href={localePath(lang, 'devlog')}>{t('home.posts.all')} →</a></p>
   </section>
 
   <section class="container">
@@ -90,6 +68,22 @@ const loreLinks = [
     </ul>
   </section>
 
+  <section class="container">
+    <h2 class="section-title">{t('home.posts.title')}</h2>
+    {
+      posts.length ? (
+        <div class="posts">
+          {posts.map((post) => (
+            <PostCard lang={lang} post={post} />
+          ))}
+        </div>
+      ) : (
+        <p class="empty">{t('devlog.empty')}</p>
+      )
+    }
+    <p class="more"><a href={localePath(lang, 'devlog')}>{t('home.posts.all')} →</a></p>
+  </section>
+
   <section class="container studio">
     <p>
       {t('home.studio')} · <a href={localePath(lang, 'about')}>{t('home.studio.link')}</a>
@@ -98,10 +92,26 @@ const loreLinks = [
 </Base>
 
 <style>
+  /* The title block sits in a band of its own so it reads as one piece. */
   .hero {
-    padding: clamp(4rem, 14vw, 9rem) 0 clamp(3rem, 8vw, 5rem);
+    position: relative;
+    padding: clamp(3rem, 9vw, 5.5rem) 0 clamp(2.5rem, 6vw, 4rem);
     text-align: center;
-    background: radial-gradient(ellipse at center, rgb(74 16 21 / 0.55), transparent 70%);
+    background:
+      radial-gradient(ellipse 55% 70% at 50% 40%, rgb(158 27 37 / 0.4), transparent 75%),
+      linear-gradient(to bottom, var(--surface-sunk), var(--bg));
+    border-bottom: 1px solid var(--gold-dim);
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    width: 16px;
+    height: 16px;
+    transform: translateX(-50%);
+    background: var(--lance-node) center / contain no-repeat;
   }
 
   .hero h1 {
@@ -137,22 +147,29 @@ const loreLinks = [
 
   .hero-lance {
     width: min(36rem, 90%);
-    margin: 0.75rem auto 1.25rem;
+    margin: 0.5rem auto 1rem;
   }
 
   .tagline {
-    font-size: clamp(1.1rem, 2.5vw, 1.35rem);
-    text-shadow: 0 1px 8px rgb(0 0 0 / 0.6);
+    margin: 0 0 0.75rem;
+    font-family: var(--font-heading);
+    font-size: clamp(1.1rem, 2.5vw, 1.3rem);
+    color: var(--gold);
+    letter-spacing: 0.04em;
+  }
+
+  .pitch {
+    max-width: 38rem;
+    margin: 0 auto;
+    color: var(--text-muted);
+  }
+
+  .hero .button {
+    margin-top: 1.5rem;
   }
 
   section + section {
-    margin-top: 3rem;
-  }
-
-  .about .panel {
-    max-width: 48rem;
-    margin: 0 auto;
-    text-align: center;
+    margin-top: 3.5rem;
   }
 
   .posts {

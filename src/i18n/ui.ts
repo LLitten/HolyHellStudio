@@ -33,7 +33,6 @@ export const ui = {
     'lang.label': 'Language',
 
     'home.tagline': 'A strategic card game focused on resource management.',
-    'home.about.title': 'The Game',
     'home.about.body': 'Venture out from Windchime Village, build your deck from the gifts of six gods, and survive what waits in the wilds.',
     'home.posts.title': 'Latest from the team',
     'home.posts.all': 'All dev posts',
@@ -137,7 +136,6 @@ export const ui = {
     'lang.label': '语言',
 
     'home.tagline': '一款着重资源管理的策略卡牌游戏。',
-    'home.about.title': '游戏介绍',
     'home.about.body': '从风铃村出发，以六位神祇的恩赐构筑牌组，在荒野中活下去。',
     'home.posts.title': '团队近况',
     'home.posts.all': '查看全部开发日志',
@@ -241,7 +239,6 @@ export const ui = {
     'lang.label': '語言',
 
     'home.tagline': '一款著重資源管理的策略卡牌遊戲。',
-    'home.about.title': '遊戲介紹',
     'home.about.body': '從風鈴村出發，以六位神祇的恩賜構築牌組，在荒野中活下去。',
     'home.posts.title': '團隊近況',
     'home.posts.all': '查看全部開發日誌',

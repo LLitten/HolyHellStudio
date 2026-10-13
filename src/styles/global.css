@@ -1,20 +1,20 @@
 /* Colors and fonts live here. Change a value once and it updates everywhere. */
 :root {
-  --bg: #666666;
-  --surface: #1e1617;
-  --surface-raised: #2a1e1f;
-  --surface-sunk: #150f10;
+  --bg: #0c0a0b;
+  --surface: #2b0b0f;
+  --surface-raised: #3a0f15;
+  --surface-sunk: #170507;
 
-  --red: #7a1a21;
-  --red-bright: #a3272f;
-  --red-dim: #4a1015;
+  --red: #9e1b25;
+  --red-bright: #c42b35;
+  --red-dim: #5a0f16;
 
-  --gold: #d9b45a;
-  --gold-bright: #f0d48a;
-  --gold-dim: #8f7536;
+  --gold: #e8b931;
+  --gold-bright: #ffd75e;
+  --gold-dim: #a8811c;
 
-  --text: #f2ece0;
-  --text-muted: #c4b9a6;
+  --text: #f3ede2;
+  --text-muted: #d2c4b0;
 
   --rarity-1: #b8b0a0;
   --rarity-2: #74b0e0;
@@ -34,15 +34,15 @@
   --radius: 4px;
 
   /* Ornaments drawn after the game's card frame and logo: a tapered lance with diamond
-     nodes for dividers, and thorned corners for framed boxes. Gold is #d9b45a (%23 = #). */
-  --lance-left: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M0 7 L100 5 L100 9 Z' fill='%23d9b45a'/%3E%3C/svg%3E");
-  --lance-right: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M100 7 L0 5 L0 9 Z' fill='%23d9b45a'/%3E%3C/svg%3E");
-  --lance-node: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M7 1 L13 7 L7 13 L1 7 Z' fill='%23d9b45a'/%3E%3C/svg%3E");
-  --lance-center: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M9 1 L15 9 L9 17 L3 9 Z' fill='none' stroke='%23d9b45a' stroke-width='1.6'/%3E%3C/svg%3E");
-  --corner-tl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23d9b45a'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
-  --corner-tr: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23d9b45a' transform='matrix(-1 0 0 1 40 0)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
-  --corner-bl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23d9b45a' transform='matrix(1 0 0 -1 0 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
-  --corner-br: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23d9b45a' transform='matrix(-1 0 0 -1 40 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+     nodes for dividers, and thorned corners for framed boxes. Gold is #e8b931 (%23 = #). */
+  --lance-left: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M0 7 L100 5 L100 9 Z' fill='%23e8b931'/%3E%3C/svg%3E");
+  --lance-right: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M100 7 L0 5 L0 9 Z' fill='%23e8b931'/%3E%3C/svg%3E");
+  --lance-node: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M7 1 L13 7 L7 13 L1 7 Z' fill='%23e8b931'/%3E%3C/svg%3E");
+  --lance-center: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M9 1 L15 9 L9 17 L3 9 Z' fill='none' stroke='%23e8b931' stroke-width='1.6'/%3E%3C/svg%3E");
+  --corner-tl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23e8b931'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-tr: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23e8b931' transform='matrix(-1 0 0 1 40 0)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-bl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23e8b931' transform='matrix(1 0 0 -1 0 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-br: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23e8b931' transform='matrix(-1 0 0 -1 40 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
   --width: 72rem;
   --gutter: 1rem;
 }
@@ -76,8 +76,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--bg);
-  /* Darkens the edges of the page without changing the base color. */
-  background-image: radial-gradient(ellipse at center, transparent 40%, rgb(0 0 0 / 0.35) 100%);
+  /* A faint red glow from the top of the page. */
+  background-image: radial-gradient(ellipse 120% 60% at 50% 0%, rgb(90 15 22 / 0.35), transparent 70%);
   background-attachment: fixed;
   color: var(--text);
   font-family: var(--font-body);
@@ -164,8 +164,7 @@ hr,
   padding: 0 var(--gutter);
 }
 
-/* Dark panel used for most content blocks. Text on the gray background stays near-white;
-   gold and muted text only sit on panels, where they have enough contrast. */
+/* Deep red panel used for most content blocks. */
 .panel {
   background: var(--surface);
   padding: clamp(1.25rem, 3vw, 2rem);
@@ -185,7 +184,7 @@ hr,
   content: '';
   position: absolute;
   inset: 4px;
-  border: 1px solid rgb(217 180 90 / 0.35);
+  border: 1px solid rgb(232 185 49 / 0.35);
   border-radius: 10px;
   pointer-events: none;
   z-index: 1;
