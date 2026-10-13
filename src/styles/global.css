@@ -1,20 +1,23 @@
-/* Colors and fonts live here. Change a value once and it updates everywhere. */
+/* Colors and fonts live here. Change a value once and it updates everywhere.
+   Gold and purple are the game's Angel (#FFE680) and Demon (#9933CC) colors from FactionPalette. */
 :root {
-  --bg: #0c0a0b;
-  --surface: #2b0b0f;
-  --surface-raised: #3a0f15;
-  --surface-sunk: #170507;
+  --bg: #1b1a1e;
+  --surface: #26242b;
+  --surface-raised: #312e37;
+  --surface-sunk: #131216;
 
-  --red: #9e1b25;
-  --red-bright: #c42b35;
-  --red-dim: #5a0f16;
+  --gold: #ecd27e;
+  --gold-bright: #ffe680;
+  --gold-dim: #9c8648;
 
-  --gold: #e8b931;
-  --gold-bright: #ffd75e;
-  --gold-dim: #a8811c;
+  --demon: #9933cc;
+  --demon-bright: #b45ce0;
+  --demon-dim: #4a2a5e;
+  /* Filled backgrounds behind text; the game's purple itself is slightly too light for that. */
+  --demon-deep: #7a2aa3;
 
-  --text: #f3ede2;
-  --text-muted: #d2c4b0;
+  --text: #ece2cf;
+  --text-muted: #bfb4a2;
 
   --rarity-1: #b8b0a0;
   --rarity-2: #74b0e0;
@@ -34,15 +37,15 @@
   --radius: 4px;
 
   /* Ornaments drawn after the game's card frame and logo: a tapered lance with diamond
-     nodes for dividers, and thorned corners for framed boxes. Gold is #e8b931 (%23 = #). */
-  --lance-left: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M0 7 L100 5 L100 9 Z' fill='%23e8b931'/%3E%3C/svg%3E");
-  --lance-right: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M100 7 L0 5 L0 9 Z' fill='%23e8b931'/%3E%3C/svg%3E");
-  --lance-node: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M7 1 L13 7 L7 13 L1 7 Z' fill='%23e8b931'/%3E%3C/svg%3E");
-  --lance-center: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M9 1 L15 9 L9 17 L3 9 Z' fill='none' stroke='%23e8b931' stroke-width='1.6'/%3E%3C/svg%3E");
-  --corner-tl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23e8b931'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
-  --corner-tr: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23e8b931' transform='matrix(-1 0 0 1 40 0)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
-  --corner-bl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23e8b931' transform='matrix(1 0 0 -1 0 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
-  --corner-br: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23e8b931' transform='matrix(-1 0 0 -1 40 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+     nodes for dividers, and thorned corners for framed boxes. Gold is #ecd27e (%23 = #). */
+  --lance-left: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M0 7 L100 5 L100 9 Z' fill='%23ecd27e'/%3E%3C/svg%3E");
+  --lance-right: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M100 7 L0 5 L0 9 Z' fill='%23ecd27e'/%3E%3C/svg%3E");
+  --lance-node: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M7 1 L13 7 L7 13 L1 7 Z' fill='%23ecd27e'/%3E%3C/svg%3E");
+  --lance-center: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M9 1 L15 9 L9 17 L3 9 Z' fill='none' stroke='%23ecd27e' stroke-width='1.6'/%3E%3C/svg%3E");
+  --corner-tl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23ecd27e'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-tr: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23ecd27e' transform='matrix(-1 0 0 1 40 0)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-bl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23ecd27e' transform='matrix(1 0 0 -1 0 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-br: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23ecd27e' transform='matrix(-1 0 0 -1 40 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
   --width: 72rem;
   --gutter: 1rem;
 }
@@ -76,8 +79,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--bg);
-  /* A faint red glow from the top of the page. */
-  background-image: radial-gradient(ellipse 120% 60% at 50% 0%, rgb(90 15 22 / 0.35), transparent 70%);
+  /* A faint purple glow from the top of the page. */
+  background-image: radial-gradient(ellipse 120% 60% at 50% 0%, rgb(153 51 204 / 0.12), transparent 70%);
   background-attachment: fixed;
   color: var(--text);
   font-family: var(--font-body);
@@ -164,7 +167,7 @@ hr,
   padding: 0 var(--gutter);
 }
 
-/* Deep red panel used for most content blocks. */
+/* Panel used for most content blocks. */
 .panel {
   background: var(--surface);
   padding: clamp(1.25rem, 3vw, 2rem);
@@ -184,7 +187,7 @@ hr,
   content: '';
   position: absolute;
   inset: 4px;
-  border: 1px solid rgb(232 185 49 / 0.35);
+  border: 1px solid rgb(236 210 126 / 0.3);
   border-radius: 10px;
   pointer-events: none;
   z-index: 1;
@@ -245,7 +248,7 @@ hr,
   padding: 0.6rem 1.4rem;
   border: 1px solid var(--gold);
   border-radius: var(--radius);
-  background: var(--red);
+  background: var(--demon-deep);
   color: var(--text);
   font-family: var(--font-heading);
   text-decoration: none;
@@ -253,7 +256,7 @@ hr,
 }
 
 .button:hover {
-  background: var(--red-bright);
+  background: var(--demon-bright);
   color: var(--text);
 }
 
@@ -298,7 +301,7 @@ hr,
 .prose blockquote {
   margin: 1.5rem 0;
   padding-left: 1rem;
-  border-left: 3px solid var(--red-bright);
+  border-left: 3px solid var(--demon-bright);
   color: var(--text-muted);
 }
 
@@ -327,12 +330,12 @@ hr,
 
 .icon-ameter::before {
   content: '✦';
-  color: #f3e7b4;
+  color: var(--gold-bright);
 }
 
 .icon-dmeter::before {
   content: '✦';
-  color: #e0525a;
+  color: var(--demon-bright);
 }
 
 .icon-hp::before {
