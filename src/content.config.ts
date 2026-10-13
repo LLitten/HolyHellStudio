@@ -9,7 +9,7 @@ const perLanguage = (folder: string) => glob({ pattern: '**/*.{md,mdx}', base: `
 // "source" is the English original. Translations start as "machine" and become "reviewed" after proofreading.
 const translation = z.enum(['source', 'machine', 'reviewed']).default('source');
 
-export const TAGS = ['art', 'programming', 'design', 'team', 'audio', 'narrative', 'announcement', 'playtest', 'events'] as const;
+export const TAGS = ['art', 'programming', 'design', 'team', 'audio', 'narrative', 'announcement', 'playtest', 'events', 'patch-notes'] as const;
 
 const devlog = defineCollection({
   loader: perLanguage('devlog'),
@@ -20,6 +20,10 @@ const devlog = defineCollection({
       summary: z.string(),
       tags: z.array(z.enum(TAGS)).default([]),
       cover: image().optional(),
+      // Patch notes only: the game version, and the HolyHell commit the notes were written at.
+      // The next patch notes start from this commit.
+      gameVersion: z.string().optional(),
+      gameCommit: z.string().optional(),
       translation,
       draft: z.boolean().default(false),
     }),

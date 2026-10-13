@@ -59,6 +59,7 @@ export const ui = {
     'tag.announcement': 'Announcement',
     'tag.playtest': 'Playtest',
     'tag.events': 'Events',
+    'tag.patch-notes': 'Patch Notes',
 
     'lore.title': 'Lore',
     'lore.description': 'The world, characters, cards and creatures of Lost Faith.',
@@ -162,6 +163,7 @@ export const ui = {
     'tag.announcement': '公告',
     'tag.playtest': '测试',
     'tag.events': '活动',
+    'tag.patch-notes': '更新说明',
 
     'lore.title': '设定',
     'lore.description': '《弃誓神途》的世界、角色、卡牌与生物。',
@@ -265,6 +267,7 @@ export const ui = {
     'tag.announcement': '公告',
     'tag.playtest': '測試',
     'tag.events': '活動',
+    'tag.patch-notes': '更新說明',
 
     'lore.title': '設定',
     'lore.description': '《棄誓神途》的世界、角色、卡牌與生物。',

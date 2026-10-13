@@ -10,7 +10,8 @@
    | `title` | Post title |
    | `date` | `YYYY-MM-DD` |
    | `summary` | One or two sentences for the post list |
-   | `tags` | Any of `art`, `programming`, `design`, `team`, `audio`, `narrative`, `announcement`, `playtest`, `events` |
+   | `tags` | Any of `art`, `programming`, `design`, `team`, `audio`, `narrative`, `announcement`, `playtest`, `events`, `patch-notes` |
+   | `gameVersion`, `gameCommit` | Patch notes only: the game version and the HolyHell commit they cover up to |
    | `cover` | Optional, e.g. `./cover.jpg`. Without one, the post uses the default cover |
    | `draft` | `true` keeps it out of the built site |
 
