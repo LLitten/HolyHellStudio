@@ -139,4 +139,61 @@ const types = card.actionTypes.map((a) => term('actionTypes', a, lang)).join(' /
     color: var(--text);
     text-align: right;
   }
+
+  /* Phones, where the grid is one column: the art becomes a thumbnail beside the text
+     so a long list stays scannable. */
+  @media (max-width: 36rem) {
+    .card {
+      display: grid;
+      grid-template-columns: 6.5rem 1fr;
+    }
+
+    .art {
+      aspect-ratio: auto;
+      min-height: 100%;
+    }
+
+    .art img {
+      position: absolute;
+      inset: 0;
+    }
+
+    .cost {
+      top: 0.4rem;
+      left: 0.4rem;
+      width: 1.75rem;
+      height: 1.75rem;
+      font-size: 0.9rem;
+    }
+
+    .body {
+      padding: 0.7rem 0.8rem 0.8rem;
+      gap: 0.3rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+    }
+
+    .desc {
+      font-size: 0.9rem;
+    }
+
+    dl {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.15rem 0.75rem;
+      font-size: 0.78rem;
+    }
+
+    dl div {
+      display: block;
+      border-top: 1px solid var(--demon-dim);
+      padding: 0.15rem 0 0;
+    }
+
+    dd {
+      text-align: left;
+    }
+  }
 </style>

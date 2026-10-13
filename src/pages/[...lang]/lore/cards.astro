@@ -2,6 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import LoreShell from '../../../components/LoreShell.astro';
 import CardTile from '../../../components/CardTile.astro';
+import ToTop from '../../../components/ToTop.astro';
 import { getLang, langPaths, useTranslations } from '../../../i18n/utils';
 import { cards, GOD_ORDER, term, type Card } from '../../../lib/game';
 
@@ -48,6 +49,7 @@ const groups: { id: string; label: string; cards: Card[] }[] = [
         </section>
       ))
     }
+    <ToTop lang={lang} />
   </LoreShell>
 </Base>
 

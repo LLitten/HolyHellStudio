@@ -4,6 +4,7 @@ import type { Lang } from '../i18n/ui';
 import { useTranslations } from '../i18n/utils';
 import type { Item } from '../lib/game';
 import ItemTile from './ItemTile.astro';
+import ToTop from './ToTop.astro';
 
 interface Props {
   lang: Lang;
@@ -45,6 +46,8 @@ const groups = order
     </section>
   ))
 }
+
+<ToTop lang={lang} />
 
 <style>
   h1 {

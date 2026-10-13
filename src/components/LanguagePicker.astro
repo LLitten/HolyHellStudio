@@ -66,6 +66,12 @@ const t = useTranslations(lang);
     color: var(--gold);
   }
 
+  @media (max-width: 40rem) {
+    summary span:first-child {
+      display: none;
+    }
+  }
+
   ul {
     position: absolute;
     right: 0;

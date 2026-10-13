@@ -50,6 +50,7 @@ const itemHref = (id: string) => {
 <Base lang={lang} title={enemy.name[lang]}>
   <LoreShell lang={lang} current={`enemies/${enemy.slug}`}>
     <div class="entry">
+      <h1 class="title">{enemy.name[lang]}</h1>
       <aside class="infobox frame">
         <h2>{enemy.name[lang]}</h2>
         {art && <Image src={art} alt={enemy.name[lang]} width={480} class="art" />}
@@ -93,7 +94,6 @@ const itemHref = (id: string) => {
       </aside>
 
       <div class="text">
-        <h1>{enemy.name[lang]}</h1>
         {
           lore && Lore && (
             <>
@@ -160,13 +160,15 @@ const itemHref = (id: string) => {
   .entry {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 20rem;
-    grid-template-areas: 'text infobox';
-    gap: 2rem;
+    grid-template-areas: 'title infobox' 'text infobox';
+    grid-template-rows: auto 1fr;
+    gap: 1rem 2rem;
     align-items: start;
   }
 
   .infobox {
     grid-area: infobox;
+    align-self: start;
     background: var(--surface-raised);
     padding: 1rem;
   }
@@ -239,7 +241,12 @@ const itemHref = (id: string) => {
     grid-area: text;
   }
 
-  h1,
+  .title {
+    grid-area: title;
+    margin: 0;
+    color: var(--text);
+  }
+
   .text h2 {
     color: var(--text);
   }
@@ -286,7 +293,18 @@ const itemHref = (id: string) => {
   @media (max-width: 60rem) {
     .entry {
       grid-template-columns: 1fr;
-      grid-template-areas: 'infobox' 'text';
+      grid-template-areas: 'title' 'infobox' 'text';
+      grid-template-rows: auto;
+    }
+
+    .infobox {
+      width: 100%;
+      max-width: 26rem;
+    }
+
+    /* The page title already names the enemy. */
+    .infobox h2 {
+      display: none;
     }
   }
 </style>

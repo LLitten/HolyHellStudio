@@ -276,6 +276,21 @@ const loreLinks = [
     list-style: none;
   }
 
+  @media (max-width: 40rem) {
+    .lore {
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+    }
+
+    .lore a {
+      padding: 1rem;
+    }
+
+    .blurb {
+      font-size: 0.85rem;
+    }
+  }
+
   .lore a {
     display: block;
     height: 100%;

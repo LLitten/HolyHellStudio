@@ -30,6 +30,7 @@ export const ui = {
     'nav.devlog': 'Dev Posts',
     'nav.about': 'About',
     'nav.menu': 'Menu',
+    'nav.top': 'Back to top',
     'lang.label': 'Language',
 
     'home.tagline': 'A strategic card game focused on resource management.',
@@ -133,6 +134,7 @@ export const ui = {
     'nav.devlog': '开发日志',
     'nav.about': '关于',
     'nav.menu': '菜单',
+    'nav.top': '回到顶部',
     'lang.label': '语言',
 
     'home.tagline': '一款着重资源管理的策略卡牌游戏。',
@@ -236,6 +238,7 @@ export const ui = {
     'nav.devlog': '開發日誌',
     'nav.about': '關於',
     'nav.menu': '選單',
+    'nav.top': '回到頂端',
     'lang.label': '語言',
 
     'home.tagline': '一款著重資源管理的策略卡牌遊戲。',
