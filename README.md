@@ -27,7 +27,7 @@ npm run preview
 ```
 src/
   content/
-    devlog/<post>/          one folder per post: en.md, zh-hans.md, zh-hant.md, plus its images
+    devlog/<post>/          one folder per post: en.md, sc.md, tc.md, plus its images
     lore/characters/<name>/ character pages
     lore/locations/<name>/  location pages
     lore/enemies/<slug>/    optional written lore for an enemy page

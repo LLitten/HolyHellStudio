@@ -5,8 +5,8 @@
 #   name: Jane Doe
 #   role:
 #     en: Lead Artist
-#     zh-hans: 主美术
-#     zh-hant: 主美術
+#     sc: 主美术
+#     tc: 主美術
 #   photo: jane-doe.jpg
 #   links:
 #     - label: Portfolio

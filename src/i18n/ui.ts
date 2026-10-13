@@ -1,7 +1,7 @@
 export const languages = {
   en: 'English',
-  'zh-hans': '简体中文',
-  'zh-hant': '繁體中文',
+  sc: '简体中文',
+  tc: '繁體中文',
 } as const;
 
 export type Lang = keyof typeof languages;
@@ -10,8 +10,8 @@ export const defaultLang: Lang = 'en';
 // Value for <html lang>, which also picks the right font (see global.css).
 export const htmlLang: Record<Lang, string> = {
   en: 'en-US',
-  'zh-hans': 'zh-Hans',
-  'zh-hant': 'zh-Hant',
+  sc: 'zh-Hans',
+  tc: 'zh-Hant',
 };
 
 // Interface text. Page content lives in src/content; game text comes from the game's own localization.
@@ -149,7 +149,7 @@ export const ui = {
     'notFound.home': 'Return home',
   },
 
-  'zh-hans': {
+  sc: {
     'site.game': '弃誓神途',
     'site.studio': 'HolyHell Studio',
     'site.description': '《弃誓神途》是 HolyHell Studio 制作的策略卡牌游戏。',
@@ -281,7 +281,7 @@ export const ui = {
     'notFound.home': '返回首页',
   },
 
-  'zh-hant': {
+  tc: {
     'site.game': '棄誓神途',
     'site.studio': 'HolyHell Studio',
     'site.description': '《棄誓神途》是 HolyHell Studio 製作的策略卡牌遊戲。',

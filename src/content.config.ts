@@ -2,7 +2,7 @@ import { defineCollection } from 'astro:content';
 import { glob, file } from 'astro/loaders';
 import { z } from 'astro/zod';
 
-// Each entry is a folder with one file per language: en.md, zh-hans.md, zh-hant.md.
+// Each entry is a folder with one file per language: en.md, sc.md, tc.md.
 // Images used by the entry go in the same folder so every language can share them.
 const perLanguage = (folder: string) => glob({ pattern: '**/*.{md,mdx}', base: `./src/content/${folder}` });
 
@@ -67,7 +67,7 @@ const team = defineCollection({
   loader: file('./src/content/team/members.yaml'),
   schema: z.object({
     name: z.string(),
-    role: z.object({ en: z.string(), 'zh-hans': z.string().optional(), 'zh-hant': z.string().optional() }),
+    role: z.object({ en: z.string(), sc: z.string().optional(), tc: z.string().optional() }),
     // File name in src/content/team/photos/
     photo: z.string().optional(),
     links: z.array(z.object({ label: z.string(), url: z.url() })).default([]),

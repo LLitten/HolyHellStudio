@@ -68,18 +68,18 @@
     ],
     "name": {
       "en": "Fragment of Radiance",
-      "zh-hans": "光辉残片",
-      "zh-hant": "光輝殘片"
+      "sc": "光辉残片",
+      "tc": "光輝殘片"
     },
     "description": {
       "en": "After acquiring 5, automatically merges into a Soul of Radiance.",
-      "zh-hans": "集满 5 个后，自动合成为光辉之魂。",
-      "zh-hant": "集滿 5 個後，自動合成為光輝之魂。"
+      "sc": "集满 5 个后，自动合成为光辉之魂。",
+      "tc": "集滿 5 個後，自動合成為光輝之魂。"
     },
     "lore": {
       "en": "Born from the first flickers of civilization, Intereon stands as the iron architect of law, authority, and the enforced balance of the world.",
-      "zh-hans": "诞生于文明最初的微光，英提力恩是律法、权威与世界强制平衡的铁腕建构者。",
-      "zh-hant": "誕生於文明最初的微光，英提力恩是律法、權威與世界強制平衡的鐵腕建構者。"
+      "sc": "诞生于文明最初的微光，英提力恩是律法、权威与世界强制平衡的铁腕建构者。",
+      "tc": "誕生於文明最初的微光，英提力恩是律法、權威與世界強制平衡的鐵腕建構者。"
     }
   },
   {
@@ -151,18 +151,18 @@
     ],
     "name": {
       "en": "Fragment of Blossom",
-      "zh-hans": "绽放残片",
-      "zh-hant": "綻放殘片"
+      "sc": "绽放残片",
+      "tc": "綻放殘片"
     },
     "description": {
       "en": "After acquiring 5, automatically merges into a Soul of Blossom.",
-      "zh-hans": "集满 5 个后，自动合成为绽放之魂。",
-      "zh-hant": "集滿 5 個後，自動合成為綻放之魂。"
+      "sc": "集满 5 个后，自动合成为绽放之魂。",
+      "tc": "集滿 5 個後，自動合成為綻放之魂。"
     },
     "lore": {
       "en": "Born from the desperate prayers of a frozen world, Florentis first appeared as the quiet warmth that allowed humanity to endure the ice.",
-      "zh-hans": "诞生于冰封世界的绝望祈祷，佛洛伦蒂斯最初显现为一缕静谧的暖意，让人类得以熬过寒冰。",
-      "zh-hant": "誕生於冰封世界的絕望祈禱，弗洛倫蒂斯最初顯現為一縷靜謐的暖意，讓人類得以熬過寒冰。"
+      "sc": "诞生于冰封世界的绝望祈祷，佛洛伦蒂斯最初显现为一缕静谧的暖意，让人类得以熬过寒冰。",
+      "tc": "誕生於冰封世界的絕望祈禱，弗洛倫蒂斯最初顯現為一縷靜謐的暖意，讓人類得以熬過寒冰。"
     }
   },
   {
@@ -234,18 +234,18 @@
     ],
     "name": {
       "en": "Fragment of Significance",
-      "zh-hans": "显赫残片",
-      "zh-hant": "顯赫殘片"
+      "sc": "显赫残片",
+      "tc": "顯赫殘片"
     },
     "description": {
       "en": "After acquiring 5, automatically merges into a Soul of Significance.",
-      "zh-hans": "集满 5 个后，自动合成为意义之魂。",
-      "zh-hant": "集滿 5 個後，自動合成為意義之魂。"
+      "sc": "集满 5 个后，自动合成为意义之魂。",
+      "tc": "集滿 5 個後，自動合成為意義之魂。"
     },
     "lore": {
       "en": "Born from the fundamental hungers for security and abundance, Evinor is the shifting mirror of Razenian desire.",
-      "zh-hans": "诞生于对安全与富足最根本的渴求，伊维诺是拉泽尼亚欲望的变幻之镜。",
-      "zh-hant": "誕生於對安全與富足最根本的渴求，伊維諾是拉澤尼亞慾望的變幻之鏡。"
+      "sc": "诞生于对安全与富足最根本的渴求，伊维诺是拉泽尼亚欲望的变幻之镜。",
+      "tc": "誕生於對安全與富足最根本的渴求，伊維諾是拉澤尼亞慾望的變幻之鏡。"
     }
   },
   {
@@ -317,18 +317,18 @@
     ],
     "name": {
       "en": "Fragment of Illusion",
-      "zh-hans": "幻象残片",
-      "zh-hant": "幻象殘片"
+      "sc": "幻象残片",
+      "tc": "幻象殘片"
     },
     "description": {
       "en": "After acquiring 5, automatically merges into a Soul of Illusion.",
-      "zh-hans": "集满 5 个后，自动合成为幻象之魂。",
-      "zh-hant": "集滿 5 個後，自動合成為幻象之魂。"
+      "sc": "集满 5 个后，自动合成为幻象之魂。",
+      "tc": "集滿 5 個後，自動合成為幻象之魂。"
     },
     "lore": {
       "en": "Born from the heretical realization that belief can reshape reality, Oculyth is the god of the manifesting mind and the divine power of human will.",
-      "zh-hans": "诞生于“信念能重塑现实”的异端顿悟，奥库莉丝是显现心智之神，象征人类意志的神圣力量。",
-      "zh-hant": "誕生於「信念能重塑現實」的異端頓悟，奧庫莉絲是顯現心智之神，象徵人類意志的神聖力量。"
+      "sc": "诞生于“信念能重塑现实”的异端顿悟，奥库莉丝是显现心智之神，象征人类意志的神圣力量。",
+      "tc": "誕生於「信念能重塑現實」的異端頓悟，奧庫莉絲是顯現心智之神，象徵人類意志的神聖力量。"
     }
   },
   {
@@ -400,18 +400,18 @@
     ],
     "name": {
       "en": "Fragment of Freedom",
-      "zh-hans": "自由残片",
-      "zh-hant": "自由殘片"
+      "sc": "自由残片",
+      "tc": "自由殘片"
     },
     "description": {
       "en": "After acquiring 5, automatically merges into a Soul of Freedom.",
-      "zh-hans": "集满 5 个后，自动合成为自由之魂。",
-      "zh-hant": "集滿 5 個後，自動合成為自由之魂。"
+      "sc": "集满 5 个后，自动合成为自由之魂。",
+      "tc": "集滿 5 個後，自動合成為自由之魂。"
     },
     "lore": {
       "en": "Born from the primal urge to shatter all restraint, Hedalis is the divine spark of unchained will and the pursuit of absolute self-satisfaction.",
-      "zh-hans": "诞生于粉碎一切束缚的原始冲动，赫达利斯是无拘意志的神圣火花，象征对绝对自我满足的追求。",
-      "zh-hant": "誕生於粉碎一切束縛的原始衝動，赫達利斯是無拘意志的神聖火花，象徵對絕對自我滿足的追求。"
+      "sc": "诞生于粉碎一切束缚的原始冲动，赫达利斯是无拘意志的神圣火花，象征对绝对自我满足的追求。",
+      "tc": "誕生於粉碎一切束縛的原始衝動，赫達利斯是無拘意志的神聖火花，象徵對絕對自我滿足的追求。"
     }
   },
   {
@@ -483,18 +483,18 @@
     ],
     "name": {
       "en": "Fragment of Chaos",
-      "zh-hans": "混沌残片",
-      "zh-hant": "混沌殘片"
+      "sc": "混沌残片",
+      "tc": "混沌殘片"
     },
     "description": {
       "en": "After acquiring 5, automatically merges into a Soul of Chaos.",
-      "zh-hans": "集满 5 个后，自动合成为混沌之魂。",
-      "zh-hant": "集滿 5 個後，自動合成為混沌之魂。"
+      "sc": "集满 5 个后，自动合成为混沌之魂。",
+      "tc": "集滿 5 個後，自動合成為混沌之魂。"
     },
     "lore": {
       "en": "Born from fractured intent and discarded power, Vortherect is the abrupt anomaly that shattered Razenia's history, a chaotic amalgamation.",
-      "zh-hans": "诞生于破碎的意图与被舍弃的力量，沃索勒克特 是撕裂拉泽尼亚历史的突发异象，一团混沌的聚合体。",
-      "zh-hant": "誕生於破碎的意圖與被捨棄的力量，沃索勒克特是撕裂拉澤尼亞歷史的突發異象，一團混沌的聚合體。"
+      "sc": "诞生于破碎的意图与被舍弃的力量，沃索勒克特 是撕裂拉泽尼亚历史的突发异象，一团混沌的聚合体。",
+      "tc": "誕生於破碎的意圖與被捨棄的力量，沃索勒克特是撕裂拉澤尼亞歷史的突發異象，一團混沌的聚合體。"
     }
   },
   {
@@ -518,18 +518,18 @@
     ],
     "name": {
       "en": "Bloodstained Cloth",
-      "zh-hans": "染血布条",
-      "zh-hant": "染血布條"
+      "sc": "染血布条",
+      "tc": "染血布條"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "The hem of a Rosricon robe, soaked in blood. In the eyes of most Rosricons, heretics are cursed, unclean beings blinded by dark gods, no different from beasts.",
-      "zh-hans": "浸满了鲜血的罗斯里坎长袍衣摆。在绝大多数罗斯里坎人的眼中，异教徒们是受到诅咒、被邪神蒙蔽了的不洁存在，和畜生并无差别。",
-      "zh-hant": "浸滿了鮮血的羅斯里坎長袍衣襬。在絕大多數羅斯里坎人的眼中，異教徒們是受到詛咒、被邪神蒙蔽了的不潔存在，和畜生並無差別。"
+      "sc": "浸满了鲜血的罗斯里坎长袍衣摆。在绝大多数罗斯里坎人的眼中，异教徒们是受到诅咒、被邪神蒙蔽了的不洁存在，和畜生并无差别。",
+      "tc": "浸滿了鮮血的羅斯里坎長袍衣襬。在絕大多數羅斯里坎人的眼中，異教徒們是受到詛咒、被邪神蒙蔽了的不潔存在，和畜生並無差別。"
     }
   },
   {
@@ -553,18 +553,18 @@
     ],
     "name": {
       "en": "Dimmed Lantern",
-      "zh-hans": "昏暗提灯",
-      "zh-hant": "昏暗提燈"
+      "sc": "昏暗提灯",
+      "tc": "昏暗提燈"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "An iron candle-lantern. Beyond its use for light, the candle's flame is believed to be a vessel through which Florentis dwells in the mortal world. Some of his followers believe that once the flame begins to dim, its life must be prolonged by any means necessary, even at the cost of becoming kindling themselves.",
-      "zh-hans": "铁制的烛型提灯。除了用于照明以外，烛光也被视为弗洛伦蒂斯在现世的寄宿之处。其部分信徒认为一旦烛光开始变的黯淡，就必须想方设法的延续火焰的寿命，即使是将自身化为柴薪也在所不惜。",
-      "zh-hant": "鐵製的燭型提燈。除了用於照明以外，燭光也被視為弗洛倫蒂斯在現世的寄宿之處。其部分信徒認為一旦燭光開始變的黯淡，就必須想方設法的延續火焰的壽命，即使是將自身化為柴薪也在所不惜。"
+      "sc": "铁制的烛型提灯。除了用于照明以外，烛光也被视为弗洛伦蒂斯在现世的寄宿之处。其部分信徒认为一旦烛光开始变的黯淡，就必须想方设法的延续火焰的寿命，即使是将自身化为柴薪也在所不惜。",
+      "tc": "鐵製的燭型提燈。除了用於照明以外，燭光也被視為弗洛倫蒂斯在現世的寄宿之處。其部分信徒認為一旦燭光開始變的黯淡，就必須想方設法的延續火焰的壽命，即使是將自身化為柴薪也在所不惜。"
     }
   },
   {
@@ -588,18 +588,18 @@
     ],
     "name": {
       "en": "Fractured Shank",
-      "zh-hans": "断裂短刃",
-      "zh-hant": "斷裂短刃"
+      "sc": "断裂短刃",
+      "tc": "斷裂短刃"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "A battered knife, its blade already splitting and warped. Most bandits of the Pale are displaced wanderers turned outlaw, so their gear tends to be everyday tools like sickles and brush knives.",
-      "zh-hans": "有些破损的小刀，刀锋处已经有些分岔变形。苍白之地的盗贼多半是落草为寇的流民，因此装备也多半是镰刀、柴刀等日常用具。",
-      "zh-hant": "有些破損的小刀，刀鋒處已經有些分岔變形。蒼白之地的盜賊多半是落草為寇的流民，因此裝備也多半是鐮刀、柴刀等日常用具。"
+      "sc": "有些破损的小刀，刀锋处已经有些分岔变形。苍白之地的盗贼多半是落草为寇的流民，因此装备也多半是镰刀、柴刀等日常用具。",
+      "tc": "有些破損的小刀，刀鋒處已經有些分岔變形。蒼白之地的盜賊多半是落草為寇的流民，因此裝備也多半是鐮刀、柴刀等日常用具。"
     }
   },
   {
@@ -623,18 +623,18 @@
     ],
     "name": {
       "en": "Leather Handwrap",
-      "zh-hans": "皮革缠带",
-      "zh-hant": "皮革纏帶"
+      "sc": "皮革缠带",
+      "tc": "皮革纏帶"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "A heavily worn pair of leather handwraps. With its vast forests, the Pale is home to many hunters, for whom handwraps are a popular accessory, protecting and supporting the wrists during exertion. Naturally, in the hands of a bandit, they also greatly improve the odds of a successful crime.",
-      "zh-hans": "磨损严重的皮手套。苍白之地由于林木广袤，因此猎户众多，皮手套是十分受欢迎的配件，可以良好的保护和辅助施力时的腕部。当然，落于盗贼手中时也会大大的增加犯行的成功机率。",
-      "zh-hant": "磨損嚴重的皮手套。蒼白之地由於林木廣袤，因此獵戶眾多，皮手套是十分受歡迎的配件，可以良好的保護和輔助施力時的腕部。當然，落於盜賊手中時也會大大的增加犯行的成功機率。"
+      "sc": "磨损严重的皮手套。苍白之地由于林木广袤，因此猎户众多，皮手套是十分受欢迎的配件，可以良好的保护和辅助施力时的腕部。当然，落于盗贼手中时也会大大的增加犯行的成功机率。",
+      "tc": "磨損嚴重的皮手套。蒼白之地由於林木廣袤，因此獵戶眾多，皮手套是十分受歡迎的配件，可以良好的保護和輔助施力時的腕部。當然，落於盜賊手中時也會大大的增加犯行的成功機率。"
     }
   },
   {
@@ -658,18 +658,18 @@
     ],
     "name": {
       "en": "Sharp Tooth",
-      "zh-hans": "尖锐兽牙",
-      "zh-hant": "尖銳獸牙"
+      "sc": "尖锐兽牙",
+      "tc": "尖銳獸牙"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "A sharp canine tooth, crawling with bacteria and scraps of flesh. Most bandits worship Hedalis, believing the free will he grants maximizes their strength when committing atrocities. Because of this, the hounds they keep are largely left unrestrained, living much like strays.",
-      "zh-hans": "锋利的犬科动物牙齿，上面布满了病菌和血肉残渣。盗贼们多半信奉着赫达利斯，认为其所赋予的自由意志能最大化他们在犯下暴行时的力量。有鉴于此，其所饲养的猎犬们多半缺乏管束，过着流浪犬般的生活。",
-      "zh-hant": "鋒利的犬科動物牙齒，上面佈滿了病菌和血肉殘渣。盜賊們多半信奉著赫達利斯，認為其所賦予的自由意志能最大化他們在犯下暴行時的力量。有鑑於此，其所飼養的獵犬們多半缺乏管束，過著流浪犬般的生活。"
+      "sc": "锋利的犬科动物牙齿，上面布满了病菌和血肉残渣。盗贼们多半信奉着赫达利斯，认为其所赋予的自由意志能最大化他们在犯下暴行时的力量。有鉴于此，其所饲养的猎犬们多半缺乏管束，过着流浪犬般的生活。",
+      "tc": "鋒利的犬科動物牙齒，上面佈滿了病菌和血肉殘渣。盜賊們多半信奉著赫達利斯，認為其所賦予的自由意志能最大化他們在犯下暴行時的力量。有鑑於此，其所飼養的獵犬們多半缺乏管束，過著流浪犬般的生活。"
     }
   },
   {
@@ -693,18 +693,18 @@
     ],
     "name": {
       "en": "Broken Leash",
-      "zh-hans": "断裂缰绳",
-      "zh-hant": "斷裂韁繩"
+      "sc": "断裂缰绳",
+      "tc": "斷裂韁繩"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "A broken collar. Not every bandit gang is made up of Hedalis's followers, and members do not police one another's beliefs. Bandits who don't follow Hedalis mostly try to tame their hounds, but a beast that has tasted the sweetness of freedom can never again be kept quietly caged.",
-      "zh-hans": "断裂的项圈。盗贼团伙并非全部都是赫达利斯的信徒，而彼此之间也并不会加以约束其他成员的信仰。非赫达利斯信徒的盗贼大多会试图驯化猎犬，但尝惯自由甜头的野兽却再也无法被安分的囚于笼中。",
-      "zh-hant": "斷裂的項圈。盜賊團夥並非全部都是赫達利斯的信徒，而彼此之間也並不會加以約束其他成員的信仰。非赫達利斯信徒的盜賊大多會試圖馴化獵犬，但嘗慣自由甜頭的野獸卻再也無法被安分的囚於籠中。"
+      "sc": "断裂的项圈。盗贼团伙并非全部都是赫达利斯的信徒，而彼此之间也并不会加以约束其他成员的信仰。非赫达利斯信徒的盗贼大多会试图驯化猎犬，但尝惯自由甜头的野兽却再也无法被安分的囚于笼中。",
+      "tc": "斷裂的項圈。盜賊團夥並非全部都是赫達利斯的信徒，而彼此之間也並不會加以約束其他成員的信仰。非赫達利斯信徒的盜賊大多會試圖馴化獵犬，但嘗慣自由甜頭的野獸卻再也無法被安分的囚於籠中。"
     }
   },
   {
@@ -728,18 +728,18 @@
     ],
     "name": {
       "en": "Charred Limb",
-      "zh-hans": "焦黑断肢",
-      "zh-hant": "焦黑斷肢"
+      "sc": "焦黑断肢",
+      "tc": "焦黑斷肢"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "A limb burned beyond recognition. When Windchime Village was invaded, followers of Florentis set it ablaze without restraint. The crackle of burning bone and flesh, and the screams of those burned alive, sounded to the faithful like celestial music rewarding their devotion.",
-      "zh-hans": "被焚毁的难辨部位的残肢。风铃村遭到入侵之时，受到了弗洛伦蒂斯信徒们的肆意纵火。骨肉劈啪作响、和被活活焚烧的惨叫声，在信徒们的耳中就如同嘉奖其虔诚的仙乐。",
-      "zh-hant": "被焚毀的難辨部位的殘肢。風鈴村遭到入侵之時，受到了弗洛倫蒂斯信徒們的肆意縱火。骨肉劈啪作響、和被活活焚燒的慘叫聲，在信徒們的耳中就如同嘉獎其虔誠的仙樂。"
+      "sc": "被焚毁的难辨部位的残肢。风铃村遭到入侵之时，受到了弗洛伦蒂斯信徒们的肆意纵火。骨肉劈啪作响、和被活活焚烧的惨叫声，在信徒们的耳中就如同嘉奖其虔诚的仙乐。",
+      "tc": "被焚毀的難辨部位的殘肢。風鈴村遭到入侵之時，受到了弗洛倫蒂斯信徒們的肆意縱火。骨肉劈啪作響、和被活活焚燒的慘叫聲，在信徒們的耳中就如同嘉獎其虔誠的仙樂。"
     }
   },
   {
@@ -763,18 +763,18 @@
     ],
     "name": {
       "en": "Puffy Eyeball",
-      "zh-hans": "浮肿眼球",
-      "zh-hant": "浮腫眼球"
+      "sc": "浮肿眼球",
+      "tc": "浮腫眼球"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "A swollen human eyeball. Followers of Oculyth from Belgard excel at inflicting visions and hallucinations on others, numbing or even paralyzing a target's sight. Victims' eyes swell in proportion to the effect, sometimes rupturing outright in their sockets.",
-      "zh-hans": "浮肿的人类眼球。来自贝尔嘉德的奥库莉丝信徒擅于让人看见异象和幻觉，借此麻痹甚至瘫痪目标的视觉。受害者们的眼球会随着影响程度而胀大，甚至直接在眼眶中破裂。",
-      "zh-hant": "浮腫的人類眼球。來自貝爾嘉德的奧庫莉絲信徒擅於讓人看見異象和幻覺，藉此麻痺甚至癱瘓目標的視覺。受害者們的眼球會隨著影響程度而脹大，甚至直接在眼眶中破裂。"
+      "sc": "浮肿的人类眼球。来自贝尔嘉德的奥库莉丝信徒擅于让人看见异象和幻觉，借此麻痹甚至瘫痪目标的视觉。受害者们的眼球会随着影响程度而胀大，甚至直接在眼眶中破裂。",
+      "tc": "浮腫的人類眼球。來自貝爾嘉德的奧庫莉絲信徒擅於讓人看見異象和幻覺，藉此麻痺甚至癱瘓目標的視覺。受害者們的眼球會隨著影響程度而脹大，甚至直接在眼眶中破裂。"
     }
   },
   {
@@ -810,18 +810,18 @@
     ],
     "name": {
       "en": "Codex Fragment",
-      "zh-hans": "经文残片",
-      "zh-hant": "經文殘片"
+      "sc": "经文残片",
+      "tc": "經文殘片"
     },
     "description": {
       "en": "At the start of each combat, apply 15% <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> to all enemies for 1 turn.",
-      "zh-hans": "每场战斗开始时，对所有敌人施加 15% <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。",
-      "zh-hant": "每場戰鬥開始時，對所有敵人施加 15% <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。"
+      "sc": "每场战斗开始时，对所有敌人施加 15% <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。",
+      "tc": "每場戰鬥開始時，對所有敵人施加 15% <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。"
     },
     "lore": {
       "en": "Rosricon is notorious for its harsh laws, though it was not always so. When the Great War erupted, humanity fractured into two: obedient sheep and savage beasts. Ancient codices were penned to impose order, yet as centuries passed, their decrees accumulated, and ultimately twisted.",
-      "zh-hans": "罗斯里坎以其严刑峻法闻名，然而昔日并非总是如此。当那场大战爆发时，人类社会一分为二：顺从的羔羊与野蛮的猛兽。无数古老法典为了强加秩序而诞生，然而随着世纪更迭，律法条文层层堆叠，最终……走向了扭曲。",
-      "zh-hant": "羅斯里坎以其嚴刑峻法聞名，然而昔日並非總是如此。當那場大戰爆發時，人類社會一分為二：順從的羔羊與野蠻的猛獸。無數古老法典為了強加秩序而誕生，然而隨著世紀更迭，律法條文層層堆疊，最終……走向了扭曲。"
+      "sc": "罗斯里坎以其严刑峻法闻名，然而昔日并非总是如此。当那场大战爆发时，人类社会一分为二：顺从的羔羊与野蛮的猛兽。无数古老法典为了强加秩序而诞生，然而随着世纪更迭，律法条文层层堆叠，最终……走向了扭曲。",
+      "tc": "羅斯里坎以其嚴刑峻法聞名，然而昔日並非總是如此。當那場大戰爆發時，人類社會一分為二：順從的羔羊與野蠻的猛獸。無數古老法典為了強加秩序而誕生，然而隨著世紀更迭，律法條文層層堆疊，最終……走向了扭曲。"
     }
   },
   {
@@ -857,18 +857,18 @@
     ],
     "name": {
       "en": "Mirror Shard",
-      "zh-hans": "裂镜碎片",
-      "zh-hant": "裂鏡碎片"
+      "sc": "裂镜碎片",
+      "tc": "裂鏡碎片"
     },
     "description": {
       "en": "Every time you draw a card outside the start of your turn, deal 3 damage to all enemies.",
-      "zh-hans": "每当你在回合开始以外抽牌时，对所有敌人造成 3 点伤害。",
-      "zh-hant": "每當你在回合開始以外抽牌時，對所有敵人造成 3 點傷害。"
+      "sc": "每当你在回合开始以外抽牌时，对所有敌人造成 3 点伤害。",
+      "tc": "每當你在回合開始以外抽牌時，對所有敵人造成 3 點傷害。"
     },
     "lore": {
       "en": "People have always feared the reflections in mirrors, viewing them as false shadows contrary to reality. Yet for that very reason, the followers of Oculyth believed all the more that truth could be glimpsed within. The believers always carried a round mirror with them, though it is now shattered.",
-      "zh-hans": "人们总是畏惧镜中的倒影，认为其是和现实相反的虚假之影。然而正因如此，奥库莉丝信徒才愈发相信能从中窥见真理。他们总是随身带着圆镜，然而镜子如今已然破碎。",
-      "zh-hant": "人們總是畏懼鏡中的倒影，認為其是和現實相反的虛假之影。然而正因如此，奧庫莉絲信徒才愈發相信能從中窺見真理。他們總是隨身帶著圓鏡，然而鏡子如今已然破碎。"
+      "sc": "人们总是畏惧镜中的倒影，认为其是和现实相反的虚假之影。然而正因如此，奥库莉丝信徒才愈发相信能从中窥见真理。他们总是随身带着圆镜，然而镜子如今已然破碎。",
+      "tc": "人們總是畏懼鏡中的倒影，認為其是和現實相反的虛假之影。然而正因如此，奧庫莉絲信徒才愈發相信能從中窺見真理。他們總是隨身帶著圓鏡，然而鏡子如今已然破碎。"
     }
   },
   {
@@ -898,18 +898,18 @@
     ],
     "name": {
       "en": "Juicy Fruit",
-      "zh-hans": "硕大果实",
-      "zh-hant": "碩大果實"
+      "sc": "硕大果实",
+      "tc": "碩大果實"
     },
     "description": {
       "en": "Grant a small amount of max HP.",
-      "zh-hans": "赋予小量的最大生命值。",
-      "zh-hant": "賦予小量的最大生命值。"
+      "sc": "赋予小量的最大生命值。",
+      "tc": "賦予小量的最大生命值。"
     },
     "lore": {
       "en": "&quot;I hereby declare the Flesh Circulation Act in full effect. The Kingdom shall distribute divine-infused fertilizer to farmers across the land, restoring abundance to the earth under the eternal blessing of Florentis.&quot; — Malakor, the Divine",
-      "zh-hans": "「吾于此正式宣告，《血肉循环法案》即刻生效。王国将颁发蕴含神性的肥料予各地农人，使大地重获丰饶，永世沐浴于弗洛伦蒂斯的恩典之中。」——圣者．马拉科",
-      "zh-hant": "「吾於此正式宣告，《血肉循環法案》即刻生效。王國將頒發蘊含神性的肥料予各地農人，使大地重獲豐饒，永世沐浴於弗洛倫蒂斯的恩典之中。」——聖者．馬拉科"
+      "sc": "「吾于此正式宣告，《血肉循环法案》即刻生效。王国将颁发蕴含神性的肥料予各地农人，使大地重获丰饶，永世沐浴于弗洛伦蒂斯的恩典之中。」——圣者．马拉科",
+      "tc": "「吾於此正式宣告，《血肉循環法案》即刻生效。王國將頒發蘊含神性的肥料予各地農人，使大地重獲豐饒，永世沐浴於弗洛倫蒂斯的恩典之中。」——聖者．馬拉科"
     }
   },
   {
@@ -937,18 +937,18 @@
     ],
     "name": {
       "en": "Mutated Bone Club",
-      "zh-hans": "畸变骨棒",
-      "zh-hant": "畸變骨棒"
+      "sc": "畸变骨棒",
+      "tc": "畸變骨棒"
     },
     "description": {
       "en": "You always have 3 <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> and -30% <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span>.",
-      "zh-hans": "你永久拥有 3 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span>与 -30% <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>。",
-      "zh-hant": "你永久擁有 3 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span>與 -30% <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>。"
+      "sc": "你永久拥有 3 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span>与 -30% <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>。",
+      "tc": "你永久擁有 3 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span>與 -30% <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>。"
     },
     "lore": {
       "en": "Through centuries of reverence and blood sacrifice, divinity has seeped into every corner of Razenia. Neither beast, nor man, nor the land itself can escape the inevitable fate of being blessed, or damned.",
-      "zh-hans": "经历数个世纪的崇拜与祭献，神性早已渗透了拉泽尼亚的每一个角落。无论是走兽、凡人，抑或是这片大地本身，皆无法逃脱受到赐福或沦为诅咒的宿命。",
-      "zh-hant": "經歷數個世紀的崇拜與祭獻，神性早已滲透了拉澤尼亞的每一個角落。無論是走獸、凡人，抑或是這片大地本身，皆無法逃脫受到賜福或淪為詛咒的宿命。"
+      "sc": "经历数个世纪的崇拜与祭献，神性早已渗透了拉泽尼亚的每一个角落。无论是走兽、凡人，抑或是这片大地本身，皆无法逃脱受到赐福或沦为诅咒的宿命。",
+      "tc": "經歷數個世紀的崇拜與祭獻，神性早已滲透了拉澤尼亞的每一個角落。無論是走獸、凡人，抑或是這片大地本身，皆無法逃脫受到賜福或淪為詛咒的宿命。"
     }
   },
   {
@@ -982,18 +982,18 @@
     ],
     "name": {
       "en": "Hemostatic Bandage",
-      "zh-hans": "止血绷带",
-      "zh-hant": "止血繃帶"
+      "sc": "止血绷带",
+      "tc": "止血繃帶"
     },
     "description": {
       "en": "Reduce all <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> damage taken by 2.",
-      "zh-hans": "受到的所有<span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>伤害减少 2。",
-      "zh-hant": "受到的所有<span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>傷害減少 2。"
+      "sc": "受到的所有<span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>伤害减少 2。",
+      "tc": "受到的所有<span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>傷害減少 2。"
     },
     "lore": {
       "en": "The continuous flow of open blood is hailed as the truest expression of Hedalis's free will. Yet, the very bandages that stem the bleeding are also revered as divine gifts. Whether freedom lies in bleeding or healing remains a fierce, endless debate among the faithful.",
-      "zh-hans": "汩汩流淌的鲜血，被视为赫达利斯自由意志的体现；然而能扼止血流的绷带，却也被视为神灵所赐予的恩典。究竟是任血奔流，抑或是止血疗伤才是真正的自由？信徒之间至今仍争执不休。",
-      "zh-hant": "汩汩流淌的鮮血，被視為赫達利斯自由意志的體現；然而能扼止血流的繃帶，卻也被視為神靈所賜予的恩典。究竟是任血奔流，抑或是止血療傷才是真正的自由？信徒之間至今仍爭執不休。"
+      "sc": "汩汩流淌的鲜血，被视为赫达利斯自由意志的体现；然而能扼止血流的绷带，却也被视为神灵所赐予的恩典。究竟是任血奔流，抑或是止血疗伤才是真正的自由？信徒之间至今仍争执不休。",
+      "tc": "汩汩流淌的鮮血，被視為赫達利斯自由意志的體現；然而能扼止血流的繃帶，卻也被視為神靈所賜予的恩典。究竟是任血奔流，抑或是止血療傷才是真正的自由？信徒之間至今仍爭執不休。"
     }
   },
   {
@@ -1027,18 +1027,18 @@
     ],
     "name": {
       "en": "Flickering Candle",
-      "zh-hans": "摇曳融烛",
-      "zh-hant": "搖曳融燭"
+      "sc": "摇曳融烛",
+      "tc": "搖曳融燭"
     },
     "description": {
       "en": "Apply 8 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to all enemies at the start of combat.",
-      "zh-hans": "战斗开始时，对所有敌人施加 8 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。",
-      "zh-hant": "戰鬥開始時，對所有敵人施加 8 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。"
+      "sc": "战斗开始时，对所有敌人施加 8 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。",
+      "tc": "戰鬥開始時，對所有敵人施加 8 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。"
     },
     "lore": {
       "en": "Florentis is perhaps one of Razenia's oldest deities. Long ago, when the realm was locked beneath endless frost, humanity eked out an existence solely under the sun's fleeting warmth. Only with the discovery and spread of flame did civilization take its first hesitant step alongside Florentis.",
-      "zh-hans": "弗洛伦蒂斯或许是拉泽尼亚最古老的神灵之一。很久以前，拉泽尼亚曾笼罩于无尽的严霜之下，凡人仅能仰赖日光的微温苟活。直到火焰首次被发现与普及，文明才伴随着弗洛伦蒂斯的赐福，踏出了第一步。",
-      "zh-hant": "弗洛倫蒂斯或許是拉澤尼亞最古老的神靈之一。很久以前，拉澤尼亞曾籠罩於無盡的嚴霜之下，凡人僅能仰賴日光的微溫苟活。直到火焰首次被發現與普及，文明才伴隨著弗洛倫蒂斯的賜福，踏出了第一步。"
+      "sc": "弗洛伦蒂斯或许是拉泽尼亚最古老的神灵之一。很久以前，拉泽尼亚曾笼罩于无尽的严霜之下，凡人仅能仰赖日光的微温苟活。直到火焰首次被发现与普及，文明才伴随着弗洛伦蒂斯的赐福，踏出了第一步。",
+      "tc": "弗洛倫蒂斯或許是拉澤尼亞最古老的神靈之一。很久以前，拉澤尼亞曾籠罩於無盡的嚴霜之下，凡人僅能仰賴日光的微溫苟活。直到火焰首次被發現與普及，文明才伴隨著弗洛倫蒂斯的賜福，踏出了第一步。"
     }
   },
   {
@@ -1066,18 +1066,18 @@
     ],
     "name": {
       "en": "Bandit's Rations",
-      "zh-hans": "盗贼干粮",
-      "zh-hant": "盜賊乾糧"
+      "sc": "盗贼干粮",
+      "tc": "盜賊乾糧"
     },
     "description": {
       "en": "Heal 3% HP at the start of your turn.",
-      "zh-hans": "回合开始时回复 3% 生命。",
-      "zh-hant": "回合開始時回復 3% 生命。"
+      "sc": "回合开始时回复 3% 生命。",
+      "tc": "回合開始時回復 3% 生命。"
     },
     "lore": {
       "en": "Hunger is the primal instinct of all beasts, and the most chaotic of desires. This untamable greed, mingled with unspeakable impurities and wicked thoughts, ultimately condensed into an entity that even the gods cannot ignore.",
-      "zh-hans": "饥饿是一切生灵的本能，亦是最为混乱的欲望。这股无法驾驭的贪婪夹杂着无数不可言说的杂质与执念，最终沉淀为某种连神灵都无法忽视的形体。",
-      "zh-hant": "飢餓是一切生靈的本能，亦是最為混亂的慾望。這股無法駕馭的貪婪夾雜著無數不可言說的雜質與執念，最終沉澱為某種連神靈都無法忽視的形體。"
+      "sc": "饥饿是一切生灵的本能，亦是最为混乱的欲望。这股无法驾驭的贪婪夹杂着无数不可言说的杂质与执念，最终沉淀为某种连神灵都无法忽视的形体。",
+      "tc": "飢餓是一切生靈的本能，亦是最為混亂的慾望。這股無法駕馭的貪婪夾雜著無數不可言說的雜質與執念，最終沉澱為某種連神靈都無法忽視的形體。"
     }
   },
   {
@@ -1103,18 +1103,18 @@
     ],
     "name": {
       "en": "Bracers",
-      "zh-hans": "护手甲",
-      "zh-hant": "護手甲"
+      "sc": "护手甲",
+      "tc": "護手甲"
     },
     "description": {
       "en": "When you take damage, gain 20% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 1 turn.",
-      "zh-hans": "受到击中时获得 20% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 1 回合。",
-      "zh-hant": "受到擊中時獲得 20% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 1 回合。"
+      "sc": "受到击中时获得 20% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 1 回合。",
+      "tc": "受到擊中時獲得 20% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 1 回合。"
     },
     "lore": {
       "en": "Originally, Intereon was tasked solely with the banishment and punishment of heretics. Yet, no matter how many triumphant victories He achieved in battle, mortals soon learned a grim truth: heresy would always take root anew in the days to come.",
-      "zh-hans": "昔日，英提力恩仅背负着驱逐与惩戒异端的职权。然而，即便祂无数次于征战中凯旋，人们却绝望地发现，异端邪说总会在不久后再次萌芽。",
-      "zh-hant": "昔日，英提力恩僅背負著驅逐與懲戒異端的職權。然而，即便祂無數次於征戰中凱旋，人們卻絕望地發現，異端邪說總會在不久後再次萌芽。"
+      "sc": "昔日，英提力恩仅背负着驱逐与惩戒异端的职权。然而，即便祂无数次于征战中凯旋，人们却绝望地发现，异端邪说总会在不久后再次萌芽。",
+      "tc": "昔日，英提力恩僅背負著驅逐與懲戒異端的職權。然而，即便祂無數次於征戰中凱旋，人們卻絕望地發現，異端邪說總會在不久後再次萌芽。"
     }
   },
   {
@@ -1142,18 +1142,18 @@
     ],
     "name": {
       "en": "Wind Chime",
-      "zh-hans": "风铃",
-      "zh-hant": "風鈴"
+      "sc": "风铃",
+      "tc": "風鈴"
     },
     "description": {
       "en": "Grant a small amount of attack, max HP, and <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span>.",
-      "zh-hans": "赋予小量的攻击增幅、最大生命、和<span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>。",
-      "zh-hant": "賦予小量的攻擊增幅、最大生命、和<span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>。"
+      "sc": "赋予小量的攻击增幅、最大生命、和<span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>。",
+      "tc": "賦予小量的攻擊增幅、最大生命、和<span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>。"
     },
     "lore": {
       "en": "&quot;Here, take this. Every household hangs one beneath their eaves. They say even if kin travel far from home, as long as they hear the chimes, they will find their way back. Me? Oh, I could always see the path, anyway.&quot; — Mara",
-      "zh-hans": "「给你，这是家家户户都要在屋檐下挂的风铃。即使是远在他乡的亲友，只要听见这铃声，就能找到回家的路……我吗？我本来就已经看得见了哦。」 - 玛拉",
-      "zh-hant": "「給你，這是家家戶戶都要在屋簷下掛的風鈴。即使是遠在他鄉的親友，只要聽見這鈴聲，就能找到回家的路……我嗎？我本來就已經看得見了哦。」 - 瑪拉"
+      "sc": "「给你，这是家家户户都要在屋檐下挂的风铃。即使是远在他乡的亲友，只要听见这铃声，就能找到回家的路……我吗？我本来就已经看得见了哦。」 - 玛拉",
+      "tc": "「給你，這是家家戶戶都要在屋簷下掛的風鈴。即使是遠在他鄉的親友，只要聽見這鈴聲，就能找到回家的路……我嗎？我本來就已經看得見了哦。」 - 瑪拉"
     }
   },
   {
@@ -1179,18 +1179,18 @@
     ],
     "name": {
       "en": "Sanctuary Amulet",
-      "zh-hans": "庇护项链",
-      "zh-hant": "庇護項鍊"
+      "sc": "庇护项链",
+      "tc": "庇護項鍊"
     },
     "description": {
       "en": "Gain 3 additional <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> in elite encounters.",
-      "zh-hans": "和菁英战斗时获得 3 点额外<span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>。",
-      "zh-hant": "和菁英戰鬥時獲得 3 點額外<span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>。"
+      "sc": "和菁英战斗时获得 3 点额外<span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>。",
+      "tc": "和菁英戰鬥時獲得 3 點額外<span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>。"
     },
     "lore": {
       "en": "Long ago, the Pale Realm was merely a nameless region on the map. Yet upon their founding, both kingdoms laid claim to the land, igniting relentless border skirmishes. Ravaged by endless years of war and conflict, the residents eventually shed the feverish zeal of their faith, driven solely by the desperate need to survive.",
-      "zh-hans": "很久以前，「苍白之地」曾不过是地图上的一角。然而在两大王国相继建立后，皆声称这片土地归其所有，边境的摩擦与冲突便从未停歇。饱受经年累月战火摧残的居民，最终抛弃了对信仰的狂热，仅求在这乱世中苟活。",
-      "zh-hant": "很久以前，「蒼白之地」曾不過是地圖上的一角。然而在兩大王國相繼建立後，皆聲稱這片土地歸其所有，邊境的摩擦與衝突便從未停歇。飽受經年累月戰火摧殘的居民，最終拋棄了對信仰的狂熱，僅求在這亂世中苟活。"
+      "sc": "很久以前，「苍白之地」曾不过是地图上的一角。然而在两大王国相继建立后，皆声称这片土地归其所有，边境的摩擦与冲突便从未停歇。饱受经年累月战火摧残的居民，最终抛弃了对信仰的狂热，仅求在这乱世中苟活。",
+      "tc": "很久以前，「蒼白之地」曾不過是地圖上的一角。然而在兩大王國相繼建立後，皆聲稱這片土地歸其所有，邊境的摩擦與衝突便從未停歇。飽受經年累月戰火摧殘的居民，最終拋棄了對信仰的狂熱，僅求在這亂世中苟活。"
     }
   },
   {
@@ -1218,18 +1218,18 @@
     ],
     "name": {
       "en": "Statuette",
-      "zh-hans": "小雕像",
-      "zh-hant": "小雕像"
+      "sc": "小雕像",
+      "tc": "小雕像"
     },
     "description": {
       "en": "Deal 3 additional damage to debuffed targets.",
-      "zh-hans": "对带有减益的目标额外造成 3 点伤害。",
-      "zh-hant": "對帶有減益的目標額外造成 3 點傷害。"
+      "sc": "对带有减益的目标额外造成 3 点伤害。",
+      "tc": "對帶有減益的目標額外造成 3 點傷害。"
     },
     "lore": {
       "en": "Statues are among the most enduring manifestations of faith. Through relentless hammering and chiseling, mortals bestow tangible form upon intangible gods, or mirror the shape of living creatures.",
-      "zh-hans": "雕像是信仰最常见的具象形式之一。在无数次的捶打与雕琢之中，凡人为无形的神灵赋予了真实的形体，抑或是仿造着世间真实存在的生灵。",
-      "zh-hant": "雕像是信仰最常見的具象形式之一。在無數次的捶打與雕琢之中，凡人為無形的神靈賦予了真實的形體，抑或是仿造著世間真實存在的生靈。"
+      "sc": "雕像是信仰最常见的具象形式之一。在无数次的捶打与雕琢之中，凡人为无形的神灵赋予了真实的形体，抑或是仿造着世间真实存在的生灵。",
+      "tc": "雕像是信仰最常見的具象形式之一。在無數次的捶打與雕琢之中，凡人為無形的神靈賦予了真實的形體，抑或是仿造著世間真實存在的生靈。"
     }
   },
   {
@@ -1271,18 +1271,18 @@
     ],
     "name": {
       "en": "Soul of the Pure",
-      "zh-hans": "纯洁之魂",
-      "zh-hant": "純潔之魂"
+      "sc": "纯洁之魂",
+      "tc": "純潔之魂"
     },
     "description": {
       "en": "Commune with a God of your choice.",
-      "zh-hans": "向你选择的神祇祈求。",
-      "zh-hant": "向你選擇的神祇祈求。"
+      "sc": "向你选择的神祇祈求。",
+      "tc": "向你選擇的神祇祈求。"
     },
     "lore": {
       "en": "The lost find shelter in faith; the pure find traps in religion.",
-      "zh-hans": "迷途者在信仰中寻得庇护；纯洁者在宗教中发现陷阱。",
-      "zh-hant": "迷途者在信仰中尋得庇護；純潔者在宗教中發現陷阱。"
+      "sc": "迷途者在信仰中寻得庇护；纯洁者在宗教中发现陷阱。",
+      "tc": "迷途者在信仰中尋得庇護；純潔者在宗教中發現陷阱。"
     }
   },
   {
@@ -1316,18 +1316,18 @@
     ],
     "name": {
       "en": "Soul of Angel",
-      "zh-hans": "天使之魂",
-      "zh-hant": "天使之魂"
+      "sc": "天使之魂",
+      "tc": "天使之魂"
     },
     "description": {
       "en": "Commune with the Rosrican Pantheon. Grants random cards from the combined pools of Intereon, Evinor, and Florentis.",
-      "zh-hans": "向罗斯里坎神系祈求。从英提力恩、伊维诺与弗洛伦蒂斯的共同卡池中获得随机卡牌。",
-      "zh-hant": "向羅斯里坎神系祈求。從英提力恩、伊維諾與弗洛倫蒂斯的共同卡池中獲得隨機卡牌。"
+      "sc": "向罗斯里坎神系祈求。从英提力恩、伊维诺与弗洛伦蒂斯的共同卡池中获得随机卡牌。",
+      "tc": "向羅斯里坎神系祈求。從英提力恩、伊維諾與弗洛倫蒂斯的共同卡池中獲得隨機卡牌。"
     },
     "lore": {
       "en": "Walls that cannot break; warmth that should comfort. You are safe here, yet you have never felt more like an outsider.",
-      "zh-hans": "无法击破的高墙；本应抚慰人心的温暖。你在这里很安全，却从未如此感到格格不入。",
-      "zh-hant": "無法擊破的高牆；本應撫慰人心的溫暖。你在這裡很安全，卻從未如此感到格格不入。"
+      "sc": "无法击破的高墙；本应抚慰人心的温暖。你在这里很安全，却从未如此感到格格不入。",
+      "tc": "無法擊破的高牆；本應撫慰人心的溫暖。你在這裡很安全，卻從未如此感到格格不入。"
     }
   },
   {
@@ -1361,18 +1361,18 @@
     ],
     "name": {
       "en": "Soul of Demon",
-      "zh-hans": "恶魔之魂",
-      "zh-hant": "惡魔之魂"
+      "sc": "恶魔之魂",
+      "tc": "惡魔之魂"
     },
     "description": {
       "en": "Commune with the Belgardian Pantheon. Grants random cards from the combined pools of Oculyth, Hedalis, and Vortherect.",
-      "zh-hans": "向贝尔加德神系祈求。从奥库莉丝、赫达利斯与沃索勒克特的共同卡池中获得随机卡牌。",
-      "zh-hant": "向貝爾加德神系祈求。從奧庫莉絲、赫達利斯與沃索勒克特的共同卡池中獲得隨機卡牌。"
+      "sc": "向贝尔加德神系祈求。从奥库莉丝、赫达利斯与沃索勒克特的共同卡池中获得随机卡牌。",
+      "tc": "向貝爾加德神系祈求。從奧庫莉絲、赫達利斯與沃索勒克特的共同卡池中獲得隨機卡牌。"
     },
     "lore": {
       "en": "The desert does not apologize for the heat, and a man born of hardship does not apologize for the blood on his hands.",
-      "zh-hans": "沙漠不会为酷热道歉，生于苦难的人也不会为手上的鲜血道歉。",
-      "zh-hant": "沙漠不會為酷熱道歉，生於苦難的人也不會為手上的鮮血道歉。"
+      "sc": "沙漠不会为酷热道歉，生于苦难的人也不会为手上的鲜血道歉。",
+      "tc": "沙漠不會為酷熱道歉，生於苦難的人也不會為手上的鮮血道歉。"
     }
   },
   {
@@ -1398,18 +1398,18 @@
     ],
     "name": {
       "en": "Soul of Radiance",
-      "zh-hans": "光辉之魂",
-      "zh-hant": "光輝之魂"
+      "sc": "光辉之魂",
+      "tc": "光輝之魂"
     },
     "description": {
       "en": "Commune with Intereon. Focus: High damage, healing, and heavy <span class=\"kw\" title=\"The yellow meter at the top of the screen. Its value is shifted by various God cards.\">Angel Meter</span> modification.",
-      "zh-hans": "向英提力恩祈求，从其卡池中获得随机卡牌。特色：高伤害、治疗与大幅度的<span class=\"kw\" title=\"画面上方的黄色量表，其数值会被各种神祇牌改变。\">天使量表</span>变动。",
-      "zh-hant": "向英提力恩祈求，從其卡池中獲得隨機卡牌。特色：高傷害、治療與大幅度的<span class=\"kw\" title=\"畫面上方的黃色量表，其數值會被各種神祇牌改變。\">天使量表</span>變動。"
+      "sc": "向英提力恩祈求，从其卡池中获得随机卡牌。特色：高伤害、治疗与大幅度的<span class=\"kw\" title=\"画面上方的黄色量表，其数值会被各种神祇牌改变。\">天使量表</span>变动。",
+      "tc": "向英提力恩祈求，從其卡池中獲得隨機卡牌。特色：高傷害、治療與大幅度的<span class=\"kw\" title=\"畫面上方的黃色量表，其數值會被各種神祇牌改變。\">天使量表</span>變動。"
     },
     "lore": {
       "en": "Without laws, we are just beasts; with them, we are just livestock.",
-      "zh-hans": "没有律法，我们只是野兽；有了律法，我们只是牲畜。",
-      "zh-hant": "沒有律法，我們只是野獸；有了律法，我們只是牲畜。"
+      "sc": "没有律法，我们只是野兽；有了律法，我们只是牲畜。",
+      "tc": "沒有律法，我們只是野獸；有了律法，我們只是牲畜。"
     }
   },
   {
@@ -1435,18 +1435,18 @@
     ],
     "name": {
       "en": "Soul of Blossom",
-      "zh-hans": "绽放之魂",
-      "zh-hant": "綻放之魂"
+      "sc": "绽放之魂",
+      "tc": "綻放之魂"
     },
     "description": {
       "en": "Commune with Florentis. Focus: Damaging debuffs and consecutive healing.",
-      "zh-hans": "向弗罗伦蒂斯祈求，从其卡池中获得随机卡牌。特色：伤害型减益与连续治疗。",
-      "zh-hant": "向弗羅倫蒂斯祈求，從其卡池中獲得隨機卡牌。特色：傷害型減益與連續治療。"
+      "sc": "向弗罗伦蒂斯祈求，从其卡池中获得随机卡牌。特色：伤害型减益与连续治疗。",
+      "tc": "向弗羅倫蒂斯祈求，從其卡池中獲得隨機卡牌。特色：傷害型減益與連續治療。"
     },
     "lore": {
       "en": "Spring is the first season for a reason: life must return simply so it can perish again.",
-      "zh-hans": "春天之所以是第一个季节自有其道理：生命必须归来，只为了能再次凋零。",
-      "zh-hant": "春天之所以是第一個季節自有其道理：生命必須歸來，只為了能再次凋零。"
+      "sc": "春天之所以是第一个季节自有其道理：生命必须归来，只为了能再次凋零。",
+      "tc": "春天之所以是第一個季節自有其道理：生命必須歸來，只為了能再次凋零。"
     }
   },
   {
@@ -1476,18 +1476,18 @@
     ],
     "name": {
       "en": "Soul of Significance",
-      "zh-hans": "显赫之魂",
-      "zh-hant": "顯赫之魂"
+      "sc": "显赫之魂",
+      "tc": "顯赫之魂"
     },
     "description": {
       "en": "Commune with Evinor. Focus: Card draw, resource spending, and supportive buffs.",
-      "zh-hans": "向伊维诺祈求，从其卡池中获得随机卡牌。特色：抽牌、资源消耗与辅助增益。",
-      "zh-hant": "向伊維諾祈求，從其卡池中獲得隨機卡牌。特色：抽牌、資源消耗與輔助增益。"
+      "sc": "向伊维诺祈求，从其卡池中获得随机卡牌。特色：抽牌、资源消耗与辅助增益。",
+      "tc": "向伊維諾祈求，從其卡池中獲得隨機卡牌。特色：抽牌、資源消耗與輔助增益。"
     },
     "lore": {
       "en": "In the shadow of the mountain and the silence of the abyss, humanity finds its natural state. Not awe, but fear.",
-      "zh-hans": "在高山的阴影与深渊的寂静中，人类寻回了自己的本性。不是敬畏，而是恐惧。",
-      "zh-hant": "在高山的陰影與深淵的寂靜中，人類尋回了自己的本性。不是敬畏，而是恐懼。"
+      "sc": "在高山的阴影与深渊的寂静中，人类寻回了自己的本性。不是敬畏，而是恐惧。",
+      "tc": "在高山的陰影與深淵的寂靜中，人類尋回了自己的本性。不是敬畏，而是恐懼。"
     }
   },
   {
@@ -1517,18 +1517,18 @@
     ],
     "name": {
       "en": "Soul of Illusion",
-      "zh-hans": "幻象之魂",
-      "zh-hant": "幻象之魂"
+      "sc": "幻象之魂",
+      "tc": "幻象之魂"
     },
     "description": {
       "en": "Commune with Oculyth. Focus: <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span>, card draw, <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span> gain, and supportive debuffs.",
-      "zh-hans": "向奥库莉丝祈求，从其卡池中获得随机卡牌。特色：<span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span>、抽牌、<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>获取与辅助减益。",
-      "zh-hant": "向奧庫莉絲祈求，從其卡池中獲得隨機卡牌。特色：<span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span>、抽牌、<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>獲取與輔助減益。"
+      "sc": "向奥库莉丝祈求，从其卡池中获得随机卡牌。特色：<span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span>、抽牌、<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>获取与辅助减益。",
+      "tc": "向奧庫莉絲祈求，從其卡池中獲得隨機卡牌。特色：<span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span>、抽牌、<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>獲取與輔助減益。"
     },
     "lore": {
       "en": "The mind forgets its dreams for a reason. Waking up isn't a fresh start; it is a desperate flight from the truth.",
-      "zh-hans": "心智遗忘梦境自有其理由。苏醒并非崭新的开始，而是对真相的仓皇逃离。",
-      "zh-hant": "心智遺忘夢境自有其理由。甦醒並非嶄新的開始，而是對真相的倉皇逃離。"
+      "sc": "心智遗忘梦境自有其理由。苏醒并非崭新的开始，而是对真相的仓皇逃离。",
+      "tc": "心智遺忘夢境自有其理由。甦醒並非嶄新的開始，而是對真相的倉皇逃離。"
     }
   },
   {
@@ -1558,18 +1558,18 @@
     ],
     "name": {
       "en": "Soul of Freedom",
-      "zh-hans": "自由之魂",
-      "zh-hant": "自由之魂"
+      "sc": "自由之魂",
+      "tc": "自由之魂"
     },
     "description": {
       "en": "Commune with Hedalis. Focus: Multi-hit attacks, <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span> utility, and damage buffs.",
-      "zh-hans": "向赫达利斯祈求，从其卡池中获得随机卡牌。特色：多段攻击、<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>运用与伤害增益。",
-      "zh-hant": "向赫達利斯祈求，從其卡池中獲得隨機卡牌。特色：多段攻擊、<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>運用與傷害增益。"
+      "sc": "向赫达利斯祈求，从其卡池中获得随机卡牌。特色：多段攻击、<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>运用与伤害增益。",
+      "tc": "向赫達利斯祈求，從其卡池中獲得隨機卡牌。特色：多段攻擊、<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>運用與傷害增益。"
     },
     "lore": {
       "en": "Freedom is merely an excuse to overwhelm others with your strength. It is desire given teeth, and power stripped of its leash.",
-      "zh-hans": "自由不过是以力量压倒他人的借口。它是长出利齿的欲望，是挣脱缰绳的力量。",
-      "zh-hant": "自由不過是以力量壓倒他人的藉口。它是長出利齒的慾望，是掙脫韁繩的力量。"
+      "sc": "自由不过是以力量压倒他人的借口。它是长出利齿的欲望，是挣脱缰绳的力量。",
+      "tc": "自由不過是以力量壓倒他人的藉口。它是長出利齒的慾望，是掙脫韁繩的力量。"
     }
   },
   {
@@ -1595,18 +1595,18 @@
     ],
     "name": {
       "en": "Soul of Chaos",
-      "zh-hans": "混沌之魂",
-      "zh-hant": "混沌之魂"
+      "sc": "混沌之魂",
+      "tc": "混沌之魂"
     },
     "description": {
       "en": "Commune with Vortherect. Focus: Self-damage, low-life bonuses, and <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> application.",
-      "zh-hans": "向沃索勒克特祈求，从其卡池中获得随机卡牌。特色：自伤、低血量加成与<span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>施加。",
-      "zh-hant": "向沃索勒克特祈求，從其卡池中獲得隨機卡牌。特色：自傷、低血量加成與<span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>施加。"
+      "sc": "向沃索勒克特祈求，从其卡池中获得随机卡牌。特色：自伤、低血量加成与<span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>施加。",
+      "tc": "向沃索勒克特祈求，從其卡池中獲得隨機卡牌。特色：自傷、低血量加成與<span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>施加。"
     },
     "lore": {
       "en": "Choice is an illusion; the world decides for us. In this life, the only thing guaranteed is uncertainty.",
-      "zh-hans": "选择只是幻觉，世界早已替我们做了决定。此生唯一能确定的，只有不确定本身。",
-      "zh-hant": "選擇只是幻覺，世界早已替我們做了決定。此生唯一能確定的，只有不確定本身。"
+      "sc": "选择只是幻觉，世界早已替我们做了决定。此生唯一能确定的，只有不确定本身。",
+      "tc": "選擇只是幻覺，世界早已替我們做了決定。此生唯一能確定的，只有不確定本身。"
     }
   },
   {
@@ -1630,18 +1630,18 @@
     ],
     "name": {
       "en": "Twitching Sinew",
-      "zh-hans": "抽搐筋腱",
-      "zh-hant": "抽搐筋腱"
+      "sc": "抽搐筋腱",
+      "tc": "抽搐筋腱"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "A thick sinew that still twitches. Evinor presides over strength and amplification, and his blessing brings unimaginable changes to a follower's body. Most of the blessed find their bodily functions drastically affected afterward: tissue necrosis, disrupted blood flow, and similar afflictions.",
-      "zh-hans": "仍在跳动的粗壮肌腱。伊维诺掌管着力量和倍化的权责，其赐福会使信徒们的肉体发生难以想像的变化。绝大多数赐福者的身体机能在受到赐福后会被剧烈影响，导致部位坏死或是血液流通失常等问题。",
-      "zh-hant": "仍在跳動的粗壯肌腱。伊維諾掌管著力量和倍化的權責，其賜福會使信徒們的肉體發生難以想像的變化。絕大多數賜福者的身體機能在受到賜福後會被劇烈影響，導致部位壞死或是血液流通失常等問題。"
+      "sc": "仍在跳动的粗壮肌腱。伊维诺掌管着力量和倍化的权责，其赐福会使信徒们的肉体发生难以想像的变化。绝大多数赐福者的身体机能在受到赐福后会被剧烈影响，导致部位坏死或是血液流通失常等问题。",
+      "tc": "仍在跳動的粗壯肌腱。伊維諾掌管著力量和倍化的權責，其賜福會使信徒們的肉體發生難以想像的變化。絕大多數賜福者的身體機能在受到賜福後會被劇烈影響，導致部位壞死或是血液流通失常等問題。"
     }
   },
   {
@@ -1665,18 +1665,18 @@
     ],
     "name": {
       "en": "Corrupted Blood",
-      "zh-hans": "腐败之血",
-      "zh-hant": "腐敗之血"
+      "sc": "腐败之血",
+      "tc": "腐敗之血"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "Blackened blood, badly corrupted. Though those blessed by Evinor gain strength beyond ordinary reach, wielding it carries an irreversible price. Some followers even hope to be blessed in a way that lets them tear themselves apart and die while unleashing their full power.",
-      "zh-hans": "受到严重污染的黑色血液。伊维诺赐福者们虽然获得了常人无法企及的力量，使用该力量却也伴随着不可逆的代价。一部分信徒甚至盼望着能受到神灵赐福，以在施展全力时将自身撕裂而死。",
-      "zh-hant": "受到嚴重汙染的黑色血液。伊維諾賜福者們雖然獲得了常人無法企及的力量，使用該力量卻也伴隨著不可逆的代價。一部分信徒甚至盼望著能受到神靈賜福，以在施展全力時將自身撕裂而死。"
+      "sc": "受到严重污染的黑色血液。伊维诺赐福者们虽然获得了常人无法企及的力量，使用该力量却也伴随着不可逆的代价。一部分信徒甚至盼望着能受到神灵赐福，以在施展全力时将自身撕裂而死。",
+      "tc": "受到嚴重汙染的黑色血液。伊維諾賜福者們雖然獲得了常人無法企及的力量，使用該力量卻也伴隨著不可逆的代價。一部分信徒甚至盼望著能受到神靈賜福，以在施展全力時將自身撕裂而死。"
     }
   },
   {
@@ -1700,18 +1700,18 @@
     ],
     "name": {
       "en": "Cracked Chains",
-      "zh-hans": "龟裂锁链",
-      "zh-hant": "龜裂鎖鏈"
+      "sc": "龟裂锁链",
+      "tc": "龜裂鎖鏈"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "A broken iron chain, covered in scratches. The hound master holds a special position within a bandit gang. Their chain is used not only to restrain hounds, but also to discipline members who grow too unruly. Such a member is bound to a tree with it and subjected to an unimaginable beating.",
-      "zh-hans": "断裂的铁链，上面布满了划痕。驯犬师在盗贼团伙中是个身分特殊的职位。其手中的铁链不只用于管束猎犬，同时也适用于管束过于不受控的个别成员。成员会被铁链缠于树木之上，并遭受难以想像的毒打。",
-      "zh-hant": "斷裂的鐵鍊，上面佈滿了劃痕。馴犬師在盜賊團夥中是個身分特殊的職位。其手中的鐵鍊不只用於管束獵犬，同時也適用於管束過於不受控的個別成員。成員會被鐵鍊纏於樹木之上，並遭受難以想像的毒打。"
+      "sc": "断裂的铁链，上面布满了划痕。驯犬师在盗贼团伙中是个身分特殊的职位。其手中的铁链不只用于管束猎犬，同时也适用于管束过于不受控的个别成员。成员会被铁链缠于树木之上，并遭受难以想像的毒打。",
+      "tc": "斷裂的鐵鍊，上面佈滿了劃痕。馴犬師在盜賊團夥中是個身分特殊的職位。其手中的鐵鍊不只用於管束獵犬，同時也適用於管束過於不受控的個別成員。成員會被鐵鍊纏於樹木之上，並遭受難以想像的毒打。"
     }
   },
   {
@@ -1735,18 +1735,18 @@
     ],
     "name": {
       "en": "Poisoned Arrowhead",
-      "zh-hans": "淬毒箭镞",
-      "zh-hant": "淬毒箭鏃"
+      "sc": "淬毒箭镞",
+      "tc": "淬毒箭鏃"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "An arrowhead coated in poison. So they can still fight even without their hounds, hound masters have taken up the habit of coating their arrows with a highly toxic tree sap. This tree grows throughout the Pale Lands, killing many humans and animals every year, and is regarded by villagers everywhere as a curse of Florentis.",
-      "zh-hans": "涂满了毒药的箭头。驯犬师们为了使自身在脱离猎犬时也有一战之力，于是养成了在箭上涂抹带有剧毒的树液的习惯。这种树遍布苍白之地的各处，每年都会毒死许多人类和动物，被各地村民认为是弗洛伦蒂斯的诅咒。",
-      "zh-hant": "塗滿了毒藥的箭頭。馴犬師們為了使自身在脫離獵犬時也有一戰之力，於是養成了在箭上塗抹帶有劇毒的樹液的習慣。這種樹遍布蒼白之地的各處，每年都會毒死許多人類和動物，被各地村民認為是弗洛倫蒂斯的詛咒。"
+      "sc": "涂满了毒药的箭头。驯犬师们为了使自身在脱离猎犬时也有一战之力，于是养成了在箭上涂抹带有剧毒的树液的习惯。这种树遍布苍白之地的各处，每年都会毒死许多人类和动物，被各地村民认为是弗洛伦蒂斯的诅咒。",
+      "tc": "塗滿了毒藥的箭頭。馴犬師們為了使自身在脫離獵犬時也有一戰之力，於是養成了在箭上塗抹帶有劇毒的樹液的習慣。這種樹遍布蒼白之地的各處，每年都會毒死許多人類和動物，被各地村民認為是弗洛倫蒂斯的詛咒。"
     }
   },
   {
@@ -1770,18 +1770,18 @@
     ],
     "name": {
       "en": "Round Mirror",
-      "zh-hans": "破损圆镜",
-      "zh-hant": "破損圓鏡"
+      "sc": "破损圆镜",
+      "tc": "破損圓鏡"
     },
     "description": {
       "en": "For every 3 cards played each turn, draw 1 card.",
-      "zh-hans": "每回合每打出 3 张牌，抽 1 张牌。",
-      "zh-hant": "每回合每打出 3 張牌，抽 1 張牌。"
+      "sc": "每回合每打出 3 张牌，抽 1 张牌。",
+      "tc": "每回合每打出 3 張牌，抽 1 張牌。"
     },
     "lore": {
       "en": "",
-      "zh-hans": "",
-      "zh-hant": ""
+      "sc": "",
+      "tc": ""
     }
   },
   {
@@ -1805,18 +1805,18 @@
     ],
     "name": {
       "en": "Corrupted Bone Club",
-      "zh-hans": "腐败骨棒",
-      "zh-hant": "腐敗骨棒"
+      "sc": "腐败骨棒",
+      "tc": "腐敗骨棒"
     },
     "description": {
       "en": "You always have 5 <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span>, and your attacks inflict 3% <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> when hit.",
-      "zh-hans": "你永久拥有 5 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span>，且你的攻击命中时施加 3% <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
-      "zh-hant": "你永久擁有 5 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span>，且你的攻擊命中時施加 3% <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+      "sc": "你永久拥有 5 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span>，且你的攻击命中时施加 3% <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
+      "tc": "你永久擁有 5 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span>，且你的攻擊命中時施加 3% <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
     },
     "lore": {
       "en": "&quot;Have you heard? The family near the village gates bred a Cursed One. Word is they dabbled in worshiping some heretical deity... By the time the village elders arrived, the creature had gnawed its own parents beyond recognition, with splinters of bone still dangling from its bloody maw.&quot;",
-      "zh-hans": "你听说了吗？村口那户人家似乎出了一名受诅者。据说是暗中崇拜了某位邪神的缘故……等村长他们赶到的时候，它早已将自己的父母啃咬得面目全非，嘴角还挂着未嚼碎的骨渣呢。",
-      "zh-hant": "你聽說了嗎？村口那戶人家似乎出了一名受詛者。據說是暗中崇拜了某位邪神的緣故……等村長他們趕到的時候，它早已將自己的父母啃咬得面目全非，嘴角還掛著未嚼碎的骨渣呢。"
+      "sc": "你听说了吗？村口那户人家似乎出了一名受诅者。据说是暗中崇拜了某位邪神的缘故……等村长他们赶到的时候，它早已将自己的父母啃咬得面目全非，嘴角还挂着未嚼碎的骨渣呢。",
+      "tc": "你聽說了嗎？村口那戶人家似乎出了一名受詛者。據說是暗中崇拜了某位邪神的緣故……等村長他們趕到的時候，它早已將自己的父母啃咬得面目全非，嘴角還掛著未嚼碎的骨渣呢。"
     }
   },
   {
@@ -1840,18 +1840,18 @@
     ],
     "name": {
       "en": "Flickering Candelabrum",
-      "zh-hans": "摇曳烛台",
-      "zh-hant": "搖曳燭台"
+      "sc": "摇曳烛台",
+      "tc": "搖曳燭台"
     },
     "description": {
       "en": "Apply 12 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to all enemies at the start of combat.",
-      "zh-hans": "战斗开始时，对所有敌人施加 12 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。",
-      "zh-hant": "戰鬥開始時，對所有敵人施加 12 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。"
+      "sc": "战斗开始时，对所有敌人施加 12 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。",
+      "tc": "戰鬥開始時，對所有敵人施加 12 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。"
     },
     "lore": {
       "en": "As eras passed, a sect of Florentis's followers grew dissatisfied with gentle sparks. They turned to worshiping roaring, devouring infernos, setting ablaze all in their path, claiming that within the flickering death-fire, they caught glimpses of life's primal origin.",
-      "zh-hans": "随着岁月流逝，一部分弗洛伦蒂斯的信徒不再满足于微小的火苗。他们转而崇拜熊熊燃烧、吞天噬地的烈焰，甚至纵火焚毁一切——据说，他们能在那摇曳的狂火之中，窥见生命的最初源头。",
-      "zh-hant": "隨著歲月流逝，一部分弗洛倫蒂斯的信徒不再滿足於微小的火苗。他們轉而崇拜熊熊燃燒、吞天噬地的烈焰，甚至縱火焚毀一切——據說，他們能在那搖曳的狂火之中，窺見生命的最初源頭。"
+      "sc": "随着岁月流逝，一部分弗洛伦蒂斯的信徒不再满足于微小的火苗。他们转而崇拜熊熊燃烧、吞天噬地的烈焰，甚至纵火焚毁一切——据说，他们能在那摇曳的狂火之中，窥见生命的最初源头。",
+      "tc": "隨著歲月流逝，一部分弗洛倫蒂斯的信徒不再滿足於微小的火苗。他們轉而崇拜熊熊燃燒、吞天噬地的烈焰，甚至縱火焚毀一切——據說，他們能在那搖曳的狂火之中，窺見生命的最初源頭。"
     }
   },
   {
@@ -1875,18 +1875,18 @@
     ],
     "name": {
       "en": "Leather Gloves",
-      "zh-hans": "皮手套",
-      "zh-hant": "皮手套"
+      "sc": "皮手套",
+      "tc": "皮手套"
     },
     "description": {
       "en": "For every 3 instances of damage dealt in the same turn, deal 5 additional damage.",
-      "zh-hans": "同一回合内每造成 3 次伤害，即额外造成 5 点伤害。",
-      "zh-hant": "同一回合內每造成 3 次傷害，即額外造成 5 點傷害。"
+      "sc": "同一回合内每造成 3 次伤害，即额外造成 5 点伤害。",
+      "tc": "同一回合內每造成 3 次傷害，即額外造成 5 點傷害。"
     },
     "lore": {
       "en": "Among the devotees of Hedalis, the hand is revered as one of the most sacred parts of the body. Its matchless dexterity and versatility embody the boundless free will of Hedalis. Thus, the faithful rarely expose their hands, keeping them gloved at nearly all times, removing them only on the most paramount occasions as an act of profound reverence.",
-      "zh-hans": "在赫达利斯的信徒眼中，手被视为身上最重要的部位之一。其无与伦比的灵巧与万变，体现了赫达利斯所代表的自由意志。正因如此，信徒们大多常年配戴手套，唯有在至关重要的场合才会将其脱下，以示最崇高的敬意。",
-      "zh-hant": "在赫達利斯的信徒眼中，手被視為身上最重要的部位之一。其無與倫比的靈巧與萬變，體現了赫達利斯所代表的自由意志。正因如此，信徒們大多常年配戴手套，唯有在至關重要的場合才會將其脫下，以示最崇高的敬意。"
+      "sc": "在赫达利斯的信徒眼中，手被视为身上最重要的部位之一。其无与伦比的灵巧与万变，体现了赫达利斯所代表的自由意志。正因如此，信徒们大多常年配戴手套，唯有在至关重要的场合才会将其脱下，以示最崇高的敬意。",
+      "tc": "在赫達利斯的信徒眼中，手被視為身上最重要的部位之一。其無與倫比的靈巧與萬變，體現了赫達利斯所代表的自由意志。正因如此，信徒們大多常年配戴手套，唯有在至關重要的場合才會將其脫下，以示最崇高的敬意。"
     }
   },
   {
@@ -1906,18 +1906,18 @@
     ],
     "name": {
       "en": "Rosricon Badge",
-      "zh-hans": "罗斯里坎徽章",
-      "zh-hant": "羅斯里坎徽章"
+      "sc": "罗斯里坎徽章",
+      "tc": "羅斯里坎徽章"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "A gleaming Rosricon badge, awarded to Pluton as a token of his standing as the kingdom's representative in this campaign. Pluton was born into poverty, but his shrewd business mind quickly earned him a fortune. He went on to donate vast sums to the church, becoming a renowned priest of Evinor.",
-      "zh-hans": "闪耀的罗斯里坎徽章，作为代表王国出征的象征颁发予普鲁顿。普鲁顿出生于一个贫困的家庭，但由于其出色的经商头脑很快的累积了财富，其随后向教会捐赠了大量金钱，成为了声名显赫的伊维诺祭司。",
-      "zh-hant": "閃耀的羅斯里坎徽章，作為代表王國出征的象徵頒發予普魯頓。普魯頓出生於一個貧困的家庭，但由於其出色的經商頭腦很快的累積了財富，其隨後向教會捐贈了大量金錢，成為了聲名顯赫的伊維諾祭司。"
+      "sc": "闪耀的罗斯里坎徽章，作为代表王国出征的象征颁发予普鲁顿。普鲁顿出生于一个贫困的家庭，但由于其出色的经商头脑很快的累积了财富，其随后向教会捐赠了大量金钱，成为了声名显赫的伊维诺祭司。",
+      "tc": "閃耀的羅斯里坎徽章，作為代表王國出征的象徵頒發予普魯頓。普魯頓出生於一個貧困的家庭，但由於其出色的經商頭腦很快的累積了財富，其隨後向教會捐贈了大量金錢，成為了聲名顯赫的伊維諾祭司。"
     }
   },
   {
@@ -1937,18 +1937,18 @@
     ],
     "name": {
       "en": "Golden Necklace",
-      "zh-hans": "黄金项链",
-      "zh-hant": "黃金項鍊"
+      "sc": "黄金项链",
+      "tc": "黃金項鍊"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "A pure gold necklace Pluton never removes. Gold is a scarce metal in Razenia, most of it held by the wealthy Church of Evinor. This has occasionally caused rifts within the church, split over whether Evinor's &quot;vastness&quot; refers to physical strength or to wealth.",
-      "zh-hans": "普鲁顿不离身的纯金项链。黄金在拉泽尼亚上属于稀缺金属，绝大多数都被掌控在富裕的伊维诺教会手中。这也使得教会内部偶有分岐，两分针对伊维诺的「庞大」究竟意味着肉体力量还是财富而争论不下。",
-      "zh-hant": "普魯頓不離身的純金項鍊。黃金在拉澤尼亞上屬於稀缺金屬，絕大多數都被掌控在富裕的伊維諾教會手中。這也使得教會內部偶有分岐，兩分針對伊維諾的「龐大」究竟意味著肉體力量還是財富而爭論不下。"
+      "sc": "普鲁顿不离身的纯金项链。黄金在拉泽尼亚上属于稀缺金属，绝大多数都被掌控在富裕的伊维诺教会手中。这也使得教会内部偶有分岐，两分针对伊维诺的「庞大」究竟意味着肉体力量还是财富而争论不下。",
+      "tc": "普魯頓不離身的純金項鍊。黃金在拉澤尼亞上屬於稀缺金屬，絕大多數都被掌控在富裕的伊維諾教會手中。這也使得教會內部偶有分岐，兩分針對伊維諾的「龐大」究竟意味著肉體力量還是財富而爭論不下。"
     }
   },
   {
@@ -1968,18 +1968,18 @@
     ],
     "name": {
       "en": "Belgard Emblem",
-      "zh-hans": "贝尔嘉德纹章",
-      "zh-hant": "貝爾嘉德紋章"
+      "sc": "贝尔嘉德纹章",
+      "tc": "貝爾嘉德紋章"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "A Belgard emblem set with rare gemstones. Volva, a follower of both Hedalis and Oculyth, is regarded as a renowned figure who embodies both freedom and truth. Yet because she must satisfy the ritual demands of two gods at once, it was for money that she came to Windchime Village to take part in the war.",
-      "zh-hans": "镶满了珍稀宝石的贝尔嘉德纹章。薇尔瓦作为同时信奉赫达利斯和奥库莉丝的信徒，被认为是贯彻了自由和真实的著名人物。然而，也是因为其同时需要满足两位神祇的祭祀需求，因此为了钱才前来风铃村参予战事。",
-      "zh-hant": "鑲滿了珍稀寶石的貝爾嘉德紋章。薇爾瓦作為同時信奉赫達利斯和奧庫莉絲的信徒，被認為是貫徹了自由和真實的著名人物。然而，也是因為其同時需要滿足兩位神祇的祭祀需求，因此為了錢才前來風鈴村參予戰事。"
+      "sc": "镶满了珍稀宝石的贝尔嘉德纹章。薇尔瓦作为同时信奉赫达利斯和奥库莉丝的信徒，被认为是贯彻了自由和真实的著名人物。然而，也是因为其同时需要满足两位神祇的祭祀需求，因此为了钱才前来风铃村参予战事。",
+      "tc": "鑲滿了珍稀寶石的貝爾嘉德紋章。薇爾瓦作為同時信奉赫達利斯和奧庫莉絲的信徒，被認為是貫徹了自由和真實的著名人物。然而，也是因為其同時需要滿足兩位神祇的祭祀需求，因此為了錢才前來風鈴村參予戰事。"
     }
   },
   {
@@ -1999,18 +1999,18 @@
     ],
     "name": {
       "en": "Darkwater Bottle",
-      "zh-hans": "暗水瓶",
-      "zh-hant": "黯水瓶"
+      "sc": "暗水瓶",
+      "tc": "黯水瓶"
     },
     "description": {
       "en": "Can be used to upgrade or enhance equipment in the base camp.",
-      "zh-hans": "可在营地用于升级或强化装备。",
-      "zh-hant": "可在營地用於升級或強化裝備。"
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
       "en": "A glass bottle filled with murky liquid. It's said Volva was originally an ordinary follower of Oculyth, but after accidentally falling into water and miraculously surviving, she began to doubt whether Oculyth could truly foresee the future, and turned to Hedalis instead.",
-      "zh-hans": "装满了混浊液体的玻璃瓶。据说薇尔瓦原先只是个普通的奥库莉丝信徒，但在一次意外跌落水中、并奇迹生还的经历后，便开始对奥库莉丝是否真的能预见未来感到动摇，转而投向赫达利斯。",
-      "zh-hant": "裝滿了混濁液體的玻璃瓶。據說薇爾瓦原先只是個普通的奧庫莉絲信徒，但在一次意外跌落水中、並奇蹟生還的經歷後，便開始對奧庫莉絲是否真的能預見未來感到動搖，轉而投向赫達利斯。"
+      "sc": "装满了混浊液体的玻璃瓶。据说薇尔瓦原先只是个普通的奥库莉丝信徒，但在一次意外跌落水中、并奇迹生还的经历后，便开始对奥库莉丝是否真的能预见未来感到动摇，转而投向赫达利斯。",
+      "tc": "裝滿了混濁液體的玻璃瓶。據說薇爾瓦原先只是個普通的奧庫莉絲信徒，但在一次意外跌落水中、並奇蹟生還的經歷後，便開始對奧庫莉絲是否真的能預見未來感到動搖，轉而投向赫達利斯。"
     }
   }
 ]

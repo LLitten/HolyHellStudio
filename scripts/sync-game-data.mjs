@@ -24,7 +24,7 @@ const TABLES = join(RES, 'Tables');
 const OUT_DATA = resolve('src/data/game');
 const OUT_ART = resolve('src/assets/game');
 
-const LANGS = { en: 'En', 'zh-hans': 'Sc', 'zh-hant': 'Zh' };
+const LANGS = { en: 'En', 'sc': 'Sc', 'tc': 'Zh' };
 
 if (!existsSync(TABLES)) {
   console.error(`Can't find the game tables at ${TABLES}`);
@@ -81,10 +81,10 @@ const escape = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/
 const stripRichText = (s) => s.replace(/<\/?[a-z][^>]*>/gi, '');
 
 const ICON_LABELS = {
-  ameter: { en: 'Angel gauge', 'zh-hans': '天使量表', 'zh-hant': '天使量表' },
-  dmeter: { en: 'Demon gauge', 'zh-hans': '恶魔量表', 'zh-hant': '惡魔量表' },
-  hp: { en: 'HP', 'zh-hans': '生命', 'zh-hant': '生命' },
-  durability: { en: 'Durability', 'zh-hans': '耐久', 'zh-hant': '耐久' },
+  ameter: { en: 'Angel gauge', 'sc': '天使量表', 'tc': '天使量表' },
+  dmeter: { en: 'Demon gauge', 'sc': '恶魔量表', 'tc': '惡魔量表' },
+  hp: { en: 'HP', 'sc': '生命', 'tc': '生命' },
+  durability: { en: 'Durability', 'sc': '耐久', 'tc': '耐久' },
 };
 
 const icon = (lang, name) =>

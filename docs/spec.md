@@ -13,8 +13,8 @@ Status: approved and implemented. Kept as a record of the original decisions; RE
 | Code | Language | URL prefix |
 |---|---|---|
 | `en` | American English (source language) | `/` |
-| `zh-hans` | Simplified Chinese | `/zh-hans/` |
-| `zh-hant` | Traditional Chinese | `/zh-hant/` |
+| `sc` | Simplified Chinese | `/sc/` |
+| `tc` | Traditional Chinese | `/tc/` |
 
 - Language switcher in the header on every page, with three options. It links to the **same page** in the chosen language.
 - Remembers the visitor's choice. On the first visit, suggests a language based on the browser's language setting, without forcing a redirect.
@@ -22,7 +22,7 @@ Status: approved and implemented. Kept as a record of the original decisions; RE
 
 ### Translation workflow
 1. Author writes the English content in Markdown.
-2. Claude translates it into `zh-hans` and `zh-hant`, each directly from English, and marks it `translation: machine`.
+2. Claude translates it into `sc` and `tc`, each directly from English, and marks it `translation: machine`.
 3. Changes go up as a GitHub **pull request**. The Taiwanese proofreader reviews both Chinese versions in the GitHub web UI.
 4. On approval, the status changes to `translation: reviewed`, the PR is merged, and the site deploys automatically.
 5. Game data pages (cards, items, enemies) use the game's own localization, so they don't go through this workflow.
@@ -99,7 +99,7 @@ Art, Programming, Design, Team, Audio, Narrative, Announcement, Playtest, Events
 
 ## 6. Tech
 - **Astro** static site, with its built-in i18n routing. Kept plain: Astro + HTML + CSS only, with no React, Tailwind, or UI frameworks.
-- Content stored as Markdown, one folder per entry holding `en.md`, `zh-hans.md`, `zh-hant.md` and its images. Game data is synced to JSON by `npm run sync-data`.
+- Content stored as Markdown, one folder per entry holding `en.md`, `sc.md`, `tc.md` and its images. Game data is synced to JSON by `npm run sync-data`.
 - UI strings (menus, buttons) in one translation file.
 - Images optimized automatically (resized, converted to WebP/AVIF). GIFs converted to looping MP4/WebM. Long videos hosted on YouTube.
 - **Hosting:** GitHub Pages from `LLitten/HolyHellStudio`. The repo is made public, and a GitHub Actions deploy runs on push to `main`.

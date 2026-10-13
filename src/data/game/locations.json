@@ -3,47 +3,47 @@
     "group": "1",
     "name": {
       "en": "Windchime Village",
-      "zh-hans": "风铃村",
-      "zh-hant": "風鈴村"
+      "sc": "风铃村",
+      "tc": "風鈴村"
     },
     "dungeons": [
       {
         "id": "WindChime_Tutorial1",
         "name": {
           "en": "Windchime Village Trails",
-          "zh-hans": "风铃村小径",
-          "zh-hant": "風鈴村小徑"
+          "sc": "风铃村小径",
+          "tc": "風鈴村小徑"
         },
         "description": {
           "en": "A dirt path leading all the way up to a stranded, crumbled village.",
-          "zh-hans": "泥土路的尽头是一座衰败、而又破碎的村庄。",
-          "zh-hant": "泥土路的盡頭是一座衰敗、而又破碎的村莊。"
+          "sc": "泥土路的尽头是一座衰败、而又破碎的村庄。",
+          "tc": "泥土路的盡頭是一座衰敗、而又破碎的村莊。"
         }
       },
       {
         "id": "WindChime_1",
         "name": {
           "en": "Windchime Village (Difficulty 1)",
-          "zh-hans": "风铃村（难度1）",
-          "zh-hant": "風鈴村（難度1）"
+          "sc": "风铃村（难度1）",
+          "tc": "風鈴村（難度1）"
         },
         "description": {
           "en": "Wind chimes rattle in the wind across the ruined streets, witnessing this slaughter in the name of the Divine.",
-          "zh-hans": "狼藉的街道上风铃随风作响，见证着这场以神之名的屠杀。",
-          "zh-hant": "狼藉的街道上風鈴隨風作響，見證著這場以神之名的屠殺。"
+          "sc": "狼藉的街道上风铃随风作响，见证着这场以神之名的屠杀。",
+          "tc": "狼藉的街道上風鈴隨風作響，見證著這場以神之名的屠殺。"
         }
       },
       {
         "id": "WindChime_2",
         "name": {
           "en": "Windchime Village (Difficulty 2)",
-          "zh-hans": "风铃村（难度2）",
-          "zh-hant": "風鈴村（難度2）"
+          "sc": "风铃村（难度2）",
+          "tc": "風鈴村（難度2）"
         },
         "description": {
           "en": "The instigators praise the name of the Divine, acting without restraint in broad daylight.",
-          "zh-hans": "始作俑者正在歌颂着神祇的名讳，在光天化日下肆意妄为。",
-          "zh-hant": "始作俑者正在歌頌著神祇的名諱，在光天化日下肆意妄為。"
+          "sc": "始作俑者正在歌颂着神祇的名讳，在光天化日下肆意妄为。",
+          "tc": "始作俑者正在歌頌著神祇的名諱，在光天化日下肆意妄為。"
         }
       }
     ]

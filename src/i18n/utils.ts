@@ -22,7 +22,7 @@ export function useTranslations(lang: Lang) {
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// Builds a link to a page in the given language: localePath('zh-hant', 'lore/cards') -> /HolyHellStudio/zh-hant/lore/cards/
+// Builds a link to a page in the given language: localePath('tc', 'lore/cards') -> /HolyHellStudio/tc/lore/cards/
 export function localePath(lang: Lang, path = '') {
   const clean = path.replace(/^\/|\/$/g, '');
   const parts = [base, lang === defaultLang ? '' : lang, clean].filter(Boolean);
@@ -43,7 +43,7 @@ export function assetPath(path: string) {
 }
 
 export function formatDate(date: Date, lang: Lang) {
-  return new Intl.DateTimeFormat(lang === 'en' ? 'en-US' : lang === 'zh-hans' ? 'zh-CN' : 'zh-TW', {
+  return new Intl.DateTimeFormat(lang === 'en' ? 'en-US' : lang === 'sc' ? 'zh-CN' : 'zh-TW', {
     year: 'numeric',
     month: 'long',
     day: 'numeric',

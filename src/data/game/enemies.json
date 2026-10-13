@@ -4,8 +4,8 @@
     "art": "hound.png",
     "name": {
       "en": "Hound",
-      "zh-hans": "猎犬",
-      "zh-hant": "獵犬"
+      "sc": "猎犬",
+      "tc": "獵犬"
     },
     "variants": [
       {
@@ -25,13 +25,13 @@
             "trigger": "turn",
             "name": {
               "en": "Violent Rend",
-              "zh-hans": "狂暴撕裂",
-              "zh-hant": "狂暴撕裂"
+              "sc": "狂暴撕裂",
+              "tc": "狂暴撕裂"
             },
             "detail": {
               "en": "Inflicts <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> upon you.",
-              "zh-hans": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
-              "zh-hant": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+              "sc": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
+              "tc": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
             }
           },
           {
@@ -39,13 +39,13 @@
             "trigger": "turn",
             "name": {
               "en": "Mindless Jaw",
-              "zh-hans": "盲目撕咬",
-              "zh-hant": "盲目撕咬"
+              "sc": "盲目撕咬",
+              "tc": "盲目撕咬"
             },
             "detail": {
               "en": "Deals heavy damage at the cost of its own HP.",
-              "zh-hans": "消耗自身生命值并造成严重伤害。",
-              "zh-hant": "消耗自身生命值並造成嚴重傷害。"
+              "sc": "消耗自身生命值并造成严重伤害。",
+              "tc": "消耗自身生命值並造成嚴重傷害。"
             }
           }
         ],
@@ -104,13 +104,13 @@
             "trigger": "turn",
             "name": {
               "en": "Violent Rend",
-              "zh-hans": "狂暴撕裂",
-              "zh-hant": "狂暴撕裂"
+              "sc": "狂暴撕裂",
+              "tc": "狂暴撕裂"
             },
             "detail": {
               "en": "Inflicts <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> upon you.",
-              "zh-hans": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
-              "zh-hant": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+              "sc": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
+              "tc": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
             }
           },
           {
@@ -118,13 +118,13 @@
             "trigger": "turn",
             "name": {
               "en": "Mindless Jaw",
-              "zh-hans": "盲目撕咬",
-              "zh-hant": "盲目撕咬"
+              "sc": "盲目撕咬",
+              "tc": "盲目撕咬"
             },
             "detail": {
               "en": "Deals heavy damage at the cost of its own HP.",
-              "zh-hans": "消耗自身生命值并造成严重伤害。",
-              "zh-hant": "消耗自身生命值並造成嚴重傷害。"
+              "sc": "消耗自身生命值并造成严重伤害。",
+              "tc": "消耗自身生命值並造成嚴重傷害。"
             }
           }
         ],
@@ -201,13 +201,13 @@
             "trigger": "turn",
             "name": {
               "en": "Mindless Jaw",
-              "zh-hans": "盲目撕咬",
-              "zh-hant": "盲目撕咬"
+              "sc": "盲目撕咬",
+              "tc": "盲目撕咬"
             },
             "detail": {
               "en": "Deals heavy damage at the cost of its own HP.",
-              "zh-hans": "消耗自身生命值并造成严重伤害。",
-              "zh-hant": "消耗自身生命值並造成嚴重傷害。"
+              "sc": "消耗自身生命值并造成严重伤害。",
+              "tc": "消耗自身生命值並造成嚴重傷害。"
             }
           },
           {
@@ -215,13 +215,13 @@
             "trigger": "turn",
             "name": {
               "en": "Charge Up",
-              "zh-hans": "躬身蓄力",
-              "zh-hant": "躬身蓄力"
+              "sc": "躬身蓄力",
+              "tc": "躬身蓄力"
             },
             "detail": {
               "en": "The hound is charged up, preparing for a devastating attack.",
-              "zh-hans": "猎犬躬身蓄力，准备释放残暴的一击。",
-              "zh-hant": "獵犬躬身蓄力，準備釋放殘暴的一擊。"
+              "sc": "猎犬躬身蓄力，准备释放残暴的一击。",
+              "tc": "獵犬躬身蓄力，準備釋放殘暴的一擊。"
             }
           },
           {
@@ -229,13 +229,13 @@
             "trigger": "turn",
             "name": {
               "en": "Brutal Charge",
-              "zh-hans": "残暴猛冲",
-              "zh-hant": "殘暴猛衝"
+              "sc": "残暴猛冲",
+              "tc": "殘暴猛衝"
             },
             "detail": {
               "en": "Deals devastating damage.",
-              "zh-hans": "造成猛烈伤害。",
-              "zh-hant": "造成猛烈傷害。"
+              "sc": "造成猛烈伤害。",
+              "tc": "造成猛烈傷害。"
             }
           }
         ],
@@ -248,8 +248,8 @@
     "art": "mad_cleric_day.png",
     "name": {
       "en": "Unstable Cleric",
-      "zh-hans": "不稳定的教士",
-      "zh-hant": "不穩定的教士"
+      "sc": "不稳定的教士",
+      "tc": "不穩定的教士"
     },
     "variants": [
       {
@@ -268,13 +268,13 @@
             "trigger": "turn",
             "name": {
               "en": "Delirious Swing",
-              "zh-hans": "迷茫挥击",
-              "zh-hant": "迷茫揮擊"
+              "sc": "迷茫挥击",
+              "tc": "迷茫揮擊"
             },
             "detail": {
               "en": "Deals moderate damage.",
-              "zh-hans": "造成中等伤害。",
-              "zh-hant": "造成中等傷害。"
+              "sc": "造成中等伤害。",
+              "tc": "造成中等傷害。"
             }
           },
           {
@@ -282,13 +282,13 @@
             "trigger": "turn",
             "name": {
               "en": "Divine Condensation",
-              "zh-hans": "神性呼唤",
-              "zh-hant": "神性呼喚"
+              "sc": "神性呼唤",
+              "tc": "神性呼喚"
             },
             "detail": {
               "en": "Accept the embrance of the Gods...<br>Increases both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>.",
-              "zh-hans": "接受众神之拥吧…<br>同时增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
-              "zh-hant": "接受眾神之擁吧…<br>同時增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
+              "sc": "接受众神之拥吧…<br>同时增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
+              "tc": "接受眾神之擁吧…<br>同時增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
             }
           },
           {
@@ -296,13 +296,13 @@
             "trigger": "turn",
             "name": {
               "en": "Continued...",
-              "zh-hans": "持续呼唤...",
-              "zh-hant": "持續呼喚..."
+              "sc": "持续呼唤...",
+              "tc": "持續呼喚..."
             },
             "detail": {
               "en": "They are coming...<br>Increases both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>.",
-              "zh-hans": "祂们即将到来…<br>同时增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
-              "zh-hant": "祂們即將到來…<br>同時增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
+              "sc": "祂们即将到来…<br>同时增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
+              "tc": "祂們即將到來…<br>同時增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
             }
           },
           {
@@ -310,13 +310,13 @@
             "trigger": "turn",
             "name": {
               "en": "Divine Unleash",
-              "zh-hans": "神性释放",
-              "zh-hant": "神性釋放"
+              "sc": "神性释放",
+              "tc": "神性釋放"
             },
             "detail": {
               "en": "Deals devastating damage and resets both meters. Can only be used while at high HP.",
-              "zh-hans": "造成猛烈伤害并重置量表。仅可于高血量时使用。",
-              "zh-hant": "造成猛烈傷害並重置量表。僅可於高血量時使用。"
+              "sc": "造成猛烈伤害并重置量表。仅可于高血量时使用。",
+              "tc": "造成猛烈傷害並重置量表。僅可於高血量時使用。"
             }
           },
           {
@@ -324,13 +324,13 @@
             "trigger": "turn",
             "name": {
               "en": "Divine Absorption",
-              "zh-hans": "神性吸取",
-              "zh-hant": "神性吸取"
+              "sc": "神性吸取",
+              "tc": "神性吸取"
             },
             "detail": {
               "en": "Heals for a great amount and resets both meters. Can only be used while at low HP.",
-              "zh-hans": "回复大量生命并重置量表。仅可于低血量时使用。",
-              "zh-hant": "回復大量生命並重置量表。僅可於低血量時使用。"
+              "sc": "回复大量生命并重置量表。仅可于低血量时使用。",
+              "tc": "回復大量生命並重置量表。僅可於低血量時使用。"
             }
           }
         ],
@@ -386,8 +386,8 @@
     "art": "mad_cleric_night.png",
     "name": {
       "en": "Mad Cleric",
-      "zh-hans": "癫狂的教士",
-      "zh-hant": "癲狂的教士"
+      "sc": "癫狂的教士",
+      "tc": "癲狂的教士"
     },
     "variants": [
       {
@@ -406,13 +406,13 @@
             "trigger": "turn",
             "name": {
               "en": "Unite in Flame",
-              "zh-hans": "献身于火",
-              "zh-hant": "獻身於火"
+              "sc": "献身于火",
+              "tc": "獻身於火"
             },
             "detail": {
               "en": "Deals moderate damage.",
-              "zh-hans": "造成中等伤害。",
-              "zh-hant": "造成中等傷害。"
+              "sc": "造成中等伤害。",
+              "tc": "造成中等傷害。"
             }
           },
           {
@@ -420,13 +420,13 @@
             "trigger": "turn",
             "name": {
               "en": "Life Line",
-              "zh-hans": "恢复祷言",
-              "zh-hant": "恢復禱言"
+              "sc": "恢复祷言",
+              "tc": "恢復禱言"
             },
             "detail": {
               "en": "Gains moderate <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span> effect for a few turns.",
-              "zh-hans": "获得中等 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span> 效果，持续数回合。",
-              "zh-hant": "獲得中等 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span> 效果，持續數回合。"
+              "sc": "获得中等 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span> 效果，持续数回合。",
+              "tc": "獲得中等 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span> 效果，持續數回合。"
             }
           },
           {
@@ -434,13 +434,13 @@
             "trigger": "turn",
             "name": {
               "en": "Scorch",
-              "zh-hans": "灼烧",
-              "zh-hant": "灼燒"
+              "sc": "灼烧",
+              "tc": "灼燒"
             },
             "detail": {
               "en": "Inflicts <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> upon you.",
-              "zh-hans": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。",
-              "zh-hant": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。"
+              "sc": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。",
+              "tc": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。"
             }
           }
         ],
@@ -523,13 +523,13 @@
             "trigger": "turn",
             "name": {
               "en": "Unite in Flame",
-              "zh-hans": "献身于火",
-              "zh-hant": "獻身於火"
+              "sc": "献身于火",
+              "tc": "獻身於火"
             },
             "detail": {
               "en": "Deals moderate damage.",
-              "zh-hans": "造成中等伤害。",
-              "zh-hant": "造成中等傷害。"
+              "sc": "造成中等伤害。",
+              "tc": "造成中等傷害。"
             }
           },
           {
@@ -537,13 +537,13 @@
             "trigger": "turn",
             "name": {
               "en": "Life Line",
-              "zh-hans": "恢复祷言",
-              "zh-hant": "恢復禱言"
+              "sc": "恢复祷言",
+              "tc": "恢復禱言"
             },
             "detail": {
               "en": "Gains moderate <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span> effect for a few turns.",
-              "zh-hans": "获得中等 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span> 效果，持续数回合。",
-              "zh-hant": "獲得中等 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span> 效果，持續數回合。"
+              "sc": "获得中等 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span> 效果，持续数回合。",
+              "tc": "獲得中等 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span> 效果，持續數回合。"
             }
           },
           {
@@ -551,13 +551,13 @@
             "trigger": "turn",
             "name": {
               "en": "Scorch",
-              "zh-hans": "灼烧",
-              "zh-hant": "灼燒"
+              "sc": "灼烧",
+              "tc": "灼燒"
             },
             "detail": {
               "en": "Inflicts <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> upon you.",
-              "zh-hans": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。",
-              "zh-hant": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。"
+              "sc": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。",
+              "tc": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。"
             }
           }
         ],
@@ -631,8 +631,8 @@
     "art": "bandit.png",
     "name": {
       "en": "Bandit",
-      "zh-hans": "强盗",
-      "zh-hant": "強盜"
+      "sc": "强盗",
+      "tc": "強盜"
     },
     "variants": [
       {
@@ -651,13 +651,13 @@
             "trigger": "turn",
             "name": {
               "en": "Shank Slash",
-              "zh-hans": "利刃劈砍",
-              "zh-hant": "利刃劈砍"
+              "sc": "利刃劈砍",
+              "tc": "利刃劈砍"
             },
             "detail": {
               "en": "Deals moderate damage. Gains a <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> for a few turns.",
-              "zh-hans": "造成中等伤害。获得 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span> 效果，持续数回合。",
-              "zh-hant": "造成中等傷害。獲得 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span> 效果，持續數回合。"
+              "sc": "造成中等伤害。获得 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span> 效果，持续数回合。",
+              "tc": "造成中等傷害。獲得 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span> 效果，持續數回合。"
             }
           },
           {
@@ -665,13 +665,13 @@
             "trigger": "turn",
             "name": {
               "en": "Treasure Hunt",
-              "zh-hans": "寻宝",
-              "zh-hant": "尋寶"
+              "sc": "寻宝",
+              "tc": "尋寶"
             },
             "detail": {
               "en": "The bandit is searching nearby crates for goods...",
-              "zh-hans": "强盗正在附近的木箱中搜刮财物……",
-              "zh-hant": "強盜正在附近的木箱中搜刮財物……"
+              "sc": "强盗正在附近的木箱中搜刮财物……",
+              "tc": "強盜正在附近的木箱中搜刮財物……"
             }
           },
           {
@@ -679,13 +679,13 @@
             "trigger": "turn",
             "name": {
               "en": "Stab in your Wound",
-              "zh-hans": "撕裂伤口",
-              "zh-hant": "撕裂傷口"
+              "sc": "撕裂伤口",
+              "tc": "撕裂傷口"
             },
             "detail": {
               "en": "Deals moderate damage.",
-              "zh-hans": "造成中等伤害。",
-              "zh-hant": "造成中等傷害。"
+              "sc": "造成中等伤害。",
+              "tc": "造成中等傷害。"
             }
           }
         ],
@@ -768,13 +768,13 @@
             "trigger": "turn",
             "name": {
               "en": "Shank Slash",
-              "zh-hans": "利刃劈砍",
-              "zh-hant": "利刃劈砍"
+              "sc": "利刃劈砍",
+              "tc": "利刃劈砍"
             },
             "detail": {
               "en": "Deals moderate damage. Gains a <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> for a few turns.",
-              "zh-hans": "造成中等伤害。获得 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span> 效果，持续数回合。",
-              "zh-hant": "造成中等傷害。獲得 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span> 效果，持續數回合。"
+              "sc": "造成中等伤害。获得 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span> 效果，持续数回合。",
+              "tc": "造成中等傷害。獲得 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span> 效果，持續數回合。"
             }
           },
           {
@@ -782,13 +782,13 @@
             "trigger": "turn",
             "name": {
               "en": "Treasure Hunt",
-              "zh-hans": "寻宝",
-              "zh-hant": "尋寶"
+              "sc": "寻宝",
+              "tc": "尋寶"
             },
             "detail": {
               "en": "The bandit is searching nearby crates for goods...",
-              "zh-hans": "强盗正在附近的木箱中搜刮财物……",
-              "zh-hant": "強盜正在附近的木箱中搜刮財物……"
+              "sc": "强盗正在附近的木箱中搜刮财物……",
+              "tc": "強盜正在附近的木箱中搜刮財物……"
             }
           },
           {
@@ -796,13 +796,13 @@
             "trigger": "turn",
             "name": {
               "en": "Stab in your Wound",
-              "zh-hans": "撕裂伤口",
-              "zh-hant": "撕裂傷口"
+              "sc": "撕裂伤口",
+              "tc": "撕裂傷口"
             },
             "detail": {
               "en": "Deals moderate damage.",
-              "zh-hans": "造成中等伤害。",
-              "zh-hant": "造成中等傷害。"
+              "sc": "造成中等伤害。",
+              "tc": "造成中等傷害。"
             }
           }
         ],
@@ -876,8 +876,8 @@
     "art": "dying_villager2.png",
     "name": {
       "en": "Dying Villager",
-      "zh-hans": "垂死的村民",
-      "zh-hant": "垂死的村民"
+      "sc": "垂死的村民",
+      "tc": "垂死的村民"
     },
     "variants": [
       {
@@ -896,13 +896,13 @@
             "trigger": "turn",
             "name": {
               "en": "Cry for Help",
-              "zh-hans": "呼救",
-              "zh-hant": "呼救"
+              "sc": "呼救",
+              "tc": "呼救"
             },
             "detail": {
               "en": "You heard weeping mumbles coming from the villager's mouth.",
-              "zh-hans": "你听见村民口中传来呜咽的低语。",
-              "zh-hant": "你聽見村民口中傳來嗚咽的低語。"
+              "sc": "你听见村民口中传来呜咽的低语。",
+              "tc": "你聽見村民口中傳來嗚咽的低語。"
             }
           },
           {
@@ -910,13 +910,13 @@
             "trigger": "turn",
             "name": {
               "en": "Desperate Grab",
-              "zh-hans": "绝望之抓",
-              "zh-hant": "絕望之抓"
+              "sc": "绝望之抓",
+              "tc": "絕望之抓"
             },
             "detail": {
               "en": "Slightly reduces the durability of several cards in your deck.",
-              "zh-hans": "轻微降低牌堆中数张卡牌的耐久值。",
-              "zh-hant": "輕微降低牌堆中數張卡牌的耐久值。"
+              "sc": "轻微降低牌堆中数张卡牌的耐久值。",
+              "tc": "輕微降低牌堆中數張卡牌的耐久值。"
             }
           },
           {
@@ -924,13 +924,13 @@
             "trigger": "turn",
             "name": {
               "en": "Desperate Punch",
-              "zh-hans": "绝望之拳",
-              "zh-hant": "絕望之拳"
+              "sc": "绝望之拳",
+              "tc": "絕望之拳"
             },
             "detail": {
               "en": "Deals heavy damage.",
-              "zh-hans": "造成严重伤害。",
-              "zh-hant": "造成嚴重傷害。"
+              "sc": "造成严重伤害。",
+              "tc": "造成嚴重傷害。"
             }
           }
         ],
@@ -1007,13 +1007,13 @@
             "trigger": "turn",
             "name": {
               "en": "Cry for Help",
-              "zh-hans": "呼救",
-              "zh-hant": "呼救"
+              "sc": "呼救",
+              "tc": "呼救"
             },
             "detail": {
               "en": "You heard weeping mumbles coming from the villager's mouth.",
-              "zh-hans": "你听见村民口中传来呜咽的低语。",
-              "zh-hant": "你聽見村民口中傳來嗚咽的低語。"
+              "sc": "你听见村民口中传来呜咽的低语。",
+              "tc": "你聽見村民口中傳來嗚咽的低語。"
             }
           },
           {
@@ -1021,13 +1021,13 @@
             "trigger": "turn",
             "name": {
               "en": "Desperate Grab",
-              "zh-hans": "绝望之抓",
-              "zh-hant": "絕望之抓"
+              "sc": "绝望之抓",
+              "tc": "絕望之抓"
             },
             "detail": {
               "en": "Slightly reduces the durability of several cards in your deck.",
-              "zh-hans": "轻微降低牌堆中数张卡牌的耐久值。",
-              "zh-hant": "輕微降低牌堆中數張卡牌的耐久值。"
+              "sc": "轻微降低牌堆中数张卡牌的耐久值。",
+              "tc": "輕微降低牌堆中數張卡牌的耐久值。"
             }
           },
           {
@@ -1035,13 +1035,13 @@
             "trigger": "turn",
             "name": {
               "en": "Desperate Punch",
-              "zh-hans": "绝望之拳",
-              "zh-hant": "絕望之拳"
+              "sc": "绝望之拳",
+              "tc": "絕望之拳"
             },
             "detail": {
               "en": "Deals heavy damage.",
-              "zh-hans": "造成严重伤害。",
-              "zh-hant": "造成嚴重傷害。"
+              "sc": "造成严重伤害。",
+              "tc": "造成嚴重傷害。"
             }
           }
         ],
@@ -1109,8 +1109,8 @@
     "art": "hand_puppet.png",
     "name": {
       "en": "Hand Puppet",
-      "zh-hans": "巨手魔偶",
-      "zh-hant": "巨手魔偶"
+      "sc": "巨手魔偶",
+      "tc": "巨手魔偶"
     },
     "variants": [
       {
@@ -1129,13 +1129,13 @@
             "trigger": "turn",
             "name": {
               "en": "Limb Stretch",
-              "zh-hans": "肢体延展",
-              "zh-hant": "肢體延展"
+              "sc": "肢体延展",
+              "tc": "肢體延展"
             },
             "detail": {
               "en": "Gains massive <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for a short duration, and inflicts <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> to themselves.",
-              "zh-hans": "获得大幅 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span> 效果持续短暂时间，并使自身获得 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
-              "zh-hant": "獲得大幅 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span> 效果持續短暫時間，並使自身獲得 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+              "sc": "获得大幅 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span> 效果持续短暂时间，并使自身获得 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
+              "tc": "獲得大幅 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span> 效果持續短暫時間，並使自身獲得 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
             }
           },
           {
@@ -1143,13 +1143,13 @@
             "trigger": "turn",
             "name": {
               "en": "Arm Slam",
-              "zh-hans": "手臂重击",
-              "zh-hant": "手臂重擊"
+              "sc": "手臂重击",
+              "tc": "手臂重擊"
             },
             "detail": {
               "en": "Deals heavy damage, but gains <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> for 1 turn.",
-              "zh-hans": "造成严重伤害，但自身获得 <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span> 1 回合。",
-              "zh-hant": "造成嚴重傷害，但自身獲得 <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span> 1 回合。"
+              "sc": "造成严重伤害，但自身获得 <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span> 1 回合。",
+              "tc": "造成嚴重傷害，但自身獲得 <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span> 1 回合。"
             }
           }
         ],
@@ -1238,13 +1238,13 @@
             "trigger": "turn",
             "name": {
               "en": "Limb Stretch",
-              "zh-hans": "肢体延展",
-              "zh-hant": "肢體延展"
+              "sc": "肢体延展",
+              "tc": "肢體延展"
             },
             "detail": {
               "en": "Gains massive <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for a short duration, and inflicts <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> to themselves.",
-              "zh-hans": "获得大幅 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span> 效果持续短暂时间，并使自身获得 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
-              "zh-hant": "獲得大幅 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span> 效果持續短暫時間，並使自身獲得 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+              "sc": "获得大幅 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span> 效果持续短暂时间，并使自身获得 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
+              "tc": "獲得大幅 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span> 效果持續短暫時間，並使自身獲得 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
             }
           },
           {
@@ -1252,13 +1252,13 @@
             "trigger": "turn",
             "name": {
               "en": "Arm Slam",
-              "zh-hans": "手臂重击",
-              "zh-hant": "手臂重擊"
+              "sc": "手臂重击",
+              "tc": "手臂重擊"
             },
             "detail": {
               "en": "Deals heavy damage, but gains <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> for 1 turn.",
-              "zh-hans": "造成严重伤害，但自身获得 <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span> 1 回合。",
-              "zh-hant": "造成嚴重傷害，但自身獲得 <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span> 1 回合。"
+              "sc": "造成严重伤害，但自身获得 <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span> 1 回合。",
+              "tc": "造成嚴重傷害，但自身獲得 <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span> 1 回合。"
             }
           }
         ],
@@ -1338,8 +1338,8 @@
     "art": "Hound_Master.png",
     "name": {
       "en": "Hound Masta",
-      "zh-hans": "驯犬师",
-      "zh-hant": "馴犬師"
+      "sc": "驯犬师",
+      "tc": "馴犬師"
     },
     "variants": [
       {
@@ -1358,13 +1358,13 @@
             "trigger": "turn",
             "name": {
               "en": "Le Hunt is On",
-              "zh-hans": "狩猎开始了",
-              "zh-hant": "狩獵開始了"
+              "sc": "狩猎开始了",
+              "tc": "狩獵開始了"
             },
             "detail": {
               "en": "Summons two Hounds.",
-              "zh-hans": "召唤两只猎犬。",
-              "zh-hant": "召喚兩隻獵犬。"
+              "sc": "召唤两只猎犬。",
+              "tc": "召喚兩隻獵犬。"
             }
           },
           {
@@ -1372,13 +1372,13 @@
             "trigger": "turn",
             "name": {
               "en": "Chain Slash",
-              "zh-hans": "铁锁链斩",
-              "zh-hant": "鐵鎖鏈斬"
+              "sc": "铁锁链斩",
+              "tc": "鐵鎖鏈斬"
             },
             "detail": {
               "en": "Deals heavy damage.",
-              "zh-hans": "造成严重伤害。",
-              "zh-hant": "造成嚴重傷害。"
+              "sc": "造成严重伤害。",
+              "tc": "造成嚴重傷害。"
             }
           },
           {
@@ -1386,13 +1386,13 @@
             "trigger": "turn",
             "name": {
               "en": "Protec Me",
-              "zh-hans": "保护窝",
-              "zh-hant": "保護窩"
+              "sc": "保护窝",
+              "tc": "保護窩"
             },
             "detail": {
               "en": "Gains a <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> Boost for a short duration.",
-              "zh-hans": "获得 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span> 提升，持续短暂时间。",
-              "zh-hant": "獲得 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span> 提升，持續短暫時間。"
+              "sc": "获得 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span> 提升，持续短暂时间。",
+              "tc": "獲得 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span> 提升，持續短暫時間。"
             }
           }
         ],
@@ -1487,13 +1487,13 @@
             "trigger": "turn",
             "name": {
               "en": "Dog Whistle",
-              "zh-hans": "狗哨",
-              "zh-hant": "狗哨"
+              "sc": "狗哨",
+              "tc": "狗哨"
             },
             "detail": {
               "en": "Summons a Savage Hound.",
-              "zh-hans": "召唤一只凶残猎犬。",
-              "zh-hant": "召喚一隻兇殘獵犬。"
+              "sc": "召唤一只凶残猎犬。",
+              "tc": "召喚一隻兇殘獵犬。"
             }
           },
           {
@@ -1501,13 +1501,13 @@
             "trigger": "turn",
             "name": {
               "en": "Chain Slash",
-              "zh-hans": "铁锁链斩",
-              "zh-hant": "鐵鎖鏈斬"
+              "sc": "铁锁链斩",
+              "tc": "鐵鎖鏈斬"
             },
             "detail": {
               "en": "Deals heavy damage.",
-              "zh-hans": "造成严重伤害。",
-              "zh-hant": "造成嚴重傷害。"
+              "sc": "造成严重伤害。",
+              "tc": "造成嚴重傷害。"
             }
           },
           {
@@ -1515,13 +1515,13 @@
             "trigger": "turn",
             "name": {
               "en": "Protec Me",
-              "zh-hans": "保护窝",
-              "zh-hant": "保護窩"
+              "sc": "保护窝",
+              "tc": "保護窩"
             },
             "detail": {
               "en": "Gains a <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> Boost for a short duration.",
-              "zh-hans": "获得 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span> 提升，持续短暂时间。",
-              "zh-hant": "獲得 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span> 提升，持續短暫時間。"
+              "sc": "获得 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span> 提升，持续短暂时间。",
+              "tc": "獲得 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span> 提升，持續短暫時間。"
             }
           }
         ],
@@ -1607,8 +1607,8 @@
     "art": "VillageBoss1.png",
     "name": {
       "en": "Volva, the Torrent",
-      "zh-hans": "激流．薇尔瓦",
-      "zh-hant": "激流．薇爾瓦"
+      "sc": "激流．薇尔瓦",
+      "tc": "激流．薇爾瓦"
     },
     "variants": [
       {
@@ -1627,13 +1627,13 @@
             "trigger": "turn",
             "name": {
               "en": "Swirl of Grief",
-              "zh-hans": "悲恸漩涡",
-              "zh-hant": "悲慟漩渦"
+              "sc": "悲恸漩涡",
+              "tc": "悲慟漩渦"
             },
             "detail": {
               "en": "Deals moderate damage after 1 turn.",
-              "zh-hans": "1 回合后造成中等延迟伤害。",
-              "zh-hant": "1 回合後造成中等延遲傷害。"
+              "sc": "1 回合后造成中等延迟伤害。",
+              "tc": "1 回合後造成中等延遲傷害。"
             }
           },
           {
@@ -1641,13 +1641,13 @@
             "trigger": "turn",
             "name": {
               "en": "Soul Drain",
-              "zh-hans": "灵魂吸取",
-              "zh-hant": "靈魂吸取"
+              "sc": "灵魂吸取",
+              "tc": "靈魂吸取"
             },
             "detail": {
               "en": "Deals moderate damage and recovers a small amount of HP.",
-              "zh-hans": "造成中等伤害并恢复少量生命值。",
-              "zh-hant": "造成中等傷害並恢復少量生命值。"
+              "sc": "造成中等伤害并恢复少量生命值。",
+              "tc": "造成中等傷害並恢復少量生命值。"
             }
           },
           {
@@ -1655,13 +1655,13 @@
             "trigger": "turn",
             "name": {
               "en": "Corrosive Mist",
-              "zh-hans": "腐蚀迷雾",
-              "zh-hant": "腐蝕迷霧"
+              "sc": "腐蚀迷雾",
+              "tc": "腐蝕迷霧"
             },
             "detail": {
               "en": "Applies a moderate <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> effect to you for 3 turns.",
-              "zh-hans": "对你施加中度 <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span> 效果 3 回合。",
-              "zh-hant": "對你施加中度 <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span> 效果 3 回合。"
+              "sc": "对你施加中度 <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span> 效果 3 回合。",
+              "tc": "對你施加中度 <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span> 效果 3 回合。"
             }
           },
           {
@@ -1669,13 +1669,13 @@
             "trigger": "turn",
             "name": {
               "en": "Defile Shards",
-              "zh-hans": "亵渎碎片",
-              "zh-hant": "褻瀆碎片"
+              "sc": "亵渎碎片",
+              "tc": "褻瀆碎片"
             },
             "detail": {
               "en": "Deals moderate damage and increases your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>.",
-              "zh-hans": "造成中等伤害，并增加你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
-              "zh-hant": "造成中等傷害，並增加你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
+              "sc": "造成中等伤害，并增加你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
+              "tc": "造成中等傷害，並增加你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
             }
           },
           {
@@ -1683,13 +1683,13 @@
             "trigger": "combatStart",
             "name": {
               "en": "Call of Doom",
-              "zh-hans": "末日呼唤",
-              "zh-hant": "末日呼喚"
+              "sc": "末日呼唤",
+              "tc": "末日呼喚"
             },
             "detail": {
               "en": "Deals massive delayed damage after 5 turns.",
-              "zh-hans": "5 回合后造成毁灭性的延迟伤害。",
-              "zh-hant": "5 回合後造成毀滅性的延遲傷害。"
+              "sc": "5 回合后造成毁灭性的延迟伤害。",
+              "tc": "5 回合後造成毀滅性的延遲傷害。"
             }
           }
         ],
@@ -1745,8 +1745,8 @@
     "art": "hound_red.png",
     "name": {
       "en": "Savage Hound",
-      "zh-hans": "凶残猎犬",
-      "zh-hant": "兇殘獵犬"
+      "sc": "凶残猎犬",
+      "tc": "兇殘獵犬"
     },
     "variants": [
       {
@@ -1765,13 +1765,13 @@
             "trigger": "turn",
             "name": {
               "en": "Ferocious Rend",
-              "zh-hans": "野性撕裂",
-              "zh-hant": "野性撕裂"
+              "sc": "野性撕裂",
+              "tc": "野性撕裂"
             },
             "detail": {
               "en": "Inflicts <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> upon you.",
-              "zh-hans": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
-              "zh-hant": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+              "sc": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
+              "tc": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
             }
           },
           {
@@ -1779,13 +1779,13 @@
             "trigger": "turn",
             "name": {
               "en": "Mindless Jaw",
-              "zh-hans": "盲目撕咬",
-              "zh-hant": "盲目撕咬"
+              "sc": "盲目撕咬",
+              "tc": "盲目撕咬"
             },
             "detail": {
               "en": "Deals heavy damage at the cost of its own HP.",
-              "zh-hans": "消耗自身生命值并造成严重伤害。",
-              "zh-hant": "消耗自身生命值並造成嚴重傷害。"
+              "sc": "消耗自身生命值并造成严重伤害。",
+              "tc": "消耗自身生命值並造成嚴重傷害。"
             }
           }
         ],
@@ -1853,8 +1853,8 @@
     "art": "VillageBoss2.png",
     "name": {
       "en": "Pluton, the Rich",
-      "zh-hans": "丰裕者．普鲁顿",
-      "zh-hant": "豐裕者．普魯頓"
+      "sc": "丰裕者．普鲁顿",
+      "tc": "豐裕者．普魯頓"
     },
     "variants": [
       {
@@ -1873,13 +1873,13 @@
             "trigger": "turn",
             "name": {
               "en": "Fist of the Rich",
-              "zh-hans": "富裕之拳",
-              "zh-hant": "富裕之拳"
+              "sc": "富裕之拳",
+              "tc": "富裕之拳"
             },
             "detail": {
               "en": "Deals minor damage and recovers a small amount of HP.",
-              "zh-hans": "造成轻微伤害并恢复少量生命值。",
-              "zh-hant": "造成輕微傷害並恢復少量生命值。"
+              "sc": "造成轻微伤害并恢复少量生命值。",
+              "tc": "造成輕微傷害並恢復少量生命值。"
             }
           },
           {
@@ -1887,13 +1887,13 @@
             "trigger": "turn",
             "name": {
               "en": "Fortified Will",
-              "zh-hans": "坚毅意志",
-              "zh-hant": "堅毅意志"
+              "sc": "坚毅意志",
+              "tc": "堅毅意志"
             },
             "detail": {
               "en": "Gains <span class=\"kw\" title=\"An unstackable buff that grants complete immunity to the next incoming attack within x turns.\">Guard</span> and moderate <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for a few turns.",
-              "zh-hans": "获得 <span class=\"kw\" title=\"不可叠加的增益，在 x 回合内完全免疫下一次受到的攻击。\">守护</span> 与中等 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span> 效果，持续数回合。",
-              "zh-hant": "獲得 <span class=\"kw\" title=\"不可疊加的增益，在 x 回合內完全免疫下一次受到的攻擊。\">守護</span> 與中等 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span> 效果，持續數回合。"
+              "sc": "获得 <span class=\"kw\" title=\"不可叠加的增益，在 x 回合内完全免疫下一次受到的攻击。\">守护</span> 与中等 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span> 效果，持续数回合。",
+              "tc": "獲得 <span class=\"kw\" title=\"不可疊加的增益，在 x 回合內完全免疫下一次受到的攻擊。\">守護</span> 與中等 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span> 效果，持續數回合。"
             }
           },
           {
@@ -1901,13 +1901,13 @@
             "trigger": "turn",
             "name": {
               "en": "Golden Burst",
-              "zh-hans": "灿金爆发",
-              "zh-hant": "燦金爆發"
+              "sc": "灿金爆发",
+              "tc": "燦金爆發"
             },
             "detail": {
               "en": "Deals heavy damage.",
-              "zh-hans": "造成严重伤害。",
-              "zh-hant": "造成嚴重傷害。"
+              "sc": "造成严重伤害。",
+              "tc": "造成嚴重傷害。"
             }
           },
           {
@@ -1915,13 +1915,13 @@
             "trigger": "turn",
             "name": {
               "en": "Disarm Prayers",
-              "zh-hans": "卸志祷告",
-              "zh-hant": "卸志禱告"
+              "sc": "卸志祷告",
+              "tc": "卸志禱告"
             },
             "detail": {
               "en": "Applies <span class=\"kw\" title=\"A stackable debuff that reduces the owner's attack by a percentage within x turns.\">Intimidate</span> to you for 1 turn and increases your Angel Meter.",
-              "zh-hans": "对你施加 <span class=\"kw\" title=\"可叠加的减益，在 x 回合内使持有者的攻击降低一定百分比。\">威吓</span> 1 回合，并增加你的天使量表。",
-              "zh-hant": "對你施加 <span class=\"kw\" title=\"可疊加的減益，在 x 回合內使持有者的攻擊降低一定百分比。\">威嚇</span> 1 回合，並增加你的天使量表。"
+              "sc": "对你施加 <span class=\"kw\" title=\"可叠加的减益，在 x 回合内使持有者的攻击降低一定百分比。\">威吓</span> 1 回合，并增加你的天使量表。",
+              "tc": "對你施加 <span class=\"kw\" title=\"可疊加的減益，在 x 回合內使持有者的攻擊降低一定百分比。\">威嚇</span> 1 回合，並增加你的天使量表。"
             }
           },
           {
@@ -1929,13 +1929,13 @@
             "trigger": "combatStart",
             "name": {
               "en": "Time is Money",
-              "zh-hans": "时间就是金钱",
-              "zh-hant": "時間就是金錢"
+              "sc": "时间就是金钱",
+              "tc": "時間就是金錢"
             },
             "detail": {
               "en": "I don't have time to waste on the likes of you...",
-              "zh-hans": "我可没时间陪你这种货色浪费时间…",
-              "zh-hant": "我可沒時間陪你這種貨色浪費時間…"
+              "sc": "我可没时间陪你这种货色浪费时间…",
+              "tc": "我可沒時間陪你這種貨色浪費時間…"
             }
           }
         ],

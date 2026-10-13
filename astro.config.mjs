@@ -9,7 +9,7 @@ export default defineConfig({
   trailingSlash: 'always',
   i18n: {
     // Adding a language: add it here, in src/i18n/ui.ts, and in LANGS in scripts/sync-game-data.mjs.
-    locales: ['en', 'zh-hans', 'zh-hant'],
+    locales: ['en', 'sc', 'tc'],
     defaultLocale: 'en',
     routing: { prefixDefaultLocale: false },
   },

@@ -56,10 +56,10 @@ const fonts =
       lang === 'en' && (
         <div class="suggest" id="lang-suggest" hidden>
           <div class="container">
-            <a href={localePath('zh-hans')} lang="zh-Hans" data-lang="zh-hans" hidden>
+            <a href={localePath('sc')} lang="zh-Hans" data-lang="sc" hidden>
               查看简体中文版 →
             </a>
-            <a href={localePath('zh-hant')} lang="zh-Hant" data-lang="zh-hant" hidden>
+            <a href={localePath('tc')} lang="zh-Hant" data-lang="tc" hidden>
               查看繁體中文版 →
             </a>
           </div>
@@ -83,7 +83,7 @@ const fonts =
         const pref = (navigator.languages[0] ?? navigator.language).toLowerCase();
         if (pref.startsWith('zh')) {
           const traditional = /hant|tw|hk|mo/.test(pref);
-          const link = banner.querySelector<HTMLElement>(`[data-lang="${traditional ? 'zh-hant' : 'zh-hans'}"]`);
+          const link = banner.querySelector<HTMLElement>(`[data-lang="${traditional ? 'tc' : 'sc'}"]`);
           if (link) {
             link.hidden = false;
             banner.hidden = false;
