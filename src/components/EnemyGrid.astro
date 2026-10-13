@@ -1,0 +1,90 @@
+---
+import { Image } from 'astro:assets';
+import type { Lang } from '../i18n/ui';
+import { localePath, useTranslations } from '../i18n/utils';
+import { gameArt, type Enemy } from '../lib/game';
+
+interface Props {
+  lang: Lang;
+  enemies: Enemy[];
+}
+
+const { lang, enemies } = Astro.props;
+const t = useTranslations(lang);
+const RANK_ORDER = { Minion: 0, Elite: 1, Boss: 2 };
+const topRank = (e: Enemy) => e.variants.reduce((r, v) => (RANK_ORDER[v.rank] > RANK_ORDER[r] ? v.rank : r), e.variants[0].rank);
+const sorted = [...enemies].sort((a, b) => RANK_ORDER[topRank(a)] - RANK_ORDER[topRank(b)]);
+---
+
+<ul class="enemies">
+  {
+    sorted.map((e) => {
+      const art = gameArt('enemies', e.art);
+      const rank = topRank(e);
+      return (
+        <li>
+          <a href={localePath(lang, `lore/enemies/${e.slug}`)} class={`rank-${rank.toLowerCase()}`}>
+            {art ? <Image src={art} alt="" width={320} loading="lazy" /> : <span class="blank" aria-hidden="true">◆</span>}
+            <span class="name">{e.name[lang]}</span>
+            <span class="rank">{t(`enemy.rank.${rank}`)}</span>
+          </a>
+        </li>
+      );
+    })
+  }
+</ul>
+
+<style>
+  .enemies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 11rem), 1fr));
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: var(--surface);
+    border: 1px solid var(--red-dim);
+    border-radius: var(--radius);
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  a:hover {
+    border-color: var(--gold-dim);
+  }
+
+  .rank-boss {
+    border-color: var(--red-bright);
+  }
+
+  img,
+  .blank {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+    background: var(--art-backdrop);
+    color: var(--gold-dim);
+    font-size: 2rem;
+  }
+
+  .name {
+    padding: 0.5rem 0.5rem 0;
+    font-family: var(--font-heading);
+    color: var(--gold);
+  }
+
+  .rank {
+    padding: 0 0.5rem 0.6rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+</style>

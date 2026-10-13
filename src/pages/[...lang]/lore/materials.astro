@@ -1,0 +1,23 @@
+---
+import Base from '../../../layouts/Base.astro';
+import LoreShell from '../../../components/LoreShell.astro';
+import ItemPage from '../../../components/ItemPage.astro';
+import { getLang, langPaths, useTranslations } from '../../../i18n/utils';
+import { items } from '../../../lib/game';
+
+export const getStaticPaths = langPaths;
+
+const lang = getLang(Astro.params.lang);
+const t = useTranslations(lang);
+---
+
+<Base lang={lang} title={t('lore.materials')} description={t('lore.materials.blurb')}>
+  <LoreShell lang={lang} current="materials">
+    <ItemPage
+      lang={lang}
+      title={t('lore.materials')}
+      items={items.filter((i) => i.kind === 'material')}
+      order={['CardPack', 'SoulFragment', 'Material', 'RareMaterial']}
+    />
+  </LoreShell>
+</Base>

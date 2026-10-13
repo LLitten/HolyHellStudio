@@ -1,0 +1,114 @@
+---
+import '../styles/global.css';
+import { htmlLang, type Lang } from '../i18n/ui';
+import { langs, switchLang, useTranslations, localePath } from '../i18n/utils';
+import { site } from '../site';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+  lang: Lang;
+  title?: string;
+  description?: string;
+  image?: string;
+}
+
+const { lang, title, description, image } = Astro.props;
+const t = useTranslations(lang);
+const fullTitle = title ? `${title} | ${t('site.game')}` : `${t('site.game')} | ${t('site.studio')}`;
+const desc = description ?? t('site.description');
+const canonical = new URL(Astro.url.pathname, Astro.site);
+
+const fonts =
+  'https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:wght@400;700;900&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap';
+---
+
+<!doctype html>
+<html lang={htmlLang[lang]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    {site.noindex && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="canonical" href={canonical} />
+    {langs.map((l) => <link rel="alternate" hreflang={htmlLang[l]} href={new URL(switchLang(Astro.url.pathname, l), Astro.site)} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(switchLang(Astro.url.pathname, 'en'), Astro.site)} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonical} />
+    {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
+    <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href={fonts} />
+
+    {site.analytics && <script async src={site.analytics.src} {...site.analytics.attrs} />}
+  </head>
+  <body>
+    <a class="visually-hidden" href="#content">Skip to content</a>
+    <Header lang={lang} />
+
+    {
+      lang === 'en' && (
+        <div class="suggest" id="lang-suggest" hidden>
+          <div class="container">
+            <a href={localePath('zh-hans')} lang="zh-Hans" data-lang="zh-hans" hidden>
+              查看简体中文版 →
+            </a>
+            <a href={localePath('zh-hant')} lang="zh-Hant" data-lang="zh-hant" hidden>
+              查看繁體中文版 →
+            </a>
+          </div>
+        </div>
+      )
+    }
+
+    <main id="content">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+
+    <script>
+      // On English pages, offer Chinese to visitors whose browser's first language is Chinese. Never redirects.
+      const banner = document.getElementById('lang-suggest');
+      let saved = null;
+      try {
+        saved = localStorage.getItem('lang');
+      } catch {}
+      if (banner && !saved) {
+        const pref = (navigator.languages[0] ?? navigator.language).toLowerCase();
+        if (pref.startsWith('zh')) {
+          const traditional = /hant|tw|hk|mo/.test(pref);
+          const link = banner.querySelector<HTMLElement>(`[data-lang="${traditional ? 'zh-hant' : 'zh-hans'}"]`);
+          if (link) {
+            link.hidden = false;
+            banner.hidden = false;
+            link.addEventListener('click', () => {
+              try {
+                localStorage.setItem('lang', link.dataset.lang!);
+              } catch {}
+            });
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
+
+<style>
+  .suggest {
+    background: var(--red-dim);
+    border-bottom: 1px solid var(--red);
+    padding: 0.4rem 0;
+    font-size: 0.95rem;
+    text-align: right;
+  }
+
+  .suggest a {
+    color: var(--gold-bright);
+  }
+</style>

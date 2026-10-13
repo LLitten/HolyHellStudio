@@ -1,0 +1,95 @@
+---
+import { languages, type Lang } from '../i18n/ui';
+import { langs, switchLang, useTranslations } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<details class="picker">
+  <summary aria-label={t('lang.label')}>
+    <span aria-hidden="true">文 / A</span>
+    <span>{languages[lang]}</span>
+  </summary>
+  <ul>
+    {
+      langs.map((l) => (
+        <li>
+          <a href={switchLang(Astro.url.pathname, l)} hreflang={l} lang={l} data-lang={l} aria-current={l === lang ? 'true' : undefined}>
+            {languages[l]}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</details>
+
+<script>
+  // Remember the visitor's choice so we don't suggest a language they've already picked.
+  document.querySelectorAll<HTMLAnchorElement>('.picker a[data-lang]').forEach((link) => {
+    link.addEventListener('click', () => {
+      try {
+        localStorage.setItem('lang', link.dataset.lang!);
+      } catch {}
+    });
+  });
+</script>
+
+<style>
+  .picker {
+    position: relative;
+    font-family: var(--font-heading);
+  }
+
+  summary {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--red);
+    border-radius: var(--radius);
+    cursor: pointer;
+    list-style: none;
+    white-space: nowrap;
+    font-size: 0.9rem;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary span:first-child {
+    color: var(--gold);
+  }
+
+  ul {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 0.35rem);
+    z-index: 10;
+    margin: 0;
+    padding: 0.35rem 0;
+    list-style: none;
+    background: var(--surface-raised);
+    border: 1px solid var(--red);
+    border-radius: var(--radius);
+    min-width: 9rem;
+  }
+
+  a {
+    display: block;
+    padding: 0.4rem 1rem;
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  a:hover,
+  a[aria-current] {
+    color: var(--gold-bright);
+    background: var(--surface);
+  }
+</style>

@@ -1,0 +1,98 @@
+---
+import { Image } from 'astro:assets';
+import type { Lang } from '../i18n/ui';
+import { formatDate, localePath, useTranslations } from '../i18n/utils';
+import type { Localized } from '../lib/content';
+import fallbackCover from '../assets/fallback-cover.svg';
+
+interface Props {
+  lang: Lang;
+  post: Localized<'devlog'>;
+}
+
+const { lang, post } = Astro.props;
+const t = useTranslations(lang);
+const href = localePath(lang, `devlog/${post.slug}`);
+---
+
+<article class="post">
+  <a href={href} class="cover" tabindex="-1" aria-hidden="true">
+    <Image src={post.data.cover ?? fallbackCover} alt="" width={600} loading="lazy" />
+  </a>
+  <div class="body">
+    <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, lang)}</time>
+    <h3><a href={href}>{post.data.title}</a></h3>
+    <p>{post.data.summary}</p>
+    {
+      post.data.tags.length > 0 && (
+        <ul class="tags">
+          {post.data.tags.map((tag) => (
+            <li>{t(`tag.${tag}`)}</li>
+          ))}
+        </ul>
+      )
+    }
+  </div>
+</article>
+
+<style>
+  .post {
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border: 1px solid var(--red-dim);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  .cover img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1200 / 630;
+    object-fit: cover;
+  }
+
+  .body {
+    padding: 1rem 1.25rem 1.25rem;
+  }
+
+  time {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  h3 {
+    margin: 0.25rem 0 0.5rem;
+  }
+
+  h3 a {
+    color: var(--gold);
+    text-decoration: none;
+  }
+
+  h3 a:hover {
+    color: var(--gold-bright);
+  }
+
+  p {
+    margin: 0 0 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.75rem;
+  }
+
+  .tags li {
+    padding: 0.05rem 0.5rem;
+    border: 1px solid var(--red);
+    border-radius: 2px;
+    color: var(--text-muted);
+  }
+</style>

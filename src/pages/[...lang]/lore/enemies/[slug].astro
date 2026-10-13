@@ -1,0 +1,295 @@
+---
+import { Image } from 'astro:assets';
+import { render } from 'astro:content';
+import Base from '../../../../layouts/Base.astro';
+import LoreShell from '../../../../components/LoreShell.astro';
+import TranslationNote from '../../../../components/TranslationNote.astro';
+import { getLang, langPaths, localePath, useTranslations } from '../../../../i18n/utils';
+import { getLocalized } from '../../../../lib/content';
+import { dungeonById, enemies, enemyById, gameArt, itemById, type EnemySkill } from '../../../../lib/game';
+
+export function getStaticPaths() {
+  return langPaths().flatMap(({ params }) => enemies.map((enemy) => ({ params: { ...params, slug: enemy.slug }, props: { enemy } })));
+}
+
+const { enemy } = Astro.props;
+const lang = getLang(Astro.params.lang);
+const t = useTranslations(lang);
+const art = gameArt('enemies', enemy.art);
+
+const lore = (await getLocalized('enemyLore', lang)).find((l) => l.slug === enemy.slug);
+const Lore = lore ? (await render(lore)).Content : null;
+
+const areaName = (ids: string[]) => ids.map((id) => dungeonById.get(id)?.name[lang] ?? id).join(lang === 'en' ? ', ' : '、');
+const ranks = [...new Set(enemy.variants.map((v) => v.rank))];
+const summoners = [...new Set(enemy.variants.map((v) => v.summonedBy).filter(Boolean))].map((id) => enemyById(id!)).filter(Boolean);
+
+// Tiers of the same enemy often share skills; list each one once.
+const skills = [...new Map(enemy.variants.flatMap((v) => v.skills).map((s) => [s.id, s])).values()] as EnemySkill[];
+
+const drops = new Map<string, { chance: number[]; amount: number[] }>();
+for (const v of enemy.variants) {
+  for (const d of v.drops) {
+    const entry = drops.get(d.item) ?? { chance: [], amount: [] };
+    entry.chance.push(d.chance);
+    entry.amount.push(d.min, d.max);
+    drops.set(d.item, entry);
+  }
+}
+const range = (values: number[], suffix = '') => {
+  const lo = Math.min(...values);
+  const hi = Math.max(...values);
+  return lo === hi ? `${lo}${suffix}` : `${lo}–${hi}${suffix}`;
+};
+const itemHref = (id: string) => {
+  const item = itemById.get(id);
+  return item ? `${localePath(lang, item.kind === 'equipment' ? 'lore/equipment' : 'lore/materials')}#item-${id}` : null;
+};
+---
+
+<Base lang={lang} title={enemy.name[lang]}>
+  <LoreShell lang={lang} current={`enemies/${enemy.slug}`}>
+    <div class="entry">
+      <aside class="infobox">
+        <h2>{enemy.name[lang]}</h2>
+        {art && <Image src={art} alt={enemy.name[lang]} width={480} class="art" />}
+        <dl>
+          <div><dt>{t('enemy.rank')}</dt><dd>{ranks.map((r) => t(`enemy.rank.${r}`)).join(' / ')}</dd></div>
+          {
+            summoners.length > 0 && (
+              <div>
+                <dt />
+                <dd>
+                  {summoners.map((s) => (
+                    <span set:html={t('enemy.summonedBy', { enemy: `<a href="${localePath(lang, `lore/enemies/${s!.slug}`)}">${s!.name[lang]}</a>` })} />
+                  ))}
+                </dd>
+              </div>
+            )
+          }
+        </dl>
+        <table class="stats">
+          <thead>
+            <tr>
+              <th scope="col">{t('enemy.foundIn')}</th>
+              <th scope="col">{t('enemy.hp')}</th>
+              <th scope="col">{t('enemy.attack')}</th>
+              <th scope="col">{t('enemy.defense')}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              enemy.variants.map((v) => (
+                <tr>
+                  <th scope="row">{areaName(v.dungeons)}</th>
+                  <td>{v.hp}</td>
+                  <td>{v.attack}</td>
+                  <td>{v.defense}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </aside>
+
+      <div class="text">
+        <h1>{enemy.name[lang]}</h1>
+        {
+          lore && Lore && (
+            <>
+              <TranslationNote lang={lang} translation={lore.data.translation} isFallback={lore.isFallback} />
+              <div class="prose">
+                <Lore />
+              </div>
+            </>
+          )
+        }
+
+        {
+          skills.length > 0 && (
+            <section>
+              <h2>{t('enemy.skills')}</h2>
+              <ul class="skills">
+                {skills.map((s) => (
+                  <li class="panel">
+                    <h3>{s.name[lang]}</h3>
+                    {s.trigger !== 'turn' && <p class="trigger">{t(`enemy.trigger.${s.trigger}`)}</p>}
+                    {s.detail[lang] && <p set:html={s.detail[lang]} />}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+
+        {
+          drops.size > 0 && (
+            <section>
+              <h2>{t('enemy.drops')}</h2>
+              <table class="drops">
+                <thead>
+                  <tr>
+                    <th scope="col">{t('enemy.drops.item')}</th>
+                    <th scope="col">{t('enemy.drops.chance')}</th>
+                    <th scope="col">{t('enemy.drops.amount')}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[...drops].map(([id, d]) => {
+                    const item = itemById.get(id);
+                    const href = itemHref(id);
+                    return (
+                      <tr>
+                        <td>{href ? <a href={href}>{item!.name[lang]}</a> : id}</td>
+                        <td>{range(d.chance, '%')}</td>
+                        <td>{range(d.amount)}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </section>
+          )
+        }
+      </div>
+    </div>
+  </LoreShell>
+</Base>
+
+<style>
+  .entry {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 20rem;
+    grid-template-areas: 'text infobox';
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .infobox {
+    grid-area: infobox;
+    background: var(--surface-raised);
+    border: 1px solid var(--red);
+    border-top: 3px solid var(--gold-dim);
+    border-radius: var(--radius);
+    padding: 1rem;
+  }
+
+  .infobox h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .art {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 20rem;
+    object-fit: contain;
+    background: var(--art-backdrop);
+    border-radius: var(--radius);
+    margin-bottom: 0.75rem;
+  }
+
+  dl {
+    margin: 0 0 0.75rem;
+  }
+
+  dl div {
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    gap: 0.5rem;
+    padding: 0.35rem 0;
+    border-top: 1px solid var(--red-dim);
+  }
+
+  dt {
+    color: var(--gold);
+    font-family: var(--font-heading);
+  }
+
+  dd {
+    margin: 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+
+  th,
+  td {
+    padding: 0.35rem 0.4rem;
+    border-top: 1px solid var(--red-dim);
+    text-align: left;
+  }
+
+  thead th {
+    font-family: var(--font-heading);
+    color: var(--gold);
+    font-weight: 400;
+  }
+
+  tbody th {
+    font-weight: 400;
+  }
+
+  .stats td {
+    text-align: right;
+  }
+
+  .text {
+    grid-area: text;
+  }
+
+  h1,
+  .text h2 {
+    color: var(--text);
+  }
+
+  section {
+    margin-top: 2rem;
+  }
+
+  .skills {
+    display: grid;
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .skills .panel {
+    padding: 0.85rem 1.1rem;
+  }
+
+  .skills h3 {
+    margin: 0;
+  }
+
+  .skills p {
+    margin: 0.25rem 0 0;
+  }
+
+  .trigger {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  .drops {
+    background: var(--surface);
+    border: 1px solid var(--red-dim);
+  }
+
+  .drops th,
+  .drops td {
+    padding: 0.5rem 0.75rem;
+  }
+
+  @media (max-width: 60rem) {
+    .entry {
+      grid-template-columns: 1fr;
+      grid-template-areas: 'infobox' 'text';
+    }
+  }
+</style>

@@ -1,0 +1,226 @@
+---
+import { Image } from 'astro:assets';
+import type { Lang } from '../i18n/ui';
+import { localePath, useTranslations } from '../i18n/utils';
+import { enemyById, gameArt, itemById, type Item } from '../lib/game';
+import Rarity from './Rarity.astro';
+
+interface Props {
+  lang: Lang;
+  item: Item;
+}
+
+const { lang, item } = Astro.props;
+const t = useTranslations(lang);
+const icon = gameArt('items', item.icon);
+
+// Links to another item's tile, on whichever page it lives.
+const itemLink = (id: string) => {
+  const other = itemById.get(id);
+  if (!other) return id;
+  const page = other.kind === 'equipment' ? 'lore/equipment' : 'lore/materials';
+  return `<a href="${localePath(lang, page)}#item-${id}">${other.name[lang]}</a>`;
+};
+
+// One line per source; several drop sources collapse into a single "Dropped by A, B" line.
+const lines: string[] = [];
+const droppers = [...new Map(item.sources.flatMap((s) => (s.type === 'drop' ? [enemyById(s.enemy)] : [])).filter(Boolean).map((e) => [e!.slug, e!])).values()];
+if (droppers.length) {
+  const names = droppers.map((e) => `<a href="${localePath(lang, `lore/enemies/${e.slug}`)}">${e.name[lang]}</a>`);
+  lines.push(t('item.source.drop', { enemy: names.join(lang === 'en' ? ', ' : '、') }));
+}
+for (const s of item.sources) {
+  if (s.type === 'shop') lines.push(t('item.source.shop'));
+  if (s.type === 'event') lines.push(t('item.source.event'));
+  if (s.type === 'upgrade') lines.push(t('item.source.upgrade', { item: itemLink(s.from) }));
+  if (s.type === 'merge') lines.push(t('item.source.merge', { item: itemLink(s.from) }));
+}
+
+const price = item.price && (item.price.min === item.price.max ? `${item.price.min}` : `${item.price.min}–${item.price.max}`);
+const stats = item.stats && [
+  item.stats.attack && { label: t('item.attack'), value: `+${item.stats.attack}%` },
+  item.stats.hp && { label: t('item.hp'), value: `+${item.stats.hp}` },
+  item.stats.defense && { label: t('item.defense'), value: `+${item.stats.defense}` },
+].filter(Boolean) as { label: string; value: string }[];
+---
+
+<article class="item" id={`item-${item.id}`}>
+  <header>
+    <div class="icon" style={item.tint ? `--tint: ${item.tint}` : undefined}>
+      {
+        icon ? (
+          item.tint ? (
+            <span class="tinted" style={`mask-image: url(${icon.src}); -webkit-mask-image: url(${icon.src})`} role="img" aria-label="" />
+          ) : (
+            <Image src={icon} alt="" width={96} loading="lazy" />
+          )
+        ) : (
+          <span class="placeholder" aria-hidden="true">◆</span>
+        )
+      }
+    </div>
+    <div>
+      <h3>{item.name[lang]}</h3>
+      <div class="meta">
+        <Rarity lang={lang} value={item.rarity} />
+        <span>{t(`subtype.${item.subType}` as any)}</span>
+      </div>
+    </div>
+  </header>
+
+  {stats && stats.length > 0 && (
+    <ul class="stats">
+      {stats.map((s) => <li><span>{s.label}</span> {s.value}</li>)}
+    </ul>
+  )}
+
+  {item.description[lang] && <p class="desc" set:html={item.description[lang]} />}
+
+  {
+    item.lore[lang] && (
+      <details class="lore">
+        <summary>{t('item.lore')}</summary>
+        <p set:html={item.lore[lang]} />
+      </details>
+    )
+  }
+
+  <dl>
+    <div>
+      <dt>{t('item.howToGet')}</dt>
+      <dd>
+        <ul>{lines.map((l) => <li set:html={l} />)}</ul>
+      </dd>
+    </div>
+    {price && <div><dt>{t('item.price')}</dt><dd>{price}</dd></div>}
+  </dl>
+</article>
+
+<style>
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    background: var(--surface);
+    border: 1px solid var(--red-dim);
+    border-radius: var(--radius);
+    padding: 1rem;
+  }
+
+  .item:target {
+    outline: 2px solid var(--gold);
+  }
+
+  header {
+    display: flex;
+    gap: 0.85rem;
+    align-items: center;
+  }
+
+  .icon {
+    flex: none;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: grid;
+    place-items: center;
+    background: var(--surface-sunk);
+    border: 1px solid var(--red-dim);
+    border-radius: var(--radius);
+  }
+
+  .icon img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+  }
+
+  /* Grey icons that the game colors in, e.g. materials sharing one shape. */
+  .tinted {
+    width: 3rem;
+    height: 3rem;
+    background: var(--tint);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+  }
+
+  .placeholder {
+    color: var(--gold-dim);
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  .meta {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  .stats {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 700;
+  }
+
+  .stats span {
+    color: var(--gold);
+    font-weight: 400;
+    font-family: var(--font-heading);
+  }
+
+  .desc {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .lore summary {
+    cursor: pointer;
+    color: var(--gold);
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+  }
+
+  .lore p {
+    margin: 0.4rem 0 0;
+    font-style: italic;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+
+  dl {
+    margin: auto 0 0;
+    font-size: 0.85rem;
+  }
+
+  dl > div {
+    border-top: 1px solid var(--red-dim);
+    padding-top: 0.4rem;
+    margin-top: 0.4rem;
+  }
+
+  dt {
+    color: var(--gold);
+    font-family: var(--font-heading);
+  }
+
+  dd {
+    margin: 0;
+  }
+
+  dd ul {
+    margin: 0;
+    padding-left: 1rem;
+  }
+</style>

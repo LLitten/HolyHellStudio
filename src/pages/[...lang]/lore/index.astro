@@ -1,0 +1,76 @@
+---
+import Base from '../../../layouts/Base.astro';
+import LoreShell from '../../../components/LoreShell.astro';
+import { getLang, langPaths, localePath, useTranslations } from '../../../i18n/utils';
+
+export const getStaticPaths = langPaths;
+
+const lang = getLang(Astro.params.lang);
+const t = useTranslations(lang);
+
+const sections = (['characters', 'locations', 'enemies', 'cards', 'equipment', 'materials'] as const).map((key) => ({
+  href: localePath(lang, `lore/${key}`),
+  label: t(`lore.${key}`),
+  blurb: t(`lore.${key}.blurb`),
+}));
+---
+
+<Base lang={lang} title={t('lore.title')} description={t('lore.description')}>
+  <LoreShell lang={lang}>
+    <h1>{t('lore.title')}</h1>
+    <p>{t('lore.description')}</p>
+    <ul class="sections">
+      {
+        sections.map((s) => (
+          <li>
+            <a href={s.href}>
+              <span class="label">{s.label}</span>
+              <span class="blurb">{s.blurb}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </LoreShell>
+</Base>
+
+<style>
+  h1 {
+    color: var(--text);
+  }
+
+  .sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .sections a {
+    display: block;
+    height: 100%;
+    padding: 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--red-dim);
+    border-radius: var(--radius);
+    text-decoration: none;
+  }
+
+  .sections a:hover {
+    border-color: var(--gold-dim);
+  }
+
+  .label {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    color: var(--gold);
+  }
+
+  .blurb {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+</style>

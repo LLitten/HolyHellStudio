@@ -1,0 +1,331 @@
+/* Colors and fonts live here. Change a value once and it updates everywhere. */
+:root {
+  --bg: #666666;
+  --surface: #1e1617;
+  --surface-raised: #2a1e1f;
+  --surface-sunk: #150f10;
+
+  --red: #7a1a21;
+  --red-bright: #a3272f;
+  --red-dim: #4a1015;
+
+  --gold: #d9b45a;
+  --gold-bright: #f0d48a;
+  --gold-dim: #8f7536;
+
+  --text: #f2ece0;
+  --text-muted: #c4b9a6;
+
+  --rarity-1: #b8b0a0;
+  --rarity-2: #74b0e0;
+  --rarity-3: #b58ee8;
+  --rarity-4: #e8bb4c;
+  --rarity-5: #e8645a;
+
+  /* Fonts per language. Swap a family here to change it site-wide for that language. */
+  --font-heading: 'Chiron Sung HK', 'Noto Serif TC', serif;
+  --font-body: 'Noto Serif', Georgia, serif;
+
+  /* Behind character and enemy art, which is drawn with dark linework on transparency. */
+  --art-backdrop: radial-gradient(circle at 50% 40%, #a39c92, #5c5650 75%);
+
+  --radius: 4px;
+  --width: 72rem;
+  --gutter: 1rem;
+}
+
+:root:lang(zh-Hans) {
+  --font-heading: 'Chiron Sung HK', 'Noto Serif SC', serif;
+  --font-body: 'Noto Serif SC', serif;
+}
+
+:root:lang(zh-Hant) {
+  --font-heading: 'Chiron Sung HK', 'Noto Serif TC', serif;
+  --font-body: 'Noto Serif TC', serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg);
+  /* Darkens the edges of the page without changing the base color. */
+  background-image: radial-gradient(ellipse at center, transparent 40%, rgb(0 0 0 / 0.35) 100%);
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+:lang(zh-Hans) body,
+:lang(zh-Hant) body {
+  line-height: 1.85;
+}
+
+main {
+  flex: 1;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--gold);
+  margin: 0 0 0.6em;
+}
+
+:lang(en) :is(h1, h2) {
+  letter-spacing: 0.04em;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: var(--gold-bright);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  color: var(--text);
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 2px;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gold-dim), transparent);
+  margin: 2.5rem 0;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* Dark panel used for most content blocks. Text on the gray background stays near-white;
+   gold and muted text only sit on panels, where they have enough contrast. */
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--red-dim);
+  border-radius: var(--radius);
+  padding: clamp(1rem, 3vw, 2rem);
+}
+
+.page-head {
+  padding: clamp(2rem, 6vw, 3.5rem) 0 1.5rem;
+}
+
+.page-head h1 {
+  color: var(--text);
+  margin-bottom: 0.25em;
+}
+
+.page-head p {
+  max-width: 40rem;
+  margin: 0;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.section-title::before,
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gold-dim));
+}
+
+.section-title::after {
+  background: linear-gradient(to left, transparent, var(--gold-dim));
+}
+
+.muted {
+  color: var(--text-muted);
+}
+
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border: 1px solid var(--gold);
+  border-radius: var(--radius);
+  background: var(--red);
+  color: var(--text);
+  font-family: var(--font-heading);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+
+.button:hover {
+  background: var(--red-bright);
+  color: var(--text);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Rich text from Markdown */
+.prose {
+  max-width: 44rem;
+}
+
+.prose h2 {
+  margin-top: 2em;
+}
+
+.prose h3 {
+  margin-top: 1.5em;
+}
+
+.prose img,
+.prose video {
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: var(--radius);
+}
+
+.prose iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+  margin: 1.5rem 0;
+}
+
+.prose blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--red-bright);
+  color: var(--text-muted);
+}
+
+.prose code {
+  background: var(--surface-sunk);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+/* Keyword and icon markup inside game text (written by the data sync). */
+.kw {
+  color: var(--gold-bright);
+  font-weight: 700;
+}
+
+.kw[title] {
+  cursor: help;
+  text-decoration: underline dotted var(--gold-dim);
+  text-underline-offset: 0.2em;
+}
+
+.icon::before {
+  display: inline-block;
+  margin: 0 0.1em;
+}
+
+.icon-ameter::before {
+  content: '✦';
+  color: #f3e7b4;
+}
+
+.icon-dmeter::before {
+  content: '✦';
+  color: #e0525a;
+}
+
+.icon-hp::before {
+  content: '♥';
+  color: #e0525a;
+}
+
+.icon-durability::before {
+  content: '◈';
+  color: var(--text-muted);
+}
+
+/* Note under game-data page titles about what's included. */
+.scope-note {
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-heading);
+}
+
+.jump a {
+  color: var(--text);
+}
+
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+  gap: 1rem;
+}
+
+.group + .group {
+  margin-top: 2.5rem;
+}
+
+.group h2 {
+  color: var(--text);
+  scroll-margin-top: 1rem;
+}

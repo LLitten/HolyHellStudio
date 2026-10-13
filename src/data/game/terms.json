@@ -1,0 +1,93 @@
+{
+  "factions": {
+    "Neutral": {
+      "en": "Neutral",
+      "zh-hans": "中立",
+      "zh-hant": "中立"
+    },
+    "Angel": {
+      "en": "Angel",
+      "zh-hans": "天使",
+      "zh-hant": "天使"
+    },
+    "Demon": {
+      "en": "Demon",
+      "zh-hans": "恶魔",
+      "zh-hant": "惡魔"
+    }
+  },
+  "gods": {
+    "Intereon": {
+      "en": "Intereon",
+      "zh-hans": "英提力恩",
+      "zh-hant": "英提力恩"
+    },
+    "Florentis": {
+      "en": "Florentis",
+      "zh-hans": "弗洛伦蒂斯",
+      "zh-hant": "弗洛倫蒂斯"
+    },
+    "Evinor": {
+      "en": "Evinor",
+      "zh-hans": "伊维诺",
+      "zh-hant": "伊維諾"
+    },
+    "Oculyth": {
+      "en": "Oculyth",
+      "zh-hans": "奥库莉丝",
+      "zh-hant": "奧庫莉絲"
+    },
+    "Hedalis": {
+      "en": "Hedalis",
+      "zh-hans": "赫达利斯",
+      "zh-hant": "赫達利斯"
+    },
+    "Vortherect": {
+      "en": "Vortherect",
+      "zh-hans": "沃索勒克特",
+      "zh-hant": "沃索勒克特"
+    }
+  },
+  "actionTypes": {
+    "Attack": {
+      "en": "Attack",
+      "zh-hans": "攻击",
+      "zh-hant": "攻擊"
+    },
+    "Heal": {
+      "en": "Heal",
+      "zh-hans": "回复",
+      "zh-hant": "回復"
+    },
+    "Status": {
+      "en": "Status",
+      "zh-hans": "状态",
+      "zh-hant": "狀態"
+    },
+    "Buff": {
+      "en": "Buff",
+      "zh-hans": "增益",
+      "zh-hant": "增益"
+    },
+    "Draw": {
+      "en": "Draw",
+      "zh-hans": "抽牌",
+      "zh-hant": "抽牌"
+    },
+    "Oath": {
+      "en": "Oath",
+      "zh-hans": "誓约",
+      "zh-hant": "誓約"
+    },
+    "Fire": {
+      "en": "Fire",
+      "zh-hans": "火焰",
+      "zh-hant": "火焰"
+    },
+    "Nature": {
+      "en": "Nature",
+      "zh-hans": "自然",
+      "zh-hant": "自然"
+    }
+  }
+}

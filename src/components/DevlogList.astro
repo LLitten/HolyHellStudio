@@ -1,0 +1,66 @@
+---
+import type { Lang } from '../i18n/ui';
+import { localePath, useTranslations } from '../i18n/utils';
+import type { Localized } from '../lib/content';
+import PostCard from './PostCard.astro';
+
+interface Props {
+  lang: Lang;
+  posts: Localized<'devlog'>[];
+  page: number;
+  totalPages: number;
+}
+
+const { lang, posts, page, totalPages } = Astro.props;
+const t = useTranslations(lang);
+const pageUrl = (n: number) => (n === 1 ? localePath(lang, 'devlog') : localePath(lang, `devlog/page/${n}`));
+---
+
+<div class="container">
+  <header class="page-head">
+    <h1>{t('devlog.title')}</h1>
+    <p>{t('devlog.description')}</p>
+  </header>
+
+  {
+    posts.length ? (
+      <div class="grid">
+        {posts.map((post) => (
+          <PostCard lang={lang} post={post} />
+        ))}
+      </div>
+    ) : (
+      <p>{t('devlog.empty')}</p>
+    )
+  }
+
+  {
+    totalPages > 1 && (
+      <nav class="pager" aria-label="Pagination">
+        {page > 1 ? <a href={pageUrl(page - 1)}>← {t('devlog.newer')}</a> : <span />}
+        <span>{t('devlog.page', { n: page, total: totalPages })}</span>
+        {page < totalPages ? <a href={pageUrl(page + 1)}>{t('devlog.older')} →</a> : <span />}
+      </nav>
+    )
+  }
+</div>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+    gap: 1.25rem;
+  }
+
+  .pager {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .pager a {
+    color: var(--text);
+  }
+</style>

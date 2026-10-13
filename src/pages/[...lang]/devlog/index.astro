@@ -1,0 +1,17 @@
+---
+import Base from '../../../layouts/Base.astro';
+import DevlogList from '../../../components/DevlogList.astro';
+import { getLang, langPaths, useTranslations } from '../../../i18n/utils';
+import { getPosts, POSTS_PER_PAGE } from '../../../lib/content';
+
+export const getStaticPaths = langPaths;
+
+const lang = getLang(Astro.params.lang);
+const t = useTranslations(lang);
+const posts = await getPosts(lang);
+const totalPages = Math.max(1, Math.ceil(posts.length / POSTS_PER_PAGE));
+---
+
+<Base lang={lang} title={t('devlog.title')} description={t('devlog.description')}>
+  <DevlogList lang={lang} posts={posts.slice(0, POSTS_PER_PAGE)} page={1} totalPages={totalPages} />
+</Base>

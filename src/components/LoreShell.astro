@@ -1,0 +1,134 @@
+---
+import type { Lang } from '../i18n/ui';
+import { localePath, useTranslations } from '../i18n/utils';
+import { getLocalized } from '../lib/content';
+import { enemies } from '../lib/game';
+
+interface Props {
+  lang: Lang;
+  // Path of the current page under /lore, e.g. "enemies/bandit", used to highlight the sidebar.
+  current?: string;
+}
+
+const { lang, current = '' } = Astro.props;
+const t = useTranslations(lang);
+
+const characters = (await getLocalized('characters', lang)).sort((a, b) => a.data.order - b.data.order);
+const locations = (await getLocalized('locations', lang)).sort((a, b) => a.data.order - b.data.order);
+
+const sections = [
+  { key: 'characters', label: t('lore.characters'), pages: characters.map((c) => ({ slug: c.slug, label: c.data.name })) },
+  { key: 'locations', label: t('lore.locations'), pages: locations.map((l) => ({ slug: l.slug, label: l.data.name })) },
+  { key: 'enemies', label: t('lore.enemies'), pages: enemies.map((e) => ({ slug: e.slug, label: e.name[lang] })) },
+  { key: 'cards', label: t('lore.cards'), pages: [] },
+  { key: 'equipment', label: t('lore.equipment'), pages: [] },
+  { key: 'materials', label: t('lore.materials'), pages: [] },
+];
+
+const section = current.split('/')[0];
+---
+
+<div class="container shell">
+  <nav class="sidebar" aria-label={t('lore.title')}>
+    <a class="home" href={localePath(lang, 'lore')}>{t('lore.title')}</a>
+    <ul>
+      {
+        sections.map((s) => (
+          <li>
+            <a href={localePath(lang, `lore/${s.key}`)} aria-current={current === s.key ? 'page' : undefined}>
+              {s.label}
+            </a>
+            {s.key === section && s.pages.length > 0 && (
+              <ul>
+                {s.pages.map((p) => (
+                  <li>
+                    <a href={localePath(lang, `lore/${s.key}/${p.slug}`)} aria-current={current === `${s.key}/${p.slug}` ? 'page' : undefined}>
+                      {p.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+  <div class="body">
+    <slot />
+  </div>
+</div>
+
+<style>
+  .shell {
+    display: grid;
+    grid-template-columns: 13rem minmax(0, 1fr);
+    gap: 2rem;
+    padding-top: 2rem;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 1rem;
+    align-self: start;
+    background: var(--surface);
+    border: 1px solid var(--red-dim);
+    border-radius: var(--radius);
+    padding: 1rem;
+    font-family: var(--font-heading);
+  }
+
+  .home {
+    display: block;
+    color: var(--gold);
+    font-size: 1.15rem;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul ul {
+    margin: 0.25rem 0 0.5rem 0.75rem;
+    padding-left: 0.75rem;
+    border-left: 1px solid var(--red);
+    font-size: 0.9rem;
+  }
+
+  li a {
+    display: block;
+    padding: 0.2rem 0;
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  li a:hover,
+  li a[aria-current] {
+    color: var(--gold-bright);
+  }
+
+  @media (max-width: 50rem) {
+    .shell {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .sidebar {
+      position: static;
+    }
+
+    .sidebar > ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 1rem;
+    }
+
+    ul ul {
+      display: none;
+    }
+  }
+</style>

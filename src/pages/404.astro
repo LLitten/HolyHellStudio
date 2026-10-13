@@ -1,0 +1,31 @@
+---
+// GitHub Pages serves one 404 page for every language, so this one shows all three.
+import Base from '../layouts/Base.astro';
+import { ui } from '../i18n/ui';
+import { langs, localePath } from '../i18n/utils';
+---
+
+<Base lang="en" title="404">
+  <div class="container lost">
+    <h1>404</h1>
+    {
+      langs.map((l) => (
+        <p lang={l}>
+          {ui[l]['notFound.body']} <a href={localePath(l)}>{ui[l]['notFound.home']}</a>
+        </p>
+      ))
+    }
+  </div>
+</Base>
+
+<style>
+  .lost {
+    padding: 6rem 0;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 5rem;
+    color: var(--gold-bright);
+  }
+</style>

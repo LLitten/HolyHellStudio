@@ -1,0 +1,84 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../../../../layouts/Base.astro';
+import LoreShell from '../../../../components/LoreShell.astro';
+import { getLang, langPaths, localePath, useTranslations } from '../../../../i18n/utils';
+import { getLocalized } from '../../../../lib/content';
+
+export const getStaticPaths = langPaths;
+
+const lang = getLang(Astro.params.lang);
+const t = useTranslations(lang);
+const characters = (await getLocalized('characters', lang)).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base lang={lang} title={t('lore.characters')}>
+  <LoreShell lang={lang} current="characters">
+    <h1>{t('lore.characters')}</h1>
+    {
+      characters.length ? (
+        <ul class="portraits">
+          {characters.map((c) => (
+            <li>
+              <a href={localePath(lang, `lore/characters/${c.slug}`)}>
+                {c.data.portrait ? <Image src={c.data.portrait} alt="" width={320} /> : <span class="blank" aria-hidden="true">◆</span>}
+                <span class="name">{c.data.name}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p>{t('lore.empty')}</p>
+      )
+    }
+  </LoreShell>
+</Base>
+
+<style>
+  h1 {
+    color: var(--text);
+  }
+
+  .portraits {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr));
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .portraits a {
+    display: block;
+    background: var(--surface);
+    border: 1px solid var(--red-dim);
+    border-radius: var(--radius);
+    overflow: hidden;
+    text-decoration: none;
+  }
+
+  .portraits a:hover {
+    border-color: var(--gold-dim);
+  }
+
+  .portraits img,
+  .blank {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: top;
+    background: var(--surface-sunk);
+    color: var(--gold-dim);
+    font-size: 2rem;
+  }
+
+  .name {
+    display: block;
+    padding: 0.6rem;
+    text-align: center;
+    font-family: var(--font-heading);
+    color: var(--gold);
+  }
+</style>

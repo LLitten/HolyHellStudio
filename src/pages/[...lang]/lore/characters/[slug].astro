@@ -1,0 +1,67 @@
+---
+import { render } from 'astro:content';
+import Base from '../../../../layouts/Base.astro';
+import LoreShell from '../../../../components/LoreShell.astro';
+import Infobox from '../../../../components/Infobox.astro';
+import TranslationNote from '../../../../components/TranslationNote.astro';
+import { getLang, langPaths } from '../../../../i18n/utils';
+import { getLocalized } from '../../../../lib/content';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const { params } of langPaths()) {
+    for (const character of await getLocalized('characters', getLang(params.lang))) {
+      paths.push({ params: { ...params, slug: character.slug }, props: { character } });
+    }
+  }
+  return paths;
+}
+
+const { character } = Astro.props;
+const lang = getLang(Astro.params.lang);
+const { Content } = await render(character);
+---
+
+<Base lang={lang} title={character.data.name}>
+  <LoreShell lang={lang} current={`characters/${character.slug}`}>
+    <div class="entry">
+      <div class="infobox">
+        <Infobox title={character.data.name} image={character.data.portrait} rows={character.data.infobox} />
+      </div>
+      <div class="text">
+        <h1>{character.data.name}</h1>
+        <TranslationNote lang={lang} translation={character.data.translation} isFallback={character.isFallback} />
+        <div class="prose"><Content /></div>
+      </div>
+    </div>
+  </LoreShell>
+</Base>
+
+<style>
+  .entry {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 18rem;
+    grid-template-areas: 'text infobox';
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .infobox {
+    grid-area: infobox;
+  }
+
+  .text {
+    grid-area: text;
+  }
+
+  h1 {
+    color: var(--text);
+  }
+
+  @media (max-width: 60rem) {
+    .entry {
+      grid-template-columns: 1fr;
+      grid-template-areas: 'infobox' 'text';
+    }
+  }
+</style>

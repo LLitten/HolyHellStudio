@@ -1,0 +1,70 @@
+---
+import { Image } from 'astro:assets';
+import { render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import TranslationNote from '../../../components/TranslationNote.astro';
+import { formatDate, getLang, langPaths, localePath, useTranslations } from '../../../i18n/utils';
+import { getPosts } from '../../../lib/content';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const { params } of langPaths()) {
+    for (const post of await getPosts(getLang(params.lang))) {
+      paths.push({ params: { ...params, slug: post.slug }, props: { post } });
+    }
+  }
+  return paths;
+}
+
+const { post } = Astro.props;
+const lang = getLang(Astro.params.lang);
+const t = useTranslations(lang);
+const { Content } = await render(post);
+---
+
+<Base lang={lang} title={post.data.title} description={post.data.summary} image={post.data.cover?.src}>
+  <article class="container">
+    <header class="page-head">
+      <p class="back"><a href={localePath(lang, 'devlog')}>← {t('devlog.back')}</a></p>
+      <h1>{post.data.title}</h1>
+      <p class="meta">
+        <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, lang)}</time>
+        {post.data.tags.length > 0 && <span> · {post.data.tags.map((tag) => t(`tag.${tag}`)).join(', ')}</span>}
+      </p>
+    </header>
+
+    <div class="panel">
+      <TranslationNote lang={lang} translation={post.data.translation} isFallback={post.isFallback} />
+      {post.data.cover && <Image src={post.data.cover} alt="" width={1200} class="cover" />}
+      <div class="prose">
+        <Content />
+      </div>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .back {
+    margin-bottom: 1rem;
+  }
+
+  .back a {
+    color: var(--text);
+  }
+
+  .meta {
+    font-size: 0.95rem;
+  }
+
+  .cover {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+    margin-bottom: 1.5rem;
+  }
+
+  .prose {
+    margin: 0 auto;
+  }
+</style>

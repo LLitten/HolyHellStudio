@@ -1,0 +1,21 @@
+{
+  "enemySlugById": {
+    "100000": "hound",
+    "110003": "hound",
+    "110005": "unstable-cleric",
+    "120001": "mad-cleric",
+    "120002": "bandit",
+    "120003": "hound",
+    "120004": "dying-villager",
+    "120005": "hand-puppet",
+    "120006": "hound-masta",
+    "121001": "volva-the-torrent",
+    "130001": "mad-cleric",
+    "130002": "bandit",
+    "130003": "savage-hound",
+    "130004": "dying-villager",
+    "130005": "hand-puppet",
+    "130006": "hound-masta",
+    "131001": "pluton-the-rich"
+  }
+}

@@ -1,0 +1,86 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../../../../layouts/Base.astro';
+import LoreShell from '../../../../components/LoreShell.astro';
+import { getLang, langPaths, localePath, useTranslations } from '../../../../i18n/utils';
+import { getLocalized } from '../../../../lib/content';
+
+export const getStaticPaths = langPaths;
+
+const lang = getLang(Astro.params.lang);
+const t = useTranslations(lang);
+const locations = (await getLocalized('locations', lang)).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base lang={lang} title={t('lore.locations')}>
+  <LoreShell lang={lang} current="locations">
+    <h1>{t('lore.locations')}</h1>
+    {
+      locations.length ? (
+        <ul class="locations">
+          {locations.map((l) => (
+            <li>
+              <a href={localePath(lang, `lore/locations/${l.slug}`)}>
+                {l.data.banner && <Image src={l.data.banner} alt="" width={800} />}
+                <span class="name">{l.data.name}</span>
+                <span class="summary">{l.data.summary}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p>{t('lore.empty')}</p>
+      )
+    }
+  </LoreShell>
+</Base>
+
+<style>
+  h1 {
+    color: var(--text);
+  }
+
+  .locations {
+    display: grid;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    display: block;
+    background: var(--surface);
+    border: 1px solid var(--red-dim);
+    border-radius: var(--radius);
+    overflow: hidden;
+    text-decoration: none;
+    padding-bottom: 1rem;
+  }
+
+  a:hover {
+    border-color: var(--gold-dim);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 1;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+  }
+
+  .name {
+    display: block;
+    padding: 1rem 1.25rem 0.25rem;
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    color: var(--gold);
+  }
+
+  .summary {
+    display: block;
+    padding: 0 1.25rem;
+    color: var(--text-muted);
+  }
+</style>

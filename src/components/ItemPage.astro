@@ -1,0 +1,53 @@
+---
+// Shared body of the Equipment and Materials pages: items grouped by sub-type, with jump links.
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+import type { Item } from '../lib/game';
+import ItemTile from './ItemTile.astro';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  items: Item[];
+  order: string[];
+}
+
+const { lang, title, items, order } = Astro.props;
+const t = useTranslations(lang);
+
+const groups = order
+  .map((subType) => ({
+    id: subType.toLowerCase(),
+    label: t(`subtype.${subType}` as any),
+    items: items.filter((i) => i.subType === subType).sort((a, b) => a.rarity - b.rarity || a.id.localeCompare(b.id)),
+  }))
+  .filter((g) => g.items.length > 0);
+---
+
+<h1>{title}</h1>
+<p class="scope-note">{t('lore.scope')}</p>
+
+<nav aria-label={t('lore.jump')}>
+  <ul class="jump">
+    {groups.map((g) => <li><a href={`#${g.id}`}>{g.label} ({g.items.length})</a></li>)}
+  </ul>
+</nav>
+
+{
+  groups.map((g) => (
+    <section class="group">
+      <h2 id={g.id}>{g.label}</h2>
+      <div class="tile-grid">
+        {g.items.map((item) => (
+          <ItemTile lang={lang} item={item} />
+        ))}
+      </div>
+    </section>
+  ))
+}
+
+<style>
+  h1 {
+    color: var(--text);
+  }
+</style>

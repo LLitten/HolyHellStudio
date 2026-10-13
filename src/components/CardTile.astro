@@ -1,0 +1,144 @@
+---
+import { Image } from 'astro:assets';
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+import { gameArt, term, type Card } from '../lib/game';
+import Rarity from './Rarity.astro';
+
+interface Props {
+  lang: Lang;
+  card: Card;
+}
+
+const { lang, card } = Astro.props;
+const t = useTranslations(lang);
+const art = gameArt('cards', card.art);
+const factions = card.factions.map((f) => term('factions', f, lang)).join(' / ');
+const gods = card.gods.length ? card.gods.map((g) => term('gods', g, lang)).join(' / ') : t('card.noGod');
+const types = card.actionTypes.map((a) => term('actionTypes', a, lang)).join(' / ');
+---
+
+<article class="card" id={`card-${card.id}`}>
+  <div class="art">
+    {art ? <Image src={art} alt="" width={360} loading="lazy" /> : <div class="no-art" aria-hidden="true">◆</div>}
+    <span class="cost" title={t('card.cost')}>{card.cost}</span>
+  </div>
+  <div class="body">
+    <h3>{card.name[lang]}</h3>
+    <div class="line">
+      <Rarity lang={lang} value={card.rarity} />
+      {card.inherent && <span class="tag">{t('card.inherent')}</span>}
+    </div>
+    <p class="desc" set:html={card.description[lang]} />
+    <dl>
+      <div><dt>{t('card.faction')}</dt><dd>{factions}</dd></div>
+      <div><dt>{t('card.god')}</dt><dd>{gods}</dd></div>
+      <div><dt>{t('card.type')}</dt><dd>{types}</dd></div>
+      {card.durability !== null && <div><dt>{t('card.durability')}</dt><dd>{card.durability}</dd></div>}
+      {card.angelGain !== 0 && <div><dt>{t('card.angel')}</dt><dd>{card.angelGain > 0 ? `+${card.angelGain}` : card.angelGain}</dd></div>}
+      {card.demonGain !== 0 && <div><dt>{t('card.demon')}</dt><dd>{card.demonGain > 0 ? `+${card.demonGain}` : card.demonGain}</dd></div>}
+    </dl>
+  </div>
+</article>
+
+<style>
+  .card {
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border: 1px solid var(--red-dim);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  .card:target {
+    outline: 2px solid var(--gold);
+  }
+
+  .art {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    background: var(--surface-sunk);
+  }
+
+  .art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .no-art {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    color: var(--gold-dim);
+    font-size: 2rem;
+  }
+
+  .cost {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--red);
+    border: 1px solid var(--gold);
+    font-family: var(--font-heading);
+    font-weight: 700;
+  }
+
+  .body {
+    padding: 0.85rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    flex: 1;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  .line {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .tag {
+    font-size: 0.75rem;
+    padding: 0 0.4rem;
+    border: 1px solid var(--gold-dim);
+    border-radius: 2px;
+    color: var(--gold);
+  }
+
+  .desc {
+    margin: 0.25rem 0;
+    font-size: 0.95rem;
+  }
+
+  dl {
+    margin: auto 0 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  dl div {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    border-top: 1px solid var(--red-dim);
+    padding: 0.2rem 0;
+  }
+
+  dd {
+    margin: 0;
+    color: var(--text);
+    text-align: right;
+  }
+</style>

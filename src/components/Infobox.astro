@@ -1,0 +1,79 @@
+---
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
+
+interface Props {
+  title: string;
+  image?: ImageMetadata;
+  rows?: { label: string; value: string }[];
+}
+
+const { title, image, rows = [] } = Astro.props;
+---
+
+<aside class="infobox">
+  <h2>{title}</h2>
+  {image && <Image src={image} alt={title} width={480} class="art" />}
+  {
+    rows.length > 0 && (
+      <dl>
+        {rows.map((r) => (
+          <div>
+            <dt>{r.label}</dt>
+            <dd set:html={r.value} />
+          </div>
+        ))}
+      </dl>
+    )
+  }
+  <slot />
+</aside>
+
+<style>
+  .infobox {
+    background: var(--surface-raised);
+    border: 1px solid var(--red);
+    border-top: 3px solid var(--gold-dim);
+    border-radius: var(--radius);
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 0.75rem;
+  }
+
+  .art {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 22rem;
+    object-fit: contain;
+    background: var(--art-backdrop);
+    border-radius: var(--radius);
+    margin-bottom: 0.75rem;
+  }
+
+  dl {
+    margin: 0;
+  }
+
+  dl div {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    gap: 0.5rem;
+    padding: 0.35rem 0;
+    border-top: 1px solid var(--red-dim);
+  }
+
+  dt {
+    color: var(--gold);
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+  }
+
+  dd {
+    margin: 0;
+  }
+</style>

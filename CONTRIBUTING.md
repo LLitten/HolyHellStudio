@@ -1,0 +1,87 @@
+# Contributing
+
+## Writing a dev post
+
+1. Copy `src/content/devlog/example-post/` and rename the folder. The folder name becomes the URL, so keep it short and lowercase, e.g. `2026-11-combat-rework`.
+2. Edit `en.md`. The fields at the top:
+
+   | Field | |
+   |---|---|
+   | `title` | Post title |
+   | `date` | `YYYY-MM-DD` |
+   | `summary` | One or two sentences for the post list |
+   | `tags` | Any of `art`, `programming`, `design`, `team`, `audio`, `narrative`, `announcement`, `playtest`, `events` |
+   | `cover` | Optional, e.g. `./cover.jpg`. Without one, the post uses the default cover |
+   | `draft` | `true` keeps it out of the built site |
+
+3. Put images in the same folder and link them with `![description](./image.png)`. Full-size screenshots are fine; the build resizes them.
+4. Remove `draft: true` when it's ready.
+
+### GIFs and video
+
+Convert GIFs to MP4. They look the same and are usually 10–20 times smaller. With [ffmpeg](https://ffmpeg.org):
+
+```sh
+ffmpeg -i clip.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" clip.mp4
+```
+
+A post with a video needs to be `.mdx` instead of `.md` (just rename it). Then:
+
+```mdx
+import clip from './clip.mp4';
+
+<video src={clip} autoplay loop muted playsinline></video>
+```
+
+Longer videos belong on YouTube:
+
+```html
+<iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="Trailer" allowfullscreen></iframe>
+```
+
+## Translations
+
+Each page has an English original and a file per Chinese version in the same folder. The `translation` field tracks where each one stands:
+
+- `source`: the English original
+- `machine`: translated but not proofread. The page shows a small notice saying so.
+- `reviewed`: proofread. The notice goes away.
+
+If a Chinese file is missing, the English version shows on the Chinese site with a notice.
+
+### Review process
+
+1. Translations go up as a pull request with `translation: machine`.
+2. The reviewer opens the pull request on GitHub, goes to **Files changed**, and either suggests edits on a line or edits the file directly (the `...` menu on a file, then **Edit file**).
+3. Once a file is checked, change `machine` to `reviewed` and merge.
+
+Game text (cards, items, enemies) comes from the game's own localization, so it doesn't need reviewing here.
+
+## Lore pages
+
+**Characters**: a folder in `src/content/lore/characters/` with a portrait image and `en.md`:
+
+```md
+---
+name: Vash
+portrait: ./portrait.png
+infobox:
+  - label: Role
+    value: Protagonist
+order: 1
+---
+```
+
+`infobox` rows show in the side panel. `order` sets the position in the portrait grid.
+
+**Locations**: a folder in `src/content/lore/locations/`. Add `banner: ./banner.png` for the combat background, and `dungeonGroup` to list the location's areas and enemies from the game data.
+
+**Enemies**: enemy pages are built from game data. To add written lore, make a folder in `src/content/lore/enemies/` named after the enemy's page (the last part of its URL, e.g. `volva-the-torrent`) with an `en.md`.
+
+## Team members
+
+Add an entry to `src/content/team/members.yaml` and put the photo in `src/content/team/photos/`. The example at the top of the file shows every field.
+
+## Menu and button text
+
+All interface text is in `src/i18n/ui.ts`, with one block per language. Add a new key to all three blocks.

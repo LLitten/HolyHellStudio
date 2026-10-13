@@ -1,0 +1,27 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+  translation: 'source' | 'machine' | 'reviewed';
+  isFallback: boolean;
+}
+
+const { lang, translation, isFallback } = Astro.props;
+const t = useTranslations(lang);
+const message = isFallback && lang !== 'en' ? t('translation.missing') : translation === 'machine' ? t('translation.machine') : null;
+---
+
+{message && <p class="note">{message}</p>}
+
+<style>
+  .note {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    border-left: 3px solid var(--gold-dim);
+    padding: 0.35rem 0.75rem;
+    background: var(--surface-sunk);
+    margin-bottom: 1.5rem;
+  }
+</style>

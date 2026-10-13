@@ -1,0 +1,21 @@
+# One entry per team member, shown on the About page in `order`.
+# Photos go in src/content/team/photos/. Roles fall back to English if a translation is missing.
+#
+# - id: jane-doe
+#   name: Jane Doe
+#   role:
+#     en: Lead Artist
+#     zh-hans: 主美术
+#     zh-hant: 主美術
+#   photo: jane-doe.jpg
+#   links:
+#     - label: Portfolio
+#       url: https://example.com
+#   order: 1
+
+- id: example
+  name: Example Member
+  role:
+    en: Role goes here
+  order: 1
+  draft: true

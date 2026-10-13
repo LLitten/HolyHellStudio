@@ -1,0 +1,176 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getLang, langPaths, localePath, useTranslations } from '../../i18n/utils';
+import { getPosts } from '../../lib/content';
+import { site } from '../../site';
+
+export const getStaticPaths = langPaths;
+
+const lang = getLang(Astro.params.lang);
+const t = useTranslations(lang);
+const posts = (await getPosts(lang)).slice(0, 3);
+
+const loreLinks = [
+  { path: 'lore/characters', label: t('lore.characters'), blurb: t('lore.characters.blurb') },
+  { path: 'lore/locations', label: t('lore.locations'), blurb: t('lore.locations.blurb') },
+  { path: 'lore/enemies', label: t('lore.enemies'), blurb: t('lore.enemies.blurb') },
+  { path: 'lore/cards', label: t('lore.cards'), blurb: t('lore.cards.blurb') },
+];
+---
+
+<Base lang={lang}>
+  <section class="hero">
+    <div class="container">
+      <!-- Swap this heading for the game logo once it's finished. -->
+      <h1>{t('site.game')}</h1>
+      <p class="tagline">{t('home.tagline')}</p>
+      {
+        site.steamUrl && (
+          <a class="button" href={site.steamUrl}>
+            Wishlist on Steam
+          </a>
+        )
+      }
+    </div>
+  </section>
+
+  <section class="container about">
+    <div class="panel">
+      <h2>{t('home.about.title')}</h2>
+      <p>{t('home.about.body')}</p>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">{t('home.posts.title')}</h2>
+    {
+      posts.length ? (
+        <div class="posts">
+          {posts.map((post) => (
+            <PostCard lang={lang} post={post} />
+          ))}
+        </div>
+      ) : (
+        <p class="empty">{t('devlog.empty')}</p>
+      )
+    }
+    <p class="more"><a href={localePath(lang, 'devlog')}>{t('home.posts.all')} →</a></p>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">{t('home.lore.title')}</h2>
+    <ul class="lore">
+      {
+        loreLinks.map((l) => (
+          <li>
+            <a href={localePath(lang, l.path)}>
+              <span class="label">{l.label}</span>
+              <span class="blurb">{l.blurb}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section class="container studio">
+    <p>
+      {t('home.studio')} · <a href={localePath(lang, 'about')}>{t('home.studio.link')}</a>
+    </p>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    padding: clamp(4rem, 14vw, 9rem) 0 clamp(3rem, 8vw, 5rem);
+    text-align: center;
+    background: radial-gradient(ellipse at center, rgb(74 16 21 / 0.55), transparent 70%);
+  }
+
+  .hero h1 {
+    font-size: clamp(2.75rem, 10vw, 5.5rem);
+    font-weight: 900;
+    color: var(--gold-bright);
+    text-shadow: 0 2px 18px rgb(0 0 0 / 0.6);
+    margin-bottom: 0.25em;
+  }
+
+  .tagline {
+    font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+    text-shadow: 0 1px 8px rgb(0 0 0 / 0.6);
+  }
+
+  section + section {
+    margin-top: 3rem;
+  }
+
+  .about .panel {
+    max-width: 48rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+    gap: 1.25rem;
+  }
+
+  .empty {
+    text-align: center;
+  }
+
+  .more {
+    text-align: right;
+    margin-top: 1rem;
+  }
+
+  .more a {
+    color: var(--text);
+  }
+
+  .lore {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr));
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .lore a {
+    display: block;
+    height: 100%;
+    padding: 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--red-dim);
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: border-color 0.15s;
+  }
+
+  .lore a:hover {
+    border-color: var(--gold-dim);
+  }
+
+  .label {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    color: var(--gold);
+  }
+
+  .blurb {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+
+  .studio {
+    text-align: center;
+  }
+
+  .studio a {
+    color: var(--text);
+  }
+</style>

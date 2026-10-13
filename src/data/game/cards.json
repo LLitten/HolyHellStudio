@@ -1,0 +1,3655 @@
+[
+  {
+    "id": "610001",
+    "art": "610001.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Tackle",
+      "zh-hans": "猛撞",
+      "zh-hant": "猛撞"
+    },
+    "description": {
+      "en": "Deal 6 damage.",
+      "zh-hans": "造成 6 点伤害。",
+      "zh-hant": "造成 6 點傷害。"
+    }
+  },
+  {
+    "id": "610002",
+    "art": "610016.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Heal"
+    ],
+    "name": {
+      "en": "Soul Absorption",
+      "zh-hans": "灵魂吸收",
+      "zh-hant": "靈魂吸收"
+    },
+    "description": {
+      "en": "Heal yourself for 14 HP.",
+      "zh-hans": "回复 14 点生命。",
+      "zh-hant": "回復 14 點生命。"
+    }
+  },
+  {
+    "id": "610003",
+    "art": "610003.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Brute Smash",
+      "zh-hans": "蛮力重击",
+      "zh-hant": "蠻力重擊"
+    },
+    "description": {
+      "en": "Deal 13 damage.",
+      "zh-hans": "造成 13 点伤害。",
+      "zh-hant": "造成 13 點傷害。"
+    }
+  },
+  {
+    "id": "610004",
+    "art": "610004.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Shard Toss",
+      "zh-hans": "碎片投掷",
+      "zh-hant": "碎片投擲"
+    },
+    "description": {
+      "en": "Deal 4 damage to all enemies.",
+      "zh-hans": "对所有敌人造成 4 点伤害。",
+      "zh-hant": "對所有敵人造成 4 點傷害。"
+    }
+  },
+  {
+    "id": "610005",
+    "art": "610005.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Status"
+    ],
+    "name": {
+      "en": "Weakness Sense",
+      "zh-hans": "弱点感知",
+      "zh-hant": "弱點感知"
+    },
+    "description": {
+      "en": "Apply 25% <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> to an enemy for 2 turn.",
+      "zh-hans": "施加 25% <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span>，持续 2 回合。",
+      "zh-hant": "施加 25% <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span>，持續 2 回合。"
+    }
+  },
+  {
+    "id": "610006",
+    "art": "610006.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Sneak",
+      "zh-hans": "潜行",
+      "zh-hant": "潛行"
+    },
+    "description": {
+      "en": "Gain 10 <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> for 2 turn.",
+      "zh-hans": "获得 10 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>，持续 2 回合。",
+      "zh-hant": "獲得 10 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>，持續 2 回合。"
+    }
+  },
+  {
+    "id": "610007",
+    "art": "610007.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Status"
+    ],
+    "name": {
+      "en": "Nimble Movement",
+      "zh-hans": "灵巧移动",
+      "zh-hant": "靈巧移動"
+    },
+    "description": {
+      "en": "Apply 35% <span class=\"kw\" title=\"A stackable debuff that reduces the owner's attack by a percentage within x turns.\">Intimidate</span> to an enemy for 1 turn.",
+      "zh-hans": "施加 35% <span class=\"kw\" title=\"可叠加的减益，在 x 回合内使持有者的攻击降低一定百分比。\">威吓</span>，持续 1 回合。",
+      "zh-hant": "施加 35% <span class=\"kw\" title=\"可疊加的減益，在 x 回合內使持有者的攻擊降低一定百分比。\">威嚇</span>，持續 1 回合。"
+    }
+  },
+  {
+    "id": "610008",
+    "art": null,
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 3,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Strike of Courage",
+      "zh-hans": "勇气打击",
+      "zh-hant": "勇氣打擊"
+    },
+    "description": {
+      "en": "Deal 20 damage.<br>Hand size≤2: Costs 3 less <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
+      "zh-hans": "造成 20 点伤害。<br>手牌≤2：少消耗 3 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。",
+      "zh-hant": "造成 20 點傷害。<br>手牌≤2：少消耗 3 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。"
+    }
+  },
+  {
+    "id": "610009",
+    "art": "610009.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Overlook",
+      "zh-hans": "眺望",
+      "zh-hant": "眺望"
+    },
+    "description": {
+      "en": "Draw 1 card.",
+      "zh-hans": "抽 1 张牌。",
+      "zh-hant": "抽 1 張牌。"
+    }
+  },
+  {
+    "id": "610010",
+    "art": "610010.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Meditation",
+      "zh-hans": "冥想",
+      "zh-hant": "冥想"
+    },
+    "description": {
+      "en": "Reduce your <span class=\"kw\" title=\"The yellow meter at the top of the screen. Its value is shifted by various God cards.\">Angel Meter</span> by 10 and your <span class=\"kw\" title=\"The purple meter at the top of the screen. Its value is shifted by various God cards.\">Demon Meter</span> by 10.",
+      "zh-hans": "你的 <span class=\"kw\" title=\"画面上方的黄色量表，其数值会被各种神祇牌改变。\">天使量表</span> 减少 10，<span class=\"kw\" title=\"画面上方的紫色量表，其数值会被各种神祇牌改变。\">恶魔量表</span> 减少 10。",
+      "zh-hant": "你的 <span class=\"kw\" title=\"畫面上方的黃色量表，其數值會被各種神祇牌改變。\">天使量表</span> 減少 10，<span class=\"kw\" title=\"畫面上方的紫色量表，其數值會被各種神祇牌改變。\">惡魔量表</span> 減少 10。"
+    }
+  },
+  {
+    "id": "610011",
+    "art": "610011.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Face the Divine",
+      "zh-hans": "直面神祇",
+      "zh-hant": "直面神祇"
+    },
+    "description": {
+      "en": "Gain 15 <span class=\"kw\" title=\"The yellow meter at the top of the screen. Its value is shifted by various God cards.\">Angel Meter</span> and 15 <span class=\"kw\" title=\"The purple meter at the top of the screen. Its value is shifted by various God cards.\">Demon Meter</span>.",
+      "zh-hans": "获得 15 <span class=\"kw\" title=\"画面上方的黄色量表，其数值会被各种神祇牌改变。\">天使量表</span> 与 15 <span class=\"kw\" title=\"画面上方的紫色量表，其数值会被各种神祇牌改变。\">恶魔量表</span>。",
+      "zh-hant": "獲得 15 <span class=\"kw\" title=\"畫面上方的黃色量表，其數值會被各種神祇牌改變。\">天使量表</span> 與 15 <span class=\"kw\" title=\"畫面上方的紫色量表，其數值會被各種神祇牌改變。\">惡魔量表</span>。"
+    }
+  },
+  {
+    "id": "610012",
+    "art": "610012.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Soul Impact",
+      "zh-hans": "灵魂冲击",
+      "zh-hant": "靈魂衝擊"
+    },
+    "description": {
+      "en": "Deal 10 damage, and 6 to others.",
+      "zh-hans": "造成 10 点伤害，其他敌人 6 点。",
+      "zh-hant": "造成 10 點傷害，其他敵人 6 點。"
+    }
+  },
+  {
+    "id": "610013",
+    "art": "610002.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Heal"
+    ],
+    "name": {
+      "en": "Bind Up",
+      "zh-hans": "紧急包扎",
+      "zh-hant": "緊急包紮"
+    },
+    "description": {
+      "en": "Heal yourself for 6 HP.",
+      "zh-hans": "回复 6 点生命。",
+      "zh-hant": "回復 6 點生命。"
+    }
+  },
+  {
+    "id": "610014",
+    "art": "610014.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Lockpicking",
+      "zh-hans": "撬锁",
+      "zh-hant": "撬鎖"
+    },
+    "description": {
+      "en": "Inspect the next 4 cards from your draw pile, and pick 1 to place on top.",
+      "zh-hans": "检视你抽牌堆顶端的 4 张牌，选择 1 张置于顶端。",
+      "zh-hant": "檢視你抽牌堆頂端的 4 張牌，選擇 1 張置於頂端。"
+    }
+  },
+  {
+    "id": "610015",
+    "art": "610015.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Adrenaline",
+      "zh-hans": "肾上腺素",
+      "zh-hant": "腎上腺素"
+    },
+    "description": {
+      "en": "Gain 3 <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> for 1 turn.",
+      "zh-hans": "获得 3 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span>，持续 1 回合。",
+      "zh-hant": "獲得 3 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span>，持續 1 回合。"
+    }
+  },
+  {
+    "id": "610016",
+    "art": "610002.jpg",
+    "inherent": true,
+    "factions": [
+      "Neutral"
+    ],
+    "gods": [],
+    "durability": null,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Heal"
+    ],
+    "name": {
+      "en": "Amputation",
+      "zh-hans": "截肢",
+      "zh-hant": "截肢"
+    },
+    "description": {
+      "en": "Remove 1 random debuff from yourself.",
+      "zh-hans": "随机移除自身 1 个减益。",
+      "zh-hant": "隨機移除自身 1 個減益。"
+    }
+  },
+  {
+    "id": "621001",
+    "art": "621005.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 8,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 1,
+    "cost": 0,
+    "actionTypes": [
+      "Oath",
+      "Buff"
+    ],
+    "name": {
+      "en": "Oath: Crusade",
+      "zh-hans": "誓约：圣战",
+      "zh-hant": "誓約：聖戰"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"The card's effect will only trigger if it is the first card played this turn.\">Intuitive</span>. <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> Attack cards: next turn, gain 35% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 1 turn.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 1.",
+      "zh-hans": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一张打出的牌时才会触发。\">直觉</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即视为达成誓约，触发其奖励。破誓没有惩罚，只是不会触发奖励效果。\">誓约</span>攻击牌：下回合获得 35% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 1 回合。<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>： 1。",
+      "zh-hant": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一張打出的牌時才會觸發。\">直覺</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即視為達成誓約，觸發其獎勵。破誓沒有懲罰，只是不會觸發獎勵效果。\">誓約</span>攻擊牌：下回合獲得 35% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 1 回合。<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>： 1。"
+    }
+  },
+  {
+    "id": "621002",
+    "art": "621005.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 6,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 1,
+    "cost": 0,
+    "actionTypes": [
+      "Oath",
+      "Buff"
+    ],
+    "name": {
+      "en": "Oath: Fealty",
+      "zh-hans": "誓约：效忠",
+      "zh-hant": "誓約：效忠"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"The card's effect will only trigger if it is the first card played this turn.\">Intuitive</span>. <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> not to change your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>: next turn, gain 3 additional <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 1.",
+      "zh-hans": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一张打出的牌时才会触发。\">直觉</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即视为达成誓约，触发其奖励。破誓没有惩罚，只是不会触发奖励效果。\">誓约</span>不改变你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>：下回合额外获得 3 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>： 1。",
+      "zh-hant": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一張打出的牌時才會觸發。\">直覺</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即視為達成誓約，觸發其獎勵。破誓沒有懲罰，只是不會觸發獎勵效果。\">誓約</span>不改變你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>：下回合額外獲得 3 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>： 1。"
+    }
+  },
+  {
+    "id": "621003",
+    "art": "621005.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 8,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 2,
+    "cost": 0,
+    "actionTypes": [
+      "Oath",
+      "Attack"
+    ],
+    "name": {
+      "en": "Oath: Charity",
+      "zh-hans": "誓约：慈善",
+      "zh-hant": "誓約：慈善"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"The card's effect will only trigger if it is the first card played this turn.\">Intuitive</span>. <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> Heal cards: at the end of this turn, deal 25 damage to all enemies.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 1.",
+      "zh-hans": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一张打出的牌时才会触发。\">直觉</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即视为达成誓约，触发其奖励。破誓没有惩罚，只是不会触发奖励效果。\">誓约</span>回复牌：本回合结束时对所有敌人造成 25 点伤害。<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>： 1。",
+      "zh-hant": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一張打出的牌時才會觸發。\">直覺</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即視為達成誓約，觸發其獎勵。破誓沒有懲罰，只是不會觸發獎勵效果。\">誓約</span>回復牌：本回合結束時對所有敵人造成 25 點傷害。<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>： 1。"
+    }
+  },
+  {
+    "id": "621004",
+    "art": "621005.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 8,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 1,
+    "cost": 0,
+    "actionTypes": [
+      "Oath",
+      "Heal"
+    ],
+    "name": {
+      "en": "Oath: Poverty",
+      "zh-hans": "誓约：清贫",
+      "zh-hant": "誓約：清貧"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"The card's effect will only trigger if it is the first card played this turn.\">Intuitive</span>. <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> cards costing 1: at the end of this turn, heal 25% max HP.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 1.",
+      "zh-hans": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一张打出的牌时才会触发。\">直觉</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即视为达成誓约，触发其奖励。破誓没有惩罚，只是不会触发奖励效果。\">誓约</span>费用为 1 的牌：本回合结束时回复 25% 最大生命。<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>： 1。",
+      "zh-hant": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一張打出的牌時才會觸發。\">直覺</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即視為達成誓約，觸發其獎勵。破誓沒有懲罰，只是不會觸發獎勵效果。\">誓約</span>費用為 1 的牌：本回合結束時回復 25% 最大生命。<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>： 1。"
+    }
+  },
+  {
+    "id": "621005",
+    "art": "621005.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 8,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 3,
+    "cost": 0,
+    "actionTypes": [
+      "Oath",
+      "Buff"
+    ],
+    "name": {
+      "en": "Oath: Zealot",
+      "zh-hans": "誓约：狂信",
+      "zh-hant": "誓約：狂信"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"The card's effect will only trigger if it is the first card played this turn.\">Intuitive</span>. <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> Intereon cards: at the end of this turn, reduce your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> by 70.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 1.",
+      "zh-hans": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一张打出的牌时才会触发。\">直觉</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即视为达成誓约，触发其奖励。破誓没有惩罚，只是不会触发奖励效果。\">誓约</span>英提力恩牌：本回合结束时你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 减少 70。<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>： 1。",
+      "zh-hant": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一張打出的牌時才會觸發。\">直覺</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即視為達成誓約，觸發其獎勵。破誓沒有懲罰，只是不會觸發獎勵效果。\">誓約</span>英提力恩牌：本回合結束時你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 減少 70。<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>： 1。"
+    }
+  },
+  {
+    "id": "621006",
+    "art": "621005.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 8,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 1,
+    "cost": 0,
+    "actionTypes": [
+      "Oath",
+      "Draw"
+    ],
+    "name": {
+      "en": "Oath: Devotion",
+      "zh-hans": "誓约：奉献",
+      "zh-hant": "誓約：奉獻"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"The card's effect will only trigger if it is the first card played this turn.\">Intuitive</span>. <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> Buff cards: next turn, draw 3 additional cards.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 1.",
+      "zh-hans": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一张打出的牌时才会触发。\">直觉</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即视为达成誓约，触发其奖励。破誓没有惩罚，只是不会触发奖励效果。\">誓约</span>增益牌：下回合开始时额外抽 3 张牌。<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>： 1。",
+      "zh-hant": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一張打出的牌時才會觸發。\">直覺</span>。<span class=\"kw\" title=\"若你本回合只打出指定的牌，即視為達成誓約，觸發其獎勵。破誓沒有懲罰，只是不會觸發獎勵效果。\">誓約</span>增益牌：下回合開始時額外抽 3 張牌。<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>： 1。"
+    }
+  },
+  {
+    "id": "621007",
+    "art": "621001.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 12,
+    "angelGain": 15,
+    "demonGain": -15,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Divine Arbiter",
+      "zh-hans": "神圣仲裁",
+      "zh-hant": "神聖仲裁"
+    },
+    "description": {
+      "en": "Deal 18 damage.<br>Played an <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> card this turn: Deal 24 instead.",
+      "zh-hans": "造成 18 点伤害。<br>本回合已打出<span class=\"kw\" title=\"若你本回合只打出指定的牌，即视为达成誓约，触发其奖励。破誓没有惩罚，只是不会触发奖励效果。\">誓约</span>牌：改为造成 24 点。",
+      "zh-hant": "造成 18 點傷害。<br>本回合已打出<span class=\"kw\" title=\"若你本回合只打出指定的牌，即視為達成誓約，觸發其獎勵。破誓沒有懲罰，只是不會觸發獎勵效果。\">誓約</span>牌：改為造成 24 點。"
+    }
+  },
+  {
+    "id": "621008",
+    "art": "621003.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 4,
+    "angelGain": -60,
+    "demonGain": -35,
+    "rarity": 3,
+    "cost": 4,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Descent of the God",
+      "zh-hans": "神降",
+      "zh-hant": "神降"
+    },
+    "description": {
+      "en": "Deal 55 damage.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥65: Costs 1 less <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥85: It costs 2 less instead.<br><span class=\"kw\" title=\"Trigger the additional effects when the player deals lethal damage with this card.\">Onkill</span>: Loses no durability.",
+      "zh-hans": "造成 55 点伤害。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥65：少消耗 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥85：改为少消耗 2 点。<br><span class=\"kw\" title=\"当玩家以此牌造成致命伤害时，触发额外效果。\">击杀时</span>：不消耗耐久。",
+      "zh-hant": "造成 55 點傷害。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥65：少消耗 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥85：改為少消耗 2 點。<br><span class=\"kw\" title=\"當玩家以此牌造成致命傷害時，觸發額外效果。\">擊殺時</span>：不消耗耐久。"
+    }
+  },
+  {
+    "id": "621009",
+    "art": "621009.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 8,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Gilded Strike",
+      "zh-hans": "镀金打击",
+      "zh-hant": "鍍金打擊"
+    },
+    "description": {
+      "en": "Deal 8 damage.<br>Meter difference ≥ 25: Deal 12 instead.<br>Meter difference ≥ 50: Deal 16 instead.",
+      "zh-hans": "造成 8 点伤害。<br>量表差距 ≥ 25：改为造成 12 点。<br>量表差距 ≥ 50：改为造成 16 点。",
+      "zh-hant": "造成 8 點傷害。<br>量表差距 ≥ 25：改為造成 12 點。<br>量表差距 ≥ 50：改為造成 16 點。"
+    }
+  },
+  {
+    "id": "621010",
+    "art": "621004.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 11,
+    "angelGain": 15,
+    "demonGain": -15,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Attack",
+      "Buff"
+    ],
+    "name": {
+      "en": "Warded Blow",
+      "zh-hans": "守护之击",
+      "zh-hant": "守護之擊"
+    },
+    "description": {
+      "en": "Deal 12 damage. Gain 15 <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> for 1 turn.",
+      "zh-hans": "造成 12 点伤害。获得 15 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>，持续 1 回合。",
+      "zh-hant": "造成 12 點傷害。獲得 15 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>，持續 1 回合。"
+    }
+  },
+  {
+    "id": "621011",
+    "art": "621015.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 10,
+    "angelGain": 20,
+    "demonGain": -20,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Radiant Sweep",
+      "zh-hans": "光辉横扫",
+      "zh-hant": "光輝橫掃"
+    },
+    "description": {
+      "en": "Deal 12 damage to all enemies. If you have <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span>, deal 24 instead.",
+      "zh-hans": "对所有敌人造成 12 点伤害。若你处于<span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>状态，改为造成 24 点。",
+      "zh-hant": "對所有敵人造成 12 點傷害。若你處於<span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>狀態，改為造成 24 點。"
+    }
+  },
+  {
+    "id": "621012",
+    "art": "621016.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 4,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Binding Covenant",
+      "zh-hans": "束缚圣约",
+      "zh-hant": "束縛聖約"
+    },
+    "description": {
+      "en": "This dungeon: your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> limit is reduced by 10. Gain 1 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
+      "zh-hans": "在本次地城中，你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 上限降低 10。获得 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。",
+      "zh-hant": "在本次地城中，你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 上限降低 10。獲得 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。"
+    }
+  },
+  {
+    "id": "621013",
+    "art": "621007.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 5,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 3,
+    "cost": 0,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Zenith Grace",
+      "zh-hans": "极巨恩典",
+      "zh-hant": "極巨恩典"
+    },
+    "description": {
+      "en": "Draw 2 cards.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥75: Spend 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and gain 2 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
+      "zh-hans": "抽 2 张牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥75：消耗 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，获得 2 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。",
+      "zh-hant": "抽 2 張牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥75：消耗 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，獲得 2 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。"
+    }
+  },
+  {
+    "id": "621014",
+    "art": "621008.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 14,
+    "angelGain": 15,
+    "demonGain": -15,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Tempered Will",
+      "zh-hans": "意志淬炼",
+      "zh-hant": "意志淬鍊"
+    },
+    "description": {
+      "en": "Gain 25% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 2 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤30: Gain 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>.",
+      "zh-hans": "获得 25% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 2 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤30：获得 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。",
+      "zh-hant": "獲得 25% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 2 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤30：獲得 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。"
+    }
+  },
+  {
+    "id": "621015",
+    "art": "621002.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 8,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Heal"
+    ],
+    "name": {
+      "en": "Oathkeeper's Mercy",
+      "zh-hans": "誓者慈悲",
+      "zh-hant": "誓者慈悲"
+    },
+    "description": {
+      "en": "Heal 8 HP.<br>Played an <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> card this turn: Heal 16 instead.",
+      "zh-hans": "回复 8 点生命。<br>本回合已打出<span class=\"kw\" title=\"若你本回合只打出指定的牌，即视为达成誓约，触发其奖励。破誓没有惩罚，只是不会触发奖励效果。\">誓约</span>牌：改为回复 16 点。",
+      "zh-hant": "回復 8 點生命。<br>本回合已打出<span class=\"kw\" title=\"若你本回合只打出指定的牌，即視為達成誓約，觸發其獎勵。破誓沒有懲罰，只是不會觸發獎勵效果。\">誓約</span>牌：改為回復 16 點。"
+    }
+  },
+  {
+    "id": "621016",
+    "art": "621019.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 6,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 3,
+    "cost": 1,
+    "actionTypes": [
+      "Attack",
+      "Buff"
+    ],
+    "name": {
+      "en": "Purge the Unfaithful",
+      "zh-hans": "肃清异端",
+      "zh-hant": "肅清異端"
+    },
+    "description": {
+      "en": "Deal 8 damage and gain 5% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 1 turn.<br><span class=\"kw\" title=\"Spend up to the maximum listed resource. Trigger the effect once for every increment.\">Funnel</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>: up to 60. For every 15, repeat the above.",
+      "zh-hans": "造成 8 点伤害，并获得 5% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 1 回合。<br><span class=\"kw\" title=\"最多消耗所列上限的资源。每消耗一个增量，便触发一次效果。\">倾注</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>：至多 60。每 15 点，重复以上效果。",
+      "zh-hant": "造成 8 點傷害，並獲得 5% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 1 回合。<br><span class=\"kw\" title=\"最多消耗所列上限的資源。每消耗一個增量，便觸發一次效果。\">傾注</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>：至多 60。每 15 點，重複以上效果。"
+    }
+  },
+  {
+    "id": "621017",
+    "art": "621017.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 7,
+    "angelGain": 15,
+    "demonGain": -15,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Aegis of Faith",
+      "zh-hans": "信仰神盾",
+      "zh-hant": "信仰神盾"
+    },
+    "description": {
+      "en": "Gain <span class=\"kw\" title=\"An unstackable buff that grants complete immunity to the next incoming attack within x turns.\">Guard</span> for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥50: Remove 1 random debuff from yourself.",
+      "zh-hans": "获得 <span class=\"kw\" title=\"不可叠加的增益，在 x 回合内完全免疫下一次受到的攻击。\">守护</span>，持续 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：随机移除自身 1 个减益。",
+      "zh-hant": "獲得 <span class=\"kw\" title=\"不可疊加的增益，在 x 回合內完全免疫下一次受到的攻擊。\">守護</span>，持續 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：隨機移除自身 1 個減益。"
+    }
+  },
+  {
+    "id": "621018",
+    "art": "621011.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 10,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Seek the Verdict",
+      "zh-hans": "寻求裁决",
+      "zh-hant": "尋求裁決"
+    },
+    "description": {
+      "en": "Inspect up to 4 Attack cards in your deck and draw 1.",
+      "zh-hans": "检视你牌组中至多 4 张攻击牌，并抽取其中 1 张。",
+      "zh-hant": "檢視你牌組中至多 4 張攻擊牌，並抽取其中 1 張。"
+    }
+  },
+  {
+    "id": "621019",
+    "art": "621006.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 8,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Bulwark Doctrine",
+      "zh-hans": "教义壁垒",
+      "zh-hant": "教義壁壘"
+    },
+    "description": {
+      "en": "Gain 15 <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥50: It lasts 3 turn instead.",
+      "zh-hans": "获得 15 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>，持续 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：改为持续 3 回合。",
+      "zh-hant": "獲得 15 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>，持續 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：改為持續 3 回合。"
+    }
+  },
+  {
+    "id": "621020",
+    "art": "621012.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 8,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Status"
+    ],
+    "name": {
+      "en": "Sanctified Dread",
+      "zh-hans": "圣化恐惧",
+      "zh-hant": "聖化恐懼"
+    },
+    "description": {
+      "en": "Apply 50% <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> to an enemy for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥50: It lasts 2 turn instead.",
+      "zh-hans": "施加 50% <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：改为持续 2 回合。",
+      "zh-hant": "施加 50% <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：改為持續 2 回合。"
+    }
+  },
+  {
+    "id": "621021",
+    "art": "621014.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 6,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Collective Congregation",
+      "zh-hans": "众聚意念",
+      "zh-hant": "眾聚意念"
+    },
+    "description": {
+      "en": "Gain 10% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 2 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥50: Spend 25 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and gain 50% instead.",
+      "zh-hans": "获得 10% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 2 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：消耗 25 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，改为获得 50%。",
+      "zh-hant": "獲得 10% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 2 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：消耗 25 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，改為獲得 50%。"
+    }
+  },
+  {
+    "id": "621022",
+    "art": "621018.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 6,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Status"
+    ],
+    "name": {
+      "en": "Binding Chains",
+      "zh-hans": "束缚链锁",
+      "zh-hant": "束縛鏈鎖"
+    },
+    "description": {
+      "en": "Apply 30% <span class=\"kw\" title=\"A stackable debuff that reduces the owner's attack by a percentage within x turns.\">Intimidate</span> to all enemies for 1 turn.<br>Played an <span class=\"kw\" title=\"If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath carries no penalty; the reward simply does not occur.\">Oath</span> card this turn: Apply 50% for 2 turn instead.",
+      "zh-hans": "对所有敌人施加 30% <span class=\"kw\" title=\"可叠加的减益，在 x 回合内使持有者的攻击降低一定百分比。\">威吓</span>，持续 1 回合。<br>本回合已打出<span class=\"kw\" title=\"若你本回合只打出指定的牌，即视为达成誓约，触发其奖励。破誓没有惩罚，只是不会触发奖励效果。\">誓约</span>牌：改为施加 50%，持续 2 回合。",
+      "zh-hant": "對所有敵人施加 30% <span class=\"kw\" title=\"可疊加的減益，在 x 回合內使持有者的攻擊降低一定百分比。\">威嚇</span>，持續 1 回合。<br>本回合已打出<span class=\"kw\" title=\"若你本回合只打出指定的牌，即視為達成誓約，觸發其獎勵。破誓沒有懲罰，只是不會觸發獎勵效果。\">誓約</span>牌：改為施加 50%，持續 2 回合。"
+    }
+  },
+  {
+    "id": "621023",
+    "art": "621013.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Intereon"
+    ],
+    "durability": 17,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Sacred Cleanse",
+      "zh-hans": "神圣净化",
+      "zh-hant": "神聖淨化"
+    },
+    "description": {
+      "en": "Draw 2 Rosricon cards.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤50: Gain 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥50: Reduce your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> by 20.",
+      "zh-hans": "抽 2 张罗斯里坎牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤50：获得 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥50：你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 减少 20。",
+      "zh-hant": "抽 2 張羅斯里坎牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤50：獲得 20 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥50：你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 減少 20。"
+    }
+  },
+  {
+    "id": "622001",
+    "art": "622014.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 14,
+    "angelGain": 20,
+    "demonGain": -20,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Attack",
+      "Fire"
+    ],
+    "name": {
+      "en": "Blooming Pyre",
+      "zh-hans": "盛放烈焰",
+      "zh-hant": "盛放烈焰"
+    },
+    "description": {
+      "en": "Deal 12 damage to all enemies.<br>Targets with <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span>: Deal 16 instead.",
+      "zh-hans": "对所有敌人造成 12 点伤害。<br>已<span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>的目标：改为造成 16 点。",
+      "zh-hant": "對所有敵人造成 12 點傷害。<br>已<span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>的目標：改為造成 16 點。"
+    }
+  },
+  {
+    "id": "622002",
+    "art": "622002.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 16,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Status",
+      "Fire"
+    ],
+    "name": {
+      "en": "Kindling Touch",
+      "zh-hans": "燃烛之触",
+      "zh-hant": "燃燭之觸"
+    },
+    "description": {
+      "en": "Apply 8 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to an enemy.<br>If the target already has <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span>: Also draw 1 card.",
+      "zh-hans": "施加 8 层 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。<br>若目标原本已有<span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>：额外抽 1 张牌。",
+      "zh-hant": "施加 8 層 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。<br>若目標原本已有<span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>：額外抽 1 張牌。"
+    }
+  },
+  {
+    "id": "622003",
+    "art": "622017.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 10,
+    "angelGain": 0,
+    "demonGain": -10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Attack",
+      "Fire"
+    ],
+    "name": {
+      "en": "Stoke the Ashes",
+      "zh-hans": "拨燃余烬",
+      "zh-hant": "撥燃餘燼"
+    },
+    "description": {
+      "en": "Deal 8 damage. For each <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> stack on the target, gain 4 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>.",
+      "zh-hans": "造成 8 点伤害。目标每有 1 层 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>，获得 4 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。",
+      "zh-hant": "造成 8 點傷害。目標每有 1 層 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>，獲得 4 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。"
+    }
+  },
+  {
+    "id": "622004",
+    "art": "622008.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 14,
+    "angelGain": 20,
+    "demonGain": -20,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Status",
+      "Fire"
+    ],
+    "name": {
+      "en": "Wildfire",
+      "zh-hans": "野火",
+      "zh-hant": "野火"
+    },
+    "description": {
+      "en": "Apply 10 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to all enemies.<br><span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span>: Apply 16 instead.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥30: Apply 16 instead.",
+      "zh-hans": "对所有敌人施加 10 层 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。<br><span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>：改为施加 16 层。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：改为施加 16 层。",
+      "zh-hant": "對所有敵人施加 10 層 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。<br><span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>：改為施加 16 層。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：改為施加 16 層。"
+    }
+  },
+  {
+    "id": "622005",
+    "art": "622003.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 10,
+    "angelGain": 20,
+    "demonGain": -20,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Status",
+      "Fire"
+    ],
+    "name": {
+      "en": "Conflagration",
+      "zh-hans": "燎原之火",
+      "zh-hant": "燎原之火"
+    },
+    "description": {
+      "en": "This dungeon: apply 16 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to all enemies and 8 to yourself.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥30: Gain 5% <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span> for 3 turn.",
+      "zh-hans": "在本次地城中，对所有敌人施加 16 层 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>，并对自身施加 8 层。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：获得 5% <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>，持续 3 回合。",
+      "zh-hant": "在本次地城中，對所有敵人施加 16 層 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>，並對自身施加 8 層。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：獲得 5% <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>，持續 3 回合。"
+    }
+  },
+  {
+    "id": "622006",
+    "art": "622013.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 3,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 3,
+    "cost": 1,
+    "actionTypes": [
+      "Buff",
+      "Fire"
+    ],
+    "name": {
+      "en": "Ember's Blessing",
+      "zh-hans": "余烬祝福",
+      "zh-hant": "餘燼祝福"
+    },
+    "description": {
+      "en": "<span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≥50: Target an enemy, and gain <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> equal to its <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> stack count for 2 turn.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤49: Gain <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span> equal to that count for 2 turn instead.",
+      "zh-hans": "<span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≥50：选择一名敌人，获得等同其 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span> 层数的 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>，持续 2 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤49：改为获得等同该层数的 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>，持续 2 回合。",
+      "zh-hant": "<span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≥50：選擇一名敵人，獲得等同其 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span> 層數的 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>，持續 2 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤49：改為獲得等同該層數的 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>，持續 2 回合。"
+    }
+  },
+  {
+    "id": "622007",
+    "art": "622001.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 14,
+    "angelGain": 15,
+    "demonGain": -15,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Status",
+      "Heal",
+      "Nature"
+    ],
+    "name": {
+      "en": "Thornlash",
+      "zh-hans": "荆棘鞭笞",
+      "zh-hant": "荊棘鞭笞"
+    },
+    "description": {
+      "en": "Apply 5% <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> to an enemy. If the target already has <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span>, heal 5% max HP; if it already has <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span>, heal 5%.",
+      "zh-hans": "施加 5% <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。若目标已带有 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>，回复 5% 最大生命；若已带有 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>，回复 5%。",
+      "zh-hant": "施加 5% <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。若目標已帶有 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>，回復 5% 最大生命；若已帶有 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>，回復 5%。"
+    }
+  },
+  {
+    "id": "622008",
+    "art": "622015.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 8,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff",
+      "Nature"
+    ],
+    "name": {
+      "en": "Verdant Grace",
+      "zh-hans": "苍翠恩典",
+      "zh-hant": "蒼翠恩典"
+    },
+    "description": {
+      "en": "Gain 5% <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span> for 2 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥30: It lasts for 4 turn instead.",
+      "zh-hans": "获得 5% <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>，持续 2 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：改为持续 4 回合。",
+      "zh-hant": "獲得 5% <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>，持續 2 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：改為持續 4 回合。"
+    }
+  },
+  {
+    "id": "622009",
+    "art": "622009.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 4,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Buff",
+      "Nature"
+    ],
+    "name": {
+      "en": "Verdant Barrier",
+      "zh-hans": "苍翠壁垒",
+      "zh-hant": "蒼翠壁壘"
+    },
+    "description": {
+      "en": "Apply 50% <span class=\"kw\" title=\"A stackable debuff that reduces the owner's attack by a percentage within x turns.\">Intimidate</span> to yourself, and gain 50 <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> for 2 turn.",
+      "zh-hans": "对自身施加 50% <span class=\"kw\" title=\"可叠加的减益，在 x 回合内使持有者的攻击降低一定百分比。\">威吓</span>，并获得 50 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>，持续 2 回合。",
+      "zh-hant": "對自身施加 50% <span class=\"kw\" title=\"可疊加的減益，在 x 回合內使持有者的攻擊降低一定百分比。\">威嚇</span>，並獲得 50 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>，持續 2 回合。"
+    }
+  },
+  {
+    "id": "622010",
+    "art": "622019.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 19,
+    "angelGain": 15,
+    "demonGain": -15,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Heal",
+      "Nature"
+    ],
+    "name": {
+      "en": "Seedbearer",
+      "zh-hans": "播种者",
+      "zh-hant": "播種者"
+    },
+    "description": {
+      "en": "Shuffle 5 cards into your draw pile that heal you when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤50: Shuffle in 3 enhanced versions instead, which also grant <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>.",
+      "zh-hans": "将 5 张抽到时能回复生命的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤50：改为洗入 3 张强化版本，额外提供 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。",
+      "zh-hant": "將 5 張抽到時能回復生命的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤50：改為洗入 3 張強化版本，額外提供 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。"
+    }
+  },
+  {
+    "id": "622012",
+    "art": "622007.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 4,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff",
+      "Fire"
+    ],
+    "name": {
+      "en": "Cleansing Flame",
+      "zh-hans": "净化之焰",
+      "zh-hant": "淨化之焰"
+    },
+    "description": {
+      "en": "Remove 1 random debuff from yourself. If the difference between your meters is within 35, remove 3 instead.",
+      "zh-hans": "随机移除自身 1 个减益。若你的两个量表差距在 35 以内，改为移除 3 个。",
+      "zh-hant": "隨機移除自身 1 個減益。若你的兩個量表差距在 35 以內，改為移除 3 個。"
+    }
+  },
+  {
+    "id": "622013",
+    "art": "622012.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 8,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff",
+      "Nature"
+    ],
+    "name": {
+      "en": "Vent Out",
+      "zh-hans": "宣泄",
+      "zh-hant": "宣洩"
+    },
+    "description": {
+      "en": "Gain 30% <span class=\"kw\" title=\"A stackable buff that increases the owner's received healing amount by a percentage within x turns.\">Purified</span> for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥15: Spend 15 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and gain 50% instead.",
+      "zh-hans": "获得 30% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者受到的治疗量提升一定百分比。\">净化</span>，持续 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥15：消耗 15 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，改为获得 50%。",
+      "zh-hant": "獲得 30% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者受到的治療量提升一定百分比。\">淨化</span>，持續 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥15：消耗 15 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，改為獲得 50%。"
+    }
+  },
+  {
+    "id": "622014",
+    "art": "622010.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 8,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Status",
+      "Nature"
+    ],
+    "name": {
+      "en": "Withering Gaze",
+      "zh-hans": "凋零凝视",
+      "zh-hant": "凋零凝視"
+    },
+    "description": {
+      "en": "Apply 30% <span class=\"kw\" title=\"A stackable debuff that reduces the owner's attack by a percentage within x turns.\">Intimidate</span> to an enemy for 1 turn.<br><span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span>: It lasts 2 turn instead.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≤30: Apply 50% instead.",
+      "zh-hans": "施加 30% <span class=\"kw\" title=\"可叠加的减益，在 x 回合内使持有者的攻击降低一定百分比。\">威吓</span>，持续 1 回合。<br><span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>：改为持续 2 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≤30：改为施加 50%。",
+      "zh-hant": "施加 30% <span class=\"kw\" title=\"可疊加的減益，在 x 回合內使持有者的攻擊降低一定百分比。\">威嚇</span>，持續 1 回合。<br><span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>：改為持續 2 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≤30：改為施加 50%。"
+    }
+  },
+  {
+    "id": "622015",
+    "art": "622006.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 4,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 3,
+    "cost": 1,
+    "actionTypes": [
+      "Buff",
+      "Fire"
+    ],
+    "name": {
+      "en": "Harvest the Blaze",
+      "zh-hans": "收割烈焰",
+      "zh-hant": "收割烈焰"
+    },
+    "description": {
+      "en": "Remove all <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> from an enemy. Per stack: Gain 1 <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> for 3 turn.",
+      "zh-hans": "移除一名敌人的所有 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。每层获得 1 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span>，持续 3 回合。",
+      "zh-hant": "移除一名敵人的所有 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。每層獲得 1 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span>，持續 3 回合。"
+    }
+  },
+  {
+    "id": "622016",
+    "art": "622018.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 6,
+    "angelGain": 20,
+    "demonGain": -20,
+    "rarity": 1,
+    "cost": 3,
+    "actionTypes": [
+      "Status",
+      "Fire"
+    ],
+    "name": {
+      "en": "Incinerate",
+      "zh-hans": "焚化",
+      "zh-hant": "焚化"
+    },
+    "description": {
+      "en": "Apply 28 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to an enemy.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥50: Spend 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and trigger the target's <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> 1 times.",
+      "zh-hans": "施加 28 层 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：消耗 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，立即引爆目标的 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span> 1 次。",
+      "zh-hant": "施加 28 層 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：消耗 30 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>，立即引爆目標的 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span> 1 次。"
+    }
+  },
+  {
+    "id": "622018",
+    "art": "622020.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Florentis"
+    ],
+    "durability": 10,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 3,
+    "cost": 1,
+    "actionTypes": [
+      "Buff",
+      "Nature"
+    ],
+    "name": {
+      "en": "Life Renewal",
+      "zh-hans": "残损再生",
+      "zh-hant": "殘損再生"
+    },
+    "description": {
+      "en": "For the rest of this turn, each card you play also grants 20% <span class=\"kw\" title=\"A stackable buff that increases the owner's received healing amount by a percentage within x turns.\">Purified</span> for 2 turn.",
+      "zh-hans": "本回合剩余时间内，你每打出一张牌，同时获得 20% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者受到的治疗量提升一定百分比。\">净化</span>，持续 2 回合。",
+      "zh-hant": "本回合剩餘時間內，你每打出一張牌，同時獲得 20% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者受到的治療量提升一定百分比。\">淨化</span>，持續 2 回合。"
+    }
+  },
+  {
+    "id": "623001",
+    "art": "623004.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 14,
+    "angelGain": 15,
+    "demonGain": -15,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Draw",
+      "Attack"
+    ],
+    "name": {
+      "en": "Fist of Creation",
+      "zh-hans": "创造之拳",
+      "zh-hant": "創造之拳"
+    },
+    "description": {
+      "en": "Shuffle 3 cards into your draw pile that deal damage to all enemies based on your hand size when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥60: Shuffle in 5 instead and draw 2 of them immediately.",
+      "zh-hans": "将 3 张抽到时依手牌数对所有敌人造成伤害的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：改为洗入 5 张，并立即抽取其中 2 张。",
+      "zh-hant": "將 3 張抽到時依手牌數對所有敵人造成傷害的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：改為洗入 5 張，並立即抽取其中 2 張。"
+    }
+  },
+  {
+    "id": "623003",
+    "art": "623001.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 10,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Compounding Strike",
+      "zh-hans": "复利打击",
+      "zh-hant": "複利打擊"
+    },
+    "description": {
+      "en": "Deal 4 damage. This card gains 4 damage for each card played this turn.",
+      "zh-hans": "造成 4 点伤害。本回合每打出 1 张牌，此牌伤害提升 4。",
+      "zh-hant": "造成 4 點傷害。本回合每打出 1 張牌，此牌傷害提升 4。"
+    }
+  },
+  {
+    "id": "623004",
+    "art": "623007.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 11,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Tithe of Light",
+      "zh-hans": "光辉之价",
+      "zh-hant": "光輝之價"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"Spend up to the maximum listed resource. Trigger the effect once for every increment.\">Funnel</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>: up to 30. For every 10, draw 1 card.",
+      "zh-hans": "<span class=\"kw\" title=\"最多消耗所列上限的资源。每消耗一个增量，便触发一次效果。\">倾注</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>：至多 30。每 10 点，抽 1 张牌。",
+      "zh-hant": "<span class=\"kw\" title=\"最多消耗所列上限的資源。每消耗一個增量，便觸發一次效果。\">傾注</span> <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>：至多 30。每 10 點，抽 1 張牌。"
+    }
+  },
+  {
+    "id": "623005",
+    "art": "623003.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 8,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Doubling Faith",
+      "zh-hans": "倍化信仰",
+      "zh-hant": "倍化信仰"
+    },
+    "description": {
+      "en": "Increase your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> changes by 25% and your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> changes by 25% (gains and losses) for 1 turn.",
+      "zh-hans": "你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 变化量提升 25%，<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 变化量提升 25%（增加与减少皆算），持续 1 回合。",
+      "zh-hant": "你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 變化量提升 25%，<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 變化量提升 25%（增加與減少皆算），持續 1 回合。"
+    }
+  },
+  {
+    "id": "623006",
+    "art": "623010.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 4,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Shadowed Birth",
+      "zh-hans": "幽暗再造",
+      "zh-hant": "幽暗再造"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"When a card's durability reaches 0, it will be destroyed and will become unplayable for the rest of the dungeon.\">Destroy</span> up to 5 Generated Evinor cards in your draw pile. For each card destroyed, draw 1 card.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥60: Each card destroyed also reduces your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> by 10.",
+      "zh-hans": "<span class=\"kw\" title=\"当卡牌的耐久值归零时，该牌会被摧毁，在本次地牢探索的剩余时间内无法使用。\">摧毁</span>你牌堆中至多 5 张【伊维诺】的衍生牌。每摧毁一张，抽 1 张牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：每摧毁一张，你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 额外减少 10。",
+      "zh-hant": "<span class=\"kw\" title=\"當卡牌的耐久值歸零時，該牌會被摧毀，在本次地城探索的剩餘時間內無法使用。\">摧毀</span>你牌堆中至多 5 張【伊維諾】的衍生牌。每摧毀一張，抽 1 張牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：每摧毀一張，你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 額外減少 10。"
+    }
+  },
+  {
+    "id": "623007",
+    "art": "623017.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 5,
+    "angelGain": 15,
+    "demonGain": -15,
+    "rarity": 3,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Echo Chamber",
+      "zh-hans": "回响震荡",
+      "zh-hant": "迴響震盪"
+    },
+    "description": {
+      "en": "Gain <span class=\"kw\" title=\"A stackable buff that makes your next played card's effect trigger x additional times within y turns.\">Resonate</span> 1 for your next 1 card this turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥60: It applies to your next 2 cards instead.",
+      "zh-hans": "本回合接下来 1 张牌获得 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内使你下一张打出的牌的效果额外发动 x 次。\">共鸣</span> 1。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：改为套用于接下来 2 张牌。",
+      "zh-hant": "本回合接下來 1 張牌獲得 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內使你下一張打出的牌的效果額外發動 x 次。\">共鳴</span> 1。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：改為套用於接下來 2 張牌。"
+    }
+  },
+  {
+    "id": "623008",
+    "art": "623002.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 8,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Profiteer's Cut",
+      "zh-hans": "利者抽成",
+      "zh-hant": "利者抽成"
+    },
+    "description": {
+      "en": "Gain 5 gold for each card you play after this one this turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≤30: Also gain 30 gold at the end of combat.",
+      "zh-hans": "本回合在此牌之后每打出一张牌，获得 5 金币。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≤30：战斗结束时额外获得 30 金币。",
+      "zh-hant": "本回合在此牌之後每打出一張牌，獲得 5 金幣。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≤30：戰鬥結束時額外獲得 30 金幣。"
+    }
+  },
+  {
+    "id": "623009",
+    "art": "623006.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 6,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Abundance",
+      "zh-hans": "富足",
+      "zh-hant": "富足"
+    },
+    "description": {
+      "en": "For each card in your hand, gain 10% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 2 turn.",
+      "zh-hans": "你手中每有 1 张牌，获得 10% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 2 回合。",
+      "zh-hant": "你手中每有 1 張牌，獲得 10% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 2 回合。"
+    }
+  },
+  {
+    "id": "623010",
+    "art": "623005.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 17,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Genesis Stance",
+      "zh-hans": "创世姿态",
+      "zh-hant": "創世姿態"
+    },
+    "description": {
+      "en": "Shuffle 3 cards into your draw pile that grant <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥30: Also shuffle in 3 that grant <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span>.",
+      "zh-hans": "将 3 张抽到时提供 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span> 的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：额外洗入 3 张提供 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span> 的牌。",
+      "zh-hant": "將 3 張抽到時提供 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span> 的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：額外洗入 3 張提供 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span> 的牌。"
+    }
+  },
+  {
+    "id": "623012",
+    "art": null,
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 6,
+    "angelGain": 25,
+    "demonGain": -25,
+    "rarity": 2,
+    "cost": 3,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Genesis Quake",
+      "zh-hans": "Genesis Quake",
+      "zh-hant": "Genesis Quake"
+    },
+    "description": {
+      "en": "Deal 28 damage.<br><span class=\"kw\" title=\"Trigger the additional effects when the player deals lethal damage with this card.\">Onkill</span>: Gain 3 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 1.",
+      "zh-hans": "Deal 28 damage.<br><span class=\"kw\" title=\"当玩家以此牌造成致命伤害时，触发额外效果。\">击杀时</span>: Gain 3 <span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>.<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>: 1.",
+      "zh-hant": "Deal 28 damage.<br><span class=\"kw\" title=\"當玩家以此牌造成致命傷害時，觸發額外效果。\">擊殺時</span>: Gain 3 <span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>.<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>: 1."
+    }
+  },
+  {
+    "id": "623014",
+    "art": "623009.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 10,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Coin of Insight",
+      "zh-hans": "洞见之币",
+      "zh-hant": "洞見之幣"
+    },
+    "description": {
+      "en": "Shuffle 3 cards into your draw pile that draw cards when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥70: Shuffle up to 10 chosen cards from your hand back into your draw pile and draw that many.",
+      "zh-hans": "将 3 张抽到时能抽牌的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥70：将至多 10 张选定的手牌洗回牌堆，并抽取等量的牌。",
+      "zh-hant": "將 3 張抽到時能抽牌的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥70：將至多 10 張選定的手牌洗回牌堆，並抽取等量的牌。"
+    }
+  },
+  {
+    "id": "623016",
+    "art": "623020.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 17,
+    "angelGain": 15,
+    "demonGain": -15,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Coin of Echoes",
+      "zh-hans": "回响之币",
+      "zh-hant": "回響之幣"
+    },
+    "description": {
+      "en": "Shuffle 3 cards into your draw pile that grant <span class=\"kw\" title=\"A stackable buff that makes your next played card's effect trigger x additional times within y turns.\">Resonate</span> when drawn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥60: Costs 1 less <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
+      "zh-hans": "将 3 张抽到时提供 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内使你下一张打出的牌的效果额外发动 x 次。\">共鸣</span> 的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：少消耗 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。",
+      "zh-hant": "將 3 張抽到時提供 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內使你下一張打出的牌的效果額外發動 x 次。\">共鳴</span> 的牌洗入你的牌堆。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥60：少消耗 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。"
+    }
+  },
+  {
+    "id": "623018",
+    "art": "623014.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 4,
+    "angelGain": 15,
+    "demonGain": -15,
+    "rarity": 3,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Eternal Reunion",
+      "zh-hans": "永恒重聚",
+      "zh-hant": "永恆重聚"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"When a card's durability reaches 0, it will be destroyed and will become unplayable for the rest of the dungeon.\">Destroy</span> up to 10 Generated cards in your draw pile. For each card destroyed, deal 8 damage.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≤50: Deal 10 instead.",
+      "zh-hans": "<span class=\"kw\" title=\"当卡牌的耐久值归零时，该牌会被摧毁，在本次地牢探索的剩余时间内无法使用。\">摧毁</span>你牌堆中至多 10 张衍生牌。每摧毁一张，造成 8 点伤害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≤50：改为造成 10 点。",
+      "zh-hant": "<span class=\"kw\" title=\"當卡牌的耐久值歸零時，該牌會被摧毀，在本次地城探索的剩餘時間內無法使用。\">摧毀</span>你牌堆中至多 10 張衍生牌。每摧毀一張，造成 8 點傷害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≤50：改為造成 10 點。"
+    }
+  },
+  {
+    "id": "623019",
+    "art": "623013.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 5,
+    "angelGain": 10,
+    "demonGain": -10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Heal"
+    ],
+    "name": {
+      "en": "Redeem the Vault",
+      "zh-hans": "兑现宝库",
+      "zh-hant": "兌現寶庫"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"When a card's durability reaches 0, it will be destroyed and will become unplayable for the rest of the dungeon.\">Destroy</span> up to 3 Generated Evinor cards in your draw pile. For each card destroyed, heal 8 HP.",
+      "zh-hans": "<span class=\"kw\" title=\"当卡牌的耐久值归零时，该牌会被摧毁，在本次地牢探索的剩余时间内无法使用。\">摧毁</span>你牌堆中至多 3 张【伊维诺】的衍生牌。每摧毁一张，回復 8 点生命。",
+      "zh-hant": "<span class=\"kw\" title=\"當卡牌的耐久值歸零時，該牌會被摧毀，在本次地城探索的剩餘時間內無法使用。\">摧毀</span>你牌堆中至多 3 張【伊維諾】的衍生牌。每摧毀一張，回復 8 點生命。"
+    }
+  },
+  {
+    "id": "623020",
+    "art": "623015.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 4,
+    "angelGain": 5,
+    "demonGain": -5,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Melt Down",
+      "zh-hans": "熔毁",
+      "zh-hant": "熔毀"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"When a card's durability reaches 0, it will be destroyed and will become unplayable for the rest of the dungeon.\">Destroy</span> up to 3 Generated Evinor cards in your draw pile. For each card destroyed, gain 5 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span>.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤50: Gain 10 instead.",
+      "zh-hans": "<span class=\"kw\" title=\"当卡牌的耐久值归零时，该牌会被摧毁，在本次地牢探索的剩余时间内无法使用。\">摧毁</span>你牌堆中至多 3 张【伊维诺】的衍生牌。每摧毁一张，获得 5 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤50：改为获得 10。",
+      "zh-hant": "<span class=\"kw\" title=\"當卡牌的耐久值歸零時，該牌會被摧毀，在本次地城探索的剩餘時間內無法使用。\">摧毀</span>你牌堆中至多 3 張【伊維諾】的衍生牌。每摧毀一張，獲得 5 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤50：改為獲得 10。"
+    }
+  },
+  {
+    "id": "623021",
+    "art": "623016.jpg",
+    "inherent": false,
+    "factions": [
+      "Angel"
+    ],
+    "gods": [
+      "Evinor"
+    ],
+    "durability": 7,
+    "angelGain": -30,
+    "demonGain": -30,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Shattering Baptism",
+      "zh-hans": "碎裂洗礼",
+      "zh-hant": "碎裂洗禮"
+    },
+    "description": {
+      "en": "<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥50: Costs 1 less <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥50: It costs a further 1 less.",
+      "zh-hans": "<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：少消耗 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥50：再少消耗 1 点。",
+      "zh-hant": "<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥50：少消耗 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥50：再少消耗 1 點。"
+    }
+  },
+  {
+    "id": "631001",
+    "art": "631001.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 14,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Foreseen Wound",
+      "zh-hans": "预见之伤",
+      "zh-hant": "預見之傷"
+    },
+    "description": {
+      "en": "Apply 8 <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span> (1 turn) to all enemies.<br>Targets with <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span>: Apply a second one (2 turn).<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 2.",
+      "zh-hans": "对所有敌人施加 8 点 <span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span>（1 回合）。<br>已带有 <span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span> 的目标：再施加一次（2 回合）。<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>：2。",
+      "zh-hant": "對所有敵人施加 8 點 <span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span>（1 回合）。<br>已帶有 <span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span> 的目標：再施加一次（2 回合）。<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>：2。"
+    }
+  },
+  {
+    "id": "631002",
+    "art": "631012.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 10,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Gathering Omen",
+      "zh-hans": "汇聚凶兆",
+      "zh-hant": "匯聚凶兆"
+    },
+    "description": {
+      "en": "Apply 36 <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span> (3 turn).<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥45: Spend 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>; delay becomes 2 turn.",
+      "zh-hans": "施加 36 点 <span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span>（3 回合）。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥45：消耗 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>，延迟缩短为 2 回合。",
+      "zh-hant": "施加 36 點 <span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span>（3 回合）。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥45：消耗 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>，延遲縮短為 2 回合。"
+    }
+  },
+  {
+    "id": "631003",
+    "art": "631013.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 5,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 3,
+    "cost": 1,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Fractured Prophecy",
+      "zh-hans": "破碎预言",
+      "zh-hant": "破碎預言"
+    },
+    "description": {
+      "en": "Shuffle four different Seal cards into your draw pile. With all four in hand, playing any one deals heavy damage to all enemies.",
+      "zh-hans": "将四张不同的封印牌洗入你的牌堆。四张集齐时，打出任一张对所有敌人造成巨额伤害。",
+      "zh-hant": "將四張不同的封印牌洗入你的牌堆。四張集齊時，打出任一張對所有敵人造成巨額傷害。"
+    }
+  },
+  {
+    "id": "631008",
+    "art": "631014.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 3,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 3,
+    "cost": 1,
+    "actionTypes": [
+      "Heal"
+    ],
+    "name": {
+      "en": "Sundered Vision",
+      "zh-hans": "割裂幻象",
+      "zh-hant": "割裂幻象"
+    },
+    "description": {
+      "en": "Shuffle two different Vision cards into your draw pile. With both in hand, playing either one heals you.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥45: Shuffle in two of each instead.",
+      "zh-hans": "将两张不同的幻象牌洗入你的牌堆。两张集齐时，打出任一张即可回复生命。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥45：改为各洗入两张。",
+      "zh-hant": "將兩張不同的幻象牌洗入你的牌堆。兩張集齊時，打出任一張即可回復生命。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥45：改為各洗入兩張。"
+    }
+  },
+  {
+    "id": "631011",
+    "art": "631003.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 14,
+    "angelGain": -20,
+    "demonGain": 20,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Expose the Flaw",
+      "zh-hans": "揭露破绽",
+      "zh-hant": "揭露破綻"
+    },
+    "description": {
+      "en": "Deal 12 damage to all enemies. Enemies with a debuff take 20 instead.",
+      "zh-hans": "对所有敌人造成 12 点伤害。带有减益的敌人改为受到 20 点。",
+      "zh-hant": "對所有敵人造成 12 點傷害。帶有減益的敵人改為受到 20 點。"
+    }
+  },
+  {
+    "id": "631012",
+    "art": "631016.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 18,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Patient Malice",
+      "zh-hans": "恶意静候",
+      "zh-hant": "惡意靜候"
+    },
+    "description": {
+      "en": "Deal 10 damage. This card gains 6 damage for each turn it is held in hand, and resets when played.",
+      "zh-hans": "造成 10 点伤害。此牌每在手中保留一回合，伤害提升 6，打出后重置。",
+      "zh-hant": "造成 10 點傷害。此牌每在手中保留一回合，傷害提升 6，打出後重置。"
+    }
+  },
+  {
+    "id": "631013",
+    "art": "631020.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 9,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Glimpse",
+      "zh-hans": "窥视",
+      "zh-hant": "窺視"
+    },
+    "description": {
+      "en": "Draw 2 cards.<br>Active <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span>: Draw 3 instead.",
+      "zh-hans": "抽 2 张牌。<br>有生效中的 <span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span>：改为抽 3 张。",
+      "zh-hant": "抽 2 張牌。<br>有生效中的 <span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span>：改為抽 3 張。"
+    }
+  },
+  {
+    "id": "631014",
+    "art": "631008.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 4,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Buff",
+      "Draw"
+    ],
+    "name": {
+      "en": "Veiled Ward",
+      "zh-hans": "隐蔽守护",
+      "zh-hant": "隱蔽守護"
+    },
+    "description": {
+      "en": "Gain <span class=\"kw\" title=\"An unstackable buff that grants complete immunity to the next incoming attack within x turns.\">Guard</span> for 1 turn.<br>Active <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span>: Draw 1 card.",
+      "zh-hans": "获得 <span class=\"kw\" title=\"不可叠加的增益，在 x 回合内完全免疫下一次受到的攻击。\">守护</span>，持续 1 回合。<br>有生效中的 <span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span>：抽 1 张牌。",
+      "zh-hant": "獲得 <span class=\"kw\" title=\"不可疊加的增益，在 x 回合內完全免疫下一次受到的攻擊。\">守護</span>，持續 1 回合。<br>有生效中的 <span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span>：抽 1 張牌。"
+    }
+  },
+  {
+    "id": "631015",
+    "art": "631019.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 8,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Status"
+    ],
+    "name": {
+      "en": "Creeping Doubt",
+      "zh-hans": "蔓延疑虑",
+      "zh-hant": "蔓延疑慮"
+    },
+    "description": {
+      "en": "Apply 30% <span class=\"kw\" title=\"A stackable debuff that reduces the owner's attack by a percentage within x turns.\">Intimidate</span> to all enemies for 1 turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥15: Spend 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> and apply a further 20%.",
+      "zh-hans": "对所有敌人施加 30% <span class=\"kw\" title=\"可叠加的减益，在 x 回合内使持有者的攻击降低一定百分比。\">威吓</span>，持续 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥15：消耗 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>，再额外施加 20%。",
+      "zh-hant": "對所有敵人施加 30% <span class=\"kw\" title=\"可疊加的減益，在 x 回合內使持有者的攻擊降低一定百分比。\">威嚇</span>，持續 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥15：消耗 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>，再額外施加 20%。"
+    }
+  },
+  {
+    "id": "631016",
+    "art": "631018.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 4,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Unclouded Mind",
+      "zh-hans": "澄明心智",
+      "zh-hant": "澄明心智"
+    },
+    "description": {
+      "en": "Remove 1 random debuff from yourself.<br>Active <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span>: Remove all debuffs instead.",
+      "zh-hans": "随机移除自身 1 个减益。<br>有生效中的 <span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span>：改为移除所有减益。",
+      "zh-hant": "隨機移除自身 1 個減益。<br>有生效中的 <span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span>：改為移除所有減益。"
+    }
+  },
+  {
+    "id": "631017",
+    "art": "631002.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 14,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Status",
+      "Attack"
+    ],
+    "name": {
+      "en": "Sealed Fate",
+      "zh-hans": "封印命运",
+      "zh-hant": "封印命運"
+    },
+    "description": {
+      "en": "Apply 18 <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span> (1 turn).<br>Target with <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span>: Also apply <span class=\"kw\" title=\"An unstackable debuff that reduces all of the owner's incoming healing to 0 within x turns.\">Cursed</span> for 2 turn.",
+      "zh-hans": "施加 18 点 <span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span>（1 回合）。<br>已带有 <span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span> 的目标：同时施加 <span class=\"kw\" title=\"不可叠加的减益，在 x 回合内使持有者受到的所有治疗归零。\">诅咒</span>，持续 2 回合。",
+      "zh-hant": "施加 18 點 <span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span>（1 回合）。<br>已帶有 <span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span> 的目標：同時施加 <span class=\"kw\" title=\"不可疊加的減益，在 x 回合內使持有者受到的所有治療歸零。\">詛咒</span>，持續 2 回合。"
+    }
+  },
+  {
+    "id": "631018",
+    "art": "631007.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 10,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Search: Wrath",
+      "zh-hans": "搜寻：愤怒",
+      "zh-hant": "搜尋：憤怒"
+    },
+    "description": {
+      "en": "Inspect up to 3 Attack cards in your deck and draw 1.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥30: Repeat this effect.",
+      "zh-hans": "检视你牌堆中至多 3 张攻击牌，并抽取 1 张。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥30：重复此效果一次。",
+      "zh-hant": "檢視你牌堆中至多 3 張攻擊牌，並抽取 1 張。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥30：重複此效果一次。"
+    }
+  },
+  {
+    "id": "631019",
+    "art": "631007.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 10,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Search: Solace",
+      "zh-hans": "搜寻：慰藉",
+      "zh-hant": "搜尋：慰藉"
+    },
+    "description": {
+      "en": "Inspect up to 3 Heal cards in your deck and draw 1.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥30: Reduce the cost of your next played card by 1.",
+      "zh-hans": "检视你牌堆中至多 3 张治疗牌，并抽取 1 张。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥30：下一张打出的牌费用减少 1。",
+      "zh-hant": "檢視你牌堆中至多 3 張治療牌，並抽取 1 張。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥30：下一張打出的牌費用減少 1。"
+    }
+  },
+  {
+    "id": "631020",
+    "art": "631007.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 10,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Search: Ward",
+      "zh-hans": "搜寻：守护",
+      "zh-hant": "搜尋：守護"
+    },
+    "description": {
+      "en": "Inspect up to 3 Buff cards in your draw pile and draw 1.<br>Hand size≤4: Reduce your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> changes (gains and losses) by 50% for 1 turn.",
+      "zh-hans": "检视你牌堆中至多 3 张增益牌，并抽取其中 1 张。<br>手牌≤4：你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 变化量（增加与减少）降低 50%，持续 1 回合。",
+      "zh-hant": "檢視你牌堆中至多 3 張增益牌，並抽取其中 1 張。<br>手牌≤4：你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 變化量（增加與減少）降低 50%，持續 1 回合。"
+    }
+  },
+  {
+    "id": "631021",
+    "art": "631007.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 10,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Search: Bane",
+      "zh-hans": "搜寻：灾厄",
+      "zh-hant": "搜尋：災厄"
+    },
+    "description": {
+      "en": "Inspect up to 3 Status cards in your deck and draw 1. If this is the first card you play this turn, gain 1 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
+      "zh-hans": "检视你牌组中至多 3 张状态牌，并抽取其中 1 张。若此牌是你本回合打出的第一张牌，获得 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。",
+      "zh-hant": "檢視你牌組中至多 3 張狀態牌，並抽取其中 1 張。若此牌是你本回合打出的第一張牌，獲得 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。"
+    }
+  },
+  {
+    "id": "631022",
+    "art": "631017.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 6,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Status",
+      "Attack"
+    ],
+    "name": {
+      "en": "True Sight",
+      "zh-hans": "真实之眼",
+      "zh-hant": "真實之眼"
+    },
+    "description": {
+      "en": "Reveal the enemy's next intent for the rest of the combat.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤30: Each Attack card you play this turn deals 5 extra damage to enemies whose intent is revealed.",
+      "zh-hans": "在本场战斗的剩余时间内揭露该敌人的下一个意图。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤30：本回合每打出一张攻击牌，对意图已揭露的敌人额外造成 5 点伤害。",
+      "zh-hant": "在本場戰鬥的剩餘時間內揭露該敵人的下一個意圖。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤30：本回合每打出一張攻擊牌，對意圖已揭露的敵人額外造成 5 點傷害。"
+    }
+  },
+  {
+    "id": "631023",
+    "art": "631015.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 14,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Status"
+    ],
+    "name": {
+      "en": "Withering Portent",
+      "zh-hans": "凋零预兆",
+      "zh-hant": "凋零預兆"
+    },
+    "description": {
+      "en": "Apply 75% <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> to an enemy for 1 turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥30: It lasts 2 turn instead.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥60: It lasts 3 turn instead.",
+      "zh-hans": "施加 75% <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥30：改为持续 2 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥60：改为持续 3 回合。",
+      "zh-hant": "施加 75% <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥30：改為持續 2 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥60：改為持續 3 回合。"
+    }
+  },
+  {
+    "id": "631024",
+    "art": "631012.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Oculyth"
+    ],
+    "durability": 4,
+    "angelGain": -10,
+    "demonGain": 0,
+    "rarity": 3,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Fated Comet",
+      "zh-hans": "命定彗星",
+      "zh-hant": "命定彗星"
+    },
+    "description": {
+      "en": "Spend all <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>. Apply <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span> equal to the amount spent (3 turn).",
+      "zh-hans": "消耗所有 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。施加等同消耗量的 <span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span>（3 回合）。",
+      "zh-hant": "消耗所有 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。施加等同消耗量的 <span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span>（3 回合）。"
+    }
+  },
+  {
+    "id": "632001",
+    "art": "632001.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 8,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Ripple Strike",
+      "zh-hans": "涟漪打击",
+      "zh-hant": "漣漪打擊"
+    },
+    "description": {
+      "en": "Deal 4 damage 3 times.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥30 + <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥30: Strike 4 times instead.",
+      "zh-hans": "造成 4 点伤害 3 次。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30 + <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥30：改为攻击 4 次。",
+      "zh-hant": "造成 4 點傷害 3 次。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30 + <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥30：改為攻擊 4 次。"
+    }
+  },
+  {
+    "id": "632002",
+    "art": "632020.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 10,
+    "angelGain": -20,
+    "demonGain": 20,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Blood Drain",
+      "zh-hans": "鲜血汲取",
+      "zh-hant": "鮮血汲取"
+    },
+    "description": {
+      "en": "Deal 6 damage to all enemies 2 times.<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"Durability\"></span>≤5: Deal 6 damage 3 times instead. <br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"Durability\"></span>≤3: Deal 6 damage 4 times instead.",
+      "zh-hans": "对所有敌人造成 6 点伤害 2 次。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久\"></span>≤5：改为造成 6 点伤害 3 次。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久\"></span>≤3：改为造成 6 点伤害 4 次。",
+      "zh-hant": "對所有敵人造成 6 點傷害 2 次。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久\"></span>≤5：改為造成 6 點傷害 3 次。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久\"></span>≤3：改為造成 6 點傷害 4 次。"
+    }
+  },
+  {
+    "id": "632003",
+    "art": "632021.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 8,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 1,
+    "cost": 0,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Rising Tide",
+      "zh-hans": "狂潮暴涨",
+      "zh-hant": "狂潮暴漲"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"Spend up to the maximum listed resource. Trigger the effect once for every increment.\">Funnel</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>: up to 30. For every 10, gain 3 <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> for 1 turn.",
+      "zh-hans": "<span class=\"kw\" title=\"最多消耗所列上限的资源。每消耗一个增量，便触发一次效果。\">倾注</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>：至多 30。每 10 点，获得 3 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span>，持续 1 回合。",
+      "zh-hant": "<span class=\"kw\" title=\"最多消耗所列上限的資源。每消耗一個增量，便觸發一次效果。\">傾注</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>：至多 30。每 10 點，獲得 3 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span>，持續 1 回合。"
+    }
+  },
+  {
+    "id": "632004",
+    "art": "632006.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 3,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 2,
+    "cost": 0,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Torrent",
+      "zh-hans": "激流",
+      "zh-hant": "激流"
+    },
+    "description": {
+      "en": "Spend all your remaining <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>. For each <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span> spent, deal 12 damage. If the difference between your meters is within 30, deal 16 instead.",
+      "zh-hans": "消耗你剩余的所有<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。每消耗 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>，造成 12 点伤害。若你的两个量表差距在 30 以内，改为造成 16 点。",
+      "zh-hant": "消耗你剩餘的所有<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。每消耗 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>，造成 12 點傷害。若你的兩個量表差距在 30 以內，改為造成 16 點。"
+    }
+  },
+  {
+    "id": "632005",
+    "art": "632003.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 4,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 2,
+    "cost": 0,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Unshackled",
+      "zh-hans": "挣脱枷锁",
+      "zh-hant": "掙脫枷鎖"
+    },
+    "description": {
+      "en": "Gain 1 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>, then reduce the durability of 5 random cards in your deck by 1.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥55: No durability is lost.",
+      "zh-hans": "获得 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>，并随机使牌堆中 5 张牌的耐久减少 1。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥55：不损失任何耐久。",
+      "zh-hant": "獲得 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>，並隨機使牌堆中 5 張牌的耐久減少 1。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥55：不損失任何耐久。"
+    }
+  },
+  {
+    "id": "632006",
+    "art": "632015.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 8,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Slipstream",
+      "zh-hans": "滑流",
+      "zh-hant": "滑流"
+    },
+    "description": {
+      "en": "Gain <span class=\"kw\" title=\"A stackable buff that causes the next card you play to also play its neighboring cards for free, within x turns. Swift is either left-only or both sides; it is never right-only. The left card resolves first. Swift cannot trigger another Swift.\">Swift</span> for 1 turn.<br>If the difference between your meters is within 25, it plays both neighbors instead.",
+      "zh-hans": "获得 <span class=\"kw\" title=\"可叠加的增益。在 x 回合内，你打出的下一张牌会免费连带打出相邻的牌。迅捷只有「仅左侧」与「左右两侧」两种，没有仅右侧。左侧的牌先结算。迅捷无法触发另一个迅捷。\">迅捷</span>，持续 1 回合。<br>若你的两个量表差距在 25 以内，改为连带打出左右两侧各一张。",
+      "zh-hant": "獲得 <span class=\"kw\" title=\"可疊加的增益。在 x 回合內，你打出的下一張牌會免費連帶打出相鄰的牌。迅捷只有「僅左側」與「左右兩側」兩種，沒有僅右側。左側的牌先結算。迅捷無法觸發另一個迅捷。\">迅捷</span>，持續 1 回合。<br>若你的兩個量表差距在 25 以內，改為連帶打出左右兩側各一張。"
+    }
+  },
+  {
+    "id": "632007",
+    "art": "632007.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 6,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Frayed Bulwark",
+      "zh-hans": "磨损壁垒",
+      "zh-hant": "磨損壁壘"
+    },
+    "description": {
+      "en": "Gain <span class=\"kw\" title=\"An unstackable buff that grants complete immunity to the next incoming attack within x turns.\">Guard</span> for 1 turn. <br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"Durability\"></span>≤3: Gain it for 2 turn instead.",
+      "zh-hans": "获得 <span class=\"kw\" title=\"不可叠加的增益，在 x 回合内完全免疫下一次受到的攻击。\">守护</span>，持续 1 回合。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久\"></span>≤3：改为持续 2 回合。",
+      "zh-hant": "獲得 <span class=\"kw\" title=\"不可疊加的增益，在 x 回合內完全免疫下一次受到的攻擊。\">守護</span>，持續 1 回合。<br><span class=\"icon icon-durability\" role=\"img\" aria-label=\"耐久\"></span>≤3：改為持續 2 回合。"
+    }
+  },
+  {
+    "id": "632008",
+    "art": "632013.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 17,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Current Carriers",
+      "zh-hans": "洋流之引",
+      "zh-hant": "洋流之引"
+    },
+    "description": {
+      "en": "Shuffle 3 cards into your draw pile that reduce your next played card's cost when drawn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥60: Shuffle in 3 enhanced versions instead, which also draw a card.",
+      "zh-hans": "将 3 张抽到时能降低下一张牌费用的牌洗入你的牌堆。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥60：改为洗入 3 张强化版本，额外抽一张牌。",
+      "zh-hant": "將 3 張抽到時能降低下一張牌費用的牌洗入你的牌堆。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥60：改為洗入 3 張強化版本，額外抽一張牌。"
+    }
+  },
+  {
+    "id": "632010",
+    "art": "632004.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 8,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Reckless Surge",
+      "zh-hans": "鲁莽激涌",
+      "zh-hant": "魯莽激湧"
+    },
+    "description": {
+      "en": "Gain 4 <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> for 1 turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥30: Gain 8 instead.",
+      "zh-hans": "获得 4 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span>，持续 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥30：改为获得 8。",
+      "zh-hant": "獲得 4 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span>，持續 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥30：改為獲得 8。"
+    }
+  },
+  {
+    "id": "632011",
+    "art": "632010.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 6,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 2,
+    "cost": 0,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Momentum",
+      "zh-hans": "动能",
+      "zh-hant": "動能"
+    },
+    "description": {
+      "en": "Gain 1 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>, plus 1 more for every 2 cards you've played this turn.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 2.",
+      "zh-hans": "获得 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>，本回合每打出 2 张牌则额外增加 1。<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>：2。",
+      "zh-hant": "獲得 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>，本回合每打出 2 張牌則額外增加 1。<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>：2。"
+    }
+  },
+  {
+    "id": "632012",
+    "art": "632005.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 4,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 3,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Churning Waters",
+      "zh-hans": "翻腾之水",
+      "zh-hant": "翻騰之水"
+    },
+    "description": {
+      "en": "Randomly change the cost of 3 cards in your hand to between 0 and 3. The cost resets when played or at the end of the turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥60: Change 10 cards instead.",
+      "zh-hans": "随机将手牌中 3 张牌的费用改为 0～3。费用于打出或回合结束时重置。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥60：改为 10 张牌。",
+      "zh-hant": "隨機將手牌中 3 張牌的費用改為 0～3。費用於打出或回合結束時重置。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥60：改為 10 張牌。"
+    }
+  },
+  {
+    "id": "632013",
+    "art": "632012.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 10,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Draw"
+    ],
+    "name": {
+      "en": "Salvage",
+      "zh-hans": "打捞",
+      "zh-hant": "打撈"
+    },
+    "description": {
+      "en": "Inspect up to 4 cards in your discard pile and draw 1.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤30 &amp; <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≤30: Also play 1 random card from your discard pile.",
+      "zh-hans": "检视你弃牌堆中至多 4 张牌，并抽取 1 张。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤30 &amp; <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≤30：额外从弃牌堆随机打出 1 张牌。",
+      "zh-hant": "檢視你棄牌堆中至多 4 張牌，並抽取 1 張。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤30 &amp; <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≤30：額外從棄牌堆隨機打出 1 張牌。"
+    }
+  },
+  {
+    "id": "632014",
+    "art": "632014.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 4,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Quench",
+      "zh-hans": "熄灭",
+      "zh-hant": "熄滅"
+    },
+    "description": {
+      "en": "Remove all <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> from yourself. Per stack: Deal 6 damage.",
+      "zh-hans": "移除自身的所有 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。每层造成 6 点伤害。",
+      "zh-hant": "移除自身的所有 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。每層造成 6 點傷害。"
+    }
+  },
+  {
+    "id": "632015",
+    "art": "632008.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 6,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Whim of Mercy",
+      "zh-hans": "慈悲之念",
+      "zh-hant": "慈悲之念"
+    },
+    "description": {
+      "en": "Play 1 random card from your deck.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥30: It is guaranteed to be a Heal card.",
+      "zh-hans": "从你的牌堆随机打出 1 张牌。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥30：必定为治疗牌。",
+      "zh-hant": "從你的牌堆隨機打出 1 張牌。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥30：必定為治療牌。"
+    }
+  },
+  {
+    "id": "632016",
+    "art": "632016.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 6,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Whim of Fortune",
+      "zh-hans": "幸运之念",
+      "zh-hant": "幸運之念"
+    },
+    "description": {
+      "en": "Play 1 random card from your discard pile.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥30: It is guaranteed to be a Buff card.",
+      "zh-hans": "从你的弃牌堆随机打出 1 张牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：必定为增益牌。",
+      "zh-hant": "從你的棄牌堆隨機打出 1 張牌。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥30：必定為增益牌。"
+    }
+  },
+  {
+    "id": "632017",
+    "art": "632009.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 5,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Backdraft",
+      "zh-hans": "逆流",
+      "zh-hant": "逆流"
+    },
+    "description": {
+      "en": "Also play the first 1 cards to its left for free.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥60: Play the first 2 cards to its left instead.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥80: Play the first 3 cards to its left instead.",
+      "zh-hans": "免费连带打出这张牌左侧前 1 张牌。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥60：改为连带打出其左侧前 2 张牌。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥80：改为连带打出其左侧前 3 张牌。",
+      "zh-hant": "免費連帶打出這張牌左側前 1 張牌。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥60：改為連帶打出其左側前 2 張牌。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥80：改為連帶打出其左側前 3 張牌。"
+    }
+  },
+  {
+    "id": "632018",
+    "art": "632011.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 2,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 2,
+    "cost": 0,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Free Will",
+      "zh-hans": "自由意志",
+      "zh-hant": "自由意志"
+    },
+    "description": {
+      "en": "Gain 1 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>. If this is the 4th or later card you play this turn, gain 3 instead.",
+      "zh-hans": "获得 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。若此牌是你本回合打出的第 4 张或之后的牌，改为获得 3。",
+      "zh-hant": "獲得 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。若此牌是你本回合打出的第 4 張或之後的牌，改為獲得 3。"
+    }
+  },
+  {
+    "id": "632019",
+    "art": "632018.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Hedalis"
+    ],
+    "durability": 8,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Attack",
+      "Buff"
+    ],
+    "name": {
+      "en": "Undertow Surge",
+      "zh-hans": "暗流激涌",
+      "zh-hant": "暗流激湧"
+    },
+    "description": {
+      "en": "Deal 6 damage 2 times.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥35: Spend 35 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> to also play the first 1 cards to its right for free.",
+      "zh-hans": "造成 6 点伤害 2 次。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥35：消耗 35 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>，免费连带打出这张牌右侧前 1 张牌。",
+      "zh-hant": "造成 6 點傷害 2 次。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥35：消耗 35 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>，免費連帶打出這張牌右側前 1 張牌。"
+    }
+  },
+  {
+    "id": "633001",
+    "art": "633003.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 14,
+    "angelGain": -20,
+    "demonGain": 20,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Soul Reap",
+      "zh-hans": "收割灵魂",
+      "zh-hant": "收割靈魂"
+    },
+    "description": {
+      "en": "Deal 9 damage to all enemies.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥40: Deal 18 instead.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤50: Deal 18 instead.",
+      "zh-hans": "对所有敌人造成 9 点伤害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥40：改为造成 18 点。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤50：改为造成 18 点。",
+      "zh-hant": "對所有敵人造成 9 點傷害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥40：改為造成 18 點。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤50：改為造成 18 點。"
+    }
+  },
+  {
+    "id": "633002",
+    "art": "633007.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 17,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Status"
+    ],
+    "name": {
+      "en": "Crimson Dance",
+      "zh-hans": "腥红之舞",
+      "zh-hant": "腥紅之舞"
+    },
+    "description": {
+      "en": "Apply 5% <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> to all enemies and 10% to yourself.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≤40: Apply only 5% to yourself.",
+      "zh-hans": "对所有敌人施加 5% <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>，并对自身施加 10%。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤40：对自身仅施加 5%。",
+      "zh-hant": "對所有敵人施加 5% <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>，並對自身施加 10%。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≤40：對自身僅施加 5%。"
+    }
+  },
+  {
+    "id": "633003",
+    "art": "633006.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 11,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 1,
+    "cost": 1,
+    "actionTypes": [
+      "Attack",
+      "Status"
+    ],
+    "name": {
+      "en": "Boneshatter",
+      "zh-hans": "碎骨",
+      "zh-hant": "碎骨"
+    },
+    "description": {
+      "en": "Deal 12 damage.<br>If the target is not <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span>, deal no damage and apply 6% <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> instead.",
+      "zh-hans": "造成 12 点伤害。<br>若目标不处于<span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>状态，则改为不造成伤害而是施加 6% <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
+      "zh-hant": "造成 12 點傷害。<br>若目標不處於<span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>狀態，則改為不造成傷害而是施加 6% <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+    }
+  },
+  {
+    "id": "633004",
+    "art": "633009.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 4,
+    "angelGain": -25,
+    "demonGain": 25,
+    "rarity": 2,
+    "cost": 3,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Endless Slaughter",
+      "zh-hans": "无尽杀戮",
+      "zh-hant": "無盡殺戮"
+    },
+    "description": {
+      "en": "Deal 24 damage to all enemies.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤30: Deal 32 instead.<br><span class=\"kw\" title=\"Trigger the additional effects when the player deals lethal damage with this card.\">Onkill</span>: Deal 24 damage again.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤30 + <span class=\"kw\" title=\"Trigger the additional effects when the player deals lethal damage with this card.\">Onkill</span>: Deal 32 instead.",
+      "zh-hans": "对所有敌人造成 24 点伤害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改为造成 32 点。<br><span class=\"kw\" title=\"当玩家以此牌造成致命伤害时，触发额外效果。\">击杀时</span>：再造成 24 点伤害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30 + <span class=\"kw\" title=\"当玩家以此牌造成致命伤害时，触发额外效果。\">击杀时</span>：改为造成 32 点。",
+      "zh-hant": "對所有敵人造成 24 點傷害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改為造成 32 點。<br><span class=\"kw\" title=\"當玩家以此牌造成致命傷害時，觸發額外效果。\">擊殺時</span>：再造成 24 點傷害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30 + <span class=\"kw\" title=\"當玩家以此牌造成致命傷害時，觸發額外效果。\">擊殺時</span>：改為造成 32 點。"
+    }
+  },
+  {
+    "id": "633005",
+    "art": "633020.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 3,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 1,
+    "cost": 0,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Cataclysm Reborn",
+      "zh-hans": "浩劫重生",
+      "zh-hant": "浩劫重生"
+    },
+    "description": {
+      "en": "Deal 10 damage to yourself and gain 1 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.<br><span class=\"kw\" title=\"Burden cards can only have limited copies within the same deck, with their value displayed on the card.\">Burden</span>: 2.",
+      "zh-hans": "对自身造成 10 点伤害，并获得 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。<br><span class=\"kw\" title=\"同一牌组中可纳入的负担牌数量有限，上限数量显示于卡牌上。\">负担</span>：2。",
+      "zh-hant": "對自身造成 10 點傷害，並獲得 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。<br><span class=\"kw\" title=\"同一牌組中可納入的負擔牌數量有限，上限數量顯示於卡牌上。\">負擔</span>：2。"
+    }
+  },
+  {
+    "id": "633006",
+    "art": "633002.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 14,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Bloodthirst",
+      "zh-hans": "嗜血",
+      "zh-hant": "嗜血"
+    },
+    "description": {
+      "en": "Gain <span class=\"kw\" title=\"A stackable buff that makes the owner's next x hits heal for the damage dealt within y turns.\">Lifesteal</span> 1 for 1 turn.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤30: Gain 2 instead.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤50: Costs 1 less <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.",
+      "zh-hans": "获得 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内使持有者接下来 x 次命中依造成的伤害回复生命。\">生命偷取</span> 1，持续 1 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改为获得 2。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤50：少消耗 1 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。",
+      "zh-hant": "獲得 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內使持有者接下來 x 次命中依造成的傷害回復生命。\">生命偷取</span> 1，持續 1 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改為獲得 2。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤50：少消耗 1 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。"
+    }
+  },
+  {
+    "id": "633007",
+    "art": "633015.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 5,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Bloodlust Howl",
+      "zh-hans": "血欲狂嚎",
+      "zh-hant": "血慾狂嚎"
+    },
+    "description": {
+      "en": "For each <span class=\"kw\" title=\"A Lingering, uncleansable debuff gained when Demon Meter or Angel Meter overflows by a chance.\">Affliction</span> you carry: deal 21 damage and 7 to others.<br>Then deal 15 damage to yourself.",
+      "zh-hans": "你每持有 1 项 <span class=\"kw\" title=\"一种无法被移除的缠身减益。可于溢出 恶魔量表 或 天使量表 时获得。\">灾厄</span>：造成 21 点伤害，其他敌人 7 点。<br>接着对自身造成 15 点伤害。",
+      "zh-hant": "你每持有 1 項 <span class=\"kw\" title=\"一種無法被移除的纏身減益。可於溢出 惡魔量表 或 天使量表 時獲得。\">災厄</span>：造成 21 點傷害，其他敵人 7 點。<br>接著對自身造成 15 點傷害。"
+    }
+  },
+  {
+    "id": "633008",
+    "art": "633012.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 14,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Bone Shield",
+      "zh-hans": "骸骨之盾",
+      "zh-hant": "骸骨之盾"
+    },
+    "description": {
+      "en": "Gain 20 <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> for 3 turn.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤30: Gain 40 instead.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥45: Gain 40 instead.",
+      "zh-hans": "获得 20 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>，持续 3 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改为获得 40。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥45：改为获得 40。",
+      "zh-hant": "獲得 20 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>，持續 3 回合。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改為獲得 40。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥45：改為獲得 40。"
+    }
+  },
+  {
+    "id": "633009",
+    "art": "633005.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 10,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Status"
+    ],
+    "name": {
+      "en": "Pressure",
+      "zh-hans": "威压",
+      "zh-hant": "威壓"
+    },
+    "description": {
+      "en": "Apply 100% <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> to all enemies for 1 turn, then deal 12 damage to yourself.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥50: Spend 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> and it lasts 2 turn instead.",
+      "zh-hans": "对所有敌人施加 100% <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合，然后对自身造成 12 点伤害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥50：消耗 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>，改为持续 2 回合。",
+      "zh-hant": "對所有敵人施加 100% <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合，然後對自身造成 12 點傷害。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥50：消耗 15 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>，改為持續 2 回合。"
+    }
+  },
+  {
+    "id": "633010",
+    "art": "633001.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 4,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Heal"
+    ],
+    "name": {
+      "en": "Clot",
+      "zh-hans": "凝血",
+      "zh-hant": "凝血"
+    },
+    "description": {
+      "en": "Remove all <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> from yourself. Per stack: Heal 3 HP.",
+      "zh-hans": "移除自身的所有 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。每层回复 3 点生命。",
+      "zh-hant": "移除自身的所有 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。每層回復 3 點生命。"
+    }
+  },
+  {
+    "id": "633011",
+    "art": "633011.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 8,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Heal"
+    ],
+    "name": {
+      "en": "Chaotic Rush",
+      "zh-hans": "混沌冲锋",
+      "zh-hant": "混沌衝鋒"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"Spend up to the maximum listed resource. Trigger the effect once for every increment.\">Funnel</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>: up to 30. For every 10, repeat the below.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≥60: Deal 10 damage to yourself.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤40: Heal 10 HP.",
+      "zh-hans": "<span class=\"kw\" title=\"最多消耗所列上限的资源。每消耗一个增量，便触发一次效果。\">倾注</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>：至多 30。每 10 点，重复下列效果。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≥60：对自身造成 10 点伤害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤40：回复 10 点生命。",
+      "zh-hant": "<span class=\"kw\" title=\"最多消耗所列上限的資源。每消耗一個增量，便觸發一次效果。\">傾注</span> <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>：至多 30。每 10 點，重複下列效果。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≥60：對自身造成 10 點傷害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤40：回復 10 點生命。"
+    }
+  },
+  {
+    "id": "633012",
+    "art": "633008.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 7,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 3,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Gluttony",
+      "zh-hans": "暴食",
+      "zh-hant": "暴食"
+    },
+    "description": {
+      "en": "<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≥50: Set your HP to 30 and gain <span class=\"kw\" title=\"An unstackable buff that grants complete immunity to the next incoming attack within x turns.\">Guard</span> for 1 turn.<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> ≤49: Gain 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>.",
+      "zh-hans": "<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≥50：将你的生命设为 30，并获得 <span class=\"kw\" title=\"不可叠加的增益，在 x 回合内完全免疫下一次受到的攻击。\">守护</span>，持续 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> ≤49：获得 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
+      "zh-hant": "<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≥50：將你的生命設為 30，並獲得 <span class=\"kw\" title=\"不可疊加的增益，在 x 回合內完全免疫下一次受到的攻擊。\">守護</span>，持續 1 回合。<br><span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> ≤49：獲得 30 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
+    }
+  },
+  {
+    "id": "633014",
+    "art": "633014.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 10,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Consume Divinity",
+      "zh-hans": "吞噬神性",
+      "zh-hant": "吞噬神性"
+    },
+    "description": {
+      "en": "Reduce the durability of 5 Angel cards in your deck by 1, and gain 50% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 1 turn.<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> ≥40: Reduce 5 cards by 2 and gain 75% instead.",
+      "zh-hans": "使你牌堆中 5 张天使牌的耐久减少 1，并获得 50% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥40：改为使 5 张牌减少 2，并获得 75%。",
+      "zh-hant": "使你牌堆中 5 張天使牌的耐久減少 1，並獲得 50% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 1 回合。<br><span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> ≥40：改為使 5 張牌減少 2，並獲得 75%。"
+    }
+  },
+  {
+    "id": "633015",
+    "art": "633017.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 10,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Shadowed Grasp",
+      "zh-hans": "暗影之攫",
+      "zh-hant": "暗影之攫"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"The card's effect will only trigger if it is the first card played this turn.\">Intuitive</span>. Apply <span class=\"kw\" title=\"An unstackable debuff that reduces all of the owner's incoming healing to 0 within x turns.\">Cursed</span> to yourself for 3 turn, and gain 50% <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for 1 turn.",
+      "zh-hans": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一张打出的牌时才会触发。\">直觉</span>。对自身施加 <span class=\"kw\" title=\"不可叠加的减益，在 x 回合内使持有者受到的所有治疗归零。\">诅咒</span>，持续 3 回合，并获得 50% <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 1 回合。",
+      "zh-hant": "<span class=\"kw\" title=\"此牌的效果只在它是本回合第一張打出的牌時才會觸發。\">直覺</span>。對自身施加 <span class=\"kw\" title=\"不可疊加的減益，在 x 回合內使持有者受到的所有治療歸零。\">詛咒</span>，持續 3 回合，並獲得 50% <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 1 回合。"
+    }
+  },
+  {
+    "id": "633016",
+    "art": "633004.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 10,
+    "angelGain": -15,
+    "demonGain": 15,
+    "rarity": 2,
+    "cost": 2,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Chaotic Intent",
+      "zh-hans": "混沌意图",
+      "zh-hant": "混沌意圖"
+    },
+    "description": {
+      "en": "Gain <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> equal to your <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> stack count for 1 turn. If you have 10 or more stacks of <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span>, reduce your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> by 20 and remove all <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> from yourself.",
+      "zh-hans": "获得等同于你 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span> 层数的 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span>，持续 1 回合。若你的 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span> ≥ 10 层，你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 减少 20，并移除自身的所有 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
+      "zh-hant": "獲得等同於你 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span> 層數的 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span>，持續 1 回合。若你的 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span> ≥ 10 層，你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 減少 20，並移除自身的所有 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+    }
+  },
+  {
+    "id": "633017",
+    "art": "633016.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 8,
+    "angelGain": -10,
+    "demonGain": 10,
+    "rarity": 3,
+    "cost": 1,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Fear and Hunger",
+      "zh-hans": "恐惧与饥饿",
+      "zh-hant": "恐懼與飢餓"
+    },
+    "description": {
+      "en": "Remove all <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> from yourself. Per stack: Deal 8 damage to all enemies.",
+      "zh-hans": "移除自身的所有 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。每层对所有敌人造成 8 点伤害。",
+      "zh-hant": "移除自身的所有 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。每層對所有敵人造成 8 點傷害。"
+    }
+  },
+  {
+    "id": "633018",
+    "art": "633018.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 10,
+    "angelGain": -20,
+    "demonGain": 20,
+    "rarity": 1,
+    "cost": 2,
+    "actionTypes": [
+      "Attack"
+    ],
+    "name": {
+      "en": "Feast",
+      "zh-hans": "飨宴",
+      "zh-hant": "饗宴"
+    },
+    "description": {
+      "en": "Deal damage to all enemies equal to 25% of your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>.<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"HP\"></span>≤30: Deal 50% instead.",
+      "zh-hans": "对所有敌人造成等同你 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 25% 的伤害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改为 50%。",
+      "zh-hant": "對所有敵人造成等同你 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 25% 的傷害。<br><span class=\"icon icon-hp\" role=\"img\" aria-label=\"生命\"></span>≤30：改為 50%。"
+    }
+  },
+  {
+    "id": "633019",
+    "art": "633019.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 4,
+    "angelGain": -5,
+    "demonGain": 5,
+    "rarity": 2,
+    "cost": 1,
+    "actionTypes": [
+      "Heal"
+    ],
+    "name": {
+      "en": "Famine",
+      "zh-hans": "饥荒",
+      "zh-hant": "饑荒"
+    },
+    "description": {
+      "en": "Reduce the maximum value of both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span> by 15 for 3 turn, then heal 25 HP.",
+      "zh-hans": "你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 与 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 上限皆降低 15，持续 3 回合，接着回复 25 点生命。",
+      "zh-hant": "你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 與 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 上限皆降低 15，持續 3 回合，接著回復 25 點生命。"
+    }
+  },
+  {
+    "id": "633020",
+    "art": "633010.jpg",
+    "inherent": false,
+    "factions": [
+      "Demon"
+    ],
+    "gods": [
+      "Vortherect"
+    ],
+    "durability": 3,
+    "angelGain": 0,
+    "demonGain": 0,
+    "rarity": 3,
+    "cost": 0,
+    "actionTypes": [
+      "Buff"
+    ],
+    "name": {
+      "en": "Forceshift Belief",
+      "zh-hans": "强念偏移",
+      "zh-hant": "強念偏移"
+    },
+    "description": {
+      "en": "Swap the values of your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel gauge\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon gauge\"></span>.",
+      "zh-hans": "交换你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 与 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span> 数值。",
+      "zh-hant": "交換你的 <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span> 與 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span> 數值。"
+    }
+  }
+]

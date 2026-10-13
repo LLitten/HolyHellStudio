@@ -1,0 +1,26 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import LoreShell from '../../../../components/LoreShell.astro';
+import EnemyGrid from '../../../../components/EnemyGrid.astro';
+import { getLang, langPaths, useTranslations } from '../../../../i18n/utils';
+import { enemies } from '../../../../lib/game';
+
+export const getStaticPaths = langPaths;
+
+const lang = getLang(Astro.params.lang);
+const t = useTranslations(lang);
+---
+
+<Base lang={lang} title={t('lore.enemies')}>
+  <LoreShell lang={lang} current="enemies">
+    <h1>{t('lore.enemies')}</h1>
+    <p class="scope-note">{t('lore.scope')}</p>
+    <EnemyGrid lang={lang} enemies={enemies} />
+  </LoreShell>
+</Base>
+
+<style>
+  h1 {
+    color: var(--text);
+  }
+</style>

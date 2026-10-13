@@ -1,0 +1,83 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+import { site } from '../site';
+
+interface Props {
+  lang: Lang;
+}
+
+const t = useTranslations(Astro.props.lang);
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container cols">
+    <div>
+      <p class="name">{t('site.studio')}</p>
+      <p class="small">© {year} {t('site.studio')}</p>
+    </div>
+    <div>
+      <p class="label">{t('footer.contact')}</p>
+      <a href={`mailto:${site.email}`}>{site.email}</a>
+    </div>
+    <div>
+      <p class="label">{t('footer.follow')}</p>
+      <ul>
+        {
+          site.social.map((s) => (
+            <li>
+              <a href={s.url} rel="me noopener" target="_blank">
+                {s.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 4rem;
+    background: var(--surface-sunk);
+    border-top: 1px solid var(--red);
+    padding: 2rem 0;
+    font-size: 0.95rem;
+  }
+
+  .cols {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem 4rem;
+  }
+
+  p {
+    margin: 0 0 0.35rem;
+  }
+
+  .name {
+    font-family: var(--font-heading);
+    color: var(--gold);
+    font-size: 1.1rem;
+  }
+
+  .label {
+    font-family: var(--font-heading);
+    color: var(--gold);
+  }
+
+  .small {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+
+  ul {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+</style>

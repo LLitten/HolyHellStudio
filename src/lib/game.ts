@@ -1,0 +1,104 @@
+// Game data written by `npm run sync-data`. Don't edit the JSON by hand; re-run the sync instead.
+import type { ImageMetadata } from 'astro';
+import type { Lang } from '../i18n/ui';
+import cardsJson from '../data/game/cards.json';
+import itemsJson from '../data/game/items.json';
+import enemiesJson from '../data/game/enemies.json';
+import locationsJson from '../data/game/locations.json';
+import termsJson from '../data/game/terms.json';
+import metaJson from '../data/game/meta.json';
+
+export type Text = Record<Lang, string>;
+
+export interface Card {
+  id: string;
+  art: string | null;
+  inherent: boolean;
+  factions: string[];
+  gods: string[];
+  durability: number | null;
+  angelGain: number;
+  demonGain: number;
+  rarity: number;
+  cost: number;
+  actionTypes: string[];
+  name: Text;
+  description: Text;
+}
+
+export type ItemSource =
+  | { type: 'drop'; enemy: string }
+  | { type: 'shop' }
+  | { type: 'event' }
+  | { type: 'upgrade'; from: string }
+  | { type: 'merge'; from: string };
+
+export interface Item {
+  id: string;
+  kind: 'equipment' | 'material';
+  subType: string;
+  icon: string | null;
+  tint: string | null;
+  rarity: number;
+  price: { min: number; max: number } | null;
+  stats: { attack: number; hp: number; defense: number } | null;
+  sources: ItemSource[];
+  name: Text;
+  description: Text;
+  lore: Text;
+}
+
+export interface EnemySkill {
+  id: string;
+  trigger: 'turn' | 'combatStart' | 'turnStart' | 'death';
+  name: Text;
+  detail: Text;
+}
+
+export interface EnemyVariant {
+  id: string;
+  rank: 'Minion' | 'Elite' | 'Boss';
+  hp: number;
+  attack: number;
+  defense: number;
+  dungeons: string[];
+  summonedBy: string | null;
+  skills: EnemySkill[];
+  drops: { item: string; chance: number; min: number; max: number }[];
+}
+
+export interface Enemy {
+  slug: string;
+  art: string | null;
+  name: Text;
+  variants: EnemyVariant[];
+}
+
+export interface Location {
+  group: string;
+  name: Text;
+  dungeons: { id: string; name: Text; description: Text }[];
+}
+
+export const cards = cardsJson as Card[];
+export const items = itemsJson as Item[];
+export const enemies = enemiesJson as Enemy[];
+export const locations = locationsJson as Location[];
+export const terms = termsJson as Record<'factions' | 'gods' | 'actionTypes', Record<string, Text>>;
+
+export const itemById = new Map(items.map((i) => [i.id, i]));
+export const enemyBySlug = new Map(enemies.map((e) => [e.slug, e]));
+export const enemySlugById = new Map(Object.entries(metaJson.enemySlugById));
+export const dungeonById = new Map(locations.flatMap((l) => l.dungeons.map((d) => [d.id, d])));
+
+export const enemyById = (id: string) => enemyBySlug.get(enemySlugById.get(id) ?? '');
+
+export const GOD_ORDER = ['Intereon', 'Florentis', 'Evinor', 'Oculyth', 'Hedalis', 'Vortherect'];
+
+const art = import.meta.glob<{ default: ImageMetadata }>('../assets/game/**/*.{png,jpg}', { eager: true });
+
+export function gameArt(kind: 'cards' | 'items' | 'enemies', file: string | null) {
+  return file ? art[`../assets/game/${kind}/${file}`]?.default : undefined;
+}
+
+export const term = (group: keyof typeof terms, key: string, lang: Lang) => terms[group][key]?.[lang] ?? key;
