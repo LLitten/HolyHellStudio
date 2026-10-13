@@ -327,6 +327,15 @@ function copyArt(kind, from, name) {
   return name;
 }
 
+// The title screen art is the home page's hero image.
+const TITLE_SCREEN = join(GAME, 'HolyHell/Assets/Arts/UI/MainMenu/TitleScreen.png');
+if (existsSync(TITLE_SCREEN)) {
+  mkdirSync(join(OUT_ART, 'home'), { recursive: true });
+  copyFileSync(TITLE_SCREEN, join(OUT_ART, 'home', 'title-screen.png'));
+} else {
+  missingArt.push('home/title-screen.png');
+}
+
 // ---------------------------------------------------------------------------
 // Cards
 

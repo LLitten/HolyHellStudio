@@ -1869,13 +1869,13 @@
     ],
     "name": {
       "en": "Genesis Quake",
-      "sc": "Genesis Quake",
-      "tc": "Genesis Quake"
+      "sc": "创世震荡",
+      "tc": "創世震盪"
     },
     "description": {
       "en": "Deal 28 damage.<br><span class=\"kw\" title=\"Trigger the additional effects when the player deals lethal damage with this card.\">Onkill</span>: Gain 3 <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span>.<br><span class=\"kw\" title=\"Restrained cards can only be played a limited number of times per turn. Their limit is displayed on the card.\">Restrained</span>: 1.",
-      "sc": "Deal 28 damage.<br><span class=\"kw\" title=\"当玩家以此牌造成致命伤害时，触发额外效果。\">击杀时</span>: Gain 3 <span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>.<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>: 1.",
-      "tc": "Deal 28 damage.<br><span class=\"kw\" title=\"當玩家以此牌造成致命傷害時，觸發額外效果。\">擊殺時</span>: Gain 3 <span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>.<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>: 1."
+      "sc": "造成 28 点伤害。<br><span class=\"kw\" title=\"当玩家以此牌造成致命伤害时，触发额外效果。\">击杀时</span>：获得 3 点<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>。<br><span class=\"kw\" title=\"束缚牌在每个回合中仅能使用有限次数，剩余次数显示于卡牌上。\">束缚</span>：1。",
+      "tc": "造成 28 點傷害。<br><span class=\"kw\" title=\"當玩家以此牌造成致命傷害時，觸發額外效果。\">擊殺時</span>：獲得 3 點<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>。<br><span class=\"kw\" title=\"束縛牌在每個回合中僅能使用有限次數，剩餘次數顯示於卡牌上。\">束縛</span>：1。"
     }
   },
   {

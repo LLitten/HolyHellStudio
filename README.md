@@ -42,7 +42,7 @@ src/
 
 When the game logo is finished, add it to `src/assets/brand/` as `game-logo.svg` (the art) and `game-title.svg` (the "Lost Faith" lettering), or as PNGs. They replace the placeholder crest and text title on the home page automatically. Chinese versions of the lettering go in `game-title-sc.svg` and `game-title-tc.svg`.
 
-The studio logo is `src/assets/brand/studio-logo.svg` (the white version from Drive, Admin > Distribution). The tab icon, home-screen icon and default share image in `public/` were made from it.
+The studio logo is `src/assets/brand/studio-logo.svg` (the white version from Drive, Admin > Distribution). The tab icon and home-screen icon in `public/` were made from it. The default share image, `public/og-default.jpg`, is a crop of the game's title screen.
 
 ## Game data
 
@@ -58,7 +58,7 @@ This reads from `../HolyHell` by default. If your clone is somewhere else:
 HOLYHELL_PATH=/path/to/HolyHell npm run sync-data
 ```
 
-The script only reads from the game repo. It writes `src/data/game/*.json` and copies art into `src/assets/game/`, then prints a summary (how many cards and items, and any missing art). Commit the result like any other change.
+The script only reads from the game repo. It writes `src/data/game/*.json` and copies art into `src/assets/game/` (including the title screen used on the home page), then prints a summary (how many cards and items, and any missing art). Commit the result like any other change.
 
 The summary also lists any text tokens the site doesn't know how to display yet (for example, if the game starts using a new `{something}` placeholder in card descriptions). Those would otherwise appear on the site as raw text, so they're worth passing on to whoever maintains the script.
 
