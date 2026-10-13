@@ -20,7 +20,7 @@ const locations = (await getLocalized('locations', lang)).sort((a, b) => a.data.
         <ul class="locations">
           {locations.map((l) => (
             <li>
-              <a href={localePath(lang, `lore/locations/${l.slug}`)}>
+              <a href={localePath(lang, `lore/locations/${l.slug}`)} class="frame">
                 {l.data.banner && <Image src={l.data.banner} alt="" width={800} />}
                 <span class="name">{l.data.name}</span>
                 <span class="summary">{l.data.summary}</span>
@@ -51,15 +51,13 @@ const locations = (await getLocalized('locations', lang)).sort((a, b) => a.data.
   a {
     display: block;
     background: var(--surface);
-    border: 1px solid var(--red-dim);
-    border-radius: var(--radius);
     overflow: hidden;
     text-decoration: none;
     padding-bottom: 1rem;
   }
 
   a:hover {
-    border-color: var(--gold-dim);
+    border-color: var(--gold);
   }
 
   img {

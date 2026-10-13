@@ -20,7 +20,7 @@ const characters = (await getLocalized('characters', lang)).sort((a, b) => a.dat
         <ul class="portraits">
           {characters.map((c) => (
             <li>
-              <a href={localePath(lang, `lore/characters/${c.slug}`)}>
+              <a href={localePath(lang, `lore/characters/${c.slug}`)} class="frame">
                 {c.data.portrait ? <Image src={c.data.portrait} alt="" width={320} /> : <span class="blank" aria-hidden="true">◆</span>}
                 <span class="name">{c.data.name}</span>
               </a>
@@ -51,14 +51,12 @@ const characters = (await getLocalized('characters', lang)).sort((a, b) => a.dat
   .portraits a {
     display: block;
     background: var(--surface);
-    border: 1px solid var(--red-dim);
-    border-radius: var(--radius);
     overflow: hidden;
     text-decoration: none;
   }
 
   .portraits a:hover {
-    border-color: var(--gold-dim);
+    border-color: var(--gold);
   }
 
   .portraits img,

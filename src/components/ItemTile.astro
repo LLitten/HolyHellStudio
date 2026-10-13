@@ -44,7 +44,7 @@ const stats = item.stats && [
 ].filter(Boolean) as { label: string; value: string }[];
 ---
 
-<article class="item" id={`item-${item.id}`}>
+<article class="item frame" id={`item-${item.id}`}>
   <header>
     <div class="icon" style={item.tint ? `--tint: ${item.tint}` : undefined}>
       {
@@ -102,8 +102,6 @@ const stats = item.stats && [
     flex-direction: column;
     gap: 0.6rem;
     background: var(--surface);
-    border: 1px solid var(--red-dim);
-    border-radius: var(--radius);
     padding: 1rem;
   }
 

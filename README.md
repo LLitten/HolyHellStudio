@@ -40,6 +40,8 @@ src/
   pages/[...lang]/          one file per page; each builds all three languages
 ```
 
+When the game logo is finished, add it to `src/assets/brand/` as `game-logo.svg` (the art) and `game-title.svg` (the "Lost Faith" lettering), or as PNGs. They replace the placeholder crest and text title on the home page automatically. Chinese versions of the lettering go in `game-title-sc.svg` and `game-title-tc.svg`.
+
 The studio logo is `src/assets/brand/studio-logo.svg` (the white version from Drive, Admin > Distribution). The tab icon, home-screen icon and default share image in `public/` were made from it.
 
 ## Game data

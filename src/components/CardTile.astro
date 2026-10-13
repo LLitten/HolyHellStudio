@@ -18,7 +18,7 @@ const gods = card.gods.length ? card.gods.map((g) => term('gods', g, lang)).join
 const types = card.actionTypes.map((a) => term('actionTypes', a, lang)).join(' / ');
 ---
 
-<article class="card" id={`card-${card.id}`}>
+<article class="card frame" id={`card-${card.id}`}>
   <div class="art">
     {art ? <Image src={art} alt="" width={360} loading="lazy" /> : <div class="no-art" aria-hidden="true">◆</div>}
     <span class="cost" title={t('card.cost')}>{card.cost}</span>
@@ -46,8 +46,6 @@ const types = card.actionTypes.map((a) => term('actionTypes', a, lang)).join(' /
     display: flex;
     flex-direction: column;
     background: var(--surface);
-    border: 1px solid var(--red-dim);
-    border-radius: var(--radius);
     overflow: hidden;
   }
 

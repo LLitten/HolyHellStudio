@@ -25,21 +25,36 @@
   /* Fonts per language. Swap a family here to change it site-wide for that language. */
   --font-heading: 'Chiron Sung HK', 'Noto Serif TC', serif;
   --font-body: 'Noto Serif', Georgia, serif;
+  /* Placeholder title lettering, close to the in-progress logo. Latin only, so Chinese pages use the heading font. */
+  --font-display: 'Pirata One', var(--font-heading);
 
   /* Behind character and enemy art, which is drawn with dark linework on transparency. */
   --art-backdrop: radial-gradient(circle at 50% 40%, #a39c92, #5c5650 75%);
 
   --radius: 4px;
+
+  /* Ornaments drawn after the game's card frame and logo: a tapered lance with diamond
+     nodes for dividers, and thorned corners for framed boxes. Gold is #d9b45a (%23 = #). */
+  --lance-left: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M0 7 L100 5 L100 9 Z' fill='%23d9b45a'/%3E%3C/svg%3E");
+  --lance-right: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 14' preserveAspectRatio='none'%3E%3Cpath d='M100 7 L0 5 L0 9 Z' fill='%23d9b45a'/%3E%3C/svg%3E");
+  --lance-node: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M7 1 L13 7 L7 13 L1 7 Z' fill='%23d9b45a'/%3E%3C/svg%3E");
+  --lance-center: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M9 1 L15 9 L9 17 L3 9 Z' fill='none' stroke='%23d9b45a' stroke-width='1.6'/%3E%3C/svg%3E");
+  --corner-tl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23d9b45a'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-tr: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23d9b45a' transform='matrix(-1 0 0 1 40 0)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-bl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23d9b45a' transform='matrix(1 0 0 -1 0 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-br: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cg fill='%23d9b45a' transform='matrix(-1 0 0 -1 40 40)'%3E%3Cpath d='M0 0 L15 6 L9 9 L6 15 Z'/%3E%3Cpath d='M22 2 L25 -1 L28 2 Z'/%3E%3Cpath d='M2 22 L-1 25 L2 28 Z'/%3E%3C/g%3E%3C/svg%3E");
   --width: 72rem;
   --gutter: 1rem;
 }
 
 :root:lang(zh-Hans) {
+  --font-display: var(--font-heading);
   --font-heading: 'Chiron Sung HK', 'Noto Serif SC', serif;
   --font-body: 'Noto Serif SC', serif;
 }
 
 :root:lang(zh-Hant) {
+  --font-display: var(--font-heading);
   --font-heading: 'Chiron Sung HK', 'Noto Serif TC', serif;
   --font-body: 'Noto Serif TC', serif;
 }
@@ -131,11 +146,15 @@ video {
   height: auto;
 }
 
-hr {
+hr,
+.lance {
   border: 0;
-  height: 1px;
-  background: linear-gradient(to right, transparent, var(--gold-dim), transparent);
-  margin: 2.5rem 0;
+  height: 18px;
+  margin: 2.5rem auto;
+  background:
+    var(--lance-center) center / 18px no-repeat,
+    var(--lance-left) left center / calc(50% - 12px) 14px no-repeat,
+    var(--lance-right) right center / calc(50% - 12px) 14px no-repeat;
 }
 
 .container {
@@ -149,9 +168,41 @@ hr {
    gold and muted text only sit on panels, where they have enough contrast. */
 .panel {
   background: var(--surface);
-  border: 1px solid var(--red-dim);
-  border-radius: var(--radius);
-  padding: clamp(1rem, 3vw, 2rem);
+  padding: clamp(1.25rem, 3vw, 2rem);
+}
+
+/* Framed box after the game's card border: a thin outer line, an inner line with rounded
+   corners, and thorned corners. The lines are drawn over the content, like a card frame over its art. */
+.frame,
+.panel {
+  position: relative;
+  border: 1px solid var(--gold-dim);
+  border-radius: 0;
+}
+
+.frame::before,
+.panel::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid rgb(217 180 90 / 0.35);
+  border-radius: 10px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.frame::after,
+.panel::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  pointer-events: none;
+  z-index: 1;
+  background:
+    var(--corner-tl) top left / 30px no-repeat,
+    var(--corner-tr) top right / 30px no-repeat,
+    var(--corner-bl) bottom left / 30px no-repeat,
+    var(--corner-br) bottom right / 30px no-repeat;
 }
 
 .page-head {
@@ -178,12 +229,12 @@ hr {
 .section-title::after {
   content: '';
   flex: 1;
-  height: 1px;
-  background: linear-gradient(to right, transparent, var(--gold-dim));
+  height: 14px;
+  background: var(--lance-node) right center / 14px no-repeat, var(--lance-left) left center / calc(100% - 10px) 14px no-repeat;
 }
 
 .section-title::after {
-  background: linear-gradient(to left, transparent, var(--gold-dim));
+  background: var(--lance-node) left center / 14px no-repeat, var(--lance-right) right center / calc(100% - 10px) 14px no-repeat;
 }
 
 .muted {

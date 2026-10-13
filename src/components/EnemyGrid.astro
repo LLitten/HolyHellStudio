@@ -23,7 +23,7 @@ const sorted = [...enemies].sort((a, b) => RANK_ORDER[topRank(a)] - RANK_ORDER[t
       const rank = topRank(e);
       return (
         <li>
-          <a href={localePath(lang, `lore/enemies/${e.slug}`)} class={`rank-${rank.toLowerCase()}`}>
+          <a href={localePath(lang, `lore/enemies/${e.slug}`)} class={`frame rank-${rank.toLowerCase()}`}>
             {art ? <Image src={art} alt="" width={320} loading="lazy" /> : <span class="blank" aria-hidden="true">◆</span>}
             <span class="name">{e.name[lang]}</span>
             <span class="rank">{t(`enemy.rank.${rank}`)}</span>
@@ -49,15 +49,13 @@ const sorted = [...enemies].sort((a, b) => RANK_ORDER[topRank(a)] - RANK_ORDER[t
     flex-direction: column;
     height: 100%;
     background: var(--surface);
-    border: 1px solid var(--red-dim);
-    border-radius: var(--radius);
     overflow: hidden;
     text-decoration: none;
     text-align: center;
   }
 
   a:hover {
-    border-color: var(--gold-dim);
+    border-color: var(--gold);
   }
 
   .rank-boss {

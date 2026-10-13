@@ -23,7 +23,7 @@ const sections = (['characters', 'locations', 'enemies', 'cards', 'equipment', '
       {
         sections.map((s) => (
           <li>
-            <a href={s.href}>
+            <a href={s.href} class="frame">
               <span class="label">{s.label}</span>
               <span class="blurb">{s.blurb}</span>
             </a>
@@ -53,13 +53,11 @@ const sections = (['characters', 'locations', 'enemies', 'cards', 'equipment', '
     height: 100%;
     padding: 1.25rem;
     background: var(--surface);
-    border: 1px solid var(--red-dim);
-    border-radius: var(--radius);
     text-decoration: none;
   }
 
   .sections a:hover {
-    border-color: var(--gold-dim);
+    border-color: var(--gold);
   }
 
   .label {

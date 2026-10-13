@@ -11,7 +11,7 @@ interface Props {
 const { title, image, rows = [] } = Astro.props;
 ---
 
-<aside class="infobox">
+<aside class="infobox frame">
   <h2>{title}</h2>
   {image && <Image src={image} alt={title} width={480} class="art" />}
   {
@@ -32,9 +32,6 @@ const { title, image, rows = [] } = Astro.props;
 <style>
   .infobox {
     background: var(--surface-raised);
-    border: 1px solid var(--red);
-    border-top: 3px solid var(--gold-dim);
-    border-radius: var(--radius);
     padding: 1rem;
   }
 

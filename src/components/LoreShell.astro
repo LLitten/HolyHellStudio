@@ -29,7 +29,7 @@ const section = current.split('/')[0];
 ---
 
 <div class="container shell">
-  <nav class="sidebar" aria-label={t('lore.title')}>
+  <nav class="sidebar frame" aria-label={t('lore.title')}>
     <a class="home" href={localePath(lang, 'lore')}>{t('lore.title')}</a>
     <ul>
       {
@@ -72,8 +72,6 @@ const section = current.split('/')[0];
     top: 1rem;
     align-self: start;
     background: var(--surface);
-    border: 1px solid var(--red-dim);
-    border-radius: var(--radius);
     padding: 1rem;
     font-family: var(--font-heading);
   }

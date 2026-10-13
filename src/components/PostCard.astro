@@ -15,7 +15,7 @@ const t = useTranslations(lang);
 const href = localePath(lang, `devlog/${post.slug}`);
 ---
 
-<article class="post">
+<article class="post frame">
   <a href={href} class="cover" tabindex="-1" aria-hidden="true">
     <Image src={post.data.cover ?? fallbackCover} alt="" width={600} loading="lazy" />
   </a>
@@ -40,8 +40,6 @@ const href = localePath(lang, `devlog/${post.slug}`);
     display: flex;
     flex-direction: column;
     background: var(--surface);
-    border: 1px solid var(--red-dim);
-    border-radius: var(--radius);
     overflow: hidden;
   }
 
