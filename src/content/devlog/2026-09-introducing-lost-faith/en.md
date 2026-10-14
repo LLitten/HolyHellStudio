@@ -6,7 +6,7 @@ tags: [announcement]
 cover: ./image-1.jpg
 coverAlt: "Vash facing a bandit in battle, with a hand of cards along the bottom of the screen"
 translation: source
-draft: true
+draft: false
 ---
 
 Lost Faith is an upcoming single-player, turn-based card battler. Play as Vash as he fights his way through the land of Razenia.

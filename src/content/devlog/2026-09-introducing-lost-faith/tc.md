@@ -6,7 +6,7 @@ tags: [announcement]
 cover: ./image-1.jpg
 coverAlt: "沃許在戰鬥中面對強盜，畫面下方是手牌"
 translation: source
-draft: true
+draft: false
 ---
 
 大家好，我們是HolyHell Studio，目前正在開發一款地城探索型卡牌遊戲《棄誓神途》！
