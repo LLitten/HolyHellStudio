@@ -3,7 +3,7 @@ title: Rethinking How Cards Are Drawn
 date: 2026-09-25
 summary: We made a big change to how Lost Faith draws and discards cards, and it caused real disagreement on the team. Here's what changed and how we settled it.
 tags: [design, team]
-translation: machine
+translation: reviewed
 draft: true
 ---
 
