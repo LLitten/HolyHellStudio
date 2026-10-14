@@ -30,7 +30,10 @@ const { Content } = await render(post);
     <article class="panel">
       <header class="post-head">
         <h1>{post.data.title}</h1>
-        <p class="date"><time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, lang)}</time></p>
+        <p class="date">
+          <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, lang)}</time>
+          {post.data.author && <span class="author"> · {t('devlog.by', { name: post.data.author })}</span>}
+        </p>
         {post.data.tags.length > 0 && <TagList lang={lang} tags={post.data.tags} />}
         <hr class="lance" />
       </header>

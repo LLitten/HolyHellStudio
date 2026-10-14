@@ -10,6 +10,7 @@
    | `title` | Post title, in Title Case in English ("Rethinking How Cards Are Drawn") |
    | `date` | `YYYY-MM-DD` |
    | `summary` | One or two sentences for the post list |
+   | `author` | Optional. Who wrote it, shown under the date: a name ("Zai Litten") or a group ("Art Team"). Write it in each file's language, e.g. `美術組` in `tc.md` |
    | `tags` | Any of `art`, `programming`, `design`, `team`, `audio`, `narrative`, `announcement`, `playtest`, `events`, `patch-notes` |
    | `gameVersion`, `gameCommit` | Patch notes only: the game version and the HolyHell commit they cover up to |
    | `cover` | Optional, e.g. `./cover.jpg`. Without one, the post uses the default cover |

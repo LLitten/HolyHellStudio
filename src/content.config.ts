@@ -18,6 +18,8 @@ const devlog = defineCollection({
       title: z.string(),
       date: z.coerce.date(),
       summary: z.string(),
+      // Who wrote it: a person, or a group like "Art Team". Written in each file's own language.
+      author: z.string().optional(),
       tags: z.array(z.enum(TAGS)).default([]),
       cover: image().optional(),
       // What the cover image shows, for screen readers.

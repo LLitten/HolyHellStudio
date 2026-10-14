@@ -2,6 +2,7 @@
 title: 範例文章
 date: 2026-10-13
 summary: 撰寫新開發日誌時可以複製的範本。草稿只會在本機預覽中顯示。
+author: 美術組
 tags: [team, announcement]
 translation: machine
 draft: true

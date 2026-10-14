@@ -2,6 +2,7 @@
 title: Example Post
 date: 2026-10-13
 summary: A template to copy when writing a new dev post. Drafts only show up in local preview.
+author: Art Team
 tags: [team, announcement]
 # cover: ./cover.jpg
 # coverAlt: What the cover image shows
@@ -34,7 +35,3 @@ import clip from './clip.mp4';
 ```html
 <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="Trailer" allowfullscreen></iframe>
 ```
-
-## Credit
-
-If a post needs an author line, add it as a heading at the top of the post.
