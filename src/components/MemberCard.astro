@@ -1,0 +1,93 @@
+---
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  member: {
+    name: string;
+    role: { en: string; sc?: string; tc?: string };
+    photo?: string;
+    links: { label: string; url: string }[];
+  };
+}
+
+const { lang, member } = Astro.props;
+
+// Photos are optional; without one the card is just name, role and links.
+const photos = import.meta.glob<{ default: ImageMetadata }>('../content/team/photos/*', { eager: true });
+const img = member.photo ? photos[`../content/team/photos/${member.photo}`]?.default : undefined;
+---
+
+<li class="member">
+  {img && <Image src={img} alt="" width={400} class="photo" />}
+  <h3>{member.name}</h3>
+  <p class="role">{member.role[lang] ?? member.role.en}</p>
+  {
+    member.links.length > 0 && (
+      <ul class="links">
+        {member.links.map((l) => (
+          <li>
+            <a href={l.url} target="_blank" rel="noopener">
+              {l.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</li>
+
+<style>
+  .member {
+    flex: 0 1 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--surface);
+    border: 1px solid var(--gold-dim);
+    border-top: 2px solid var(--gold);
+    border-radius: var(--radius);
+    padding: 1.1rem 1rem;
+    text-align: center;
+  }
+
+  .photo {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.85rem;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  .role {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin: 0.35rem 0 0;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 1rem;
+    margin: 0.6rem 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 40rem) {
+    .member {
+      flex-basis: calc(50% - 0.5rem);
+      padding: 0.9rem 0.75rem;
+    }
+  }
+</style>

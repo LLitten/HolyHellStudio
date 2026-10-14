@@ -32,7 +32,7 @@ src/
     lore/locations/<name>/  location pages
     lore/enemies/<slug>/    optional written lore for an enemy page
     studio/about/           the studio introduction on the About page
-    team/members.yaml       core team and contributors on the About page
+    team/members.yaml       everyone on the team, shown on the About page
   data/game/                game data from the sync script (don't edit by hand)
   assets/game/              card, item and enemy art from the sync script
   i18n/ui.ts                menu and button text in all three languages

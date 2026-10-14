@@ -80,9 +80,8 @@ const team = defineCollection({
   schema: z.object({
     name: z.string(),
     role: z.object({ en: z.string(), sc: z.string().optional(), tc: z.string().optional() }),
-    // core and team members get cards (core on the first row, team below);
-    // contributors are listed by discipline.
-    group: z.enum(['core', 'team', 'contributor']).default('contributor'),
+    // core is the first row of cards, team the second, and extended the rest of the team by discipline.
+    group: z.enum(['core', 'team', 'extended']).default('extended'),
     discipline: z.enum(['art', 'audio', 'programming', 'design', 'other']).default('other'),
     // File name in src/content/team/photos/
     photo: z.string().optional(),

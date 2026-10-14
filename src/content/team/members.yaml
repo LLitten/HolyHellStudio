@@ -1,6 +1,6 @@
 # Everyone credited on the About page.
-#   group           core (first row of cards), team (second row) or contributor (the Contributors list)
-#   discipline      art, audio, programming, design or other (groups the Contributors list)
+#   group           core (first row), team (second row) or extended (the rest of the team, grouped by discipline)
+#   discipline      art, audio, programming, design or other (groups the extended team)
 #   draft: true     keeps someone off the built site, e.g. until they've agreed to be listed
 # Photos go in src/content/team/photos/. Roles fall back to English if a translation is missing.
 # Only public things go here: names as people want to be credited, roles, and links they chose to share.
@@ -63,13 +63,13 @@
     tc: 場景美術
   order: 5
 
-# Contributors. All drafts until each person has agreed to be listed; remove `draft: true` to show them.
+# The wider team: artists and composers, grouped by discipline on the page.
 
 - id: clyde-waters
   name: Clyde Waters
   discipline: art
   role: { en: Enemy Art, sc: 敌人美术, tc: 敵人美術 }
-  draft: true
+  group: extended
 
 - id: isabella-zeier
   name: Isabella Zeier
@@ -78,7 +78,7 @@
   links:
     - label: ArtStation
       url: https://www.artstation.com/isabellazeier
-  draft: true
+  group: extended
 
 - id: arihante-sears
   name: Arihante Sears
@@ -87,13 +87,13 @@
   links:
     - label: ArtStation
       url: https://www.artstation.com/arihantesears
-  draft: true
+  group: extended
 
 - id: masha-kiparuk
   name: Masha Kiparuk
   discipline: art
   role: { en: Enemy Art, sc: 敌人美术, tc: 敵人美術 }
-  draft: true
+  group: extended
 
 - id: alison-tsoi
   name: Alison Tsoi
@@ -102,31 +102,31 @@
   links:
     - label: ArtStation
       url: https://www.artstation.com/alison_tsoi
-  draft: true
+  group: extended
 
 - id: jiancheng-young
   name: JianCheng Young
   discipline: art
   role: { en: Card Art, sc: 卡牌美术, tc: 卡牌美術 }
-  draft: true
+  group: extended
 
 - id: ryann-browne
   name: Ryann Browne
   discipline: art
   role: { en: Promotional Art, sc: 宣传美术, tc: 宣傳美術 }
-  draft: true
+  group: extended
 
 - id: reed-s
   name: Reed S
   discipline: audio
   role: { en: Composer, sc: 作曲, tc: 作曲 }
-  draft: true
+  group: extended
 
 - id: isiah-malcolm
   name: Isiah Malcolm
   discipline: audio
   role: { en: Composer, sc: 作曲, tc: 作曲 }
-  draft: true
+  group: extended
 
 - id: emma-stuart
   name: Emma Stuart
@@ -135,7 +135,7 @@
   links:
     - label: Website
       url: https://emmastuart.com/
-  draft: true
+  group: extended
 
 - id: dave-warren
   name: Dave Warren
@@ -144,22 +144,4 @@
   links:
     - label: Website
       url: https://www.davewarren.com/
-  draft: true
-
-- id: ruiming-zhang
-  name: Ruiming Zhang
-  discipline: audio
-  role: { en: Composer, sc: 作曲, tc: 作曲 }
-  draft: true
-
-- id: awoo
-  name: Awoo
-  discipline: audio
-  role: { en: Sound Effects, sc: 音效, tc: 音效 }
-  draft: true
-
-- id: christian-palladino
-  name: Christian Palladino
-  discipline: programming
-  role: { en: Programmer, sc: 程序, tc: 程式 }
-  draft: true
+  group: extended

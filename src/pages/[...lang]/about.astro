@@ -1,8 +1,7 @@
 ---
-import type { ImageMetadata } from 'astro';
-import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import MemberCard from '../../components/MemberCard.astro';
 import TranslationNote from '../../components/TranslationNote.astro';
 import { getLang, langPaths, useTranslations } from '../../i18n/utils';
 import { getLocalized } from '../../lib/content';
@@ -18,25 +17,20 @@ const t = useTranslations(lang);
 const intro = (await getLocalized('studio', lang)).find((e) => e.slug === 'about');
 const Intro = intro ? (await render(intro)).Content : null;
 
-const photos = import.meta.glob<{ default: ImageMetadata }>('../../content/team/photos/*', { eager: true });
-const photo = (file?: string) => (file ? photos[`../../content/team/photos/${file}`]?.default : undefined);
-
 const everyone = (await getCollection('team', (m) => import.meta.env.DEV || !m.data.draft)).map((m) => m.data);
 const byOrder = (a: { order: number }, b: { order: number }) => a.order - b.order;
-const rows = [everyone.filter((m) => m.group === 'core').sort(byOrder), everyone.filter((m) => m.group === 'team').sort(byOrder)].filter(
-  (row) => row.length > 0,
-);
-const others = everyone.filter((m) => m.group === 'contributor');
+const core = everyone.filter((m) => m.group === 'core').sort(byOrder);
+const team = everyone.filter((m) => m.group === 'team').sort(byOrder);
+const extended = everyone.filter((m) => m.group === 'extended');
 
+// Everyone is part of one team on the page; the wider team is just grouped by discipline.
 const disciplines = (['art', 'audio', 'programming', 'design', 'other'] as const)
   .map((d) => ({
     key: d,
     label: t(`discipline.${d}`),
-    people: others.filter((m) => m.discipline === d).sort((a, b) => a.order - b.order || a.name.localeCompare(b.name)),
+    people: extended.filter((m) => m.discipline === d).sort((a, b) => a.order - b.order || a.name.localeCompare(b.name)),
   }))
   .filter((d) => d.people.length > 0);
-
-const role = (r: { en: string; sc?: string; tc?: string }) => r[lang] ?? r.en;
 ---
 
 <Base lang={lang} title={t('about.title')} description={t('about.description')}>
@@ -51,73 +45,26 @@ const role = (r: { en: string; sc?: string; tc?: string }) => r[lang] ?? r.en;
     <section>
       <h2 class="section-title">{t('about.team')}</h2>
       {
-        rows.length ? (
-          rows.map((row) => (
-            <ul class="team">
-              {row.map((m) => {
-                const img = photo(m.photo);
-                return (
-                  <li class="member">
-                    {img ? (
-                      <Image src={img} alt="" width={400} class="photo" />
-                    ) : (
-                      <div class="photo blank" aria-hidden="true">
-                        <img src={emblem.src} alt="" />
-                      </div>
-                    )}
-                    <h3>{m.name}</h3>
-                    <p class="role">{role(m.role)}</p>
-                    {m.links.length > 0 && (
-                      <ul class="links">
-                        {m.links.map((l) => (
-                          <li>
-                            <a href={l.url} target="_blank" rel="noopener">
-                              {l.label}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </li>
-                );
-              })}
-            </ul>
-          ))
+        everyone.length ? (
+          <>
+            {core.length > 0 && <ul class="team">{core.map((m) => <MemberCard lang={lang} member={m} />)}</ul>}
+            {team.length > 0 && <ul class="team">{team.map((m) => <MemberCard lang={lang} member={m} />)}</ul>}
+            {disciplines.map((d) => (
+              <div class="discipline">
+                <h3>{d.label}</h3>
+                <ul class="team">
+                  {d.people.map((m) => (
+                    <MemberCard lang={lang} member={m} />
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </>
         ) : (
           <p class="empty">{t('about.team.empty')}</p>
         )
       }
     </section>
-
-    {
-      disciplines.length > 0 && (
-        <section>
-          <h2 class="section-title">{t('about.contributors')}</h2>
-          <p class="lede">{t('about.contributors.blurb')}</p>
-          <div class="credits">
-            {disciplines.map((d) => (
-              <div class="discipline">
-                <h3>{d.label}</h3>
-                <ul>
-                  {d.people.map((m) => (
-                    <li>
-                      {m.links[0] ? (
-                        <a href={m.links[0].url} target="_blank" rel="noopener">
-                          {m.name}
-                        </a>
-                      ) : (
-                        <span class="name">{m.name}</span>
-                      )}
-                      <span class="credit-role">{role(m.role)}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </section>
-      )
-    }
 
     <section class="contact" id="contact">
       <h2 class="section-title">{t('about.contact')}</h2>
@@ -191,41 +138,30 @@ const role = (r: { en: string; sc?: string; tc?: string }) => r[lang] ?? r.en;
     margin-top: 1rem;
   }
 
-  /* Plain cards in the studio's style, not the game's thorned frames. */
-  .member {
-    flex: 0 1 10.5rem;
-    background: var(--surface);
-    border: 1px solid var(--gold-dim);
-    border-radius: var(--radius);
-    padding: 1rem;
+  .discipline {
+    margin-top: 2.25rem;
+  }
+
+  .discipline h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.05rem;
+    letter-spacing: 0.06em;
+    margin-bottom: 1rem;
+  }
+
+  .discipline h3::before,
+  .discipline h3::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold-dim);
+    opacity: 0.6;
+  }
+
+  .empty {
     text-align: center;
-  }
-
-  .photo {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    aspect-ratio: 1;
-    object-fit: cover;
-    border-radius: 50%;
-    background: var(--surface-sunk);
-    margin-bottom: 0.85rem;
-  }
-
-  .blank img {
-    width: 38%;
-    opacity: 0.35;
-  }
-
-  .member h3 {
-    margin: 0;
-    font-size: 1.1rem;
-  }
-
-  .role {
-    color: var(--text-muted);
-    font-size: 0.9rem;
-    margin: 0.35rem 0 0.6rem;
   }
 
   .links {
@@ -236,45 +172,6 @@ const role = (r: { en: string; sc?: string; tc?: string }) => r[lang] ?? r.en;
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 0.9rem;
-  }
-
-  .empty,
-  .lede {
-    text-align: center;
-  }
-
-  .credits {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
-    gap: 1.5rem 2rem;
-  }
-
-  .discipline h3 {
-    font-size: 1rem;
-    letter-spacing: 0.06em;
-    padding-bottom: 0.4rem;
-    border-bottom: 1px solid var(--gold-dim);
-    margin-bottom: 0.6rem;
-  }
-
-  .discipline ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .discipline li {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 0.2rem 0;
-  }
-
-  .credit-role {
-    color: var(--text-muted);
-    font-size: 0.9rem;
-    text-align: right;
   }
 
   .contact {
@@ -285,14 +182,4 @@ const role = (r: { en: string; sc?: string; tc?: string }) => r[lang] ?? r.en;
     font-size: 1.15rem;
   }
 
-  @media (max-width: 40rem) {
-    .team {
-      gap: 0.75rem;
-    }
-
-    .member {
-      flex-basis: calc(50% - 0.375rem);
-      padding: 0.75rem;
-    }
-  }
 </style>
