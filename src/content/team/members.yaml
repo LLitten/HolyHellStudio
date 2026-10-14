@@ -35,9 +35,9 @@
   group: core
   discipline: art
   role:
-    en: Academic Producer, Sprite Artist, UI Artist
-    sc: 学术制作人、角色美术、UI 美术
-    tc: 學術製作人、角色美術、UI 美術
+    en: Art Director, Assistant Producer, Generalist Artist
+    sc: 美术总监、助理制作人、综合美术
+    tc: 美術總監、助理製作人、綜合美術
   links:
     - label: Portfolio
       url: https://www.lizalitten.com/
