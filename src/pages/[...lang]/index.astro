@@ -2,11 +2,12 @@
 import type { ImageMetadata } from 'astro';
 import { Image } from 'astro:assets';
 import Base from '../../layouts/Base.astro';
-import Crest from '../../components/Crest.astro';
 import PostCard from '../../components/PostCard.astro';
 import { getLang, langPaths, localePath, useTranslations } from '../../i18n/utils';
 import { getPosts } from '../../lib/content';
 import { site } from '../../site';
+import logoSvg from '../../assets/brand/lost-faith-logo.svg?raw';
+import frameSvg from '../../assets/brand/lost-faith-frame.svg?raw';
 
 export const getStaticPaths = langPaths;
 
@@ -14,16 +15,17 @@ const lang = getLang(Astro.params.lang);
 const t = useTranslations(lang);
 const posts = (await getPosts(lang)).slice(0, 3);
 
-// The finished game logo comes in two files that replace the placeholders as soon as they're added:
-//   src/assets/brand/game-logo.svg   the art above the title (replaces the crest)
-//   src/assets/brand/game-title.svg  the "Lost Faith" lettering, used on the English site;
-//                                    add game-title-sc.svg / game-title-tc.svg for Chinese versions
-// PNG works too. Until then the title is set in text.
-const brand = import.meta.glob<{ default: ImageMetadata }>('../../assets/brand/game-*.{svg,png}', { eager: true });
-const brandFile = (name: string) =>
-  brand[`../../assets/brand/${name}.svg`]?.default ?? brand[`../../assets/brand/${name}.png`]?.default;
-const logoArt = brandFile('game-logo');
-const titleArt = brandFile(lang === 'en' ? 'game-title' : `game-title-${lang}`);
+// The logo files are white; drawing them inline lets CSS color them gold.
+// The logo is in English, so the Chinese sites put their title inside the frame instead: the frame's top
+// (arches and star) and bottom (divider and panels) are the same file cropped two ways.
+const gold = (svg: string, viewBox?: string) => {
+  const colored = svg.replaceAll('"white"', '"currentColor"').replace(/ width="\d+" height="\d+"/, '');
+  const cropped = viewBox ? colored.replace(/viewBox="[^"]*"/, `viewBox="${viewBox}"`) : colored;
+  return cropped.replace('<svg', '<svg aria-hidden="true" focusable="false"');
+};
+const logo = gold(logoSvg);
+const frameTop = gold(frameSvg, '0 0 336 106');
+const frameBottom = gold(frameSvg, '0 194 336 111');
 
 // Title screen art from the game, copied in by `npm run sync-data`.
 const heroArt = import.meta.glob<{ default: ImageMetadata }>('../../assets/game/home/title-screen.png', { eager: true })[
@@ -42,11 +44,20 @@ const loreLinks = [
   <section class="hero">
     {heroArt && <Image src={heroArt} alt="" class="hero-art" widths={[800, 1280, 1920]} sizes="100vw" loading="eager" fetchpriority="high" />}
     <div class="container hero-text">
-      {logoArt ? <img class="logo-art" src={logoArt.src} width={logoArt.width} height={logoArt.height} alt="" /> : <Crest />}
-      <h1>
-        {titleArt ? <img class="title-art" src={titleArt.src} width={titleArt.width} height={titleArt.height} alt={t('site.game')} /> : t('site.game')}
-      </h1>
-      <hr class="lance hero-lance" />
+      {
+        lang === 'en' ? (
+          <h1 class="logo">
+            <Fragment set:html={logo} />
+            <span class="visually-hidden">{t('site.game')}</span>
+          </h1>
+        ) : (
+          <div class="logo">
+            <Fragment set:html={frameTop} />
+            <h1 class="native-title">{t('site.game')}</h1>
+            <Fragment set:html={frameBottom} />
+          </div>
+        )
+      }
       <p class="tagline">{t('home.tagline')}</p>
       <p class="pitch">{t('home.about.body')}</p>
       <div class="actions">
@@ -165,21 +176,21 @@ const loreLinks = [
     }
   }
 
-  /* On narrow screens the art becomes a banner above the title. */
+  /* On narrow screens the art still fills the band, cropped in on the character, and the title
+     sits over its lower half behind a fade. */
   @media (max-width: 49.99rem) {
     .hero {
       display: block;
       min-height: 0;
-      padding-top: 56vw;
+      padding-top: 62vw;
     }
 
     .hero-art {
-      height: 64vw;
-      object-position: 75% 30%;
+      object-position: 72% 0%;
     }
 
     .hero::before {
-      background: linear-gradient(to top, var(--surface-sunk) 30%, rgb(19 18 22 / 0) 62%);
+      background: linear-gradient(to top, rgb(19 18 22 / 0.92) 0%, rgb(19 18 22 / 0.8) 45%, rgb(19 18 22 / 0) 75%);
     }
 
     .hero-text > * {
@@ -188,40 +199,27 @@ const loreLinks = [
     }
   }
 
-  .hero h1 {
-    font-family: var(--font-display);
-    font-size: clamp(3.5rem, 13vw, 7rem);
-    font-weight: 400;
-    line-height: 1;
-    color: var(--gold-bright);
-    text-shadow: 0 2px 18px rgb(0 0 0 / 0.6);
-    margin: 0;
+  .logo {
+    width: min(22rem, 78vw);
+    margin: 0 auto 1rem;
+    color: var(--gold);
+    filter: drop-shadow(0 2px 14px rgb(0 0 0 / 0.6));
   }
 
-  :global(:lang(zh-Hans)) .hero h1,
-  :global(:lang(zh-Hant)) .hero h1 {
+  .logo :global(svg) {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .native-title {
+    margin: 0.4rem 0 0.2rem;
+    font-family: var(--font-heading);
+    font-size: clamp(2.4rem, 11vw, 3.6rem);
     font-weight: 900;
-    font-size: clamp(2.75rem, 10vw, 5.5rem);
-    letter-spacing: 0.1em;
-  }
-
-  .logo-art {
-    display: block;
-    width: min(15rem, 60vw);
-    height: auto;
-    margin: 0 auto 0.5rem;
-  }
-
-  .title-art {
-    display: block;
-    width: min(32rem, 85vw);
-    height: auto;
-    margin: 0 auto;
-  }
-
-  .hero-lance {
-    width: min(36rem, 90%);
-    margin: 0.5rem auto 1rem;
+    line-height: 1.1;
+    letter-spacing: 0.12em;
+    color: var(--gold);
   }
 
   .tagline {

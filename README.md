@@ -41,7 +41,7 @@ src/
   pages/[...lang]/          one file per page; each builds all three languages
 ```
 
-When the game logo is finished, add it to `src/assets/brand/` as `game-logo.svg` (the art) and `game-title.svg` (the "Lost Faith" lettering), or as PNGs. They replace the placeholder crest and text title on the home page automatically. Chinese versions of the lettering go in `game-title-sc.svg` and `game-title-tc.svg`.
+The Lost Faith logo is `src/assets/brand/lost-faith-logo.svg` (the full lockup used on the home page) and `lost-faith-title.svg` (the lettering on its own). Both are the white versions from Lost Faith > Admin > Distribution on Drive, where the black versions and PNGs also live. `lost-faith-frame.svg` is the logo without the lettering (made from the logo file); the Chinese home pages put their title inside it. The home page draws these files inline and colors them gold, so keep them white.
 
 The studio logo is `src/assets/brand/studio-logo.svg` (the white version from Drive, Admin > Distribution). The tab icon and home-screen icon in `public/` were made from it. The default share image, `public/og-default.jpg`, is a crop of the game's title screen.
 
