@@ -35,9 +35,9 @@
   group: core
   discipline: art
   role:
-    en: Art Director, Assistant Producer, Generalist Artist
-    sc: 美术总监、助理制作人、综合美术
-    tc: 美術總監、助理製作人、綜合美術
+    en: Art Director, Assistant Producer, 2D Artist
+    sc: 美术总监、助理制作人、2D 美术
+    tc: 美術總監、助理製作人、2D 美術
   links:
     - label: Portfolio
       url: https://www.lizalitten.com/
