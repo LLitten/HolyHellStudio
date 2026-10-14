@@ -53,8 +53,8 @@
     tc: 玩法程式
   order: 4
 
-- id: kaijie-yang
-  name: Kaijie Yang
+- id: kj-yang
+  name: KJ Yang
   group: team
   discipline: art
   role:
