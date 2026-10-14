@@ -1,18 +1,15 @@
 ---
+// The Dev Posts page filtered to one tag. Same layout as /devlog/, with that tag's button highlighted.
 import Base from '../../../../layouts/Base.astro';
-import PostCard from '../../../../components/PostCard.astro';
-import TagList from '../../../../components/TagList.astro';
-import { getLang, langPaths, localePath, useTranslations } from '../../../../i18n/utils';
-import { getPosts } from '../../../../lib/content';
-import { TAGS } from '../../../../content.config';
+import DevlogList from '../../../../components/DevlogList.astro';
+import { getLang, langPaths, useTranslations } from '../../../../i18n/utils';
+import { getPosts, usedTags } from '../../../../lib/content';
 
-// One page per tag that has at least one post in that language.
 export async function getStaticPaths() {
   const paths = [];
   for (const { params } of langPaths()) {
-    const posts = await getPosts(getLang(params.lang));
-    for (const tag of TAGS) {
-      if (posts.some((p) => p.data.tags.includes(tag))) paths.push({ params: { ...params, tag } });
+    for (const tag of usedTags(await getPosts(getLang(params.lang)))) {
+      paths.push({ params: { ...params, tag } });
     }
   }
   return paths;
@@ -20,50 +17,11 @@ export async function getStaticPaths() {
 
 const lang = getLang(Astro.params.lang);
 const t = useTranslations(lang);
-const tag = Astro.params.tag as (typeof TAGS)[number];
+const tag = Astro.params.tag!;
 const all = await getPosts(lang);
-const posts = all.filter((p) => p.data.tags.includes(tag));
-const usedTags = TAGS.filter((x) => all.some((p) => p.data.tags.includes(x)));
-const label = t(`tag.${tag}`);
+const posts = all.filter((p) => p.data.tags.includes(tag as never));
 ---
 
-<Base lang={lang} title={`${label} · ${t('devlog.title')}`} description={t('devlog.description')}>
-  <div class="container">
-    <header class="page-head">
-      <p class="back"><a href={localePath(lang, 'devlog')}>← {t('devlog.back')}</a></p>
-      <h1>{t('devlog.tagged', { tag: label })}</h1>
-    </header>
-
-    <nav class="browse" aria-label={t('devlog.browseTags')}>
-      <TagList lang={lang} tags={usedTags} active={tag} />
-    </nav>
-
-    <div class="grid">
-      {posts.map((post) => <PostCard lang={lang} post={post} />)}
-    </div>
-  </div>
+<Base lang={lang} title={`${t(`tag.${tag}` as any)} · ${t('devlog.title')}`} description={t('devlog.description')}>
+  <DevlogList lang={lang} posts={posts} page={1} totalPages={1} tags={usedTags(all)} tag={tag} />
 </Base>
-
-<style>
-  .back {
-    margin-bottom: 1.5rem;
-  }
-
-  .back a {
-    color: var(--text);
-  }
-
-  .page-head h1 {
-    text-align: center;
-  }
-
-  .browse {
-    margin-bottom: 2rem;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
-    gap: 1.25rem;
-  }
-</style>

@@ -1,5 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { defaultLang, type Lang } from '../i18n/ui';
+import { TAGS } from '../content.config';
 
 type PerLanguage = 'devlog' | 'characters' | 'locations' | 'enemyLore' | 'studio';
 
@@ -39,3 +40,8 @@ export async function getPosts(lang: Lang) {
 }
 
 export const POSTS_PER_PAGE = 20;
+
+// Tags used by at least one of these posts, in the order they're defined.
+export function usedTags(posts: Localized<'devlog'>[]) {
+  return TAGS.filter((tag) => posts.some((p) => p.data.tags.includes(tag)));
+}

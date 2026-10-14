@@ -24,38 +24,55 @@ const { Content } = await render(post);
 ---
 
 <Base lang={lang} title={post.data.title} description={post.data.summary} image={post.data.cover?.src}>
-  <article class="container">
-    <header class="page-head">
-      <p class="back"><a href={localePath(lang, 'devlog')}>← {t('devlog.back')}</a></p>
-      <h1>{post.data.title}</h1>
-      <p class="date"><time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, lang)}</time></p>
-      {post.data.tags.length > 0 && <TagList lang={lang} tags={post.data.tags} />}
-    </header>
+  <div class="container">
+    <p class="back"><a href={localePath(lang, 'devlog')}>← {t('devlog.back')}</a></p>
 
-    <div class="panel">
+    <article class="panel">
+      <header class="post-head">
+        <h1>{post.data.title}</h1>
+        <p class="date"><time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, lang)}</time></p>
+        {post.data.tags.length > 0 && <TagList lang={lang} tags={post.data.tags} />}
+        <hr class="lance" />
+      </header>
       <TranslationNote lang={lang} translation={post.data.translation} isFallback={post.isFallback} />
       {post.data.cover && <Image src={post.data.cover} alt="" width={1200} class="cover" />}
       <div class="prose">
         <Content />
       </div>
-    </div>
-  </article>
+    </article>
+  </div>
 </Base>
 
 <style>
   .back {
-    margin-bottom: 1.5rem;
+    margin: clamp(1.5rem, 4vw, 2.5rem) 0 1rem;
   }
 
-  .page-head h1 {
+  .post-head {
     text-align: center;
+    padding-top: 0.5rem;
+  }
+
+  .post-head h1 {
+    color: var(--text);
+    margin-bottom: 0.35em;
   }
 
   .date {
-    max-width: none;
-    text-align: center;
     margin: 0 0 1rem;
     color: var(--text-muted);
+  }
+
+  /* Line the translation notice up with the text below it. */
+  .panel :global(.note) {
+    max-width: 44rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .post-head .lance {
+    width: min(28rem, 90%);
+    margin: 1.75rem auto 2rem;
   }
 
   .back a {

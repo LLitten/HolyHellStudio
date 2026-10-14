@@ -3,15 +3,20 @@ import type { Lang } from '../i18n/ui';
 import { localePath, useTranslations } from '../i18n/utils';
 import type { Localized } from '../lib/content';
 import PostCard from './PostCard.astro';
+import TagList from './TagList.astro';
 
 interface Props {
   lang: Lang;
   posts: Localized<'devlog'>[];
   page: number;
   totalPages: number;
+  // Every tag used by a post in this language, for the filter buttons.
+  tags: readonly string[];
+  // The tag being filtered on, if any.
+  tag?: string;
 }
 
-const { lang, posts, page, totalPages } = Astro.props;
+const { lang, posts, page, totalPages, tags, tag } = Astro.props;
 const t = useTranslations(lang);
 const pageUrl = (n: number) => (n === 1 ? localePath(lang, 'devlog') : localePath(lang, `devlog/page/${n}`));
 ---
@@ -21,6 +26,14 @@ const pageUrl = (n: number) => (n === 1 ? localePath(lang, 'devlog') : localePat
     <h1>{t('devlog.title')}</h1>
     <p>{t('devlog.description')}</p>
   </header>
+
+  {
+    tags.length > 0 && (
+      <nav class="filter" aria-label={t('devlog.browseTags')}>
+        <TagList lang={lang} tags={tags} active={tag} showAll />
+      </nav>
+    )
+  }
 
   {
     posts.length ? (
@@ -46,6 +59,14 @@ const pageUrl = (n: number) => (n === 1 ? localePath(lang, 'devlog') : localePat
 </div>
 
 <style>
+  .filter {
+    margin-bottom: 2rem;
+  }
+
+  .filter :global(.tags) {
+    justify-content: flex-start;
+  }
+
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));

@@ -5,16 +5,27 @@ import { localePath, useTranslations } from '../i18n/utils';
 interface Props {
   lang: Lang;
   tags: readonly string[];
-  // The tag page currently being viewed, highlighted in the list.
+  // The tag currently being viewed, highlighted in the list.
   active?: string;
+  // Adds an "All" button first, highlighted when no tag is active (used on the Dev Posts page).
+  showAll?: boolean;
   small?: boolean;
 }
 
-const { lang, tags, active, small = false } = Astro.props;
+const { lang, tags, active, showAll = false, small = false } = Astro.props;
 const t = useTranslations(lang);
 ---
 
 <ul class:list={['tags', { small }]}>
+  {
+    showAll && (
+      <li>
+        <a href={localePath(lang, 'devlog')} aria-current={!active ? 'page' : undefined}>
+          {t('devlog.all')}
+        </a>
+      </li>
+    )
+  }
   {
     tags.map((tag) => (
       <li>

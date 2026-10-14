@@ -2,7 +2,7 @@
 import Base from '../../../../layouts/Base.astro';
 import DevlogList from '../../../../components/DevlogList.astro';
 import { getLang, langPaths, useTranslations } from '../../../../i18n/utils';
-import { getPosts, POSTS_PER_PAGE } from '../../../../lib/content';
+import { getPosts, POSTS_PER_PAGE, usedTags } from '../../../../lib/content';
 
 // Page 1 is /devlog/; this route covers page 2 onward.
 export async function getStaticPaths() {
@@ -25,5 +25,5 @@ const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
 ---
 
 <Base lang={lang} title={`${t('devlog.title')} · ${page}`} description={t('devlog.description')}>
-  <DevlogList lang={lang} posts={posts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE)} page={page} totalPages={totalPages} />
+  <DevlogList lang={lang} posts={posts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE)} page={page} totalPages={totalPages} tags={usedTags(posts)} />
 </Base>
