@@ -4,7 +4,7 @@ date: 2026-10-11
 summary: 聊聊獨立遊戲開發的辛苦與快樂，順便搶先看看遊戲的對話系統。
 tags: [team, narrative]
 translation: source
-draft: true
+draft: false
 ---
 
 做遊戲真的是一件讓人很痛苦又很快樂的事情。

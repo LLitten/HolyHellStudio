@@ -4,7 +4,7 @@ date: 2026-10-11
 summary: Some thoughts on how hard and how rewarding indie development is, plus a first look at the dialogue system.
 tags: [team, narrative]
 translation: reviewed
-draft: true
+draft: false
 ---
 
 Making games is painful and joyful at the same time.
