@@ -1,0 +1,67 @@
+name: Review tracker
+
+# Keeps the "Review tracker" issue in step with the content files (see scripts/review-tracker.mjs).
+# Ticking a box in the issue updates the files and redeploys; changing the files rewrites the issue.
+on:
+  push:
+    branches: [main]
+    paths: ['src/content/**', 'scripts/review-tracker.mjs']
+  issues:
+    types: [edited]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: review-tracker
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.event_name != 'issues' || contains(github.event.issue.labels.*.name, 'review-tracker')
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.apply.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - id: apply
+        if: github.event_name == 'issues'
+        run: |
+          jq -r '.issue.body // ""' "$GITHUB_EVENT_PATH" > "$RUNNER_TEMP/new.md"
+          jq -r '.changes.body.from // ""' "$GITHUB_EVENT_PATH" > "$RUNNER_TEMP/old.md"
+          changes=$(node scripts/review-tracker.mjs apply "$RUNNER_TEMP/new.md" "$RUNNER_TEMP/old.md")
+          if [ -n "$changes" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -qam "$(printf 'Update from the review tracker\n\n%s\n\nTicked by @%s' "$changes" "$GITHUB_ACTOR")"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Update the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node scripts/review-tracker.mjs render > "$RUNNER_TEMP/tracker.md"
+          gh label create review-tracker --color 9C8648 --description "Translation review and publishing checklist" 2>/dev/null || true
+          number=$(gh issue list --label review-tracker --state open --json number --jq '.[0].number')
+          if [ -z "$number" ]; then
+            gh issue create --title "Review tracker" --label review-tracker --body-file "$RUNNER_TEMP/tracker.md"
+          else
+            gh issue edit "$number" --body-file "$RUNNER_TEMP/tracker.md"
+          fi
+
+  # Pushes made by this workflow don't start other workflows, so it runs the deploy itself.
+  deploy:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: main
