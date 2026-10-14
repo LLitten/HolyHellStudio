@@ -2,6 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import LoreShell from '../../../components/LoreShell.astro';
 import CardTile from '../../../components/CardTile.astro';
+import CardFilters from '../../../components/CardFilters.astro';
 import ToTop from '../../../components/ToTop.astro';
 import { getLang, langPaths, useTranslations } from '../../../i18n/utils';
 import { cards, GOD_ORDER, term, type Card } from '../../../lib/game';
@@ -14,7 +15,7 @@ const t = useTranslations(lang);
 // Inherent cards first, then one group per god, then anything left (faction-only and neutral cards).
 const byCost = (a: Card, b: Card) => a.rarity - b.rarity || a.cost - b.cost || a.id.localeCompare(b.id);
 const groups: { id: string; label: string; cards: Card[] }[] = [
-  { id: 'inherent', label: t('card.inherentGroup'), cards: cards.filter((c) => c.inherent) },
+  { id: 'inherent', label: t('cards.inherent'), cards: cards.filter((c) => c.inherent) },
   ...GOD_ORDER.map((god) => ({
     id: god.toLowerCase(),
     label: term('gods', god, lang),
@@ -31,16 +32,14 @@ const groups: { id: string; label: string; cards: Card[] }[] = [
     <h1>{t('lore.cards')}</h1>
     <p class="scope-note">{t('lore.scope')}</p>
 
-    <nav aria-label={t('lore.jump')}>
-      <ul class="jump">
-        {groups.map((g) => <li><a href={`#${g.id}`}>{g.label} ({g.cards.length})</a></li>)}
-      </ul>
-    </nav>
+    <CardFilters lang={lang} slot="side" />
+    <p class="none" hidden data-none>{t('filter.none')}</p>
+
 
     {
       groups.map((g) => (
-        <section class="group">
-          <h2 id={g.id}>{g.label}</h2>
+        <section class="group" id={g.id} data-card-group>
+          <h2>{g.label}</h2>
           <div class="tile-grid">
             {g.cards.map((card) => (
               <CardTile lang={lang} card={card} />
@@ -56,5 +55,9 @@ const groups: { id: string; label: string; cards: Card[] }[] = [
 <style>
   h1 {
     color: var(--text);
+  }
+
+  .none {
+    color: var(--text-muted);
   }
 </style>

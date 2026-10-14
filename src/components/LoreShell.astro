@@ -29,31 +29,35 @@ const section = current.split('/')[0];
 ---
 
 <div class="container shell">
-  <nav class="sidebar frame" aria-label={t('lore.title')}>
-    <a class="home" href={localePath(lang, 'lore')}>{t('lore.title')}</a>
-    <ul>
-      {
-        sections.map((s) => (
-          <li>
-            <a href={localePath(lang, `lore/${s.key}`)} aria-current={current === s.key ? 'page' : undefined}>
-              {s.label}
-            </a>
-            {s.key === section && s.pages.length > 0 && (
-              <ul>
-                {s.pages.map((p) => (
-                  <li>
-                    <a href={localePath(lang, `lore/${s.key}/${p.slug}`)} aria-current={current === `${s.key}/${p.slug}` ? 'page' : undefined}>
-                      {p.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </li>
-        ))
-      }
-    </ul>
-  </nav>
+  <div class="side">
+    <nav class="sidebar frame" aria-label={t('lore.title')}>
+      <a class="home" href={localePath(lang, 'lore')}>{t('lore.title')}</a>
+      <ul>
+        {
+          sections.map((s) => (
+            <li>
+              <a href={localePath(lang, `lore/${s.key}`)} aria-current={current === s.key ? 'page' : undefined}>
+                {s.label}
+              </a>
+              {s.key === section && s.pages.length > 0 && (
+                <ul>
+                  {s.pages.map((p) => (
+                    <li>
+                      <a href={localePath(lang, `lore/${s.key}/${p.slug}`)} aria-current={current === `${s.key}/${p.slug}` ? 'page' : undefined}>
+                        {p.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    {/* Extra panels under the menu, like the card filters. */}
+    <slot name="side" />
+  </div>
   <div class="body">
     <slot />
   </div>
@@ -67,10 +71,17 @@ const section = current.split('/')[0];
     padding-top: 2rem;
   }
 
-  .sidebar {
+  /* Follows the page down; scrolls on its own if it's taller than the screen. */
+  .side {
     position: sticky;
     top: 1rem;
     align-self: start;
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
+
+  .sidebar {
     background: var(--surface);
     padding: 1rem;
     font-family: var(--font-heading);
@@ -115,8 +126,10 @@ const section = current.split('/')[0];
       gap: 1rem;
     }
 
-    .sidebar {
+    .side {
       position: static;
+      max-height: none;
+      overflow: visible;
     }
 
     .sidebar > ul {

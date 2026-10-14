@@ -16,9 +16,21 @@ const art = gameArt('cards', card.art);
 const factions = card.factions.map((f) => term('factions', f, lang)).join(' / ');
 const gods = card.gods.length ? card.gods.map((g) => term('gods', g, lang)).join(' / ') : t('card.noGod');
 const types = card.actionTypes.map((a) => term('actionTypes', a, lang)).join(' / ');
+// Every card lists the same rows so tiles line up; a dash means the card doesn't have it.
+const signed = (n: number) => (n > 0 ? `+${n}` : n === 0 ? '—' : String(n));
+
+// Read by the filters on the Cards page. Costs of 3 and up share one filter button.
+const filterData = {
+  'data-card': card.id,
+  'data-god': card.inherent ? 'inherent' : card.gods.join(' '),
+  'data-faction': card.factions.join(' '),
+  'data-rarity': String(card.rarity),
+  'data-cost': String(Math.min(card.cost, 3)),
+  'data-type': card.actionTypes.join(' '),
+};
 ---
 
-<article class="card frame" id={`card-${card.id}`}>
+<article class="card frame" id={`card-${card.id}`} {...filterData}>
   <div class="art">
     {art ? <Image src={art} alt="" width={360} loading="lazy" /> : <div class="no-art" aria-hidden="true">◆</div>}
     <span class="cost" title={t('card.cost')}>{card.cost}</span>
@@ -34,9 +46,9 @@ const types = card.actionTypes.map((a) => term('actionTypes', a, lang)).join(' /
       <div><dt>{t('card.faction')}</dt><dd>{factions}</dd></div>
       <div><dt>{t('card.god')}</dt><dd>{gods}</dd></div>
       <div><dt>{t('card.type')}</dt><dd>{types}</dd></div>
-      {card.durability !== null && <div><dt>{t('card.durability')}</dt><dd>{card.durability}</dd></div>}
-      {card.angelGain !== 0 && <div><dt>{t('card.angel')}</dt><dd>{card.angelGain > 0 ? `+${card.angelGain}` : card.angelGain}</dd></div>}
-      {card.demonGain !== 0 && <div><dt>{t('card.demon')}</dt><dd>{card.demonGain > 0 ? `+${card.demonGain}` : card.demonGain}</dd></div>}
+      <div><dt>{t('card.durability')}</dt><dd>{card.durability ?? '—'}</dd></div>
+      <div><dt>{t('card.angel')}</dt><dd>{signed(card.angelGain)}</dd></div>
+      <div><dt>{t('card.demon')}</dt><dd>{signed(card.demonGain)}</dd></div>
     </dl>
   </div>
 </article>
