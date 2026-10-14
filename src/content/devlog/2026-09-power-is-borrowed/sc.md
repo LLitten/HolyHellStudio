@@ -5,7 +5,7 @@ summary: 在《弃誓神途》中，神祇的卡牌力量强大，但每一次�
 tags: [design]
 cover: ./image.jpg
 coverAlt: "神祇卡的详细信息画面，显示耐久度、量表变化与关键字"
-translation: machine
+translation: reviewed
 draft: true
 ---
 

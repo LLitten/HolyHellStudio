@@ -49,6 +49,8 @@ Each page has an English original and a file per Chinese version in the same fol
 - `machine`: translated but not proofread. The page shows a small notice saying so.
 - `reviewed`: proofread. The notice goes away.
 
+Only one Chinese version needs proofreading. The other is converted from it rather than translated separately, so it's marked `reviewed` from the start. Usually Traditional is proofread and Simplified is converted from it; if something starts in Simplified, it's the other way round. When the proofread version is corrected, the converted file is regenerated from it.
+
 If a Chinese file is missing, the English version shows on the Chinese site with a notice.
 
 ### Review process

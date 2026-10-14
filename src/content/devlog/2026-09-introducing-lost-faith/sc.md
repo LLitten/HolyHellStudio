@@ -5,7 +5,7 @@ summary: HolyHell Studio 正在开发地城探索型卡牌游戏《弃誓神途�
 tags: [announcement]
 cover: ./image-1.jpg
 coverAlt: "沃许在战斗中面对强盗，画面下方是手牌"
-translation: machine
+translation: reviewed
 draft: true
 ---
 

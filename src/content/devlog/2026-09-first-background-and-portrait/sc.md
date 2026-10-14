@@ -5,7 +5,7 @@ summary: 我们有了第一张正式的美术背景和NPC立绘！
 tags: [art, narrative]
 cover: ./image-1.jpg
 coverAlt: "夜晚的营地：破旧的帐篷、营火与木制篷车，玛拉坐在火边"
-translation: machine
+translation: reviewed
 draft: true
 ---
 

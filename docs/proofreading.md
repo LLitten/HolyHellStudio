@@ -21,22 +21,15 @@ Use the **Preview** tab in the editor to see how the text will look.
 
 If a file already says `translation: reviewed`, it's been done and you can skip it.
 
-### Chinese
+### Traditional Chinese
 
-- [Dev post: Rethinking How Cards Are Drawn (Simplified)](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/devlog/2026-09-card-draw-rework/sc.md)
-- [Dev post: Our First Finished Background and NPC Portrait (Simplified)](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/devlog/2026-09-first-background-and-portrait/sc.md)
-- [Dev post: Introducing Lost Faith (Simplified)](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/devlog/2026-09-introducing-lost-faith/sc.md)
-- [Dev post: Power Is Borrowed (Simplified)](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/devlog/2026-09-power-is-borrowed/sc.md)
-- [Dev post: Our First Outside Playtest (Simplified)](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/devlog/2026-10-first-playtest/sc.md)
-- [Dev post: Why We Make Games (Simplified)](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/devlog/2026-10-why-we-make-games/sc.md)
-- [Volva the Torrent (Simplified)](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/lore/enemies/volva-the-torrent/sc.md)
+Simplified Chinese is converted from Traditional, so only Traditional needs checking. (If something was written in Simplified first, it's the other way round.)
+
 - [Volva the Torrent (Traditional)](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/lore/enemies/volva-the-torrent/tc.md)
-- [Windchime Village (Simplified)](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/lore/locations/windchime-village/sc.md)
 - [Windchime Village (Traditional)](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/lore/locations/windchime-village/tc.md)
-- [About page intro (Simplified)](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/studio/about/sc.md)
 - [About page intro (Traditional)](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/studio/about/tc.md)
-- [Menus, buttons and other site text](https://github.com/LLitten/HolyHellStudio/edit/main/src/i18n/ui.ts). Simplified is the block that starts with `sc: {` and Traditional is `tc: {`. Only change the text in quotes on the right side of each line.
-- [Team roles](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/team/members.yaml). The `sc:` and `tc:` lines under each `role:`.
+- [Menus, buttons and other site text](https://github.com/LLitten/HolyHellStudio/edit/main/src/i18n/ui.ts). Traditional is the block that starts with `tc: {`. Only change the text in quotes on the right side of each line.
+- [Team roles](https://github.com/LLitten/HolyHellStudio/edit/main/src/content/team/members.yaml). The `tc:` lines under each `role:`.
 
 ### English (translated from the Chinese Threads posts)
 

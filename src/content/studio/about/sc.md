@@ -1,5 +1,5 @@
 ---
-translation: machine
+translation: reviewed
 ---
 
 HolyHell Studio 是一支由策划、程序、美术与作曲组成的小团队，正在制作《弃誓神途》。团队与项目横跨多种语言与多个国家。

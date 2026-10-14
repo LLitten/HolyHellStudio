@@ -30,6 +30,7 @@ Read README.md and CONTRIBUTING.md first; they cover how the site works. This fi
 - Use the game's own terms (Angel Meter, Cost, Durability, ATK, 素材 in Traditional, and so on). Labels for game terms come from the game's localization through `LABELS` in the sync script, not from `src/i18n/ui.ts`.
 - New site text goes into all three language blocks in `src/i18n/ui.ts`.
 - Translations of posts and lore start as `translation: machine`. Only the team's proofreader marks them `reviewed`.
+- Only one Chinese version gets translated and proofread; the other is converted from it and marked `reviewed` straight away. Usually that means Simplified is converted from Traditional (OpenCC `tw2sp`, then mainland wording and “” quotes). If a piece starts in Simplified, convert the other way (OpenCC `s2twp`, then Taiwan wording and 「」 quotes). When the proofread version changes, regenerate the converted one from it.
 - When writing lore, stick to what the game's own text or the team's docs say. Don't invent story details.
 
 ## Patch notes

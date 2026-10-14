@@ -3,7 +3,7 @@ title: 第一次组外测试
 date: 2026-10-03
 summary: 我们举办了第一次组外测试。玩家反馈最多的是新手教学与战斗机制的理解，所以这周的重心就放在这里。
 tags: [playtest, design]
-translation: machine
+translation: reviewed
 draft: true
 ---
 

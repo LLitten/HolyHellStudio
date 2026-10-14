@@ -3,7 +3,7 @@ title: 做游戏这件事
 date: 2026-10-11
 summary: 聊聊独立游戏开发的辛苦与快乐，顺便抢先看看游戏的对话系统。
 tags: [team, narrative]
-translation: machine
+translation: reviewed
 draft: true
 ---
 

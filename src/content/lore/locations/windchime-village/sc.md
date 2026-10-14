@@ -3,7 +3,7 @@ name: 风铃村
 summary: 位于荒野边缘的昔日伐木小镇，如今已遭焚毁与占领。
 dungeonGroup: '1'
 order: 1
-translation: machine
+translation: reviewed
 ---
 
 风铃村早年以丰富的木材闻名，一度是拉泽尼亚远近驰名的林业重镇。随着两大王国对苍白之地的限制日益加剧，樵夫们被迫收起斧头，在广大的山林中寻找其他的生存方式。
