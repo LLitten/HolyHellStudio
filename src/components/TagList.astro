@@ -1,0 +1,73 @@
+---
+import type { Lang } from '../i18n/ui';
+import { localePath, useTranslations } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+  tags: readonly string[];
+  // The tag page currently being viewed, highlighted in the list.
+  active?: string;
+  small?: boolean;
+}
+
+const { lang, tags, active, small = false } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<ul class:list={['tags', { small }]}>
+  {
+    tags.map((tag) => (
+      <li>
+        <a href={localePath(lang, `devlog/tag/${tag}`)} aria-current={tag === active ? 'page' : undefined}>
+          {t(`tag.${tag}` as any)}
+        </a>
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    display: block;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid var(--gold-dim);
+    border-radius: 2px;
+    background: var(--surface);
+    color: var(--text);
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    line-height: 1.3;
+    text-decoration: none;
+  }
+
+  a:hover {
+    border-color: var(--gold);
+    color: var(--gold-bright);
+  }
+
+  a[aria-current] {
+    background: var(--demon-deep);
+    border-color: var(--gold);
+    color: var(--text);
+  }
+
+  .small {
+    justify-content: flex-start;
+    gap: 0.4rem;
+  }
+
+  .small a {
+    padding: 0.15rem 0.5rem;
+    font-size: 0.78rem;
+  }
+</style>

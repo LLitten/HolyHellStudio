@@ -49,6 +49,8 @@ export const ui = {
     'devlog.page': 'Page {n} of {total}',
     'devlog.back': 'All dev posts',
     'devlog.tags': 'Tags',
+    'devlog.tagged': 'Posts tagged “{tag}”',
+    'devlog.browseTags': 'Browse by tag',
 
     'tag.art': 'Art',
     'tag.programming': 'Programming',
@@ -159,6 +161,8 @@ export const ui = {
     'devlog.page': '第 {n} 页，共 {total} 页',
     'devlog.back': '全部开发日志',
     'devlog.tags': '标签',
+    'devlog.tagged': '标签：{tag}',
+    'devlog.browseTags': '按标签浏览',
 
     'tag.art': '美术',
     'tag.programming': '程序',
@@ -269,6 +273,8 @@ export const ui = {
     'devlog.page': '第 {n} 頁，共 {total} 頁',
     'devlog.back': '全部開發日誌',
     'devlog.tags': '標籤',
+    'devlog.tagged': '標籤：{tag}',
+    'devlog.browseTags': '依標籤瀏覽',
 
     'tag.art': '美術',
     'tag.programming': '程式',

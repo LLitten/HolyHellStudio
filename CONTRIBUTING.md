@@ -7,7 +7,7 @@
 
    | Field | |
    |---|---|
-   | `title` | Post title |
+   | `title` | Post title, in Title Case in English ("Rethinking How Cards Are Drawn") |
    | `date` | `YYYY-MM-DD` |
    | `summary` | One or two sentences for the post list |
    | `tags` | Any of `art`, `programming`, `design`, `team`, `audio`, `narrative`, `announcement`, `playtest`, `events`, `patch-notes` |

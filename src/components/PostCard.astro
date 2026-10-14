@@ -1,9 +1,10 @@
 ---
 import { Image } from 'astro:assets';
 import type { Lang } from '../i18n/ui';
-import { formatDate, localePath, useTranslations } from '../i18n/utils';
+import { formatDate, localePath } from '../i18n/utils';
 import type { Localized } from '../lib/content';
 import fallbackCover from '../assets/fallback-cover.png';
+import TagList from './TagList.astro';
 
 interface Props {
   lang: Lang;
@@ -11,7 +12,6 @@ interface Props {
 }
 
 const { lang, post } = Astro.props;
-const t = useTranslations(lang);
 const href = localePath(lang, `devlog/${post.slug}`);
 ---
 
@@ -23,15 +23,7 @@ const href = localePath(lang, `devlog/${post.slug}`);
     <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, lang)}</time>
     <h3><a href={href}>{post.data.title}</a></h3>
     <p>{post.data.summary}</p>
-    {
-      post.data.tags.length > 0 && (
-        <ul class="tags">
-          {post.data.tags.map((tag) => (
-            <li>{t(`tag.${tag}`)}</li>
-          ))}
-        </ul>
-      )
-    }
+    {post.data.tags.length > 0 && <TagList lang={lang} tags={post.data.tags} small />}
   </div>
 </article>
 
@@ -77,20 +69,4 @@ const href = localePath(lang, `devlog/${post.slug}`);
     font-size: 0.95rem;
   }
 
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 0.75rem;
-  }
-
-  .tags li {
-    padding: 0.05rem 0.5rem;
-    border: 1px solid var(--demon);
-    border-radius: 2px;
-    color: var(--text-muted);
-  }
 </style>

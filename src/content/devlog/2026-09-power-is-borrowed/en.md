@@ -1,5 +1,5 @@
 ---
-title: Power is borrowed
+title: Power Is Borrowed
 date: 2026-09-18
 summary: In Lost Faith, every card draws on the power of the gods, and every use comes at a cost.
 tags: [design]

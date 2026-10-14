@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import { render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import TranslationNote from '../../../components/TranslationNote.astro';
+import TagList from '../../../components/TagList.astro';
 import { formatDate, getLang, langPaths, localePath, useTranslations } from '../../../i18n/utils';
 import { getPosts } from '../../../lib/content';
 
@@ -27,10 +28,8 @@ const { Content } = await render(post);
     <header class="page-head">
       <p class="back"><a href={localePath(lang, 'devlog')}>← {t('devlog.back')}</a></p>
       <h1>{post.data.title}</h1>
-      <p class="meta">
-        <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, lang)}</time>
-        {post.data.tags.length > 0 && <span> · {post.data.tags.map((tag) => t(`tag.${tag}`)).join(', ')}</span>}
-      </p>
+      <p class="date"><time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, lang)}</time></p>
+      {post.data.tags.length > 0 && <TagList lang={lang} tags={post.data.tags} />}
     </header>
 
     <div class="panel">
@@ -45,15 +44,22 @@ const { Content } = await render(post);
 
 <style>
   .back {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .page-head h1 {
+    text-align: center;
+  }
+
+  .date {
+    max-width: none;
+    text-align: center;
+    margin: 0 0 1rem;
+    color: var(--text-muted);
   }
 
   .back a {
     color: var(--text);
-  }
-
-  .meta {
-    font-size: 0.95rem;
   }
 
   .cover {

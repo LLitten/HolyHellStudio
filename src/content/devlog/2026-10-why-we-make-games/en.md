@@ -1,5 +1,5 @@
 ---
-title: Why we make games
+title: Why We Make Games
 date: 2026-10-11
 summary: Some thoughts on how hard and how rewarding indie development is, plus a first look at the dialogue system.
 tags: [team, narrative]
