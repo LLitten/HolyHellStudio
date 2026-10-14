@@ -5,7 +5,7 @@ summary: In Lost Faith, cards carry the power of the gods, and every use comes a
 tags: [design]
 cover: ./image.jpg
 coverAlt: "A god card’s detail view, showing its durability, meter costs and keywords"
-translation: machine
+translation: reviewed
 draft: true
 ---
 
