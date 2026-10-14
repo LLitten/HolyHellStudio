@@ -4,7 +4,7 @@ date: 2026-10-03
 summary: We ran our first playtest with people outside the team. Most of the feedback was about the tutorial and understanding combat, so that's where this week went.
 tags: [playtest, design]
 translation: reviewed
-draft: true
+draft: false
 ---
 
 Hi everyone, it's time for the weekend dev update!

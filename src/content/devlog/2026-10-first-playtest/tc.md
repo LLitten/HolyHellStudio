@@ -4,7 +4,7 @@ date: 2026-10-03
 summary: 我們舉辦了第一次組外測試。玩家反饋最多的是新手教學與戰鬥機制的理解，所以這週的重心就放在這裡。
 tags: [playtest, design]
 translation: source
-draft: true
+draft: false
 ---
 
 各位玩家好，又到了週末的開發進度週報時間！

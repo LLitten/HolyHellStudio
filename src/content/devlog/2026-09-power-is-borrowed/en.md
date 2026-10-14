@@ -6,7 +6,7 @@ tags: [design]
 cover: ./image.jpg
 coverAlt: "A god card’s detail view, showing its durability, meter costs and keywords"
 translation: reviewed
-draft: true
+draft: false
 ---
 
 

@@ -6,7 +6,7 @@ tags: [design]
 cover: ./image.jpg
 coverAlt: "神祇卡的详细信息画面，显示耐久度、量表变化与关键字"
 translation: reviewed
-draft: true
+draft: false
 ---
 
 
