@@ -115,6 +115,8 @@ export const ui = {
     'discipline.programming': 'Programming',
     'discipline.design': 'Design',
     'discipline.other': 'Other',
+    'about.link.artstation': '{name} on ArtStation',
+    'about.link.site': '{name}’s portfolio',
     'about.contact': 'Contact',
     'about.contact.body': 'For business, press or anything else, email us or find us on social media.',
 
@@ -223,6 +225,8 @@ export const ui = {
     'discipline.programming': '程序',
     'discipline.design': '策划',
     'discipline.other': '其他',
+    'about.link.artstation': '{name} 的 ArtStation',
+    'about.link.site': '{name} 的作品集',
     'about.contact': '联系我们',
     'about.contact.body': '商务合作、媒体或其他事宜，欢迎来信或在社交媒体上找到我们。',
 
@@ -331,6 +335,8 @@ export const ui = {
     'discipline.programming': '程式',
     'discipline.design': '企劃',
     'discipline.other': '其他',
+    'about.link.artstation': '{name} 的 ArtStation',
+    'about.link.site': '{name} 的作品集',
     'about.contact': '聯絡我們',
     'about.contact.body': '商務合作、媒體或其他事宜，歡迎來信或在社群媒體上找到我們。',
 

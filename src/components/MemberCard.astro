@@ -2,6 +2,8 @@
 import type { ImageMetadata } from 'astro';
 import { Image } from 'astro:assets';
 import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+import LinkIcon from './LinkIcon.astro';
 
 interface Props {
   lang: Lang;
@@ -14,6 +16,9 @@ interface Props {
 }
 
 const { lang, member } = Astro.props;
+const t = useTranslations(lang);
+const linkName = (url: string) =>
+  t(new URL(url).hostname.endsWith('artstation.com') ? 'about.link.artstation' : 'about.link.site', { name: member.name });
 
 // Photos are optional; without one the card is just name, role and links.
 const photos = import.meta.glob<{ default: ImageMetadata }>('../content/team/photos/*', { eager: true });
@@ -29,8 +34,14 @@ const img = member.photo ? photos[`../content/team/photos/${member.photo}`]?.def
       <ul class="links">
         {member.links.map((l) => (
           <li>
-            <a href={l.url} target="_blank" rel="noopener">
-              {l.label}
+            <a
+              href={l.url}
+              target="_blank"
+              rel="noopener"
+              aria-label={linkName(l.url)}
+              title={linkName(l.url)}
+            >
+              <LinkIcon url={l.url} />
             </a>
           </li>
         ))}
@@ -77,11 +88,21 @@ const img = member.photo ? photos[`../content/team/photos/${member.photo}`]?.def
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.25rem 1rem;
-    margin: 0.6rem 0 0;
+    gap: 0.25rem 0.75rem;
+    margin: 0.7rem 0 0;
     padding: 0;
     list-style: none;
-    font-size: 0.9rem;
+  }
+
+  .links a {
+    display: block;
+    padding: 0.2rem;
+    color: var(--gold);
+    border-radius: var(--radius);
+  }
+
+  .links a:hover {
+    color: var(--gold-bright);
   }
 
   @media (max-width: 40rem) {

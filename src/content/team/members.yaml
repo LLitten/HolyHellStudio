@@ -133,7 +133,7 @@
   discipline: audio
   role: { en: Composer, sc: 作曲, tc: 作曲 }
   links:
-    - label: Website
+    - label: Portfolio
       url: https://emmastuart.com/
   group: extended
 
@@ -142,6 +142,6 @@
   discipline: audio
   role: { en: Composer, sc: 作曲, tc: 作曲 }
   links:
-    - label: Website
+    - label: Portfolio
       url: https://www.davewarren.com/
   group: extended
