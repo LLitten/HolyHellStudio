@@ -55,7 +55,11 @@ jobs:
           if [ -z "$number" ]; then
             gh issue create --title "Review tracker" --label review-tracker --body-file "$RUNNER_TEMP/tracker.md"
           else
-            gh issue edit "$number" --body-file "$RUNNER_TEMP/tracker.md"
+            # Leave the issue alone when nothing changed, so a page someone has open doesn't go stale.
+            gh issue view "$number" --json body --jq .body | tr -d '\r' > "$RUNNER_TEMP/current.md"
+            if ! diff -qBw "$RUNNER_TEMP/current.md" "$RUNNER_TEMP/tracker.md" > /dev/null; then
+              gh issue edit "$number" --body-file "$RUNNER_TEMP/tracker.md"
+            fi
           fi
 
   # Pushes made by this workflow don't start other workflows, so it runs the deploy itself.

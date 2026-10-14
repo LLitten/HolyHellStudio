@@ -73,9 +73,10 @@ function render() {
     '',
   ];
 
+  // Nothing here should change when a box is ticked except the box itself. If the text around it changed,
+  // anyone with the issue open would get an error from GitHub on their next tick.
   const toReview = all.flatMap((e) => reviewable(e).map(([lang, f]) => ({ e, lang, f })));
-  const open = toReview.filter((r) => r.f.translation !== 'reviewed').length;
-  lines.push(`## Translations (${open} to review)`, '');
+  lines.push('## Translations', '');
   for (const { e, lang, f } of toReview) {
     const box = f.translation === 'reviewed' ? 'x' : ' ';
     lines.push(`- [${box}] ${e.label}: **${e.title}** · ${LANGS[lang]} · [edit](${EDIT}${f.path}) <!-- review:${f.path} -->`);
@@ -83,12 +84,10 @@ function render() {
   if (!toReview.length) lines.push('Nothing to review.');
 
   const drafts = all.filter((e) => Object.values(e.files).some((f) => f.draft) || e.post);
-  lines.push('', '## Publishing', '', 'Ticked means the page is live. Unticking hides it again.', '');
+  lines.push('', '## Publishing', '', 'Ticked means the page is live. Unticking hides it again. Check that a post’s translations are ticked above before publishing it.', '');
   for (const e of drafts) {
     const live = !Object.values(e.files).some((f) => f.draft);
-    const pending = reviewable(e).filter(([, f]) => f.translation === 'machine').length;
-    const note = !live && pending ? ` (${pending} translation${pending > 1 ? 's' : ''} not reviewed yet)` : '';
-    lines.push(`- [${live ? 'x' : ' '}] ${e.label}: **${e.title}**${note} <!-- publish:${e.dir} -->`);
+    lines.push(`- [${live ? 'x' : ' '}] ${e.label}: **${e.title}** <!-- publish:${e.dir} -->`);
   }
 
   lines.push(
