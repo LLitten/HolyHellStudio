@@ -79,9 +79,13 @@ order: 1
 
 **Enemies**: enemy pages are built from game data. To add written lore, make a folder in `src/content/lore/enemies/` named after the enemy's page (the last part of its URL, e.g. `volva-the-torrent`) with an `en.md`.
 
-## Team members
+## The About page
 
-Add an entry to `src/content/team/members.yaml` and put the photo in `src/content/team/photos/`. The example at the top of the file shows every field.
+The studio introduction is `src/content/studio/about/` (en.md, sc.md, tc.md), translated and reviewed like any other page.
+
+People are listed in `src/content/team/members.yaml`. `core: true` gives someone a card under The Team; everyone else is listed under Contributors, grouped by `discipline`. Photos go in `src/content/team/photos/`; without one, the card shows the studio emblem.
+
+Only list someone once they've agreed to be named. Until then, keep `draft: true` on their entry: they'll show in `npm run dev` but not on the built site. Never put emails, Discord names or other private contact details in this file.
 
 ## Menu and button text
 

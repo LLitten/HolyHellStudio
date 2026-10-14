@@ -67,17 +67,29 @@ const enemyLore = defineCollection({
   }),
 });
 
+// The studio introduction on the About page.
+const studio = defineCollection({
+  loader: perLanguage('studio'),
+  schema: z.object({
+    translation,
+  }),
+});
+
 const team = defineCollection({
   loader: file('./src/content/team/members.yaml'),
   schema: z.object({
     name: z.string(),
     role: z.object({ en: z.string(), sc: z.string().optional(), tc: z.string().optional() }),
+    // Core members get a card; everyone else is listed under Contributors by discipline.
+    core: z.boolean().default(false),
+    discipline: z.enum(['art', 'audio', 'programming', 'design', 'other']).default('other'),
     // File name in src/content/team/photos/
     photo: z.string().optional(),
     links: z.array(z.object({ label: z.string(), url: z.url() })).default([]),
     order: z.number().default(100),
+    // Keep someone off the built site (e.g. until they've agreed to be listed).
     draft: z.boolean().default(false),
   }),
 });
 
-export const collections = { devlog, characters, locations, enemyLore, team };
+export const collections = { devlog, characters, locations, enemyLore, studio, team };

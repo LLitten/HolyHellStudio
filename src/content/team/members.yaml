@@ -1,21 +1,165 @@
-# One entry per team member, shown on the About page in `order`.
+# Everyone credited on the About page.
+#   core: true      shows a card under "The Team"; everyone else is listed under Contributors
+#   discipline      art, audio, programming, design or other (groups the Contributors list)
+#   draft: true     keeps someone off the built site, e.g. until they've agreed to be listed
 # Photos go in src/content/team/photos/. Roles fall back to English if a translation is missing.
-#
-# - id: jane-doe
-#   name: Jane Doe
-#   role:
-#     en: Lead Artist
-#     sc: 主美术
-#     tc: 主美術
-#   photo: jane-doe.jpg
-#   links:
-#     - label: Portfolio
-#       url: https://example.com
-#   order: 1
+# Only public things go here: names as people want to be credited, roles, and links they chose to share.
 
-- id: example
-  name: Example Member
+# Core team
+
+- id: tim-chen
+  name: Tim Chen
+  core: true
+  discipline: design
   role:
-    en: Role goes here
+    en: Game Director, Producer, Lead Designer
+    sc: 游戏总监、制作人、主策划
+    tc: 遊戲總監、製作人、主企劃
+  links:
+    - label: Portfolio
+      url: https://timmy896777.wixsite.com/hannyat
   order: 1
+
+- id: liuxin-chen
+  name: Liuxin Chen
+  core: true
+  discipline: programming
+  role:
+    en: Gameplay Programmer
+    sc: 玩法程序
+    tc: 玩法程式
+  order: 2
+
+- id: zai-litten
+  name: Zai Litten
+  core: true
+  discipline: art
+  role:
+    en: Academic Producer, Sprite Artist, UI Artist
+    sc: 学术制作人、角色美术、UI 美术
+    tc: 學術製作人、角色美術、UI 美術
+  links:
+    - label: Portfolio
+      url: https://www.lizalitten.com/
+  order: 3
+
+- id: koa-weng
+  name: Koa Weng
+  core: true
+  discipline: programming
+  role:
+    en: Lead Programmer
+    sc: 主程序
+    tc: 主程式
+  order: 4
+
+- id: kaijie-yang
+  name: Kaijie Yang
+  core: true
+  discipline: art
+  role:
+    en: Environment Artist
+    sc: 场景美术
+    tc: 場景美術
+  order: 5
+
+# Contributors. All drafts until each person has agreed to be listed; remove `draft: true` to show them.
+
+- id: clyde-waters
+  name: Clyde Waters
+  discipline: art
+  role: { en: Enemy Art, sc: 敌人美术, tc: 敵人美術 }
+  draft: true
+
+- id: isabella-zeier
+  name: Isabella Zeier
+  discipline: art
+  role: { en: Enemy Art, sc: 敌人美术, tc: 敵人美術 }
+  links:
+    - label: ArtStation
+      url: https://www.artstation.com/isabellazeier
+  draft: true
+
+- id: arihante-sears
+  name: Arihante Sears
+  discipline: art
+  role: { en: Enemy Art, sc: 敌人美术, tc: 敵人美術 }
+  links:
+    - label: ArtStation
+      url: https://www.artstation.com/arihantesears
+  draft: true
+
+- id: masha-kiparuk
+  name: Masha Kiparuk
+  discipline: art
+  role: { en: Enemy Art, sc: 敌人美术, tc: 敵人美術 }
+  draft: true
+
+- id: alison-tsoi
+  name: Alison Tsoi
+  discipline: art
+  role: { en: NPC Art, sc: NPC 美术, tc: NPC 美術 }
+  links:
+    - label: ArtStation
+      url: https://www.artstation.com/alison_tsoi
+  draft: true
+
+- id: jiancheng-young
+  name: JianCheng Young
+  discipline: art
+  role: { en: Card Art, sc: 卡牌美术, tc: 卡牌美術 }
+  draft: true
+
+- id: ryann-browne
+  name: Ryann Browne
+  discipline: art
+  role: { en: Promotional Art, sc: 宣传美术, tc: 宣傳美術 }
+  draft: true
+
+- id: reed-s
+  name: Reed S
+  discipline: audio
+  role: { en: Composer, sc: 作曲, tc: 作曲 }
+  draft: true
+
+- id: isiah-malcolm
+  name: Isiah Malcolm
+  discipline: audio
+  role: { en: Composer, sc: 作曲, tc: 作曲 }
+  draft: true
+
+- id: emma-stuart
+  name: Emma Stuart
+  discipline: audio
+  role: { en: Composer, sc: 作曲, tc: 作曲 }
+  links:
+    - label: Website
+      url: https://emmastuart.com/
+  draft: true
+
+- id: dave-warren
+  name: Dave Warren
+  discipline: audio
+  role: { en: Composer, sc: 作曲, tc: 作曲 }
+  links:
+    - label: Website
+      url: https://www.davewarren.com/
+  draft: true
+
+- id: ruiming-zhang
+  name: Ruiming Zhang
+  discipline: audio
+  role: { en: Composer, sc: 作曲, tc: 作曲 }
+  draft: true
+
+- id: awoo
+  name: Awoo
+  discipline: audio
+  role: { en: Sound Effects, sc: 音效, tc: 音效 }
+  draft: true
+
+- id: christian-palladino
+  name: Christian Palladino
+  discipline: programming
+  role: { en: Programmer, sc: 程序, tc: 程式 }
   draft: true

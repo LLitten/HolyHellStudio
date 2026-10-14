@@ -1,7 +1,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { defaultLang, type Lang } from '../i18n/ui';
 
-type PerLanguage = 'devlog' | 'characters' | 'locations' | 'enemyLore';
+type PerLanguage = 'devlog' | 'characters' | 'locations' | 'enemyLore' | 'studio';
 
 export type Localized<C extends PerLanguage> = CollectionEntry<C> & {
   slug: string;
