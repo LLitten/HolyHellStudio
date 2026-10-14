@@ -6,7 +6,7 @@ tags: [art, narrative]
 cover: ./image-1.jpg
 coverAlt: "The camp at night: a tattered tent, a campfire and a wooden wagon, with Mara by the fire"
 translation: reviewed
-draft: true
+draft: false
 ---
 
 We have our first finished background art and NPC portrait!

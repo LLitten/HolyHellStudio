@@ -6,7 +6,7 @@ tags: [art, narrative]
 cover: ./image-1.jpg
 coverAlt: "夜晚的營地：破舊的帳篷、營火與木製篷車，瑪拉坐在火邊"
 translation: source
-draft: true
+draft: false
 ---
 
 我們有了第一張正式的美術背景和NPC立繪了！
