@@ -49,13 +49,10 @@ const loreLinks = [
       <hr class="lance hero-lance" />
       <p class="tagline">{t('home.tagline')}</p>
       <p class="pitch">{t('home.about.body')}</p>
-      {
-        site.steamUrl && (
-          <a class="button" href={site.steamUrl}>
-            Wishlist on Steam
-          </a>
-        )
-      }
+      <div class="actions">
+        {site.build && <a class="button" href={localePath(lang, 'download')}>{t('home.download')}</a>}
+        {site.steamUrl && <a class="button" href={site.steamUrl}>Wishlist on Steam</a>}
+      </div>
     </div>
   </section>
 
@@ -240,8 +237,16 @@ const loreLinks = [
     color: var(--text);
   }
 
-  .hero .button {
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
     margin-top: 1.5rem;
+  }
+
+  .actions:empty {
+    display: none;
   }
 
   section + section {

@@ -39,6 +39,11 @@ Read README.md and CONTRIBUTING.md first; they cover how the site works. This fi
 - Cover gameplay changes only: rules and systems (from `docs/game-rules/` and gameplay commits in the game repo) and balance (from the game data). Skip tests, tools, telemetry and internal work. Summarize big reworks instead of listing every item.
 - The user reviews the draft before it goes to translation.
 
+## Demo builds
+
+- The Play page always points to the most recent upload in the Drive folder Lost Faith > Build (folder id `1nWqjMt829JlNEMhNRGEwUN8CkJeH4gl6`). Pick it by upload (created) date, not by the version or date in the file name, which aren't reliable.
+- Check that the file is shared as "Anyone with the link" before linking it.
+
 ## Code style
 
 - Plain Astro, HTML and CSS. No React, Tailwind or UI frameworks unless agreed.

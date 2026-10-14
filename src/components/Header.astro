@@ -15,6 +15,7 @@ const links = [
   { href: localePath(lang), label: t('nav.home'), match: (p: string) => p === localePath(lang) },
   { href: localePath(lang, 'lore'), label: t('nav.lore') },
   { href: localePath(lang, 'devlog'), label: t('nav.devlog') },
+  { href: localePath(lang, 'download'), label: t('nav.download') },
   { href: localePath(lang, 'about'), label: t('nav.about') },
 ];
 
@@ -122,6 +123,11 @@ const isCurrent = (link: (typeof links)[number]) => (link.match ? link.match(pat
 
     nav ul {
       justify-content: space-between;
+      gap: 0.25rem 0.5rem;
+    }
+
+    nav a {
+      font-size: 0.95rem;
     }
   }
 </style>

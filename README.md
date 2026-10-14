@@ -37,7 +37,7 @@ src/
   assets/game/              card, item and enemy art from the sync script
   i18n/ui.ts                menu and button text in all three languages
   styles/global.css         colors and fonts
-  site.ts                   email, social links, Steam link, search engine visibility
+  site.ts                   email, social links, demo build, Steam link, search engine visibility
   pages/[...lang]/          one file per page; each builds all three languages
 ```
 

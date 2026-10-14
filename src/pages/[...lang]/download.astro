@@ -1,0 +1,164 @@
+---
+import Base from '../../layouts/Base.astro';
+import { formatDate, getLang, langPaths, useTranslations } from '../../i18n/utils';
+import { site } from '../../site';
+
+export const getStaticPaths = langPaths;
+
+const lang = getLang(Astro.params.lang);
+const t = useTranslations(lang);
+const build = site.build;
+
+// Starts the download straight from Drive (large files stop at Drive's virus scan notice first).
+const downloadUrl = build && `https://drive.google.com/uc?export=download&id=${build.driveId}`;
+const form = lang === 'en' ? site.feedback.en : site.feedback.zh;
+const otherForm = lang === 'en' ? site.feedback.zh : site.feedback.en;
+---
+
+<Base lang={lang} title={t('download.title')} description={t('download.description')}>
+  <div class="container download">
+    <h1>{t('download.title')}</h1>
+    <hr class="lance" />
+    <p class="intro">{t('download.intro')}</p>
+
+    <section class="panel build">
+      <h2>{t('download.build')}</h2>
+      {
+        build ? (
+          <>
+            <dl>
+              <div>
+                <dt>{t('download.version')}</dt>
+                <dd>v{build.version}</dd>
+              </div>
+              <div>
+                <dt>{t('download.date')}</dt>
+                <dd>
+                  <time datetime={build.date}>{formatDate(new Date(build.date), lang)}</time>
+                </dd>
+              </div>
+              <div>
+                <dt>{t('download.platform')}</dt>
+                <dd>Windows</dd>
+              </div>
+              <div>
+                <dt>{t('download.size')}</dt>
+                <dd>{build.size}</dd>
+              </div>
+            </dl>
+            <a class="button" href={downloadUrl}>
+              {t('download.button')}
+            </a>
+          </>
+        ) : (
+          <p>{t('download.none')}</p>
+        )
+      }
+    </section>
+
+    {
+      build && (
+        <section>
+          <h2 class="section-title">{t('download.install')}</h2>
+          <ol class="steps">
+            <li>{t('download.step1')}</li>
+            <li>{t('download.step2')}</li>
+            <li>{t('download.step3')}</li>
+            <li>{t('download.step4')}</li>
+          </ol>
+        </section>
+      )
+    }
+
+    <section class="panel feedback">
+      <h2>{t('download.feedback')}</h2>
+      <p>{t('download.feedback.body')}</p>
+      <a class="button" href={form} target="_blank" rel="noopener">
+        {t('download.feedback.button')} ↗
+      </a>
+      <p class="other">
+        <a href={otherForm} target="_blank" rel="noopener" lang={lang === 'en' ? 'zh-Hant' : 'en'}>{t('download.feedback.other')}</a>
+      </p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .download {
+    max-width: 48rem;
+    text-align: center;
+  }
+
+  h1 {
+    margin: clamp(2rem, 5vw, 3rem) 0 0;
+  }
+
+  .download > .lance {
+    width: min(28rem, 90%);
+    margin: 1rem auto 1.5rem;
+  }
+
+  .intro {
+    margin: 0 auto 2.5rem;
+    max-width: 38rem;
+  }
+
+  .panel h2 {
+    margin-top: 0;
+    color: var(--gold);
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 0.75rem 2.5rem;
+    margin: 0 0 1.75rem;
+  }
+
+  @media (max-width: 36rem) {
+    dl {
+      grid-template-columns: repeat(2, auto);
+    }
+  }
+
+  dt {
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  dd {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  section + section {
+    margin-top: 3rem;
+  }
+
+  .steps {
+    max-width: 36rem;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    text-align: left;
+  }
+
+  .steps li + li {
+    margin-top: 0.6rem;
+  }
+
+  .feedback p {
+    max-width: 34rem;
+    margin: 0 auto 1.5rem;
+  }
+
+  .feedback .other {
+    margin: 1rem 0 0;
+    font-size: 0.9rem;
+  }
+
+  .other a {
+    color: var(--text-muted);
+  }
+</style>
