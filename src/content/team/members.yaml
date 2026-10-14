@@ -1,15 +1,15 @@
 # Everyone credited on the About page.
-#   core: true      shows a card under "The Team"; everyone else is listed under Contributors
+#   group           core (first row of cards), team (second row) or contributor (the Contributors list)
 #   discipline      art, audio, programming, design or other (groups the Contributors list)
 #   draft: true     keeps someone off the built site, e.g. until they've agreed to be listed
 # Photos go in src/content/team/photos/. Roles fall back to English if a translation is missing.
 # Only public things go here: names as people want to be credited, roles, and links they chose to share.
 
-# Core team
+# Core team, then the rest of the team
 
 - id: tim-chen
   name: Tim Chen
-  core: true
+  group: core
   discipline: design
   role:
     en: Game Director, Producer, Lead Designer
@@ -20,19 +20,19 @@
       url: https://timmy896777.wixsite.com/hannyat
   order: 1
 
-- id: liuxin-chen
-  name: Liuxin Chen
-  core: true
+- id: koa-weng
+  name: Koa Weng
+  group: core
   discipline: programming
   role:
-    en: Gameplay Programmer
-    sc: 玩法程序
-    tc: 玩法程式
+    en: Lead Programmer
+    sc: 主程序
+    tc: 主程式
   order: 2
 
 - id: zai-litten
   name: Zai Litten
-  core: true
+  group: core
   discipline: art
   role:
     en: Academic Producer, Sprite Artist, UI Artist
@@ -43,19 +43,19 @@
       url: https://www.lizalitten.com/
   order: 3
 
-- id: koa-weng
-  name: Koa Weng
-  core: true
+- id: liuxin-chen
+  name: Liuxin Chen
+  group: team
   discipline: programming
   role:
-    en: Lead Programmer
-    sc: 主程序
-    tc: 主程式
+    en: Gameplay Programmer
+    sc: 玩法程序
+    tc: 玩法程式
   order: 4
 
 - id: kaijie-yang
   name: Kaijie Yang
-  core: true
+  group: team
   discipline: art
   role:
     en: Environment Artist

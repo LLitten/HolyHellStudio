@@ -83,7 +83,7 @@ order: 1
 
 The studio introduction is `src/content/studio/about/` (en.md, sc.md, tc.md), translated and reviewed like any other page.
 
-People are listed in `src/content/team/members.yaml`. `core: true` gives someone a card under The Team; everyone else is listed under Contributors, grouped by `discipline`. Photos go in `src/content/team/photos/`; without one, the card shows the studio emblem.
+People are listed in `src/content/team/members.yaml`. `group` sets where someone appears: `core` cards come first, `team` cards on the row below, and `contributor` is listed under Contributors, grouped by `discipline`. Photos go in `src/content/team/photos/`; without one, the card shows the studio emblem.
 
 Only list someone once they've agreed to be named. Until then, keep `draft: true` on their entry: they'll show in `npm run dev` but not on the built site. Never put emails, Discord names or other private contact details in this file.
 

@@ -22,8 +22,11 @@ const photos = import.meta.glob<{ default: ImageMetadata }>('../../content/team/
 const photo = (file?: string) => (file ? photos[`../../content/team/photos/${file}`]?.default : undefined);
 
 const everyone = (await getCollection('team', (m) => import.meta.env.DEV || !m.data.draft)).map((m) => m.data);
-const core = everyone.filter((m) => m.core).sort((a, b) => a.order - b.order);
-const others = everyone.filter((m) => !m.core);
+const byOrder = (a: { order: number }, b: { order: number }) => a.order - b.order;
+const rows = [everyone.filter((m) => m.group === 'core').sort(byOrder), everyone.filter((m) => m.group === 'team').sort(byOrder)].filter(
+  (row) => row.length > 0,
+);
+const others = everyone.filter((m) => m.group === 'contributor');
 
 const disciplines = (['art', 'audio', 'programming', 'design', 'other'] as const)
   .map((d) => ({
@@ -48,36 +51,38 @@ const role = (r: { en: string; sc?: string; tc?: string }) => r[lang] ?? r.en;
     <section>
       <h2 class="section-title">{t('about.team')}</h2>
       {
-        core.length ? (
-          <ul class="team">
-            {core.map((m) => {
-              const img = photo(m.photo);
-              return (
-                <li class="member">
-                  {img ? (
-                    <Image src={img} alt="" width={400} class="photo" />
-                  ) : (
-                    <div class="photo blank" aria-hidden="true">
-                      <img src={emblem.src} alt="" />
-                    </div>
-                  )}
-                  <h3>{m.name}</h3>
-                  <p class="role">{role(m.role)}</p>
-                  {m.links.length > 0 && (
-                    <ul class="links">
-                      {m.links.map((l) => (
-                        <li>
-                          <a href={l.url} target="_blank" rel="noopener">
-                            {l.label}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
+        rows.length ? (
+          rows.map((row) => (
+            <ul class="team">
+              {row.map((m) => {
+                const img = photo(m.photo);
+                return (
+                  <li class="member">
+                    {img ? (
+                      <Image src={img} alt="" width={400} class="photo" />
+                    ) : (
+                      <div class="photo blank" aria-hidden="true">
+                        <img src={emblem.src} alt="" />
+                      </div>
+                    )}
+                    <h3>{m.name}</h3>
+                    <p class="role">{role(m.role)}</p>
+                    {m.links.length > 0 && (
+                      <ul class="links">
+                        {m.links.map((l) => (
+                          <li>
+                            <a href={l.url} target="_blank" rel="noopener">
+                              {l.label}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          ))
         ) : (
           <p class="empty">{t('about.team.empty')}</p>
         )
@@ -180,6 +185,10 @@ const role = (r: { en: string; sc?: string; tc?: string }) => r[lang] ?? r.en;
     margin: 0;
     padding: 0;
     list-style: none;
+  }
+
+  .team + .team {
+    margin-top: 1rem;
   }
 
   /* Plain cards in the studio's style, not the game's thorned frames. */
