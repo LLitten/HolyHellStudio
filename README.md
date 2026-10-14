@@ -13,7 +13,7 @@ npm install
 npm run dev
 ```
 
-Then open http://localhost:4321/HolyHellStudio/. The page reloads as you edit files. Drafts (`draft: true`) only show up here, never in the built site.
+Then open http://localhost:4321/. The page reloads as you edit files. Drafts (`draft: true`) only show up here, never in the built site.
 
 To check a production build:
 
@@ -67,8 +67,10 @@ Only content reachable from Windchime Village is included for now, and shops are
 
 ## Deploying
 
-The site is meant for GitHub Pages under `llitten.github.io/HolyHellStudio`. Deployment isn't set up yet.
+Every push to `main` builds the site and publishes it to GitHub Pages at https://holyhellstudio.net (`.github/workflows/deploy.yml`). Progress and errors show in the repo's Actions tab. Drafts are left out of the published site.
 
-When the custom domain moves over, set `site` to the domain in `astro.config.mjs` and remove `base`. Before launch, set `noindex` to `false` in `src/site.ts` so search engines can find the site.
+The domain's DNS is on Cloudflare: the bare domain points to GitHub Pages' A and AAAA addresses and `www` is a CNAME to `llitten.github.io`, all set to DNS only (no orange cloud) so GitHub can issue the HTTPS certificate. GitHub redirects `www` to the bare domain.
+
+Before launch, set `noindex` to `false` in `src/site.ts` so search engines can find the site.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for writing posts and lore, and [docs/spec.md](docs/spec.md) for the original plan.

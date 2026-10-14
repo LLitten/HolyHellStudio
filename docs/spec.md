@@ -103,7 +103,7 @@ Art, Programming, Design, Team, Audio, Narrative, Announcement, Playtest, Events
 - UI strings (menus, buttons) in one translation file.
 - Images optimized automatically (resized, converted to WebP/AVIF). GIFs converted to looping MP4/WebM. Long videos hosted on YouTube.
 - **Hosting:** GitHub Pages from `LLitten/HolyHellStudio`. The repo is made public, and a GitHub Actions deploy runs on push to `main`.
-  - Interim URL: `llitten.github.io/HolyHellStudio`, with a `noindex` tag until launch.
+  - URL: `holyhellstudio.net`, with a `noindex` tag until launch.
   - Later: move the custom domain over from Google Sites (DNS changes, with steps provided).
 - Single maintainer (author). Commits go directly to `main`. Translation reviews go through PRs.
 - SEO basics: per-language `<title>`/description, `hreflang` links between the language versions, social preview image, sitemap.

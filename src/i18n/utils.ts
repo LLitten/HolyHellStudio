@@ -23,7 +23,7 @@ export function useTranslations(lang: Lang) {
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// Builds a link to a page in the given language: localePath('tc', 'lore/cards') -> /HolyHellStudio/tc/lore/cards/
+// Builds a link to a page in the given language: localePath('tc', 'lore/cards') -> /tc/lore/cards/
 export function localePath(lang: Lang, path = '') {
   const clean = path.replace(/^\/|\/$/g, '');
   const parts = [base, lang === defaultLang ? '' : lang, clean].filter(Boolean);
