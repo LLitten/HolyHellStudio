@@ -23,12 +23,13 @@ const core = everyone.filter((m) => m.group === 'core').sort(byOrder);
 const team = everyone.filter((m) => m.group === 'team').sort(byOrder);
 const extended = everyone.filter((m) => m.group === 'extended');
 
-// Everyone is part of one team on the page; the wider team is just grouped by discipline.
+// Everyone is part of one team on the page; the wider team is grouped by discipline, A to Z by last name.
+const lastName = (name: string) => name.trim().split(/\s+/).at(-1) ?? name;
 const disciplines = (['art', 'audio', 'programming', 'design', 'other'] as const)
   .map((d) => ({
     key: d,
     label: t(`discipline.${d}`),
-    people: extended.filter((m) => m.discipline === d).sort((a, b) => a.order - b.order || a.name.localeCompare(b.name)),
+    people: extended.filter((m) => m.discipline === d).sort((a, b) => lastName(a.name).localeCompare(lastName(b.name))),
   }))
   .filter((d) => d.people.length > 0);
 ---
