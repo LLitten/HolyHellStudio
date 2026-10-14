@@ -29,12 +29,12 @@ Status: approved and implemented. Kept as a record of the original decisions; RE
 6. Possible later addition: Pages CMS as a friendlier editor.
 
 ## 3. Navigation & pages
-Nav: **Home · Lore · Dev Posts · About**. The footer on every page has the studio email, X, and Threads.
+Nav: **Play · World · Dev Posts · About**. The logo and studio name link home. The footer on every page has the studio email, X, and Threads.
 
 | Page | Notes |
 |---|---|
 | **Home** | Game first. 1) Lost Faith title (styled text until the logo is done) with a one-line pitch, over background art. 2) Short "about the game" section. 3) Latest 3 dev posts. 4) Lore entry points. 5) Small "Made by HolyHell Studio" strip linking to About. Steam wishlist slot hidden for now. |
-| **Lore** | Wiki with sidebar navigation and cross-links. Sections below. |
+| **World** (`/lore/`) | Wiki with sidebar navigation and cross-links. Sections below. |
 | **Dev Posts** | Newest first, 20 per page. Each post has a cover image (fallback image if none) and tags. No author line (an author can go in the post body as a subheading if needed). No RSS or subscriptions. Supports images, looping video (converted from GIFs), and YouTube embeds. |
 | **About** | Short studio info (plain facts, no mission statement; content TBD in a later conversation), then team cards (photo, then name, role, external links), then a Contact section. |
 | **404** | Themed page in all three languages. |
