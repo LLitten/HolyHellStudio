@@ -1,14 +1,16 @@
 ---
 title: 《弃誓神途》正式亮相
-date: 2026-09-14
-summary: 《弃誓神途》是一款即将推出的单人回合制卡牌对战游戏，预计 2027 年登陆 Steam。
+date: 2026-09-12
+summary: HolyHell Studio 正在开发地城探索型卡牌游戏《弃誓神途》，预计 2027 年夏天登陆 Steam。
 tags: [announcement]
 translation: machine
 draft: true
 ---
 
-<!-- The X post had two images. Add them here (see CONTRIBUTING.md, "Images"). -->
+<!-- The Threads post had two images, the same ones as the X post. Add them here (see CONTRIBUTING.md, "Images"). -->
 
-《弃誓神途》是一款即将推出的单人回合制卡牌对战游戏。扮演沃许，一路战斗穿越拉泽尼亚的土地。
+大家好，我们是HolyHell Studio，目前正在开发一款地城探索型卡牌游戏《弃誓神途》！
 
-《弃誓神途》目前正在积极开发中，预计 2027 年登陆 Steam。关注我们，获取开发进度与最新消息！
+在地城中搜集全新卡牌、构筑玩法和风格各异的牌组；你将扮演名为“沃许”的男子，通过众神赐予的卡牌之力探寻拉泽尼亚大陆上的黑暗与真相。
+
+《弃誓神途》将于2027年的夏天登陆Steam，欢迎各位关注此账号以获取开发进度分享！（或是开发人员的碎碎念和心得）

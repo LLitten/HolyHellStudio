@@ -1,6 +1,6 @@
 ---
 title: Introducing Lost Faith
-date: 2026-09-14
+date: 2026-09-12
 summary: Lost Faith is an upcoming single-player, turn-based card battler, coming to Steam in 2027.
 tags: [announcement]
 translation: source
