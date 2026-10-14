@@ -53,6 +53,8 @@ If a Chinese file is missing, the English version shows on the Chinese site with
 
 ### Review process
 
+For proofreaders, [docs/proofreading.md](docs/proofreading.md) is a short step-by-step guide with links to every file that still needs checking.
+
 1. Translations go up as a pull request with `translation: machine`.
 2. The reviewer opens the pull request on GitHub, goes to **Files changed**, and either suggests edits on a line or edits the file directly (the `...` menu on a file, then **Edit file**).
 3. Once a file is checked, change `machine` to `reviewed` and merge.
