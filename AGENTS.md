@@ -45,3 +45,4 @@ Read README.md and CONTRIBUTING.md first; they cover how the site works. This fi
 - The code should read like the team wrote it by hand: comments only where something isn't obvious, short and direct, no banner comments or emoji.
 - Colors and fonts live in `src/styles/global.css`. Site settings (email, social links, Steam link, noindex) live in `src/site.ts`.
 - Check changes with `npm run check` and `npm run build`.
+- The dev server's content cache can go stale after quick edits to files in `src/content/` (sections render empty). Trust `npm run build`, and restart `npm run dev` to clear it.
