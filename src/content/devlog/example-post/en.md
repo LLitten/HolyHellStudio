@@ -4,6 +4,7 @@ date: 2026-10-13
 summary: A template to copy when writing a new dev post. Drafts only show up in local preview.
 tags: [team, announcement]
 # cover: ./cover.jpg
+# coverAlt: What the cover image shows
 translation: source
 draft: true
 ---

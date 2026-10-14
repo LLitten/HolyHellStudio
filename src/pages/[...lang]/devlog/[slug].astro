@@ -35,7 +35,7 @@ const { Content } = await render(post);
         <hr class="lance" />
       </header>
       <TranslationNote lang={lang} translation={post.data.translation} isFallback={post.isFallback} />
-      {post.data.cover && <Image src={post.data.cover} alt="" width={1200} class="cover" />}
+      {post.data.cover && <Image src={post.data.cover} alt={post.data.coverAlt ?? ''} width={1200} class="cover" />}
       <div class="prose">
         <Content />
       </div>

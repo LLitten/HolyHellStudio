@@ -3,11 +3,12 @@ title: 力量皆为借来
 date: 2026-09-18
 summary: 在《弃誓神途》中，神祇的卡牌力量强大，但每一次使用都有代价。
 tags: [design]
+cover: ./image.jpg
+coverAlt: "神祇卡的详细信息画面，显示耐久度、量表变化与关键字"
 translation: machine
 draft: true
 ---
 
-<!-- The posts had an image. Add it here (see CONTRIBUTING.md, "Images"). -->
 
 在《弃誓神途》中，沃许将通过神祇赐予的卡牌之力战斗。
 

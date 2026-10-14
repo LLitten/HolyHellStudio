@@ -20,6 +20,8 @@ const devlog = defineCollection({
       summary: z.string(),
       tags: z.array(z.enum(TAGS)).default([]),
       cover: image().optional(),
+      // What the cover image shows, for screen readers.
+      coverAlt: z.string().optional(),
       // Patch notes only: the game version, and the HolyHell commit the notes were written at.
       // The next patch notes start from this commit.
       gameVersion: z.string().optional(),

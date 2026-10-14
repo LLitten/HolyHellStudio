@@ -13,6 +13,7 @@
    | `tags` | Any of `art`, `programming`, `design`, `team`, `audio`, `narrative`, `announcement`, `playtest`, `events`, `patch-notes` |
    | `gameVersion`, `gameCommit` | Patch notes only: the game version and the HolyHell commit they cover up to |
    | `cover` | Optional, e.g. `./cover.jpg`. Without one, the post uses the default cover |
+   | `coverAlt` | A short description of the cover image, for screen readers |
    | `draft` | `true` keeps it out of the built site |
 
 3. Put images in the same folder and link them with `![description](./image.png)`. Full-size screenshots are fine; the build resizes them.

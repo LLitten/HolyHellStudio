@@ -3,15 +3,17 @@ title: 第一張正式背景與NPC立繪
 date: 2026-09-25
 summary: 我們有了第一張正式的美術背景和NPC立繪！
 tags: [art, narrative]
+cover: ./image-1.jpg
+coverAlt: "夜晚的營地：破舊的帳篷、營火與木製篷車，瑪拉坐在火邊"
 translation: source
 draft: true
 ---
 
-<!-- The Threads post had two images: the background and the NPC portrait. Add them here (see CONTRIBUTING.md, "Images"). -->
-
 我們有了第一張正式的美術背景和NPC立繪了！
 
 感謝團隊裡的繪師的努力與付出o7
+
+![與瑪拉新立繪的對話畫面](./image-2.jpg)
 
 下一個要迎來外觀重新設計的就是主角啦
 

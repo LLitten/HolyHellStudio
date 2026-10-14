@@ -3,11 +3,12 @@ title: Power Is Borrowed
 date: 2026-09-18
 summary: In Lost Faith, cards carry the power of the gods, and every use comes at a cost.
 tags: [design]
+cover: ./image.jpg
+coverAlt: "A god card’s detail view, showing its durability, meter costs and keywords"
 translation: machine
 draft: true
 ---
 
-<!-- The posts had an image. Add it here (see CONTRIBUTING.md, "Images"). -->
 
 In Lost Faith, Vash fights with the power of cards granted by the gods.
 
