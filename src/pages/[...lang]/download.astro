@@ -11,8 +11,6 @@ const build = site.build;
 
 // Starts the download straight from Drive (large files stop at Drive's virus scan notice first).
 const downloadUrl = build && `https://drive.google.com/uc?export=download&id=${build.driveId}`;
-const form = lang === 'en' ? site.feedback.en : site.feedback.zh;
-const otherForm = lang === 'en' ? site.feedback.zh : site.feedback.en;
 ---
 
 <Base lang={lang} title={t('download.title')} description={t('download.description')}>
@@ -73,12 +71,9 @@ const otherForm = lang === 'en' ? site.feedback.zh : site.feedback.en;
     <section class="panel feedback">
       <h2>{t('download.feedback')}</h2>
       <p>{t('download.feedback.body')}</p>
-      <a class="button" href={form} target="_blank" rel="noopener">
+      <a class="button" href={site.feedback} target="_blank" rel="noopener">
         {t('download.feedback.button')} ↗
       </a>
-      <p class="other">
-        <a href={otherForm} target="_blank" rel="noopener" lang={lang === 'en' ? 'zh-Hant' : 'en'}>{t('download.feedback.other')}</a>
-      </p>
     </section>
   </div>
 </Base>
@@ -151,14 +146,5 @@ const otherForm = lang === 'en' ? site.feedback.zh : site.feedback.en;
   .feedback p {
     max-width: 34rem;
     margin: 0 auto 1.5rem;
-  }
-
-  .feedback .other {
-    margin: 1rem 0 0;
-    font-size: 0.9rem;
-  }
-
-  .other a {
-    color: var(--text-muted);
   }
 </style>

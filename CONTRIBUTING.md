@@ -97,7 +97,7 @@ Only list someone once they've agreed to be named. Until then, keep `draft: true
 
 ## Demo builds
 
-The Play page (`/download/`) links to the demo build on Google Drive and the feedback forms. The demo is always the most recent upload in Lost Faith > Build, going by upload date rather than file name. For a new build, upload the zip there, share it as "Anyone with the link", and update `build` in `src/site.ts` (version, date, size and the file id from the share link). New feedback forms go in `feedback` in the same file. Set `build` to `null` when there's no demo available; the page then says so and the home page button goes away.
+The Play page (`/download/`) links to the demo build on Google Drive and the feedback form. The demo is always the most recent upload in Lost Faith > Build, going by upload date rather than file name. For a new build, upload the zip there, share it as "Anyone with the link", and update `build` in `src/site.ts` (version, date, size and the file id from the share link). A new feedback form link goes in `feedback` in the same file; one form is used for every language. Set `build` to `null` when there's no demo available; the page then says so and the home page button goes away.
 
 ## Menu and button text
 

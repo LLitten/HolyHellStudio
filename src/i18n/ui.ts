@@ -147,7 +147,6 @@ export const ui = {
     'download.feedback': 'Feedback',
     'download.feedback.body': 'Once you’ve played, the feedback form takes about 10 minutes. Every answer is read by the team and shapes what we work on next.',
     'download.feedback.button': 'Open the Feedback Form',
-    'download.feedback.other': '中文问卷',
 
     'footer.contact': 'Contact',
     'footer.follow': 'Follow',
@@ -286,7 +285,6 @@ export const ui = {
     'download.feedback': '反馈',
     'download.feedback.body': '玩过之后，填写反馈问卷大约需要 10 分钟。团队会阅读每一份回答，并据此决定接下来的开发方向。',
     'download.feedback.button': '打开反馈问卷',
-    'download.feedback.other': 'English form',
 
     'footer.contact': '联系',
     'footer.follow': '关注',
@@ -425,7 +423,6 @@ export const ui = {
     'download.feedback': '回饋',
     'download.feedback.body': '玩過之後，填寫回饋表單大約需要 10 分鐘。團隊會閱讀每一份回答，並據此決定接下來的開發方向。',
     'download.feedback.button': '開啟回饋表單',
-    'download.feedback.other': 'English form',
 
     'footer.contact': '聯絡',
     'footer.follow': '追蹤',

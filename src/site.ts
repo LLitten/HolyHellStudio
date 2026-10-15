@@ -23,11 +23,8 @@ export const site = {
     driveId: '18H8k4p9v7F3SAikc5Ta8xGih6Gobdbke',
   } as { version: string; date: string; size: string; driveId: string } | null,
 
-  // Demo feedback forms (the "send" link from Google Forms). The Chinese form is shared by sc and tc.
-  feedback: {
-    en: 'https://docs.google.com/forms/d/e/1FAIpQLSc9mk18YixdKNtU4wzZ6vPNHg6TsroPpavHIrUKsfpCJNv72Q/viewform',
-    zh: 'https://docs.google.com/forms/d/e/1FAIpQLSdnEmutk6jStLP5xew2GaEt2m_Rn7vgdtbb1HOKMvYjLjoUTw/viewform',
-  },
+  // Demo feedback form (the "send" link from Google Forms), used on every language's Play page.
+  feedback: 'https://forms.gle/qSsJtYWaE4ZTyKft9',
 
   // Paste the analytics snippet's script URL and site id here when there is one (GoatCounter, Plausible, etc.).
   analytics: null as { src: string; attrs?: Record<string, string> } | null,
