@@ -17,10 +17,10 @@ export const site = {
   // (drive.google.com/file/d/<id>/view).
   // Set to null to hide the Download page's button and the home page link.
   build: {
-    version: '0.3.0',
-    date: '2026-10-11',
-    size: '152 MB',
-    driveId: '1iNzLXglbYP7VoyV64h8jbgCzq-03lfAy',
+    version: '0.3.1',
+    date: '2026-10-14',
+    size: '159 MB',
+    driveId: '171j-pxDk5GxOgmVR1r3Ou5kAZs8-FChX',
   } as { version: string; date: string; size: string; driveId: string } | null,
 
   // Demo feedback forms (the "send" link from Google Forms). The Chinese form is shared by sc and tc.
