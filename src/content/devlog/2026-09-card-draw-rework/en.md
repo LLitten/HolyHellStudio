@@ -4,7 +4,7 @@ date: 2026-09-25
 summary: We made a big change to how Lost Faith draws and discards cards, and it caused real disagreement on the team. Here's what changed and how we settled it.
 tags: [design, team]
 translation: reviewed
-draft: false
+draft: true
 ---
 
 At last, there's time to share some of the story behind development. And a happy Mid-Autumn Festival to everyone (yes, we're very late).
