@@ -58,7 +58,7 @@ If a Chinese file is missing, the English version shows on the Chinese site with
 
 For proofreaders, [docs/proofreading.md](docs/proofreading.md) is a short step-by-step guide.
 
-The **Review tracker** issue (label `review-tracker`) lists every translation and draft with a checkbox. Ticking a translation marks the file `reviewed`; ticking a draft publishes it in every language (unticking undoes either). It's rewritten whenever content changes, so it's always current. The workflow is `.github/workflows/review-tracker.yml` and the logic is in `scripts/review-tracker.mjs`; `node scripts/review-tracker.mjs render` previews the list locally.
+The **Review tracker** issue (label `review-tracker`) lists every translation and draft with a checkbox. Ticking a translation marks the file `reviewed`; ticking a draft publishes it in every language. A page leaves the list once it's live and every translation is reviewed. To take a live page down again, set `draft: true` in its files. The list is rewritten whenever content changes, so it's always current. The workflow is `.github/workflows/review-tracker.yml` and the logic is in `scripts/review-tracker.mjs`; `node scripts/review-tracker.mjs render` previews the list locally.
 
 1. Translations go up as a pull request with `translation: machine`.
 2. The reviewer opens the pull request on GitHub, goes to **Files changed**, and either suggests edits on a line or edits the file directly (the `...` menu on a file, then **Edit file**).

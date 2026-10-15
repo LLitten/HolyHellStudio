@@ -67,15 +67,19 @@ function render() {
   const all = entries();
   const lines = [
     'Tick a box to mark a translation as proofread, or to publish a draft. The site updates a minute or two later.',
-    'This list is kept up to date automatically, so there is no need to edit it by hand.',
+    'Pages leave this list once they’re live and fully proofread. The list is kept up to date automatically, so there is no need to edit it by hand.',
     '',
     'Simplified Chinese is converted from Traditional (or the other way round if a page was written in Simplified), so only one of them is listed.',
     '',
   ];
 
-  // Nothing here should change when a box is ticked except the box itself. If the text around it changed,
-  // anyone with the issue open would get an error from GitHub on their next tick.
-  const toReview = all.flatMap((e) => reviewable(e).map(([lang, f]) => ({ e, lang, f })));
+  // Ticking a translation box changes only that box. Pages drop off the list once they're live and every
+  // translation is ticked, which rewrites the issue, so anyone with it open has to reload before ticking again.
+  const isLive = (e) => !Object.values(e.files).some((f) => f.draft);
+  const done = (e) => isLive(e) && reviewable(e).every(([, f]) => f.translation === 'reviewed');
+  const open = all.filter((e) => !done(e));
+
+  const toReview = open.flatMap((e) => reviewable(e).map(([lang, f]) => ({ e, lang, f })));
   lines.push('## Translations', '');
   for (const { e, lang, f } of toReview) {
     const box = f.translation === 'reviewed' ? 'x' : ' ';
@@ -83,12 +87,12 @@ function render() {
   }
   if (!toReview.length) lines.push('Nothing to review.');
 
-  const drafts = all.filter((e) => Object.values(e.files).some((f) => f.draft) || e.post);
-  lines.push('', '## Publishing', '', 'Ticked means the page is live. Unticking hides it again. Check that a post’s translations are ticked above before publishing it.', '');
+  const drafts = open.filter((e) => !isLive(e));
+  lines.push('', '## Publishing', '', 'Tick a draft to put it live in every language. Check that its translations are ticked above first.', '');
   for (const e of drafts) {
-    const live = !Object.values(e.files).some((f) => f.draft);
-    lines.push(`- [${live ? 'x' : ' '}] ${e.label}: **${e.title}** <!-- publish:${e.dir} -->`);
+    lines.push(`- [ ] ${e.label}: **${e.title}** <!-- publish:${e.dir} -->`);
   }
+  if (!drafts.length) lines.push('No drafts waiting.');
 
   lines.push(
     '',
