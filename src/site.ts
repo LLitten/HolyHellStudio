@@ -20,7 +20,7 @@ export const site = {
     version: '0.3.1',
     date: '2026-10-14',
     size: '159 MB',
-    driveId: '171j-pxDk5GxOgmVR1r3Ou5kAZs8-FChX',
+    driveId: '18H8k4p9v7F3SAikc5Ta8xGih6Gobdbke',
   } as { version: string; date: string; size: string; driveId: string } | null,
 
   // Demo feedback forms (the "send" link from Google Forms). The Chinese form is shared by sc and tc.
