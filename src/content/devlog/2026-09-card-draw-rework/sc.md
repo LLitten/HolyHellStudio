@@ -4,7 +4,7 @@ date: 2026-09-25
 summary: 《弃誓神途》的抽牌与弃牌规则做了一次大幅调整，过程中团队内也有不少意见冲突。这篇分享改了什么，以及我们如何达成共识。
 tags: [design, team]
 translation: reviewed
-draft: true
+draft: false
 ---
 
 可喜可贺，终于到了真的有时间分享开发心路历程的时候了；在这里也祝各位中秋节快乐（太晚了吧喂）
