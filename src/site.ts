@@ -18,9 +18,9 @@ export const site = {
   // Set to null to hide the Download page's button and the home page link.
   build: {
     version: '0.3.1',
-    date: '2026-10-14',
-    size: '159 MB',
-    driveId: '18H8k4p9v7F3SAikc5Ta8xGih6Gobdbke',
+    date: '2026-10-28',
+    size: '164 MB',
+    driveId: '1Ix35V1oYtl6iN4v0zHLGCu-h4rbYXala',
   } as { version: string; date: string; size: string; driveId: string } | null,
 
   // Demo feedback form (the "send" link from Google Forms), used on every language's Play page.
