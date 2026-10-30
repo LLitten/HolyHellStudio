@@ -2015,5 +2015,1110 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "cautious-bomber",
+    "art": null,
+    "name": {
+      "en": "Cautious Mercenary Bomber",
+      "sc": "谨慎的佣兵投弹手",
+      "tc": "謹慎的傭兵投彈手"
+    },
+    "variants": [
+      {
+        "id": "210001",
+        "rank": "Minion",
+        "hp": 82,
+        "attack": 19,
+        "defense": 0,
+        "dungeons": [
+          "DanLiTin_1"
+        ],
+        "summonedBy": null,
+        "skills": [
+          {
+            "id": "300040",
+            "trigger": "turn",
+            "name": {
+              "en": "Fire Bomb",
+              "sc": "燃烧炸弹",
+              "tc": "燃燒炸彈"
+            },
+            "detail": {
+              "en": "Deals light damage and inflicts severe <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> upon you.",
+              "sc": "造成轻微伤害，并对你施加重度 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。",
+              "tc": "造成輕微傷害，並對你施加重度 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。"
+            }
+          },
+          {
+            "id": "300041",
+            "trigger": "turn",
+            "name": {
+              "en": "Dud Bomb",
+              "sc": "哑弹",
+              "tc": "啞彈"
+            },
+            "detail": {
+              "en": "Fumbles a bomb. It will self-destruct next turn.",
+              "sc": "投出一枚哑弹。下回合将自爆。",
+              "tc": "投出一枚啞彈。下回合將自爆。"
+            }
+          },
+          {
+            "id": "300042",
+            "trigger": "turn",
+            "name": {
+              "en": "Commander, I've failed...",
+              "sc": "团长，我搞砸了…",
+              "tc": "團長，我搞砸了…"
+            },
+            "detail": {
+              "en": "Deals devastating damage to you and all other enemies, then dies.",
+              "sc": "对你与其他所有敌人造成猛烈伤害，随后死亡。",
+              "tc": "對你與其他所有敵人造成猛烈傷害，隨後死亡。"
+            }
+          }
+        ],
+        "drops": [
+          {
+            "item": "500011",
+            "chance": 9,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500012",
+            "chance": 9,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500013",
+            "chance": 9,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500014",
+            "chance": 9,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500015",
+            "chance": 9,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500016",
+            "chance": 9,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500033",
+            "chance": 44,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500034",
+            "chance": 35,
+            "min": 1,
+            "max": 2
+          },
+          {
+            "item": "520031",
+            "chance": 12,
+            "min": 1,
+            "max": 1
+          },
+          {
+            "item": "520045",
+            "chance": 12,
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "reckless-bomber",
+    "art": null,
+    "name": {
+      "en": "Reckless Mercenary Bomber",
+      "sc": "鲁莽的佣兵投弹手",
+      "tc": "魯莽的傭兵投彈手"
+    },
+    "variants": [
+      {
+        "id": "210002",
+        "rank": "Minion",
+        "hp": 70,
+        "attack": 23,
+        "defense": 0,
+        "dungeons": [
+          "DanLiTin_1"
+        ],
+        "summonedBy": null,
+        "skills": [
+          {
+            "id": "300039",
+            "trigger": "turn",
+            "name": {
+              "en": "Frag Bomb",
+              "sc": "破片炸弹",
+              "tc": "破片炸彈"
+            },
+            "detail": {
+              "en": "Deals moderate damage and inflicts <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span> upon you.",
+              "sc": "造成中等伤害，并对你施加 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>。",
+              "tc": "造成中等傷害，並對你施加 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>。"
+            }
+          },
+          {
+            "id": "300041",
+            "trigger": "turn",
+            "name": {
+              "en": "Dud Bomb",
+              "sc": "哑弹",
+              "tc": "啞彈"
+            },
+            "detail": {
+              "en": "Fumbles a bomb. It will self-destruct next turn.",
+              "sc": "投出一枚哑弹。下回合将自爆。",
+              "tc": "投出一枚啞彈。下回合將自爆。"
+            }
+          },
+          {
+            "id": "300074",
+            "trigger": "turn",
+            "name": {
+              "en": "Reckless Detonation",
+              "sc": "鲁莽引爆",
+              "tc": "魯莽引爆"
+            },
+            "detail": {
+              "en": "Deals massive damage to you and all other enemies, then dies.",
+              "sc": "对你与其他所有敌人造成巨大伤害，随后死亡。",
+              "tc": "對你與其他所有敵人造成巨大傷害，隨後死亡。"
+            }
+          }
+        ],
+        "drops": [
+          {
+            "item": "500011",
+            "chance": 9,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500012",
+            "chance": 9,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500013",
+            "chance": 9,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500014",
+            "chance": 9,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500015",
+            "chance": 9,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500016",
+            "chance": 9,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500033",
+            "chance": 44,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500034",
+            "chance": 35,
+            "min": 1,
+            "max": 2
+          },
+          {
+            "item": "520031",
+            "chance": 12,
+            "min": 1,
+            "max": 1
+          },
+          {
+            "item": "520045",
+            "chance": 12,
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "mercenary-bastion",
+    "art": "Mercenary_Bastion.png",
+    "name": {
+      "en": "Mercenary Bastion",
+      "sc": "佣兵壁垒",
+      "tc": "傭兵壁壘"
+    },
+    "variants": [
+      {
+        "id": "210003",
+        "rank": "Minion",
+        "hp": 176,
+        "attack": 17,
+        "defense": 35,
+        "dungeons": [
+          "DanLiTin_1"
+        ],
+        "summonedBy": null,
+        "skills": [
+          {
+            "id": "300043",
+            "trigger": "turn",
+            "name": {
+              "en": "Shield Wall",
+              "sc": "盾墙",
+              "tc": "盾牆"
+            },
+            "detail": {
+              "en": "Grants <span class=\"kw\" title=\"Buff · Unstackable<br>Negates every direct hit dealing less than x damage. Does not block damage from statuses such as Burn and Bleeding.\">Heavy Armor</span> and <span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span> for 3 turns to its allies. Gains <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> for 3 turns.",
+              "sc": "使其友军获得 <span class=\"kw\" title=\"增益・不可叠加<br>抵销所有低于 x 的直接伤害。无法抵挡燃烧、流血等状态造成的伤害。\">重甲</span>，以及持续 3 回合的 <span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span>。自身获得 <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span> 3 回合。",
+              "tc": "使其友軍獲得 <span class=\"kw\" title=\"增益・不可疊加<br>抵銷所有低於 x 的直接傷害。無法抵擋燃燒、流血等狀態造成的傷害。\">重甲</span>，以及持續 3 回合的 <span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span>。自身獲得 <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span> 3 回合。"
+            }
+          },
+          {
+            "id": "300044",
+            "trigger": "turn",
+            "name": {
+              "en": "Brace Up",
+              "sc": "严阵以待",
+              "tc": "嚴陣以待"
+            },
+            "detail": {
+              "en": "Gains <span class=\"kw\" title=\"Buff · Unstackable<br>Negates every direct hit dealing less than x damage. Does not block damage from statuses such as Burn and Bleeding.\">Heavy Armor</span> for 3 turns.",
+              "sc": "获得 <span class=\"kw\" title=\"增益・不可叠加<br>抵销所有低于 x 的直接伤害。无法抵挡燃烧、流血等状态造成的伤害。\">重甲</span>，持续 3 回合。",
+              "tc": "獲得 <span class=\"kw\" title=\"增益・不可疊加<br>抵銷所有低於 x 的直接傷害。無法抵擋燃燒、流血等狀態造成的傷害。\">重甲</span>，持續 3 回合。"
+            }
+          },
+          {
+            "id": "300045",
+            "trigger": "turn",
+            "name": {
+              "en": "Menacing Glare",
+              "sc": "威吓凝视",
+              "tc": "威嚇凝視"
+            },
+            "detail": {
+              "en": "Applies <span class=\"kw\" title=\"Debuff · Stackable<br>For x turns, the owner deals a percentage less damage, up to 75%.\">Intimidate</span> to you for 3 turns.",
+              "sc": "对你施加 <span class=\"kw\" title=\"减益・可叠加<br>x 回合内，持有者造成的伤害降低一定百分比，最多 75%。\">威吓</span> 3 回合。",
+              "tc": "對你施加 <span class=\"kw\" title=\"減益・可疊加<br>x 回合內，持有者造成的傷害降低一定百分比，最多 75%。\">威嚇</span> 3 回合。"
+            }
+          },
+          {
+            "id": "300046",
+            "trigger": "turn",
+            "name": {
+              "en": "Shield Bash",
+              "sc": "盾击",
+              "tc": "盾擊"
+            },
+            "detail": {
+              "en": "Deals moderate damage.",
+              "sc": "造成中等伤害。",
+              "tc": "造成中等傷害。"
+            }
+          },
+          {
+            "id": "300047",
+            "trigger": "death",
+            "name": {
+              "en": "Shield Shatter",
+              "sc": "盾墙崩解",
+              "tc": "盾牆崩解"
+            },
+            "detail": {
+              "en": "Removes <span class=\"kw\" title=\"Buff · Unstackable<br>Negates every direct hit dealing less than x damage. Does not block damage from statuses such as Burn and Bleeding.\">Heavy Armor</span> from all enemies.",
+              "sc": "移除所有敌人身上的 <span class=\"kw\" title=\"增益・不可叠加<br>抵销所有低于 x 的直接伤害。无法抵挡燃烧、流血等状态造成的伤害。\">重甲</span>。",
+              "tc": "移除所有敵人身上的 <span class=\"kw\" title=\"增益・不可疊加<br>抵銷所有低於 x 的直接傷害。無法抵擋燃燒、流血等狀態造成的傷害。\">重甲</span>。"
+            }
+          }
+        ],
+        "drops": [
+          {
+            "item": "500011",
+            "chance": 18,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500012",
+            "chance": 18,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500013",
+            "chance": 18,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500014",
+            "chance": 18,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500015",
+            "chance": 18,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500016",
+            "chance": 18,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500035",
+            "chance": 60,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500036",
+            "chance": 27,
+            "min": 1,
+            "max": 2
+          },
+          {
+            "item": "520045",
+            "chance": 15,
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "belgardian-barbarian",
+    "art": "Belguardian_Barbarian.png",
+    "name": {
+      "en": "Belgardian Barbarian",
+      "sc": "贝尔嘉德狂战士",
+      "tc": "貝爾嘉德狂戰士"
+    },
+    "variants": [
+      {
+        "id": "210004",
+        "rank": "Minion",
+        "hp": 109,
+        "attack": 22,
+        "defense": 0,
+        "dungeons": [
+          "DanLiTin_1"
+        ],
+        "summonedBy": null,
+        "skills": [
+          {
+            "id": "300048",
+            "trigger": "turn",
+            "name": {
+              "en": "Gnaw Gear",
+              "sc": "啃噬装备",
+              "tc": "啃噬裝備"
+            },
+            "detail": {
+              "en": "Reduces the durability of up to 5 cards in your discard pile by 1.",
+              "sc": "降低你弃牌堆中至多 5 张卡牌的耐久值 1 点。",
+              "tc": "降低你棄牌堆中至多 5 張卡牌的耐久值 1 點。"
+            }
+          },
+          {
+            "id": "300049",
+            "trigger": "turn",
+            "name": {
+              "en": "Rending Cleave",
+              "sc": "撕裂劈砍",
+              "tc": "撕裂劈砍"
+            },
+            "detail": {
+              "en": "Deals moderate damage. Gains a <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span> for 3 turns.",
+              "sc": "造成中等伤害。获得 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span> 效果，持续 3 回合。",
+              "tc": "造成中等傷害。獲得 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span> 效果，持續 3 回合。"
+            }
+          },
+          {
+            "id": "300050",
+            "trigger": "turn",
+            "name": {
+              "en": "Savage Combo",
+              "sc": "狂暴连击",
+              "tc": "狂暴連擊"
+            },
+            "detail": {
+              "en": "Deals moderate damage twice. Gains a <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span> for 3 turns.",
+              "sc": "造成两次中等伤害。获得 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span> 效果，持续 3 回合。",
+              "tc": "造成兩次中等傷害。獲得 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span> 效果，持續 3 回合。"
+            }
+          }
+        ],
+        "drops": [
+          {
+            "item": "500014",
+            "chance": 18,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500015",
+            "chance": 18,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500016",
+            "chance": 18,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500037",
+            "chance": 44,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500038",
+            "chance": 23,
+            "min": 1,
+            "max": 2
+          },
+          {
+            "item": "520140",
+            "chance": 15,
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "rosriconian-knight",
+    "art": "Rosricon_Knight.png",
+    "name": {
+      "en": "Rosriconian Knight",
+      "sc": "罗斯里坎骑士",
+      "tc": "羅斯里坎騎士"
+    },
+    "variants": [
+      {
+        "id": "210005",
+        "rank": "Minion",
+        "hp": 117,
+        "attack": 20,
+        "defense": 15,
+        "dungeons": [
+          "DanLiTin_1"
+        ],
+        "summonedBy": null,
+        "skills": [
+          {
+            "id": "300052",
+            "trigger": "turn",
+            "name": {
+              "en": "Bestow Blessing",
+              "sc": "赐予祝福",
+              "tc": "賜予祝福"
+            },
+            "detail": {
+              "en": "Grants <span class=\"kw\" title=\"Buff · Stackable<br>For y turns, restores x% of the owner's max HP at the end of each turn.\">Blessed</span> to the ally with the lowest HP for 2 turns.",
+              "sc": "使生命最低的友军获得 <span class=\"kw\" title=\"增益・可叠加<br>y 回合内，每回合结束时回复持有者 x% 的最大生命。\">祝福</span> 2 回合。",
+              "tc": "使生命最低的友軍獲得 <span class=\"kw\" title=\"增益・可疊加<br>y 回合內，每回合結束時回復持有者 x% 的最大生命。\">祝福</span> 2 回合。"
+            }
+          },
+          {
+            "id": "300053",
+            "trigger": "turn",
+            "name": {
+              "en": "Mass Blessing",
+              "sc": "群体祝福",
+              "tc": "群體祝福"
+            },
+            "detail": {
+              "en": "Grants <span class=\"kw\" title=\"Buff · Stackable<br>For y turns, restores x% of the owner's max HP at the end of each turn.\">Blessed</span> to all enemies for 2 turns.",
+              "sc": "使所有敌人获得 <span class=\"kw\" title=\"增益・可叠加<br>y 回合内，每回合结束时回复持有者 x% 的最大生命。\">祝福</span> 2 回合。",
+              "tc": "使所有敵人獲得 <span class=\"kw\" title=\"增益・可疊加<br>y 回合內，每回合結束時回復持有者 x% 的最大生命。\">祝福</span> 2 回合。"
+            }
+          },
+          {
+            "id": "300054",
+            "trigger": "turn",
+            "name": {
+              "en": "Sword Slash",
+              "sc": "利剑劈斩",
+              "tc": "利劍劈斬"
+            },
+            "detail": {
+              "en": "Deals moderate damage.",
+              "sc": "造成中等伤害。",
+              "tc": "造成中等傷害。"
+            }
+          },
+          {
+            "id": "300051",
+            "trigger": "combatStart",
+            "name": {
+              "en": "Hymn of Rest",
+              "sc": "安息圣咏",
+              "tc": "安息聖詠"
+            },
+            "detail": {
+              "en": "Gains <span class=\"kw\" title=\"Buff · Stackable<br>For y turns, restores x% of the owner's max HP at the end of each turn.\">Blessed</span>.",
+              "sc": "获得 <span class=\"kw\" title=\"增益・可叠加<br>y 回合内，每回合结束时回复持有者 x% 的最大生命。\">祝福</span>。",
+              "tc": "獲得 <span class=\"kw\" title=\"增益・可疊加<br>y 回合內，每回合結束時回復持有者 x% 的最大生命。\">祝福</span>。"
+            }
+          }
+        ],
+        "drops": [
+          {
+            "item": "500011",
+            "chance": 36,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500012",
+            "chance": 36,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500013",
+            "chance": 36,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500039",
+            "chance": 40,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500040",
+            "chance": 40,
+            "min": 1,
+            "max": 2
+          },
+          {
+            "item": "520048",
+            "chance": 12,
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "follower-of-significance",
+    "art": "Follower_of_Significance.png",
+    "name": {
+      "en": "Follower of Significance",
+      "sc": "显著追随者",
+      "tc": "顯著追隨者"
+    },
+    "variants": [
+      {
+        "id": "210006",
+        "rank": "Minion",
+        "hp": 94,
+        "attack": 14,
+        "defense": 5,
+        "dungeons": [
+          "DanLiTin_1"
+        ],
+        "summonedBy": null,
+        "skills": [
+          {
+            "id": "300055",
+            "trigger": "turn",
+            "name": {
+              "en": "Tribute Strike",
+              "sc": "贡礼一击",
+              "tc": "貢禮一擊"
+            },
+            "detail": {
+              "en": "Deals light damage and gives you gold. Gains permanent <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attack damage is multiplied by a percentage.\">Imbue</span>.",
+              "sc": "造成轻微伤害并给予你金币。获得永久的 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害以百分比乘算提升。\">灌注</span>。",
+              "tc": "造成輕微傷害並給予你金幣。獲得永久的 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害以百分比乘算提升。\">灌注</span>。"
+            }
+          },
+          {
+            "id": "300056",
+            "trigger": "combatStart",
+            "name": {
+              "en": "Devoted Zeal",
+              "sc": "虔诚狂热",
+              "tc": "虔誠狂熱"
+            },
+            "detail": {
+              "en": "Fills with devotion.",
+              "sc": "充满虔诚。",
+              "tc": "充滿虔誠。"
+            }
+          }
+        ],
+        "drops": [
+          {
+            "item": "500013",
+            "chance": 54,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500011",
+            "chance": 27,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500012",
+            "chance": 27,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500041",
+            "chance": 40,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500042",
+            "chance": 40,
+            "min": 1,
+            "max": 2
+          },
+          {
+            "item": "520029",
+            "chance": 12,
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "stoneborn-giant",
+    "art": "Stoneborn_Giant.png",
+    "name": {
+      "en": "Stoneborn Giant",
+      "sc": "石裔巨人",
+      "tc": "石裔巨人"
+    },
+    "variants": [
+      {
+        "id": "210007",
+        "rank": "Elite",
+        "hp": 160,
+        "attack": 30,
+        "defense": 0,
+        "dungeons": [
+          "DanLiTin_1"
+        ],
+        "summonedBy": null,
+        "skills": [
+          {
+            "id": "300058",
+            "trigger": "turn",
+            "name": {
+              "en": "Boulder Slam",
+              "sc": "巨岩重击",
+              "tc": "巨岩重擊"
+            },
+            "detail": {
+              "en": "Deals heavy damage.",
+              "sc": "造成严重伤害。",
+              "tc": "造成嚴重傷害。"
+            }
+          },
+          {
+            "id": "300059",
+            "trigger": "turn",
+            "name": {
+              "en": "Stagger",
+              "sc": "踉跄",
+              "tc": "踉蹌"
+            },
+            "detail": {
+              "en": "Stunned. Does nothing this turn and gains <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> for 1 turn.",
+              "sc": "晕眩。本回合不会行动，并获得 <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span> 1 回合。",
+              "tc": "暈眩。本回合不會行動，並獲得 <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span> 1 回合。"
+            }
+          },
+          {
+            "id": "300060",
+            "trigger": "turn",
+            "name": {
+              "en": "Reform Stone Skin",
+              "sc": "重塑石肤",
+              "tc": "重塑石膚"
+            },
+            "detail": {
+              "en": "Restores its <span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span> and loses all accumulated <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attack damage is multiplied by a percentage.\">Imbue</span>.",
+              "sc": "恢复<span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span>，并失去所有累积的 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害以百分比乘算提升。\">灌注</span>。",
+              "tc": "恢復<span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span>，並失去所有累積的 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害以百分比乘算提升。\">灌注</span>。"
+            }
+          },
+          {
+            "id": "300057",
+            "trigger": "combatStart",
+            "name": {
+              "en": "Stoneborn Plating",
+              "sc": "石裔甲壳",
+              "tc": "石裔甲殼"
+            },
+            "detail": {
+              "en": "Gains massive <span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span>. Loses <span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span> and gains <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attack damage is multiplied by a percentage.\">Imbue</span> whenever hit.",
+              "sc": "获得大量<span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span>。每次被击中时失去<span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span>并获得 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害以百分比乘算提升。\">灌注</span>。",
+              "tc": "獲得大量<span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span>。每次被擊中時失去<span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span>並獲得 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害以百分比乘算提升。\">灌注</span>。"
+            }
+          }
+        ],
+        "drops": [
+          {
+            "item": "500013",
+            "chance": 80,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500015",
+            "chance": 80,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500007",
+            "chance": 30,
+            "min": 1,
+            "max": 1
+          },
+          {
+            "item": "500009",
+            "chance": 30,
+            "min": 1,
+            "max": 1
+          },
+          {
+            "item": "500043",
+            "chance": 65,
+            "min": 2,
+            "max": 3
+          },
+          {
+            "item": "500044",
+            "chance": 30,
+            "min": 1,
+            "max": 2
+          },
+          {
+            "item": "520006",
+            "chance": 40,
+            "min": 1,
+            "max": 1
+          },
+          {
+            "item": "520044",
+            "chance": 40,
+            "min": 1,
+            "max": 1
+          },
+          {
+            "item": "500002",
+            "chance": 18,
+            "min": 1,
+            "max": 1
+          },
+          {
+            "item": "500003",
+            "chance": 10,
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ashbringer",
+    "art": "Ashbringer.png",
+    "name": {
+      "en": "Ashbringer",
+      "sc": "焚烬者",
+      "tc": "焚燼者"
+    },
+    "variants": [
+      {
+        "id": "210008",
+        "rank": "Elite",
+        "hp": 304,
+        "attack": 14,
+        "defense": 15,
+        "dungeons": [
+          "DanLiTin_1"
+        ],
+        "summonedBy": null,
+        "skills": [
+          {
+            "id": "300062",
+            "trigger": "turn",
+            "name": {
+              "en": "Ember Strike",
+              "sc": "余烬打击",
+              "tc": "餘燼打擊"
+            },
+            "detail": {
+              "en": "Deals moderate damage and inflicts severe <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> upon you.",
+              "sc": "造成中等伤害，并对你施加重度 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。",
+              "tc": "造成中等傷害，並對你施加重度 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。"
+            }
+          },
+          {
+            "id": "300024",
+            "trigger": "turn",
+            "name": {
+              "en": "Scorch",
+              "sc": "灼烧",
+              "tc": "灼燒"
+            },
+            "detail": {
+              "en": "Inflicts <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> upon you.",
+              "sc": "对你施加 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。",
+              "tc": "對你施加 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。"
+            }
+          },
+          {
+            "id": "300063",
+            "trigger": "turn",
+            "name": {
+              "en": "Flare Up",
+              "sc": "烈焰迸发",
+              "tc": "烈焰迸發"
+            },
+            "detail": {
+              "en": "Immediately triggers your <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> once.",
+              "sc": "立即触发一次你身上的 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。",
+              "tc": "立即觸發一次你身上的 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。"
+            }
+          },
+          {
+            "id": "300064",
+            "trigger": "turn",
+            "name": {
+              "en": "Heated Aura",
+              "sc": "炽热气场",
+              "tc": "熾熱氣場"
+            },
+            "detail": {
+              "en": "For 2 turns, attacking it inflicts <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> upon you.",
+              "sc": "2 回合内，攻击它会使你获得 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。",
+              "tc": "2 回合內，攻擊它會使你獲得 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。"
+            }
+          },
+          {
+            "id": "300061",
+            "trigger": "combatStart",
+            "name": {
+              "en": "Cinder Hide",
+              "sc": "余烬之躯",
+              "tc": "餘燼之軀"
+            },
+            "detail": {
+              "en": "Immune to <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span>.",
+              "sc": "免疫 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。",
+              "tc": "免疫 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。"
+            }
+          }
+        ],
+        "drops": [
+          {
+            "item": "500012",
+            "chance": 80,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500014",
+            "chance": 80,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "item": "500006",
+            "chance": 30,
+            "min": 1,
+            "max": 1
+          },
+          {
+            "item": "500008",
+            "chance": 30,
+            "min": 1,
+            "max": 1
+          },
+          {
+            "item": "500045",
+            "chance": 65,
+            "min": 2,
+            "max": 3
+          },
+          {
+            "item": "500046",
+            "chance": 30,
+            "min": 1,
+            "max": 2
+          },
+          {
+            "item": "520047",
+            "chance": 30,
+            "min": 1,
+            "max": 1
+          },
+          {
+            "item": "500002",
+            "chance": 18,
+            "min": 1,
+            "max": 1
+          },
+          {
+            "item": "500003",
+            "chance": 10,
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "panurgo-mercenary-commander",
+    "art": "Panurgo_Mercenary_Commander.png",
+    "name": {
+      "en": "Panurgo, Mercenary Commander",
+      "sc": "佣兵团长．帕努戈",
+      "tc": "傭兵團長．帕努戈"
+    },
+    "variants": [
+      {
+        "id": "210009",
+        "rank": "Boss",
+        "hp": 221,
+        "attack": 22,
+        "defense": 20,
+        "dungeons": [
+          "DanLiTin_1"
+        ],
+        "summonedBy": null,
+        "skills": [
+          {
+            "id": "300065",
+            "trigger": "turn",
+            "name": {
+              "en": "Venom Arrow",
+              "sc": "剧毒箭",
+              "tc": "劇毒箭"
+            },
+            "detail": {
+              "en": "Deals moderate damage and poisons you.",
+              "sc": "造成中等伤害并使你中毒。",
+              "tc": "造成中等傷害並使你中毒。"
+            }
+          },
+          {
+            "id": "300066",
+            "trigger": "turn",
+            "name": {
+              "en": "Bleeding Arrow",
+              "sc": "放血箭",
+              "tc": "放血箭"
+            },
+            "detail": {
+              "en": "Deals moderate damage and inflicts <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span> upon you.",
+              "sc": "造成中等伤害，并对你施加 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>。",
+              "tc": "造成中等傷害，並對你施加 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>。"
+            }
+          },
+          {
+            "id": "300067",
+            "trigger": "turn",
+            "name": {
+              "en": "Fire Arrow",
+              "sc": "火焰箭",
+              "tc": "火焰箭"
+            },
+            "detail": {
+              "en": "Deals moderate damage and inflicts severe <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> upon you.",
+              "sc": "造成中等伤害，并对你施加重度 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。",
+              "tc": "造成中等傷害，並對你施加重度 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。"
+            }
+          },
+          {
+            "id": "300068",
+            "trigger": "turn",
+            "name": {
+              "en": "Aimed Shot",
+              "sc": "瞄准射击",
+              "tc": "瞄準射擊"
+            },
+            "detail": {
+              "en": "Deals heavy damage.",
+              "sc": "造成严重伤害。",
+              "tc": "造成嚴重傷害。"
+            }
+          },
+          {
+            "id": "300069",
+            "trigger": "death",
+            "name": {
+              "en": "Unmask",
+              "sc": "摘下面具",
+              "tc": "摘下面具"
+            },
+            "detail": {
+              "en": "The mask comes off. Summons a Mercenary Bomber and a Mercenary Bastion.",
+              "sc": "面具脱落，并召唤一名佣兵投弹手与一名佣兵壁垒。",
+              "tc": "面具脫落，並召喚一名傭兵投彈手與一名傭兵壁壘。"
+            }
+          }
+        ],
+        "drops": []
+      }
+    ]
   }
 ]

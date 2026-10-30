@@ -21,7 +21,7 @@ Read README.md and CONTRIBUTING.md first; they cover how the site works. This fi
 
 ## Game data scope
 
-- Only content reachable from Windchime Village (dungeon group 1) is shown. Later regions are unfinished. Widen `IN_SCOPE_GROUPS` only when told to.
+- Only content reachable from Windchime Village and Denlitin Court (dungeon groups 1 and 2) is shown. Later regions are unfinished. Widen `IN_SCOPE_GROUPS` only when told to.
 - Shops are hidden until they're finished (`INCLUDE_SHOP = false`).
 - Debug entries have no flag in the data. They're named with an `xdd` prefix and filtered by name.
 - Inherent cards (durability below 0) are shown even though they're `ExcludeFromPool`. That flag means "not in card packs", not "unplayable".
@@ -36,6 +36,8 @@ Read README.md and CONTRIBUTING.md first; they cover how the site works. This fi
 - Translations of posts and lore start as `translation: machine`. Only the team's proofreader marks them `reviewed`.
 - Only one Chinese version gets translated and proofread; the other is converted from it and marked `reviewed` straight away. Usually that means Simplified is converted from Traditional (OpenCC `tw2sp`, then mainland wording and “” quotes). If a piece starts in Simplified, convert the other way (OpenCC `s2twp`, then Taiwan wording and 「」 quotes). When the proofread version changes, regenerate the converted one from it.
 - When writing lore, stick to what the game's own text or the team's docs say. Don't invent story details.
+- Lore is written in Traditional Chinese first, so `tc` is the source. When the team has already written English for a passage (the Narrative_Dialogue doc's EN sections, or the game's `Localization/En.csv`), use that English as is and mark it `reviewed`. Only English we translate ourselves starts as `machine`.
+- Hold back story spoilers (plot events beyond a place's setup) unless the user asks for them.
 
 ## Patch notes
 

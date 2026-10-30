@@ -60,6 +60,26 @@
       {
         "type": "drop",
         "enemy": "130006"
+      },
+      {
+        "type": "drop",
+        "enemy": "210001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210002"
+      },
+      {
+        "type": "drop",
+        "enemy": "210003"
+      },
+      {
+        "type": "drop",
+        "enemy": "210005"
+      },
+      {
+        "type": "drop",
+        "enemy": "210006"
       }
     ],
     "name": {
@@ -139,6 +159,30 @@
       {
         "type": "drop",
         "enemy": "130006"
+      },
+      {
+        "type": "drop",
+        "enemy": "210001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210002"
+      },
+      {
+        "type": "drop",
+        "enemy": "210003"
+      },
+      {
+        "type": "drop",
+        "enemy": "210005"
+      },
+      {
+        "type": "drop",
+        "enemy": "210006"
+      },
+      {
+        "type": "drop",
+        "enemy": "210008"
       }
     ],
     "name": {
@@ -218,6 +262,30 @@
       {
         "type": "drop",
         "enemy": "130006"
+      },
+      {
+        "type": "drop",
+        "enemy": "210001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210002"
+      },
+      {
+        "type": "drop",
+        "enemy": "210003"
+      },
+      {
+        "type": "drop",
+        "enemy": "210005"
+      },
+      {
+        "type": "drop",
+        "enemy": "210006"
+      },
+      {
+        "type": "drop",
+        "enemy": "210007"
       }
     ],
     "name": {
@@ -297,6 +365,26 @@
       {
         "type": "drop",
         "enemy": "130006"
+      },
+      {
+        "type": "drop",
+        "enemy": "210001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210002"
+      },
+      {
+        "type": "drop",
+        "enemy": "210003"
+      },
+      {
+        "type": "drop",
+        "enemy": "210004"
+      },
+      {
+        "type": "drop",
+        "enemy": "210008"
       }
     ],
     "name": {
@@ -376,6 +464,26 @@
       {
         "type": "drop",
         "enemy": "130006"
+      },
+      {
+        "type": "drop",
+        "enemy": "210001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210002"
+      },
+      {
+        "type": "drop",
+        "enemy": "210003"
+      },
+      {
+        "type": "drop",
+        "enemy": "210004"
+      },
+      {
+        "type": "drop",
+        "enemy": "210007"
       }
     ],
     "name": {
@@ -455,6 +563,22 @@
       {
         "type": "drop",
         "enemy": "130006"
+      },
+      {
+        "type": "drop",
+        "enemy": "210001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210002"
+      },
+      {
+        "type": "drop",
+        "enemy": "210003"
+      },
+      {
+        "type": "drop",
+        "enemy": "210004"
       }
     ],
     "name": {
@@ -1097,6 +1221,41 @@
     }
   },
   {
+    "id": "520140",
+    "kind": "equipment",
+    "subType": "Defense",
+    "icon": "hallucinogenic_powder.png",
+    "tint": null,
+    "rarity": 1,
+    "price": null,
+    "stats": {
+      "attack": 12,
+      "hp": 5,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210004"
+      }
+    ],
+    "name": {
+      "en": "Hallucinogenic Powder",
+      "sc": "致幻粉末",
+      "tc": "致幻粉末"
+    },
+    "description": {
+      "en": "At the end of combat, if you are <span class=\"kw\" title=\"Your HP is at or below 30% of your max HP.\">Low Life</span>, heal 15% max HP.",
+      "sc": "战斗结束时，若你处于<span class=\"kw\" title=\"当前生命不高于最大生命的 30%。\">贫血</span>，回复 15% 最大生命。",
+      "tc": "戰鬥結束時，若你處於<span class=\"kw\" title=\"當前生命不高於最大生命的 30%。\">貧血</span>，回復 15% 最大生命。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
     "id": "500002",
     "kind": "material",
     "subType": "CardPack",
@@ -1125,6 +1284,14 @@
       {
         "type": "drop",
         "enemy": "130006"
+      },
+      {
+        "type": "drop",
+        "enemy": "210007"
+      },
+      {
+        "type": "drop",
+        "enemy": "210008"
       }
     ],
     "name": {
@@ -1164,6 +1331,14 @@
       {
         "type": "drop",
         "enemy": "131001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210007"
+      },
+      {
+        "type": "drop",
+        "enemy": "210008"
       }
     ],
     "name": {
@@ -1263,6 +1438,10 @@
     "stats": null,
     "sources": [
       {
+        "type": "drop",
+        "enemy": "210008"
+      },
+      {
         "type": "merge",
         "from": "500012"
       }
@@ -1296,6 +1475,10 @@
       {
         "type": "drop",
         "enemy": "131001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210007"
       },
       {
         "type": "merge",
@@ -1333,6 +1516,10 @@
         "enemy": "121001"
       },
       {
+        "type": "drop",
+        "enemy": "210008"
+      },
+      {
         "type": "merge",
         "from": "500014"
       }
@@ -1366,6 +1553,10 @@
       {
         "type": "drop",
         "enemy": "121001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210007"
       },
       {
         "type": "merge",
@@ -1560,6 +1751,324 @@
     }
   },
   {
+    "id": "500033",
+    "kind": "material",
+    "subType": "Material",
+    "icon": "material_powder.png",
+    "tint": "#B8865A",
+    "rarity": 2,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210002"
+      }
+    ],
+    "name": {
+      "en": "Gunpowder",
+      "sc": "火药粉",
+      "tc": "火藥粉"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "Foul-smelling, low-grade gunpowder. The mercenary company secretly buys its supplies from the black market beneath Denlitin Court, but with funds tight, it can only afford the defective stock no one else will take. A few members have sworn to develop a stronger powder themselves, though so far all they have to show for it is a handful of dead comrades.",
+      "sc": "散发着难闻气味的劣质火药。佣兵团秘密地从丹立庭地下的黑市进货，然而因为资金不足，只能使用被市场淘汰的残缺品。某些成员因此立志自主研发更强力的火药，但除了炸死了几名同袍以外并无进展。",
+      "tc": "散發著難聞氣味的劣質火藥。傭兵團秘密地從丹立庭地下的黑市進貨，然而因為資金不足，只能使用被市場淘汰的殘缺品。某些成員因此立志自主研發更強力的火藥，但除了炸死了幾名同袍以外並無進展。"
+    }
+  },
+  {
+    "id": "500034",
+    "kind": "material",
+    "subType": "RareMaterial",
+    "icon": "material_cloth.png",
+    "tint": "#B8865A",
+    "rarity": 2,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210002"
+      }
+    ],
+    "name": {
+      "en": "Patched Cloak",
+      "sc": "破旧披风",
+      "tc": "破舊披風"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "A green cloak covered in patches. Green is the mercenary commander's favorite color, so the company has required everyone to wear a green uniform since its founding. Sadly, after years of campaigning, the veterans who never received replacement gear have been left to mend their own cloaks as best they can.",
+      "sc": "上头满是补丁的绿色披风。绿色是佣兵团团长最喜欢的颜色，因此自组织成立以来就一直强制规定穿着绿色的统一制服。遗憾的是，在经年累月的作战后，迟迟等不到装备更新的老资历成员只能笨拙地自行修补。",
+      "tc": "上頭滿是補丁的綠色披風。綠色是傭兵團團長最喜歡的顏色，因此自組織成立以來就一直強制規定穿著綠色的統一制服。遺憾的是，在經年累月的作戰後，遲遲等不到裝備更新的老資歷成員只能笨拙地自行修補。"
+    }
+  },
+  {
+    "id": "500035",
+    "kind": "material",
+    "subType": "Material",
+    "icon": "material_metal.png",
+    "tint": "#A7AFB8",
+    "rarity": 2,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210003"
+      }
+    ],
+    "name": {
+      "en": "Iron Shield Frame",
+      "sc": "精铁盾缘",
+      "tc": "精鐵盾緣"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "A sturdy iron shield frame. In its early days, the company mostly took security jobs handed down by the kingdom, where a heavy shield was ideal for blunting attacks and holding back crowds. But years of nothing but taking hits have bred resentment among the shield-bearers, who now seem to be quietly plotting how to make their shields deadlier.",
+      "sc": "严实的铁制盾牌框。早期佣兵团承接的多是王国派下来的维安任务，厚重的盾牌能够有效挡下攻势、隔开人群。但是长年干着挨打的工作，逐渐让持盾者们心生怨言，似乎正秘密地计画着如何增加盾牌的杀伤力。",
+      "tc": "嚴實的鐵製盾牌框。早期傭兵團承接的多是王國派下來的維安任務，厚重的盾牌能夠有效擋下攻勢、隔開人群。但是長年幹著挨打的工作，逐漸讓持盾者們心生怨言，似乎正秘密地計畫著如何增加盾牌的殺傷力。"
+    }
+  },
+  {
+    "id": "500036",
+    "kind": "material",
+    "subType": "RareMaterial",
+    "icon": "material_page.png",
+    "tint": "#E8DDC4",
+    "rarity": 2,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210003"
+      }
+    ],
+    "name": {
+      "en": "Childlike Doodle",
+      "sc": "涂鸦画",
+      "tc": "塗鴉畫"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "A doodle with a childlike touch, showing a burly man holding a child's hand. The company takes in people from all walks of life, including plenty of veterans with families. To make a living, these men carry out all manner of jobs coldly outside their doors, then step inside and warmly play the part of father.",
+      "sc": "一幅散发童真笔触的涂鸦，上头画着一名牵着小孩的壮汉。佣兵团接纳了来自各种背景的人士，其中不乏带着家庭的退伍军人。为了生计，男人们冷酷地在家门外进行着各式任务、而又温暖地在门内扮演着父亲的角色。",
+      "tc": "一幅散發童真筆觸的塗鴉，上頭畫著一名牽著小孩的壯漢。傭兵團接納了來自各種背景的人士，其中不乏帶著家庭的退伍軍人。為了生計，男人們冷酷地在家門外進行著各式任務、而又溫暖地在門內扮演著父親的角色。"
+    }
+  },
+  {
+    "id": "500037",
+    "kind": "material",
+    "subType": "Material",
+    "icon": "material_rope.png",
+    "tint": "#B8865A",
+    "rarity": 2,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210004"
+      }
+    ],
+    "name": {
+      "en": "Worn Drawstring",
+      "sc": "磨损抽绳",
+      "tc": "磨損抽繩"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "A tattered drawstring. Berserkers are the people of Belgard best suited to its harsh climate, the rage burning within them serving as armor against the cold. But when they leave Belgard to fight abroad, that surplus energy becomes a double-edged sword, leaving them more volatile and harder to control.",
+      "sc": "有些残破的束绳。狂战士们是贝尔嘉德之中最为适应严酷气候的一群人，他们体内燃烧着的怒火成为了抵御寒冷的资本。然而当他们离开贝尔嘉德到外地作战时，过剩的能量反而成了双刃剑，使他们的性情变得更加暴躁、难以控制。",
+      "tc": "有些殘破的束繩。狂戰士們是貝爾嘉德之中最為適應嚴酷氣候的一群人，他們體內燃燒著的怒火成為了抵禦寒冷的資本。然而當他們離開貝爾嘉德到外地作戰時，過剩的能量反而成了雙刃劍，使他們的性情變得更加暴躁、難以控制。"
+    }
+  },
+  {
+    "id": "500038",
+    "kind": "material",
+    "subType": "RareMaterial",
+    "icon": "material_hand.png",
+    "tint": "#C9504F",
+    "rarity": 2,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210004"
+      }
+    ],
+    "name": {
+      "en": "Beating Heart",
+      "sc": "跳动心脏",
+      "tc": "跳動心臟"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "A heart that keeps beating long after leaving the body, its surface covered in strange markings. Most berserkers have received a god's blessing, trading their sanity for immense power. After they die, the heart, steeped in divinity, will often keep beating for years.",
+      "sc": "离开了身体却仍在跳动的心脏，上面布满了奇异的纹路。绝大多数的狂战士们都接受过神灵的赐福，以失去理智作为代价换取无比的力量。在他们死后，那颗被神性浸染的心脏往往还能持续跳动数年之久。",
+      "tc": "離開了身體卻仍在跳動的心臟，上面佈滿了奇異的紋路。絕大多數的狂戰士們都接受過神靈的賜福，以失去理智作為代價換取無比的力量。在他們死後，那顆被神性浸染的心臟往往還能持續跳動數年之久。"
+    }
+  },
+  {
+    "id": "500039",
+    "kind": "material",
+    "subType": "Material",
+    "icon": "material_weapon.png",
+    "tint": "#B8865A",
+    "rarity": 2,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210005"
+      }
+    ],
+    "name": {
+      "en": "Thorny Hilt",
+      "sc": "荆棘剑柄",
+      "tc": "荊棘劍柄"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "A sword hilt inlaid with thorn motifs. The divine order of the Rosriconian kingdom is a tangled one, and its three gods have long been woven into the life of every citizen. For that reason, military equipment is issued in several decorative variants, so that knights can choose according to their own tastes and faith.",
+      "sc": "镶嵌着荆棘装饰的剑柄。罗斯里坎王国之内神系错综复杂，三神早已深入王国每一位国民的生活之中。因此在颁发军备时也会多准备数种版本的装饰，以供骑士们根据自己的喜好和信仰挑选。",
+      "tc": "鑲嵌著荊棘裝飾的劍柄。羅斯里坎王國之內神系錯綜複雜，三神早已深入王國每一位國民的生活之中。因此在頒發軍備時也會多準備數種版本的裝飾，以供騎士們根據自己的喜好和信仰挑選。"
+    }
+  },
+  {
+    "id": "500040",
+    "kind": "material",
+    "subType": "RareMaterial",
+    "icon": "material_helmet.png",
+    "tint": "#A7AFB8",
+    "rarity": 2,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210005"
+      }
+    ],
+    "name": {
+      "en": "Steel Helmet",
+      "sc": "精钢头盔",
+      "tc": "精鋼頭盔"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "A sturdy helmet forged from refined steel. The Rosriconian plains are not rich in ore, so the kingdom relies on imports mined in Belgard and shipped through the Pale. At the kingdom's behest, the Church of Significance, devoted to Evinor, is now researching ways to create metal.",
+      "sc": "由精钢打造的坚固头盔。罗斯里坎平原之上的矿藏实际上并不丰富，因此仰赖着从贝尔嘉德开采、经由苍白之地运输的外贸物资。在王国的授意之下，信仰伊维诺的显赫教会目前正在研究创造金属的途径。",
+      "tc": "由精鋼打造的堅固頭盔。羅斯里坎平原之上的礦藏實際上並不豐富，因此仰賴著從貝爾嘉德開採、經由蒼白之地運輸的外貿物資。在王國的授意之下，信仰伊維諾的顯赫教會目前正在研究創造金屬的途徑。"
+    }
+  },
+  {
+    "id": "500041",
+    "kind": "material",
+    "subType": "Material",
+    "icon": "material_ring.png",
+    "tint": "#D9B04A",
+    "rarity": 2,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210006"
+      }
+    ],
+    "name": {
+      "en": "Talisman of Significance",
+      "sc": "显著护符",
+      "tc": "顯著護符"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "An amulet carved in Evinor's likeness. Because Evinor's domains are so tangled, the god's appearance is a frequent point of dispute among the faithful. Two accounts dominate: a giant of rock as massive as a mountain, or a full-figured goddess.",
+      "sc": "雕有伊维诺外形的护符。伊维诺的形象由于职权复杂，而在信徒之间时常带有争议。主要的说法分为两派：一名身躯和山峰一样巨大的岩石巨人、或是一名身材丰腴的女神。",
+      "tc": "雕有伊維諾外形的護符。伊維諾的形象由於職權複雜，而在信徒之間時常帶有爭議。主要的說法分為兩派：一名身軀和山峰一樣巨大的岩石巨人、或是一名身材豐腴的女神。"
+    }
+  },
+  {
+    "id": "500042",
+    "kind": "material",
+    "subType": "RareMaterial",
+    "icon": "material_crest.png",
+    "tint": "#B8865A",
+    "rarity": 2,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210006"
+      }
+    ],
+    "name": {
+      "en": "Coin Purse",
+      "sc": "金币袋",
+      "tc": "金幣袋"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "A fine pouch heavy with gold coins. Churches devoted to Evinor, whatever their sect, agree that Evinor is the guardian of the family. Whether by strength that protects loved ones or by material plenty that provides for them, the god's grace is closely bound to the lives of the faithful.",
+      "sc": "装着沉甸甸金币的精美钱袋。信奉伊维诺的教会不论派系，都一致认为祂是家庭的护佑之神。不论是透过力量保卫家人，还是透过物质上的富足满足家人的需求，祂的神泽都和信徒的生活紧密相连。",
+      "tc": "裝著沉甸甸金幣的精美錢袋。信奉伊維諾的教會不論派系，都一致認為祂是家庭的護佑之神。不論是透過力量保衛家人，還是透過物質上的富足滿足家人的需求，祂的神澤都和信徒的生活緊密相連。"
+    }
+  },
+  {
     "id": "520005",
     "kind": "equipment",
     "subType": "Other",
@@ -1592,6 +2101,41 @@
       "en": "&quot;If the reflection in the mirror is truth, why do the gods, and their power, never appear in it? Perhaps... there is no truth at all. Everything we believe is illusion, and falsehood and phantasm are the truth itself.&quot; — Oral tradition of the Pale Lands",
       "sc": "「倘若镜中的倒影即是真理，为何神灵、乃至神灵的力量，从未一同映现其中？或许……真理根本不存在。我等所信奉的一切皆为虚妄，而虚假与幻影，便是真理本身。」——苍白之地的口传",
       "tc": "「倘若鏡中的倒影即是真理，為何神靈、乃至神靈的力量，從未一同映現其中？或許……真理根本不存在。我等所信奉的一切皆為虛妄，而虛假與幻影，便是真理本身。」——蒼白之地的口傳"
+    }
+  },
+  {
+    "id": "520006",
+    "kind": "equipment",
+    "subType": "Other",
+    "icon": "bloodgrained_pebble.png",
+    "tint": null,
+    "rarity": 2,
+    "price": null,
+    "stats": {
+      "attack": 29,
+      "hp": 7,
+      "defense": 3
+    },
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210007"
+      }
+    ],
+    "name": {
+      "en": "Bloodgrained Pebble",
+      "sc": "血纹石块",
+      "tc": "血紋石塊"
+    },
+    "description": {
+      "en": "When you play a card that draws cards, draw 1 additional card.",
+      "sc": "打出抽牌卡时，额外抽 1 张牌。",
+      "tc": "打出抽牌卡時，額外抽 1 張牌。"
+    },
+    "lore": {
+      "en": "As the faith of Razenia began to waver, a group of scholars from the Pale Lands seized the moment to proclaim that the gods were nothing more than the gathered consciousness of mankind. Yet even with faith on the verge of collapse, the whole continent condemned the idea as the vilest heresy, and the scholars were brutally silenced.",
+      "sc": "在拉泽尼亚人的信仰动摇之际，一群苍白之地的学者看准时机，宣扬神灵其实是由人类意识汇聚而成。然而即使信仰已濒临崩溃，这番言论仍被整片大陆视为万恶的异端，学者们也遭到了残忍的灭口。",
+      "tc": "在拉澤尼亞人的信仰動搖之際，一群蒼白之地的學者看準時機，宣揚神靈其實是由人類意識匯聚而成。然而即使信仰已瀕臨崩潰，這番言論仍被整片大陸視為萬惡的異端，學者們也遭到了殘忍的滅口。"
     }
   },
   {
@@ -1700,6 +2244,228 @@
     }
   },
   {
+    "id": "520029",
+    "kind": "equipment",
+    "subType": "Other",
+    "icon": "shining_coin.png",
+    "tint": null,
+    "rarity": 2,
+    "price": null,
+    "stats": {
+      "attack": 20,
+      "hp": 10,
+      "defense": 6
+    },
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210006"
+      }
+    ],
+    "name": {
+      "en": "Shining Coin",
+      "sc": "闪耀金币",
+      "tc": "閃耀金幣"
+    },
+    "description": {
+      "en": "Increase gold found by 30%.",
+      "sc": "增加 30% 获得的金币量。",
+      "tc": "增加 30% 獲得的金幣量。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520031",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "fire_flask.png",
+    "tint": null,
+    "rarity": 2,
+    "price": null,
+    "stats": {
+      "attack": 18,
+      "hp": 7,
+      "defense": 3
+    },
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210002"
+      }
+    ],
+    "name": {
+      "en": "Fire Flask",
+      "sc": "火焰瓶",
+      "tc": "火焰瓶"
+    },
+    "description": {
+      "en": "When you play a <span class=\"kw\" title=\"Playing Fire cards in a row grants Vivid Ember. At 4 stacks, gain Vivid Flame. Playing a Nature card clears Vivid Ember.\">Fire</span> card, apply 6 <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> to all enemies. Increase <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> application amount by 30%.",
+      "sc": "打出<span class=\"kw\" title=\"连续打出火焰牌会累积灵现余烬。达到 4 层时，获得灵现火焰。打出自然牌时清除灵现余烬。\">火焰</span>牌时，对所有敌人施加 6 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。施加的<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>量增加 30%。",
+      "tc": "打出<span class=\"kw\" title=\"連續打出火焰牌會累積靈現餘燼。達到 4 層時，獲得靈現火焰。打出自然牌時清除靈現餘燼。\">火焰</span>牌時，對所有敵人施加 6 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。施加的<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>量增加 30%。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520044",
+    "kind": "equipment",
+    "subType": "Defense",
+    "icon": "geode.png",
+    "tint": null,
+    "rarity": 2,
+    "price": null,
+    "stats": {
+      "attack": 0,
+      "hp": 32,
+      "defense": 0
+    },
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210007"
+      }
+    ],
+    "name": {
+      "en": "Geode",
+      "sc": "晶石",
+      "tc": "晶石"
+    },
+    "description": {
+      "en": "When you enter a boss encounter, heal 30% max HP.",
+      "sc": "进入头目战时回复 30% 最大生命。",
+      "tc": "進入頭目戰時回復 30% 最大生命。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520045",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "tool_belt.png",
+    "tint": null,
+    "rarity": 2,
+    "price": null,
+    "stats": {
+      "attack": 24,
+      "hp": 6,
+      "defense": 4
+    },
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210001"
+      },
+      {
+        "type": "drop",
+        "enemy": "210002"
+      },
+      {
+        "type": "drop",
+        "enemy": "210003"
+      }
+    ],
+    "name": {
+      "en": "Tool Belt",
+      "sc": "工具绑带",
+      "tc": "工具綁帶"
+    },
+    "description": {
+      "en": "When you kill an enemy, gain <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the next card you play also plays its neighboring cards for free: the left one only, or both sides (never the right one only). The left card resolves first. Swift cannot trigger another Swift.\">Swift</span> and 5 <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span> for 1 turn.",
+      "sc": "击杀敌人时，获得<span class=\"kw\" title=\"增益・可叠加<br>x 回合内，你打出的下一张牌会免费连带打出相邻的牌：只有左侧，或左右两侧（没有只有右侧）。左侧的牌先结算。迅捷无法触发另一个迅捷。\">迅捷</span>与 5 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span>，持续 1 回合。",
+      "tc": "擊殺敵人時，獲得<span class=\"kw\" title=\"增益・可疊加<br>x 回合內，你打出的下一張牌會免費連帶打出相鄰的牌：只有左側，或左右兩側（沒有只有右側）。左側的牌先結算。迅捷無法觸發另一個迅捷。\">迅捷</span>與 5 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span>，持續 1 回合。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520047",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "charred_flesh.png",
+    "tint": null,
+    "rarity": 2,
+    "price": null,
+    "stats": {
+      "attack": 26,
+      "hp": 7,
+      "defense": 3
+    },
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210008"
+      }
+    ],
+    "name": {
+      "en": "Charred Flesh",
+      "sc": "焦黑肉块",
+      "tc": "焦黑肉塊"
+    },
+    "description": {
+      "en": "<span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> triggers 1 turn sooner.",
+      "sc": "<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>的触发时间提前 1 回合。",
+      "tc": "<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>的觸發時間提前 1 回合。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520048",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "thorn_brooch.png",
+    "tint": null,
+    "rarity": 2,
+    "price": null,
+    "stats": {
+      "attack": 13,
+      "hp": 10,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210005"
+      }
+    ],
+    "name": {
+      "en": "Thorn Brooch",
+      "sc": "荆棘胸针",
+      "tc": "荊棘胸針"
+    },
+    "description": {
+      "en": "When you play a status card, gain 1 <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span> for the rest of the combat. When you play an attack card, lose 1 <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span> for the rest of the combat.",
+      "sc": "打出状态牌时，获得 1 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span>，持续到战斗结束。打出攻击牌时，失去 1 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span>，持续到战斗结束。",
+      "tc": "打出狀態牌時，獲得 1 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span>，持續到戰鬥結束。打出攻擊牌時，失去 1 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span>，持續到戰鬥結束。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
     "id": "520049",
     "kind": "equipment",
     "subType": "Defense",
@@ -1762,6 +2528,41 @@
       "en": "Healing you receive is increased by 25%.",
       "sc": "你受到的治疗量增加 25%。",
       "tc": "你受到的治療量增加 25%。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520141",
+    "kind": "equipment",
+    "subType": "Defense",
+    "icon": "chaos_powder.png",
+    "tint": null,
+    "rarity": 2,
+    "price": null,
+    "stats": {
+      "attack": 21,
+      "hp": 13,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520140"
+      }
+    ],
+    "name": {
+      "en": "Chaos Powder",
+      "sc": "混沌粉末",
+      "tc": "混沌粉末"
+    },
+    "description": {
+      "en": "At the end of combat, if you are <span class=\"kw\" title=\"Your HP is at or below 30% of your max HP.\">Low Life</span>, heal 15% max HP. Once per combat, at the start of your turn, if you are <span class=\"kw\" title=\"Your HP is at or below 30% of your max HP.\">Low Life</span>, gain 5% <span class=\"kw\" title=\"Buff · Stackable<br>For y turns, restores x% of the owner's max HP at the end of each turn.\">Blessed</span> for 5 turns.",
+      "sc": "战斗结束时，若你处于<span class=\"kw\" title=\"当前生命不高于最大生命的 30%。\">贫血</span>，回复 15% 最大生命。每场战斗一次：回合开始时若你处于<span class=\"kw\" title=\"当前生命不高于最大生命的 30%。\">贫血</span>，获得 5% <span class=\"kw\" title=\"增益・可叠加<br>y 回合内，每回合结束时回复持有者 x% 的最大生命。\">祝福</span>，持续 5 回合。",
+      "tc": "戰鬥結束時，若你處於<span class=\"kw\" title=\"當前生命不高於最大生命的 30%。\">貧血</span>，回復 15% 最大生命。每場戰鬥一次：回合開始時若你處於<span class=\"kw\" title=\"當前生命不高於最大生命的 30%。\">貧血</span>，獲得 5% <span class=\"kw\" title=\"增益・可疊加<br>y 回合內，每回合結束時回復持有者 x% 的最大生命。\">祝福</span>，持續 5 回合。"
     },
     "lore": {
       "en": "",
@@ -1894,6 +2695,130 @@
     }
   },
   {
+    "id": "500043",
+    "kind": "material",
+    "subType": "Material",
+    "icon": "material_stone.png",
+    "tint": "#A7AFB8",
+    "rarity": 3,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210007"
+      }
+    ],
+    "name": {
+      "en": "Cracked Stone Shard",
+      "sc": "碎裂石片",
+      "tc": "碎裂石片"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "A sharp shard of stone riddled with cracks. Of those blessed by Evinor, only a few can petrify their own bodies. Yet this boon cannot be controlled at will: the recipient's skin and muscle turn to stone uncontrollably, causing unimaginable pain and torment along the way.",
+      "sc": "满是裂痕的锐利石片。在伊维诺的赐福者之中，能够石化自身的人也是少数。然而这份恩泽却无法由自己掌控，赐福者的皮肤和肌肉将会不受控制地石化，在过程中带来无法想像的疼痛和折磨。",
+      "tc": "滿是裂痕的銳利石片。在伊維諾的賜福者之中，能夠石化自身的人也是少數。然而這份恩澤卻無法由自己掌控，賜福者的皮膚和肌肉將會不受控制地石化，在過程中帶來無法想像的疼痛和折磨。"
+    }
+  },
+  {
+    "id": "500044",
+    "kind": "material",
+    "subType": "RareMaterial",
+    "icon": "material_stone.png",
+    "tint": "#D9B04A",
+    "rarity": 3,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210007"
+      }
+    ],
+    "name": {
+      "en": "Petrified Core",
+      "sc": "石化核心",
+      "tc": "石化核心"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "A core embedded within a Stoneborn Giant. Though there is no proof, most of the faithful believe the core is the source of a blessed one's power and life, since it only appears in the body after the blessing is received. The Church treats it as a priceless treasure and sometimes sells it for a high price at charity auctions.",
+      "sc": "蕴藏在石裔巨人之中的核心。尽管没有证据表明，但多数信徒都认为核心是赐福者们能力和生命的来源，因为这颗核心是在受到赐福后才出现在体内的。教会视它为无上的珍宝，有时也会在慈善拍卖会上将它高价售出。",
+      "tc": "蘊藏在石裔巨人之中的核心。儘管沒有證據表明，但多數信徒都認為核心是賜福者們能力和生命的來源，因為這顆核心是在受到賜福後才出現在體內的。教會視它為無上的珍寶，有時也會在慈善拍賣會上將它高價售出。"
+    }
+  },
+  {
+    "id": "500045",
+    "kind": "material",
+    "subType": "Material",
+    "icon": "material_powder.png",
+    "tint": "#E8DDC4",
+    "rarity": 3,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210008"
+      }
+    ],
+    "name": {
+      "en": "Ashen Remains",
+      "sc": "灰烬残渣",
+      "tc": "灰燼殘渣"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "Bloodstained ashes. Ashbringers endure burning flames at every moment, and are regarded among Florentis's followers as the most exalted of the blessed. Their power does not come from immunity to flame, but from a supernatural regeneration that keeps pace with the fire.",
+      "sc": "带有血迹的余灰。焚烬者们无时无刻地经受着烈火焚烧，在弗洛伦蒂斯信徒之中被视为最崇高的一群赐福者。他们的力量并非源于对火焰的免疫，而是透过超常的再生能力与火焰抗衡。",
+      "tc": "帶有血跡的餘灰。焚燼者們無時無刻地經受著烈火焚燒，在弗洛倫蒂斯信徒之中被視為最崇高的一群賜福者。他們的力量並非源於對火焰的免疫，而是透過超常的再生能力與火焰抗衡。"
+    }
+  },
+  {
+    "id": "500046",
+    "kind": "material",
+    "subType": "RareMaterial",
+    "icon": "material_head.png",
+    "tint": "#C9504F",
+    "rarity": 3,
+    "price": null,
+    "stats": null,
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "210008"
+      }
+    ],
+    "name": {
+      "en": "Scorched Skull",
+      "sc": "焦黑头骨",
+      "tc": "焦黑頭骨"
+    },
+    "description": {
+      "en": "Can be used to upgrade or enhance equipment in the base camp.",
+      "sc": "可在营地用于升级或强化装备。",
+      "tc": "可在營地用於升級或強化裝備。"
+    },
+    "lore": {
+      "en": "A skull burned black. When an Ashbringer takes too much damage, the balance between regeneration and destruction breaks, and their life dies out along with the flames. The faithful believe that, at the moment of death, the flames can be passed on to another, extending this curse-like blessing.",
+      "sc": "被焚烧的焦黑头骨。焚烬者们在受到过高的伤害时，再生和破坏的平衡将会被打破，他们的生命会随着火焰一同消亡。信徒们认为在他们濒死之际，可以透过将火焰转嫁给他人的方式，延续这份诅咒般的恩惠。",
+      "tc": "被焚燒的焦黑頭骨。焚燼者們在受到過高的傷害時，再生和破壞的平衡將會被打破，他們的生命會隨著火焰一同消亡。信徒們認為在他們瀕死之際，可以透過將火焰轉嫁給他人的方式，延續這份詛咒般的恩惠。"
+    }
+  },
+  {
     "id": "520002",
     "kind": "equipment",
     "subType": "Offense",
@@ -1999,6 +2924,111 @@
     }
   },
   {
+    "id": "520032",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "burnt_painting.png",
+    "tint": null,
+    "rarity": 3,
+    "price": null,
+    "stats": {
+      "attack": 24,
+      "hp": 12,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520031"
+      }
+    ],
+    "name": {
+      "en": "Burnt Painting",
+      "sc": "焚毁画作",
+      "tc": "焚毀畫作"
+    },
+    "description": {
+      "en": "Increase <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> application amount by 60%, and by an additional 60% while your <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span> is above 70.",
+      "sc": "施加的<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>量增加 60%；<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>大于 70 时，再额外增加 60%。",
+      "tc": "施加的<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>量增加 60%；<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>大於 70 時，再額外增加 60%。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520112",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "essence_of_spring.png",
+    "tint": null,
+    "rarity": 3,
+    "price": null,
+    "stats": {
+      "attack": 21,
+      "hp": 15,
+      "defense": 7
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520048"
+      }
+    ],
+    "name": {
+      "en": "Essence of Spring",
+      "sc": "春之精髓",
+      "tc": "春之精髓"
+    },
+    "description": {
+      "en": "When you play a status card, gain 1 <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span> and 1% <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner receives a percentage more healing.\">Purified</span> for the rest of the combat. When you play an attack card, lose 1 <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span> for the rest of the combat.",
+      "sc": "打出状态牌时，获得 1 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span>与 1% <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者受到的治疗量提升一定百分比。\">净化</span>，持续到战斗结束。打出攻击牌时，失去 1 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span>，持续到战斗结束。",
+      "tc": "打出狀態牌時，獲得 1 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span>與 1% <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者受到的治療量提升一定百分比。\">淨化</span>，持續到戰鬥結束。打出攻擊牌時，失去 1 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span>，持續到戰鬥結束。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520113",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "inferno_flask.png",
+    "tint": null,
+    "rarity": 3,
+    "price": null,
+    "stats": {
+      "attack": 23,
+      "hp": 13,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520031"
+      }
+    ],
+    "name": {
+      "en": "Inferno Flask",
+      "sc": "炼狱瓶",
+      "tc": "煉獄瓶"
+    },
+    "description": {
+      "en": "When you play a <span class=\"kw\" title=\"Playing Fire cards in a row grants Vivid Ember. At 4 stacks, gain Vivid Flame. Playing a Nature card clears Vivid Ember.\">Fire</span> card, apply 12 <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> to all enemies. Increase <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> application amount by 60%.",
+      "sc": "打出<span class=\"kw\" title=\"连续打出火焰牌会累积灵现余烬。达到 4 层时，获得灵现火焰。打出自然牌时清除灵现余烬。\">火焰</span>牌时，对所有敌人施加 12 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。施加的<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>量增加 60%。",
+      "tc": "打出<span class=\"kw\" title=\"連續打出火焰牌會累積靈現餘燼。達到 4 層時，獲得靈現火焰。打出自然牌時清除靈現餘燼。\">火焰</span>牌時，對所有敵人施加 12 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。施加的<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>量增加 60%。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
     "id": "520121",
     "kind": "equipment",
     "subType": "Defense",
@@ -2026,6 +3056,41 @@
       "en": "You are immune to <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span>.",
       "sc": "你免疫<span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>。",
       "tc": "你免疫<span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520122",
+    "kind": "equipment",
+    "subType": "Defense",
+    "icon": "pocket_galaxy.png",
+    "tint": null,
+    "rarity": 3,
+    "price": null,
+    "stats": {
+      "attack": 0,
+      "hp": 48,
+      "defense": 0
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520044"
+      }
+    ],
+    "name": {
+      "en": "Pocket Galaxy",
+      "sc": "口袋银河",
+      "tc": "口袋銀河"
+    },
+    "description": {
+      "en": "When you enter a boss encounter, heal 30% max HP and <span class=\"kw\" title=\"Removes the stated number of debuffs. Affliction cannot be dispelled.\">Dispel</span> all debuffs.",
+      "sc": "进入头目战时回复 30% 最大生命，并<span class=\"kw\" title=\"移除指定数量的减益。灾厄无法被驱散。\">驱散</span>所有减益。",
+      "tc": "進入頭目戰時回復 30% 最大生命，並<span class=\"kw\" title=\"移除指定數量的減益。災厄無法被驅散。\">驅散</span>所有減益。"
     },
     "lore": {
       "en": "",
@@ -2139,6 +3204,146 @@
     }
   },
   {
+    "id": "520030",
+    "kind": "equipment",
+    "subType": "Other",
+    "icon": "coin_of_avarice.png",
+    "tint": null,
+    "rarity": 4,
+    "price": null,
+    "stats": {
+      "attack": 48,
+      "hp": 19,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520029"
+      }
+    ],
+    "name": {
+      "en": "Coin of Avarice",
+      "sc": "狂富金币",
+      "tc": "狂富金幣"
+    },
+    "description": {
+      "en": "Increase gold found by 60%, but reduce all cards' maximum durability to 10.",
+      "sc": "获得的金币增加 60%，但所有卡牌的耐久值上限降为 10。",
+      "tc": "獲得的金幣增加 60%，但所有卡牌的耐久值上限降為 10。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520033",
+    "kind": "equipment",
+    "subType": "Defense",
+    "icon": "searing_iron.png",
+    "tint": null,
+    "rarity": 4,
+    "price": null,
+    "stats": {
+      "attack": 25,
+      "hp": 18,
+      "defense": 9
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520032"
+      }
+    ],
+    "name": {
+      "en": "Searing Iron",
+      "sc": "烧红烙铁",
+      "tc": "燒紅烙鐵"
+    },
+    "description": {
+      "en": "When you are hit, apply 16 <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> to all enemies.",
+      "sc": "受到击中时，对所有敌人施加 16 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。",
+      "tc": "受到擊中時，對所有敵人施加 16 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520046",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "assassins_harness.png",
+    "tint": null,
+    "rarity": 4,
+    "price": null,
+    "stats": {
+      "attack": 57,
+      "hp": 12,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520045"
+      }
+    ],
+    "name": {
+      "en": "Assassin's Harness",
+      "sc": "刺客绑带",
+      "tc": "刺客綁帶"
+    },
+    "description": {
+      "en": "When you kill an enemy, gain <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the next card you play also plays its neighboring cards for free: the left one only, or both sides (never the right one only). The left card resolves first. Swift cannot trigger another Swift.\">Swift</span> (both sides) and 12 <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span> for 1 turn.",
+      "sc": "击杀敌人时，获得<span class=\"kw\" title=\"增益・可叠加<br>x 回合内，你打出的下一张牌会免费连带打出相邻的牌：只有左侧，或左右两侧（没有只有右侧）。左侧的牌先结算。迅捷无法触发另一个迅捷。\">迅捷</span>（左右两侧）与 12 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span>，持续 1 回合。",
+      "tc": "擊殺敵人時，獲得<span class=\"kw\" title=\"增益・可疊加<br>x 回合內，你打出的下一張牌會免費連帶打出相鄰的牌：只有左側，或左右兩側（沒有只有右側）。左側的牌先結算。迅捷無法觸發另一個迅捷。\">迅捷</span>（左右兩側）與 12 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span>，持續 1 回合。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520114",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "recovered_painting.png",
+    "tint": null,
+    "rarity": 4,
+    "price": null,
+    "stats": {
+      "attack": 27,
+      "hp": 19,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520032"
+      }
+    ],
+    "name": {
+      "en": "Recovered Painting",
+      "sc": "复原画作",
+      "tc": "復原畫作"
+    },
+    "description": {
+      "en": "Increase <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> application amount by 250%, but <span class=\"kw\" title=\"Playing Fire cards in a row grants Vivid Ember. At 4 stacks, gain Vivid Flame. Playing a Nature card clears Vivid Ember.\">Fire</span> cards cost 1 more <span class=\"kw\" title=\"The resource spent to play cards. You gain 3 AP at the start of each turn.\">Action Points</span>.",
+      "sc": "施加的<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>量增加 250%，但<span class=\"kw\" title=\"连续打出火焰牌会累积灵现余烬。达到 4 层时，获得灵现火焰。打出自然牌时清除灵现余烬。\">火焰</span>牌的<span class=\"kw\" title=\"打出卡牌所需的资源。每回合开始时获得 3 点。\">行动点</span>费用 +1。",
+      "tc": "施加的<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>量增加 250%，但<span class=\"kw\" title=\"連續打出火焰牌會累積靈現餘燼。達到 4 層時，獲得靈現火焰。打出自然牌時清除靈現餘燼。\">火焰</span>牌的<span class=\"kw\" title=\"打出卡牌所需的資源。每回合開始時獲得 3 點。\">行動點</span>費用 +1。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
     "id": "520144",
     "kind": "equipment",
     "subType": "Defense",
@@ -2206,6 +3411,41 @@
       "en": "For the sake of social order, and in the name of justice, Rosricon holds regular Sacraments, inviting the public to share a meal and partake together in the protection and grace the gods bestow. To the nobility, it is merely a bland supper; to the paupers on the street corner, it is the charity that keeps them alive.",
       "sc": "为求社会安定，也出于对公理正义的追求，罗斯里坎会定期举行圣餐，广邀群众一同进食，共享神灵所赐予的护佑与恩泽。对贵族而言，这不过是一顿口味平淡的晚餐；对街角的贫民而言，这却是他们赖以维生的施舍。",
       "tc": "為求社會安定，也出於對公理正義的追求，羅斯里坎會定期舉行聖餐，廣邀群眾一同進食，共享神靈所賜予的護佑與恩澤。對貴族而言，這不過是一頓口味平淡的晚餐；對街角的貧民而言，這卻是他們賴以維生的施捨。"
+    }
+  },
+  {
+    "id": "520115",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": null,
+    "tint": null,
+    "rarity": 5,
+    "price": null,
+    "stats": {
+      "attack": 38,
+      "hp": 19,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520113"
+      }
+    ],
+    "name": {
+      "en": "Soul Flame",
+      "sc": "灵魂火焰",
+      "tc": "靈魂火焰"
+    },
+    "description": {
+      "en": "When you play a <span class=\"kw\" title=\"Playing Fire cards in a row grants Vivid Ember. At 4 stacks, gain Vivid Flame. Playing a Nature card clears Vivid Ember.\">Fire</span> card, apply 20 <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> to all enemies. <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> triggers 1 turn sooner. Increase <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> application amount by 100%, and by another 100% while your <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span> is above 70.",
+      "sc": "打出<span class=\"kw\" title=\"连续打出火焰牌会累积灵现余烬。达到 4 层时，获得灵现火焰。打出自然牌时清除灵现余烬。\">火焰</span>牌时，对所有敌人施加 20 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>的触发时间提前 1 回合。施加的<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>量增加 100%；<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>大于 70 时，再额外增加 100%。",
+      "tc": "打出<span class=\"kw\" title=\"連續打出火焰牌會累積靈現餘燼。達到 4 層時，獲得靈現火焰。打出自然牌時清除靈現餘燼。\">火焰</span>牌時，對所有敵人施加 20 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>的觸發時間提前 1 回合。施加的<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>量增加 100%；<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>大於 70 時，再額外增加 100%。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
     }
   },
   {
@@ -2346,6 +3586,41 @@
       "en": "Hedalis stands apart among the gods: He never asks His faithful for offerings or sacrifice of any kind. Yet because water and free will are both bound so closely to mortal survival, this carefree generosity has made Him a power no other god can afford to ignore.",
       "sc": "赫达利斯在众神之中独树一帜：祂从不向信徒索取任何奉献或代价。然而，正因水脉与自由意志皆与凡人的生存息息相关，这份不求回报的随性，反而使祂成为众神之间绝不容忽视的庞大力量。",
       "tc": "赫達利斯在眾神之中獨樹一幟：祂從不向信徒索取任何奉獻或代價。然而，正因水脈與自由意志皆與凡人的生存息息相關，這份不求回報的隨性，反而使祂成為眾神之間絕不容忽視的龐大力量。"
+    }
+  },
+  {
+    "id": "520116",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": null,
+    "tint": null,
+    "rarity": 6,
+    "price": null,
+    "stats": {
+      "attack": 50,
+      "hp": 27,
+      "defense": 6
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520115"
+      }
+    ],
+    "name": {
+      "en": "The Blazing World",
+      "sc": "苍世红莲",
+      "tc": "蒼世紅蓮"
+    },
+    "description": {
+      "en": "When you hit an enemy with <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span>, gain 10% <span class=\"kw\" title=\"Buff · Stackable<br>For y turns, restores x% of the owner's max HP at the end of each turn.\">Blessed</span> for 2 turns. Increase <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> application amount by 250%, and <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> triggers 1 turn sooner. The Woken Flower stacks required to gain <span class=\"kw\" title=\"Buff · Stackable · Lingering<br>Your next Fire card costs 0 Action Points.\">Woken Spring</span> are reduced from 4 to 2.",
+      "sc": "命中处于<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>状态的敌人时，获得 10% <span class=\"kw\" title=\"增益・可叠加<br>y 回合内，每回合结束时回复持有者 x% 的最大生命。\">祝福</span>，持续 2 回合。施加的<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>量增加 250%，且<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>的触发时间提前 1 回合。获得<span class=\"kw\" title=\"增益・可叠加・缠身<br>你下一张打出的火焰牌消耗 0 点行动点。\">苏醒之春</span>所需的苏醒之花层数从 4 层降为 2 层。",
+      "tc": "命中處於<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>狀態的敵人時，獲得 10% <span class=\"kw\" title=\"增益・可疊加<br>y 回合內，每回合結束時回復持有者 x% 的最大生命。\">祝福</span>，持續 2 回合。施加的<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>量增加 250%，且<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>的觸發時間提前 1 回合。獲得<span class=\"kw\" title=\"增益・可疊加・纏身<br>你下一張打出的火焰牌消耗 0 點行動點。\">甦醒之春</span>所需的甦醒之花層數從 4 層降為 2 層。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
     }
   }
 ]

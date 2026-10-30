@@ -5,14 +5,14 @@
 //   npm run sync-data                       (expects ../HolyHell next to this repo)
 //   HOLYHELL_PATH=/path/to/HolyHell npm run sync-data
 //
-// Only content reachable from Windchime Village (dungeon group 1) is included.
+// Only content reachable from Windchime Village and Denlitin Court (dungeon groups 1 and 2) is included.
 // Widen IN_SCOPE_GROUPS when later regions are ready.
 
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync, rmSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { parse } from 'csv-parse/sync';
 
-const IN_SCOPE_GROUPS = ['1'];
+const IN_SCOPE_GROUPS = ['1', '2'];
 // The Stage 1 tutorial fight lives in Battle.csv rather than a dungeon's enemy pool.
 const EXTRA_BATTLES = ['tut_battle'];
 // Debug entries borrow real art, so they're caught by name instead (XddHit, xddDummyNo.1, ...).
@@ -301,7 +301,7 @@ const stepText = (lang, template, cardId) =>
     .replace(/\{if\s*:\s*[^}\s]+\s*\}/gi, '');
 
 // ---------------------------------------------------------------------------
-// Scope: dungeons, enemies, items and cards reachable from Windchime Village
+// Scope: dungeons, enemies, items and cards reachable from the dungeon groups in scope
 
 const dungeons = table('Dungeon').filter(
   (d) => IN_SCOPE_GROUPS.includes(d.DungeonGroup) && d.DevOnly !== '1' && !d.Id.startsWith('Test'),
@@ -572,8 +572,9 @@ for (const [id, scope] of enemyScope) {
         detail: allLangs((lang) => formatText(lang, text(lang, `SkillDetail_${s.id}`, skill.SkillDetail))),
       };
     }),
+    // Only items the site lists (readables and test items have no page).
     drops: drops
-      .filter((d) => d.EnemyID === id)
+      .filter((d) => d.EnemyID === id && items.some((i) => i.id === d.ItemID))
       .map((d) => ({ item: d.ItemID, chance: num(d.Chance), min: num(d.AmountMin), max: num(d.AmountMax) })),
   });
   enemyPages.set(slug, page);

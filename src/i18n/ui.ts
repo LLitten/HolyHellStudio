@@ -84,7 +84,7 @@ export const ui = {
     'filter.count': 'Showing {n} of {total} cards',
     'filter.none': 'No cards match these filters.',
     'lore.jump': 'Jump to',
-    'lore.scope': 'Showing everything found in Windchime Village. More will be added as development continues.',
+    'lore.scope': 'Showing everything found in Windchime Village and Denlitin Court. More will be added as development continues.',
 
 
     'item.price': 'Shop price',
@@ -131,7 +131,7 @@ export const ui = {
 
     'download.title': 'Play the Demo',
     'download.description': 'Download the Lost Faith demo and tell us what you think.',
-    'download.intro': 'The demo covers the tutorial and Windchime Village. It’s an early build, so expect rough edges and placeholder art.',
+    'download.intro': 'The demo covers the tutorial, Windchime Village and Denlitin Court. It’s an early build, so expect rough edges and placeholder art.',
     'download.build': 'Latest Build',
     'download.version': 'Version',
     'download.date': 'Released',
@@ -222,7 +222,7 @@ export const ui = {
     'filter.count': '显示 {n} / {total} 张卡牌',
     'filter.none': '没有符合筛选条件的卡牌。',
     'lore.jump': '跳转到',
-    'lore.scope': '目前显示风铃村中的所有内容，后续会随开发进度增加。',
+    'lore.scope': '目前显示风铃村与丹立庭中的所有内容，后续会随开发进度增加。',
 
 
     'item.price': '商店价格',
@@ -269,7 +269,7 @@ export const ui = {
 
     'download.title': '游玩试玩版',
     'download.description': '下载《弃誓神途》试玩版，并告诉我们你的想法。',
-    'download.intro': '试玩版包含新手教学与风铃村。这是早期版本，难免有粗糙之处和占位美术。',
+    'download.intro': '试玩版包含新手教学、风铃村与丹立庭。这是早期版本，难免有粗糙之处和占位美术。',
     'download.build': '最新版本',
     'download.version': '版本',
     'download.date': '发布日期',
@@ -360,7 +360,7 @@ export const ui = {
     'filter.count': '顯示 {n} / {total} 張卡牌',
     'filter.none': '沒有符合篩選條件的卡牌。',
     'lore.jump': '跳至',
-    'lore.scope': '目前顯示風鈴村中的所有內容，之後會隨開發進度增加。',
+    'lore.scope': '目前顯示風鈴村與丹立庭中的所有內容，之後會隨開發進度增加。',
 
 
     'item.price': '商店價格',
@@ -407,7 +407,7 @@ export const ui = {
 
     'download.title': '遊玩試玩版',
     'download.description': '下載《棄誓神途》試玩版，並告訴我們你的想法。',
-    'download.intro': '試玩版包含新手教學與風鈴村。這是早期版本，難免有粗糙之處和暫代美術。',
+    'download.intro': '試玩版包含新手教學、風鈴村與丹立庭。這是早期版本，難免有粗糙之處和暫代美術。',
     'download.build': '最新版本',
     'download.version': '版本',
     'download.date': '發布日期',

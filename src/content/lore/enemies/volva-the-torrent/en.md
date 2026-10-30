@@ -1,5 +1,5 @@
 ---
-translation: source
+translation: reviewed
 ---
 
-A follower of both Hedalis and Oculyth, Volva is known far and wide as someone who lives by freedom and truth alike. Serving two gods means meeting the ritual demands of both, and that takes money. It was for pay that she came to Windchime Village to fight.
+Volva, a follower of both Hedalis and Oculyth, is regarded as a renowned figure who embodies both freedom and truth. Yet because she must satisfy the ritual demands of two gods at once, it was for money that she came to Windchime Village to take part in the war.
