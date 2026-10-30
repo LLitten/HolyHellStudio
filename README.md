@@ -47,9 +47,11 @@ The studio logo is `src/assets/brand/studio-logo.svg` (the white version from Dr
 
 ## Game data
 
-Cards, equipment, materials and enemies come straight from the game's data tables, including the game's own translations. To update them, pull the latest `HolyHell` repo and run:
+Cards, equipment, materials and enemies come straight from the game's data tables, including the game's own translations. To update them, get the latest `main` of `koapower/HolyHell` from GitHub, download its art (stored in Git LFS), and run the sync:
 
 ```sh
+git -C ../HolyHell pull
+git -C ../HolyHell lfs pull --include="HolyHell/Assets/Res_Local/Global/**,HolyHell/Assets/Arts/UI/MainMenu/TitleScreen.png"
 npm run sync-data
 ```
 

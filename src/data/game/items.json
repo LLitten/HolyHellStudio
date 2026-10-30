@@ -27,10 +27,6 @@
       },
       {
         "type": "drop",
-        "enemy": "120003"
-      },
-      {
-        "type": "drop",
         "enemy": "120004"
       },
       {
@@ -107,10 +103,6 @@
       {
         "type": "drop",
         "enemy": "120002"
-      },
-      {
-        "type": "drop",
-        "enemy": "120003"
       },
       {
         "type": "drop",
@@ -193,10 +185,6 @@
       },
       {
         "type": "drop",
-        "enemy": "120003"
-      },
-      {
-        "type": "drop",
         "enemy": "120004"
       },
       {
@@ -239,8 +227,8 @@
     },
     "description": {
       "en": "After acquiring 5, automatically merges into a Soul of Significance.",
-      "sc": "集满 5 个后，自动合成为意义之魂。",
-      "tc": "集滿 5 個後，自動合成為意義之魂。"
+      "sc": "集满 5 个后，自动合成为显赫之魂。",
+      "tc": "集滿 5 個後，自動合成為顯赫之魂。"
     },
     "lore": {
       "en": "Born from the fundamental hungers for security and abundance, Evinor is the shifting mirror of Razenian desire.",
@@ -273,10 +261,6 @@
       {
         "type": "drop",
         "enemy": "120002"
-      },
-      {
-        "type": "drop",
-        "enemy": "120003"
       },
       {
         "type": "drop",
@@ -327,8 +311,8 @@
     },
     "lore": {
       "en": "Born from the heretical realization that belief can reshape reality, Oculyth is the god of the manifesting mind and the divine power of human will.",
-      "sc": "诞生于“信念能重塑现实”的异端顿悟，奥库莉丝是显现心智之神，象征人类意志的神圣力量。",
-      "tc": "誕生於「信念能重塑現實」的異端頓悟，奧庫莉絲是顯現心智之神，象徵人類意志的神聖力量。"
+      "sc": "诞生于“信念能重塑现实”的异端顿悟，奥库莉丝是显现心智之神，象征人类意志的神力。",
+      "tc": "誕生於「信念能重塑現實」的異端頓悟，奧庫莉絲是顯現心智之神，象徵人類意志的神力。"
     }
   },
   {
@@ -356,10 +340,6 @@
       {
         "type": "drop",
         "enemy": "120002"
-      },
-      {
-        "type": "drop",
-        "enemy": "120003"
       },
       {
         "type": "drop",
@@ -439,10 +419,6 @@
       {
         "type": "drop",
         "enemy": "120002"
-      },
-      {
-        "type": "drop",
-        "enemy": "120003"
       },
       {
         "type": "drop",
@@ -527,7 +503,7 @@
       "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
-      "en": "The hem of a Rosricon robe, soaked in blood. In the eyes of most Rosricons, heretics are cursed, unclean beings blinded by dark gods, no different from beasts.",
+      "en": "The hem of a Rosriconian robe, soaked in blood. In the eyes of most Rosriconians, heretics are cursed, unclean beings blinded by dark gods, no different from beasts.",
       "sc": "浸满了鲜血的罗斯里坎长袍衣摆。在绝大多数罗斯里坎人的眼中，异教徒们是受到诅咒、被邪神蒙蔽了的不洁存在，和畜生并无差别。",
       "tc": "浸滿了鮮血的羅斯里坎長袍衣襬。在絕大多數羅斯里坎人的眼中，異教徒們是受到詛咒、被邪神蒙蔽了的不潔存在，和畜生並無差別。"
     }
@@ -649,10 +625,6 @@
     "sources": [
       {
         "type": "drop",
-        "enemy": "120003"
-      },
-      {
-        "type": "drop",
         "enemy": "130003"
       }
     ],
@@ -682,10 +654,6 @@
     "price": null,
     "stats": null,
     "sources": [
-      {
-        "type": "drop",
-        "enemy": "120003"
-      },
       {
         "type": "drop",
         "enemy": "130003"
@@ -786,7 +754,7 @@
     "rarity": 1,
     "price": null,
     "stats": {
-      "attack": 35,
+      "attack": 22,
       "hp": 0,
       "defense": 0
     },
@@ -797,15 +765,7 @@
       },
       {
         "type": "drop",
-        "enemy": "121001"
-      },
-      {
-        "type": "drop",
         "enemy": "130001"
-      },
-      {
-        "type": "drop",
-        "enemy": "131001"
       }
     ],
     "name": {
@@ -814,26 +774,26 @@
       "tc": "經文殘片"
     },
     "description": {
-      "en": "At the start of each combat, apply 15% <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> to all enemies for 1 turn.",
-      "sc": "每场战斗开始时，对所有敌人施加 15% <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。",
-      "tc": "每場戰鬥開始時，對所有敵人施加 15% <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。"
+      "en": "At the start of each combat, apply 20% <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> to all enemies for 1 turn.",
+      "sc": "每场战斗开始时，对所有敌人施加 20% <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。",
+      "tc": "每場戰鬥開始時，對所有敵人施加 20% <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。"
     },
     "lore": {
-      "en": "Rosricon is notorious for its harsh laws, though it was not always so. When the Great War erupted, humanity fractured into two: obedient sheep and savage beasts. Ancient codices were penned to impose order, yet as centuries passed, their decrees accumulated, and ultimately twisted.",
-      "sc": "罗斯里坎以其严刑峻法闻名，然而昔日并非总是如此。当那场大战爆发时，人类社会一分为二：顺从的羔羊与野蛮的猛兽。无数古老法典为了强加秩序而诞生，然而随着世纪更迭，律法条文层层堆叠，最终……走向了扭曲。",
-      "tc": "羅斯里坎以其嚴刑峻法聞名，然而昔日並非總是如此。當那場大戰爆發時，人類社會一分為二：順從的羔羊與野蠻的猛獸。無數古老法典為了強加秩序而誕生，然而隨著世紀更迭，律法條文層層堆疊，最終……走向了扭曲。"
+      "en": "Rosricon is notorious for its harsh laws, though it was not always so. When the Great War broke out, humanity split in two: obedient sheep and savage beasts. Countless codices were written to impose order, yet as the centuries passed, decree piled upon decree until the law itself... grew twisted.",
+      "sc": "罗斯里坎以严刑峻法闻名，然而昔日并非总是如此。当那场大战爆发时，人类社会一分为二：顺从的羔羊，与野蛮的猛兽。无数古老法典为了强加秩序而诞生；然而随着世纪更迭，律法条文层层堆叠，最终……走向了扭曲。",
+      "tc": "羅斯里坎以嚴刑峻法聞名，然而昔日並非總是如此。當那場大戰爆發時，人類社會一分為二：順從的羔羊，與野蠻的猛獸。無數古老法典為了強加秩序而誕生；然而隨著世紀更迭，律法條文層層堆疊，最終……走向了扭曲。"
     }
   },
   {
     "id": "520004",
     "kind": "equipment",
-    "subType": "Other",
+    "subType": "Offense",
     "icon": "mirror.png",
     "tint": null,
     "rarity": 1,
     "price": null,
     "stats": {
-      "attack": 12,
+      "attack": 5,
       "hp": 6,
       "defense": 3
     },
@@ -861,28 +821,28 @@
       "tc": "裂鏡碎片"
     },
     "description": {
-      "en": "Every time you draw a card outside the start of your turn, deal 3 damage to all enemies.",
-      "sc": "每当你在回合开始以外抽牌时，对所有敌人造成 3 点伤害。",
-      "tc": "每當你在回合開始以外抽牌時，對所有敵人造成 3 點傷害。"
+      "en": "Every time you draw a card outside the start of your turn, deal 1 damage to a random enemy.",
+      "sc": "每当你在回合开始以外抽牌时，对一名随机敌人造成 1 点伤害。",
+      "tc": "每當你在回合開始以外抽牌時，對一名隨機敵人造成 1 點傷害。"
     },
     "lore": {
-      "en": "People have always feared the reflections in mirrors, viewing them as false shadows contrary to reality. Yet for that very reason, the followers of Oculyth believed all the more that truth could be glimpsed within. The believers always carried a round mirror with them, though it is now shattered.",
-      "sc": "人们总是畏惧镜中的倒影，认为其是和现实相反的虚假之影。然而正因如此，奥库莉丝信徒才愈发相信能从中窥见真理。他们总是随身带着圆镜，然而镜子如今已然破碎。",
-      "tc": "人們總是畏懼鏡中的倒影，認為其是和現實相反的虛假之影。然而正因如此，奧庫莉絲信徒才愈發相信能從中窺見真理。他們總是隨身帶著圓鏡，然而鏡子如今已然破碎。"
+      "en": "People have always feared their reflections, seeing them as false shadows that invert reality. For that very reason, the followers of Oculyth came to believe all the more that truth could be glimpsed within. They always carried a round mirror on their person. This one has since shattered.",
+      "sc": "人们总是畏惧镜中的倒影，认为那是与现实相反的虚假之影。然而正因如此，奥库莉丝的信徒才愈发相信能从中窥见真理。他们总是随身携带圆镜，而这面镜子如今已然破碎。",
+      "tc": "人們總是畏懼鏡中的倒影，認為那是與現實相反的虛假之影。然而正因如此，奧庫莉絲的信徒才愈發相信能從中窺見真理。他們總是隨身攜帶圓鏡，而這面鏡子如今已然破碎。"
     }
   },
   {
     "id": "520009",
     "kind": "equipment",
-    "subType": "Offense",
+    "subType": "Defense",
     "icon": "juicy_fruit.png",
     "tint": null,
     "rarity": 1,
     "price": null,
     "stats": {
-      "attack": 0,
-      "hp": 23,
-      "defense": 0
+      "attack": -5,
+      "hp": 25,
+      "defense": -5
     },
     "sources": [
       {
@@ -896,12 +856,12 @@
       "tc": "碩大果實"
     },
     "description": {
-      "en": "Grant a small amount of max HP.",
-      "sc": "赋予小量的最大生命值。",
-      "tc": "賦予小量的最大生命值。"
+      "en": "Grants a small amount of max HP.",
+      "sc": "提升少量最大生命。",
+      "tc": "提升少量最大生命。"
     },
     "lore": {
-      "en": "&quot;I hereby declare the Flesh Circulation Act in full effect. The Kingdom shall distribute divine-infused fertilizer to farmers across the land, restoring abundance to the earth under the eternal blessing of Florentis.&quot; — Malakor, the Divine",
+      "en": "&quot;I hereby declare the Flesh Circulation Act in full effect. The Kingdom shall distribute divinity-infused fertilizer to farmers across the land, so that the earth may flourish once more and bask forever in the grace of Florentis.&quot; — Malakor, the Divine",
       "sc": "「吾于此正式宣告，《血肉循环法案》即刻生效。王国将颁发蕴含神性的肥料予各地农人，使大地重获丰饶，永世沐浴于弗洛伦蒂斯的恩典之中。」——圣者．马拉科",
       "tc": "「吾於此正式宣告，《血肉循環法案》即刻生效。王國將頒發蘊含神性的肥料予各地農人，使大地重獲豐饒，永世沐浴於弗洛倫蒂斯的恩典之中。」——聖者．馬拉科"
     }
@@ -915,7 +875,7 @@
     "rarity": 1,
     "price": null,
     "stats": {
-      "attack": 26,
+      "attack": 24,
       "hp": 0,
       "defense": 0
     },
@@ -935,34 +895,30 @@
       "tc": "畸變骨棒"
     },
     "description": {
-      "en": "You always have 3 <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> and -30% <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span>.",
-      "sc": "你永久拥有 3 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span>与 -30% <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span>。",
-      "tc": "你永久擁有 3 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span>與 -30% <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span>。"
+      "en": "You always have 3 <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span>, but healing you receive is reduced by 30%.",
+      "sc": "你永久拥有 3 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span>，但受到的治疗量减少 30%。",
+      "tc": "你永久擁有 3 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span>，但受到的治療量減少 30%。"
     },
     "lore": {
-      "en": "Through centuries of reverence and blood sacrifice, divinity has seeped into every corner of Razenia. Neither beast, nor man, nor the land itself can escape the inevitable fate of being blessed, or damned.",
-      "sc": "经历数个世纪的崇拜与祭献，神性早已渗透了拉泽尼亚的每一个角落。无论是走兽、凡人，抑或是这片大地本身，皆无法逃脱受到赐福或沦为诅咒的宿命。",
-      "tc": "經歷數個世紀的崇拜與祭獻，神性早已滲透了拉澤尼亞的每一個角落。無論是走獸、凡人，抑或是這片大地本身，皆無法逃脫受到賜福或淪為詛咒的宿命。"
+      "en": "Through centuries of worship and sacrifice, divinity has seeped into every corner of Razenia. Beast, mortal, even the land itself: none can escape the fate of being blessed, or damned.",
+      "sc": "经历数个世纪的崇拜与祭献，神性早已渗透拉泽尼亚的每一个角落。无论是走兽、凡人，抑或是这片大地本身，皆无法逃脱受到赐福或沦为诅咒的宿命。",
+      "tc": "經歷數個世紀的崇拜與祭獻，神性早已滲透拉澤尼亞的每一個角落。無論是走獸、凡人，抑或是這片大地本身，皆無法逃脫受到賜福或淪為詛咒的宿命。"
     }
   },
   {
     "id": "520013",
     "kind": "equipment",
-    "subType": "Offense",
+    "subType": "Defense",
     "icon": "hemostatic_bandage.png",
     "tint": null,
     "rarity": 1,
     "price": null,
     "stats": {
-      "attack": 9,
-      "hp": 7,
-      "defense": 3
+      "attack": 11,
+      "hp": 8,
+      "defense": 4
     },
     "sources": [
-      {
-        "type": "drop",
-        "enemy": "120003"
-      },
       {
         "type": "drop",
         "enemy": "130003"
@@ -974,12 +930,12 @@
       "tc": "止血繃帶"
     },
     "description": {
-      "en": "Reduce all <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> damage taken by 2.",
-      "sc": "受到的所有<span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>伤害减少 2。",
-      "tc": "受到的所有<span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>傷害減少 2。"
+      "en": "At the start of your turn, if you have <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span>, gain 15 <span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span> for 1 turn.",
+      "sc": "回合开始时，若你身上有<span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>，获得 15 点<span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span>，持续 1 回合。",
+      "tc": "回合開始時，若你身上有<span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>，獲得 15 點<span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span>，持續 1 回合。"
     },
     "lore": {
-      "en": "The continuous flow of open blood is hailed as the truest expression of Hedalis's free will. Yet, the very bandages that stem the bleeding are also revered as divine gifts. Whether freedom lies in bleeding or healing remains a fierce, endless debate among the faithful.",
+      "en": "Freely flowing blood is hailed as the truest expression of Hedalis's free will. Yet the bandages that stanch it are revered as divine gifts as well. Is freedom found in letting the blood run, or in binding the wound? The faithful argue it still.",
       "sc": "汩汩流淌的鲜血，被视为赫达利斯自由意志的体现；然而能扼止血流的绷带，却也被视为神灵所赐予的恩典。究竟是任血奔流，抑或是止血疗伤才是真正的自由？信徒之间至今仍争执不休。",
       "tc": "汩汩流淌的鮮血，被視為赫達利斯自由意志的體現；然而能扼止血流的繃帶，卻也被視為神靈所賜予的恩典。究竟是任血奔流，抑或是止血療傷才是真正的自由？信徒之間至今仍爭執不休。"
     }
@@ -1013,12 +969,12 @@
       "tc": "搖曳融燭"
     },
     "description": {
-      "en": "Apply 8 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to all enemies at the start of combat.",
-      "sc": "战斗开始时，对所有敌人施加 8 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。",
-      "tc": "戰鬥開始時，對所有敵人施加 8 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。"
+      "en": "At the start of each combat, apply 8 <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> to all enemies.",
+      "sc": "战斗开始时，对所有敌人施加 8 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。",
+      "tc": "戰鬥開始時，對所有敵人施加 8 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。"
     },
     "lore": {
-      "en": "Florentis is perhaps one of Razenia's oldest deities. Long ago, when the realm was locked beneath endless frost, humanity eked out an existence solely under the sun's fleeting warmth. Only with the discovery and spread of flame did civilization take its first hesitant step alongside Florentis.",
+      "en": "Florentis may be one of the oldest gods in Razenia. Long ago, when the land lay under endless frost, mortals survived on nothing but the faint warmth of the sun. Only when fire was discovered and spread did civilization, blessed by Florentis, take its first step.",
       "sc": "弗洛伦蒂斯或许是拉泽尼亚最古老的神灵之一。很久以前，拉泽尼亚曾笼罩于无尽的严霜之下，凡人仅能仰赖日光的微温苟活。直到火焰首次被发现与普及，文明才伴随着弗洛伦蒂斯的赐福，踏出了第一步。",
       "tc": "弗洛倫蒂斯或許是拉澤尼亞最古老的神靈之一。很久以前，拉澤尼亞曾籠罩於無盡的嚴霜之下，凡人僅能仰賴日光的微溫苟活。直到火焰首次被發現與普及，文明才伴隨著弗洛倫蒂斯的賜福，踏出了第一步。"
     }
@@ -1033,7 +989,7 @@
     "price": null,
     "stats": {
       "attack": 0,
-      "hp": 18,
+      "hp": 23,
       "defense": 0
     },
     "sources": [
@@ -1052,12 +1008,12 @@
       "tc": "盜賊乾糧"
     },
     "description": {
-      "en": "Heal 3% HP at the start of your turn.",
-      "sc": "回合开始时回复 3% 生命。",
-      "tc": "回合開始時回復 3% 生命。"
+      "en": "At the start of your turn, heal 3% max HP.",
+      "sc": "回合开始时，回复 3% 最大生命。",
+      "tc": "回合開始時，回復 3% 最大生命。"
     },
     "lore": {
-      "en": "Hunger is the primal instinct of all beasts, and the most chaotic of desires. This untamable greed, mingled with unspeakable impurities and wicked thoughts, ultimately condensed into an entity that even the gods cannot ignore.",
+      "en": "Hunger is the primal instinct of every living thing, and the most chaotic of desires. This untamable greed, tangled with countless unspeakable impurities and obsessions, at last settled into a form that even the gods cannot ignore.",
       "sc": "饥饿是一切生灵的本能，亦是最为混乱的欲望。这股无法驾驭的贪婪夹杂着无数不可言说的杂质与执念，最终沉淀为某种连神灵都无法忽视的形体。",
       "tc": "飢餓是一切生靈的本能，亦是最為混亂的慾望。這股無法駕馭的貪婪夾雜著無數不可言說的雜質與執念，最終沉澱為某種連神靈都無法忽視的形體。"
     }
@@ -1065,14 +1021,14 @@
   {
     "id": "520020",
     "kind": "equipment",
-    "subType": "Defense",
+    "subType": "Offense",
     "icon": "windchime.png",
     "tint": null,
     "rarity": 1,
     "price": null,
     "stats": {
-      "attack": 11,
-      "hp": 9,
+      "attack": 5,
+      "hp": 8,
       "defense": 4
     },
     "sources": [
@@ -1091,14 +1047,14 @@
       "tc": "風鈴"
     },
     "description": {
-      "en": "Grant a small amount of attack, max HP, and <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span>.",
-      "sc": "赋予小量的攻击增幅、最大生命、和<span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span>。",
-      "tc": "賦予小量的攻擊增幅、最大生命、和<span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span>。"
+      "en": "At the start of your turn, for each pinned card you have, deal 5 damage to a random enemy.",
+      "sc": "回合开始时，你每有 1 张钉选牌，对一名随机敌人造成 5 点伤害。",
+      "tc": "回合開始時，你每有 1 張釘選牌，對一名隨機敵人造成 5 點傷害。"
     },
     "lore": {
-      "en": "&quot;Here, take this. Every household hangs one beneath their eaves. They say even if kin travel far from home, as long as they hear the chimes, they will find their way back. Me? Oh, I could always see the path, anyway.&quot; — Mara",
-      "sc": "「给你，这是家家户户都要在屋檐下挂的风铃。即使是远在他乡的亲友，只要听见这铃声，就能找到回家的路……我吗？我本来就已经看得见了哦。」 - 玛拉",
-      "tc": "「給你，這是家家戶戶都要在屋簷下掛的風鈴。即使是遠在他鄉的親友，只要聽見這鈴聲，就能找到回家的路……我嗎？我本來就已經看得見了哦。」 - 瑪拉"
+      "en": "&quot;Here, take this. Every household hangs one under the eaves. They say that even when family are far from home, the sound of the chimes will guide them back... Me? Oh, I can see already.&quot; — Mara",
+      "sc": "「给你，这是家家户户都要挂在屋檐下的风铃。就算亲友远在他乡，只要听见这铃声，就能找到回家的路……我吗？我本来就已经看得见了哦。」——玛拉",
+      "tc": "「給你，這是家家戶戶都要掛在屋簷下的風鈴。就算親友遠在他鄉，只要聽見這鈴聲，就能找到回家的路……我嗎？我本來就已經看得見了哦。」——瑪拉"
     }
   },
   {
@@ -1110,7 +1066,7 @@
     "rarity": 1,
     "price": null,
     "stats": {
-      "attack": 26,
+      "attack": 22,
       "hp": 0,
       "defense": 0
     },
@@ -1130,12 +1086,12 @@
       "tc": "小雕像"
     },
     "description": {
-      "en": "Deal 3 additional damage to debuffed targets.",
-      "sc": "对带有减益的目标额外造成 3 点伤害。",
-      "tc": "對帶有減益的目標額外造成 3 點傷害。"
+      "en": "Deal 5 additional damage to debuffed targets.",
+      "sc": "对带有减益的目标额外造成 5 点伤害。",
+      "tc": "對帶有減益的目標額外造成 5 點傷害。"
     },
     "lore": {
-      "en": "Statues are among the most enduring manifestations of faith. Through relentless hammering and chiseling, mortals bestow tangible form upon intangible gods, or mirror the shape of living creatures.",
+      "en": "Statues are among the most common forms faith takes. Through countless blows of hammer and chisel, mortals give real form to formless gods, or recreate the living creatures of this world.",
       "sc": "雕像是信仰最常见的具象形式之一。在无数次的捶打与雕琢之中，凡人为无形的神灵赋予了真实的形体，抑或是仿造着世间真实存在的生灵。",
       "tc": "雕像是信仰最常見的具象形式之一。在無數次的捶打與雕琢之中，凡人為無形的神靈賦予了真實的形體，抑或是仿造著世間真實存在的生靈。"
     }
@@ -1211,12 +1167,12 @@
       }
     ],
     "name": {
-      "en": "Soul of Angel",
-      "sc": "天使之魂",
-      "tc": "天使之魂"
+      "en": "Soul of the Rosriconian Pantheon",
+      "sc": "罗斯里坎神系之魂",
+      "tc": "羅斯里坎神系之魂"
     },
     "description": {
-      "en": "Commune with the Rosrican Pantheon. Grants random cards from the combined pools of Intereon, Evinor, and Florentis.",
+      "en": "Commune with the Rosriconian Pantheon. Grants random cards from the combined pools of Intereon, Evinor, and Florentis.",
       "sc": "向罗斯里坎神系祈求。从英提力恩、伊维诺与弗洛伦蒂斯的共同卡池中获得随机卡牌。",
       "tc": "向羅斯里坎神系祈求。從英提力恩、伊維諾與弗洛倫蒂斯的共同卡池中獲得隨機卡牌。"
     },
@@ -1250,14 +1206,14 @@
       }
     ],
     "name": {
-      "en": "Soul of Demon",
-      "sc": "恶魔之魂",
-      "tc": "惡魔之魂"
+      "en": "Soul of the Belgardian Pantheon",
+      "sc": "贝尔嘉德神系之魂",
+      "tc": "貝爾嘉德神系之魂"
     },
     "description": {
       "en": "Commune with the Belgardian Pantheon. Grants random cards from the combined pools of Oculyth, Hedalis, and Vortherect.",
-      "sc": "向贝尔加德神系祈求。从奥库莉丝、赫达利斯与沃索勒克特的共同卡池中获得随机卡牌。",
-      "tc": "向貝爾加德神系祈求。從奧庫莉絲、赫達利斯與沃索勒克特的共同卡池中獲得隨機卡牌。"
+      "sc": "向贝尔嘉德神系祈求。从奥库莉丝、赫达利斯与沃索勒克特的共同卡池中获得随机卡牌。",
+      "tc": "向貝爾嘉德神系祈求。從奧庫莉絲、赫達利斯與沃索勒克特的共同卡池中獲得隨機卡牌。"
     },
     "lore": {
       "en": "The desert does not apologize for the heat, and a man born of hardship does not apologize for the blood on his hands.",
@@ -1286,9 +1242,9 @@
       "tc": "光輝之魂"
     },
     "description": {
-      "en": "Commune with Intereon. Focus: High damage, healing, and heavy <span class=\"kw\" title=\"The yellow meter at the top of the screen. Its value is shifted by various God cards.\">Angel Meter</span> modification.",
-      "sc": "向英提力恩祈求，从其卡池中获得随机卡牌。特色：高伤害、治疗与大幅度的<span class=\"kw\" title=\"画面上方的黄色量表，其数值会被各种神祇牌改变。\">天使量表</span>变动。",
-      "tc": "向英提力恩祈求，從其卡池中獲得隨機卡牌。特色：高傷害、治療與大幅度的<span class=\"kw\" title=\"畫面上方的黃色量表，其數值會被各種神祇牌改變。\">天使量表</span>變動。"
+      "en": "Commune with Intereon. Focus: High damage, healing, and heavy <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span> modification.",
+      "sc": "向英提力恩祈求，从其卡池中获得随机卡牌。特色：高伤害、治疗与大幅度的<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>变动。",
+      "tc": "向英提力恩祈求，從其卡池中獲得隨機卡牌。特色：高傷害、治療與大幅度的<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>變動。"
     },
     "lore": {
       "en": "Without laws, we are just beasts; with them, we are just livestock.",
@@ -1318,8 +1274,8 @@
     },
     "description": {
       "en": "Commune with Florentis. Focus: Damaging debuffs and consecutive healing.",
-      "sc": "向弗罗伦蒂斯祈求，从其卡池中获得随机卡牌。特色：伤害型减益与连续治疗。",
-      "tc": "向弗羅倫蒂斯祈求，從其卡池中獲得隨機卡牌。特色：傷害型減益與連續治療。"
+      "sc": "向弗洛伦蒂斯祈求，从其卡池中获得随机卡牌。特色：伤害型减益与连续治疗。",
+      "tc": "向弗洛倫蒂斯祈求，從其卡池中獲得隨機卡牌。特色：傷害型減益與連續治療。"
     },
     "lore": {
       "en": "Spring is the first season for a reason: life must return simply so it can perish again.",
@@ -1387,9 +1343,9 @@
       "tc": "幻象之魂"
     },
     "description": {
-      "en": "Commune with Oculyth. Focus: <span class=\"kw\" title=\"Delayed damage will trigger the damage amount after specified turns. Its damage is based on the caster's stat when the damage is triggered.\">Delayed Damage</span>, card draw, <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span> gain, and supportive debuffs.",
-      "sc": "向奥库莉丝祈求，从其卡池中获得随机卡牌。特色：<span class=\"kw\" title=\"延迟伤害会在指定回合数后触发该伤害，伤害量以触发当下施放者的数值计算。\">延迟伤害</span>、抽牌、<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>获取与辅助减益。",
-      "tc": "向奧庫莉絲祈求，從其卡池中獲得隨機卡牌。特色：<span class=\"kw\" title=\"延遲傷害會在指定回合數後觸發該傷害，傷害量以觸發當下施放者的數值計算。\">延遲傷害</span>、抽牌、<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>獲取與輔助減益。"
+      "en": "Commune with Oculyth. Focus: <span class=\"kw\" title=\"Debuff · Timed separately<br>Deals damage after the stated number of turns, based on the caster's stats when it lands. Each application keeps its own timer.\">Delayed Damage</span>, card draw, <span class=\"kw\" title=\"The resource spent to play cards. You gain 3 AP at the start of each turn.\">Action Points</span> gain, and supportive debuffs.",
+      "sc": "向奥库莉丝祈求，从其卡池中获得随机卡牌。特色：<span class=\"kw\" title=\"减益・各自计时<br>指定回合数后造成伤害，伤害依触发当下施放者的数值计算。每次施加各自计时。\">延迟伤害</span>、抽牌、<span class=\"kw\" title=\"打出卡牌所需的资源。每回合开始时获得 3 点。\">行动点</span>获取与辅助减益。",
+      "tc": "向奧庫莉絲祈求，從其卡池中獲得隨機卡牌。特色：<span class=\"kw\" title=\"減益・各自計時<br>指定回合數後造成傷害，傷害依觸發當下施放者的數值計算。每次施加各自計時。\">延遲傷害</span>、抽牌、<span class=\"kw\" title=\"打出卡牌所需的資源。每回合開始時獲得 3 點。\">行動點</span>獲取與輔助減益。"
     },
     "lore": {
       "en": "The mind forgets its dreams for a reason. Waking up isn't a fresh start; it is a desperate flight from the truth.",
@@ -1422,9 +1378,9 @@
       "tc": "自由之魂"
     },
     "description": {
-      "en": "Commune with Hedalis. Focus: Multi-hit attacks, <span class=\"kw\" title=\"The required resource to perform actions each turn. By default, players start with 3 AP at the beginning of each turn.\">Action Points</span> utility, and damage buffs.",
-      "sc": "向赫达利斯祈求，从其卡池中获得随机卡牌。特色：多段攻击、<span class=\"kw\" title=\"每回合执行动作所需的资源。预设情况下，玩家会在每回合开始时获得 3 点 AP。\">行动点</span>运用与伤害增益。",
-      "tc": "向赫達利斯祈求，從其卡池中獲得隨機卡牌。特色：多段攻擊、<span class=\"kw\" title=\"每回合執行動作所需的資源。預設情況下，玩家會在每回合開始時獲得 3 點 AP。\">行動點</span>運用與傷害增益。"
+      "en": "Commune with Hedalis. Focus: Multi-hit attacks, <span class=\"kw\" title=\"The resource spent to play cards. You gain 3 AP at the start of each turn.\">Action Points</span> utility, and damage buffs.",
+      "sc": "向赫达利斯祈求，从其卡池中获得随机卡牌。特色：多段攻击、<span class=\"kw\" title=\"打出卡牌所需的资源。每回合开始时获得 3 点。\">行动点</span>运用与伤害增益。",
+      "tc": "向赫達利斯祈求，從其卡池中獲得隨機卡牌。特色：多段攻擊、<span class=\"kw\" title=\"打出卡牌所需的資源。每回合開始時獲得 3 點。\">行動點</span>運用與傷害增益。"
     },
     "lore": {
       "en": "Freedom is merely an excuse to overwhelm others with your strength. It is desire given teeth, and power stripped of its leash.",
@@ -1453,9 +1409,9 @@
       "tc": "混沌之魂"
     },
     "description": {
-      "en": "Commune with Vortherect. Focus: Self-damage, low-life bonuses, and <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> application.",
-      "sc": "向沃索勒克特祈求，从其卡池中获得随机卡牌。特色：自伤、低血量加成与<span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>施加。",
-      "tc": "向沃索勒克特祈求，從其卡池中獲得隨機卡牌。特色：自傷、低血量加成與<span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>施加。"
+      "en": "Commune with Vortherect. Focus: Self-damage, low-life bonuses, and <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span> application.",
+      "sc": "向沃索勒克特祈求，从其卡池中获得随机卡牌。特色：自伤、低血量加成与<span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>施加。",
+      "tc": "向沃索勒克特祈求，從其卡池中獲得隨機卡牌。特色：自傷、低血量加成與<span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>施加。"
     },
     "lore": {
       "en": "Choice is an illusion; the world decides for us. In this life, the only thing guaranteed is uncertainty.",
@@ -1612,7 +1568,7 @@
     "rarity": 2,
     "price": null,
     "stats": {
-      "attack": 17,
+      "attack": 0,
       "hp": 9,
       "defense": 5
     },
@@ -1628,14 +1584,14 @@
       "tc": "破損圓鏡"
     },
     "description": {
-      "en": "For every 3 cards played each turn, draw 1 card.",
-      "sc": "每回合每打出 3 张牌，抽 1 张牌。",
-      "tc": "每回合每打出 3 張牌，抽 1 張牌。"
+      "en": "For every 3 cards you play each turn, draw 1 card. Every time you draw a card outside the start of your turn, deal 3 damage to a random enemy.",
+      "sc": "每回合每打出 3 张牌，抽 1 张牌。每当你在回合开始以外抽牌时，对一名随机敌人造成 3 点伤害。",
+      "tc": "每回合每打出 3 張牌，抽 1 張牌。每當你在回合開始以外抽牌時，對一名隨機敵人造成 3 點傷害。"
     },
     "lore": {
-      "en": "",
-      "sc": "",
-      "tc": ""
+      "en": "&quot;If the reflection in the mirror is truth, why do the gods, and their power, never appear in it? Perhaps... there is no truth at all. Everything we believe is illusion, and falsehood and phantasm are the truth itself.&quot; — Oral tradition of the Pale Lands",
+      "sc": "「倘若镜中的倒影即是真理，为何神灵、乃至神灵的力量，从未一同映现其中？或许……真理根本不存在。我等所信奉的一切皆为虚妄，而虚假与幻影，便是真理本身。」——苍白之地的口传",
+      "tc": "「倘若鏡中的倒影即是真理，為何神靈、乃至神靈的力量，從未一同映現其中？或許……真理根本不存在。我等所信奉的一切皆為虛妄，而虛假與幻影，便是真理本身。」——蒼白之地的口傳"
     }
   },
   {
@@ -1647,7 +1603,7 @@
     "rarity": 2,
     "price": null,
     "stats": {
-      "attack": 26,
+      "attack": 37,
       "hp": 0,
       "defense": 0
     },
@@ -1663,20 +1619,20 @@
       "tc": "腐敗骨棒"
     },
     "description": {
-      "en": "You always have 5 <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span>, and your attacks inflict 3% <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> when hit.",
-      "sc": "你永久拥有 5 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span>，且你的攻击命中时施加 3% <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
-      "tc": "你永久擁有 5 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span>，且你的攻擊命中時施加 3% <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+      "en": "You always have 5 <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span>, but healing you receive is reduced by 50%. Each time you deal damage to an enemy, also inflict 3% <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span> (every hit counts).",
+      "sc": "你永久拥有 5 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span>，但受到的治疗量减少 50%。每次对敌人造成伤害时，额外施加 3% <span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>（多段攻击每段都算）。",
+      "tc": "你永久擁有 5 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span>，但受到的治療量減少 50%。每次對敵人造成傷害時，額外施加 3% <span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>（多段攻擊每段都算）。"
     },
     "lore": {
-      "en": "&quot;Have you heard? The family near the village gates bred a Cursed One. Word is they dabbled in worshiping some heretical deity... By the time the village elders arrived, the creature had gnawed its own parents beyond recognition, with splinters of bone still dangling from its bloody maw.&quot;",
-      "sc": "你听说了吗？村口那户人家似乎出了一名受诅者。据说是暗中崇拜了某位邪神的缘故……等村长他们赶到的时候，它早已将自己的父母啃咬得面目全非，嘴角还挂着未嚼碎的骨渣呢。",
-      "tc": "你聽說了嗎？村口那戶人家似乎出了一名受詛者。據說是暗中崇拜了某位邪神的緣故……等村長他們趕到的時候，它早已將自己的父母啃咬得面目全非，嘴角還掛著未嚼碎的骨渣呢。"
+      "en": "&quot;Have you heard? The family by the village gate had one of their own turn Cursed. Word is they'd been secretly worshiping some heretical god... By the time the village chief and the others got there, the thing had already gnawed its parents beyond recognition, with bits of bone still hanging from its mouth.&quot;",
+      "sc": "「你听说了吗？村口那户人家好像出了一名受诅者。据说是暗中崇拜了某位邪神的缘故……等村长他们赶到的时候，它早已把自己的父母啃咬得面目全非，嘴角还挂着没嚼碎的骨渣呢。」",
+      "tc": "「你聽說了嗎？村口那戶人家好像出了一名受詛者。據說是暗中崇拜了某位邪神的緣故……等村長他們趕到的時候，它早已把自己的父母啃咬得面目全非，嘴角還掛著沒嚼碎的骨渣呢。」"
     }
   },
   {
     "id": "520015",
     "kind": "equipment",
-    "subType": "Defense",
+    "subType": "Offense",
     "icon": "flickering_candelabrum.png",
     "tint": null,
     "rarity": 2,
@@ -1684,7 +1640,7 @@
     "stats": {
       "attack": 26,
       "hp": 7,
-      "defense": 3
+      "defense": 4
     },
     "sources": [
       {
@@ -1698,14 +1654,14 @@
       "tc": "搖曳燭台"
     },
     "description": {
-      "en": "Apply 12 <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> to all enemies at the start of combat.",
-      "sc": "战斗开始时，对所有敌人施加 12 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。",
-      "tc": "戰鬥開始時，對所有敵人施加 12 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。"
+      "en": "At the start of each combat, apply 16 <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> to all enemies. When you play a <span class=\"kw\" title=\"Playing Fire cards in a row grants Vivid Ember. At 4 stacks, gain Vivid Flame. Playing a Nature card clears Vivid Ember.\">Fire</span> card, heal 5% max HP.",
+      "sc": "战斗开始时，对所有敌人施加 16 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。打出<span class=\"kw\" title=\"连续打出火焰牌会累积灵现余烬。达到 4 层时，获得灵现火焰。打出自然牌时清除灵现余烬。\">火焰</span>牌时，回复 5% 最大生命。",
+      "tc": "戰鬥開始時，對所有敵人施加 16 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。打出<span class=\"kw\" title=\"連續打出火焰牌會累積靈現餘燼。達到 4 層時，獲得靈現火焰。打出自然牌時清除靈現餘燼。\">火焰</span>牌時，回復 5% 最大生命。"
     },
     "lore": {
-      "en": "As eras passed, a sect of Florentis's followers grew dissatisfied with gentle sparks. They turned to worshiping roaring, devouring infernos, setting ablaze all in their path, claiming that within the flickering death-fire, they caught glimpses of life's primal origin.",
-      "sc": "随着岁月流逝，一部分弗洛伦蒂斯的信徒不再满足于微小的火苗。他们转而崇拜熊熊燃烧、吞天噬地的烈焰，甚至纵火焚毁一切——据说，他们能在那摇曳的狂火之中，窥见生命的最初源头。",
-      "tc": "隨著歲月流逝，一部分弗洛倫蒂斯的信徒不再滿足於微小的火苗。他們轉而崇拜熊熊燃燒、吞天噬地的烈焰，甚至縱火焚毀一切——據說，他們能在那搖曳的狂火之中，窺見生命的最初源頭。"
+      "en": "As the ages passed, some of Florentis's faithful were no longer content with small flames. They turned to worshiping roaring, all-devouring infernos, even setting fire to everything around them. It is said that in those wild, flickering flames, they could glimpse the very origin of life.",
+      "sc": "随着岁月流逝，一部分弗洛伦蒂斯的信徒不再满足于微小的火苗。他们转而崇拜熊熊燃烧、吞天噬地的烈焰，甚至纵火焚毁一切——据说，他们能在那摇曳的狂火之中，窥见生命最初的源头。",
+      "tc": "隨著歲月流逝，一部分弗洛倫蒂斯的信徒不再滿足於微小的火苗。他們轉而崇拜熊熊燃燒、吞天噬地的烈焰，甚至縱火焚毀一切——據說，他們能在那搖曳的狂火之中，窺見生命最初的源頭。"
     }
   },
   {
@@ -1717,7 +1673,7 @@
     "rarity": 2,
     "price": null,
     "stats": {
-      "attack": 26,
+      "attack": 10,
       "hp": 7,
       "defense": 3
     },
@@ -1733,14 +1689,84 @@
       "tc": "皮手套"
     },
     "description": {
-      "en": "For every 3 instances of damage dealt in the same turn, deal 5 additional damage.",
-      "sc": "同一回合内每造成 3 次伤害，即额外造成 5 点伤害。",
-      "tc": "同一回合內每造成 3 次傷害，即額外造成 5 點傷害。"
+      "en": "For every 3 instances of damage dealt in the same turn, deal 3 additional damage.",
+      "sc": "同一回合内每造成 3 次伤害，即额外造成 3 点伤害。",
+      "tc": "同一回合內每造成 3 次傷害，即額外造成 3 點傷害。"
     },
     "lore": {
-      "en": "Among the devotees of Hedalis, the hand is revered as one of the most sacred parts of the body. Its matchless dexterity and versatility embody the boundless free will of Hedalis. Thus, the faithful rarely expose their hands, keeping them gloved at nearly all times, removing them only on the most paramount occasions as an act of profound reverence.",
-      "sc": "在赫达利斯的信徒眼中，手被视为身上最重要的部位之一。其无与伦比的灵巧与万变，体现了赫达利斯所代表的自由意志。正因如此，信徒们大多常年配戴手套，唯有在至关重要的场合才会将其脱下，以示最崇高的敬意。",
-      "tc": "在赫達利斯的信徒眼中，手被視為身上最重要的部位之一。其無與倫比的靈巧與萬變，體現了赫達利斯所代表的自由意志。正因如此，信徒們大多常年配戴手套，唯有在至關重要的場合才會將其脫下，以示最崇高的敬意。"
+      "en": "To the faithful of Hedalis, the hand is one of the most important parts of the body; its unmatched dexterity and versatility embody the free will Hedalis stands for. For this reason, most of the faithful wear gloves year-round, removing them only on the most momentous occasions as a mark of the highest respect.",
+      "sc": "在赫达利斯的信徒眼中，手是身上最重要的部位之一，其无与伦比的灵巧与万变，体现了赫达利斯所代表的自由意志。正因如此，信徒们大多常年配戴手套，唯有在至关重要的场合才会将其脱下，以示最崇高的敬意。",
+      "tc": "在赫達利斯的信徒眼中，手是身上最重要的部位之一，其無與倫比的靈巧與萬變，體現了赫達利斯所代表的自由意志。正因如此，信徒們大多常年配戴手套，唯有在至關重要的場合才會將其脫下，以示最崇高的敬意。"
+    }
+  },
+  {
+    "id": "520049",
+    "kind": "equipment",
+    "subType": "Defense",
+    "icon": "bread_bundle.png",
+    "tint": null,
+    "rarity": 2,
+    "price": null,
+    "stats": {
+      "attack": 0,
+      "hp": 35,
+      "defense": 0
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520017"
+      }
+    ],
+    "name": {
+      "en": "Bread Bundle",
+      "sc": "面包组合",
+      "tc": "麵包組合"
+    },
+    "description": {
+      "en": "At the start of your turn, heal 5% max HP. When you play a buff card, draw 1 random heal card from your draw pile or discard pile.",
+      "sc": "回合开始时，回复 5% 最大生命。打出增益牌时，从抽牌堆或弃牌堆随机抽 1 张回复牌。",
+      "tc": "回合開始時，回復 5% 最大生命。打出增益牌時，從抽牌堆或棄牌堆隨機抽 1 張回復牌。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520070",
+    "kind": "equipment",
+    "subType": "Defense",
+    "icon": "cupcake.png",
+    "tint": null,
+    "rarity": 2,
+    "price": null,
+    "stats": {
+      "attack": 11,
+      "hp": 10,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "drop",
+        "enemy": "131001"
+      }
+    ],
+    "name": {
+      "en": "Cupcake",
+      "sc": "小蛋糕",
+      "tc": "小蛋糕"
+    },
+    "description": {
+      "en": "Healing you receive is increased by 25%.",
+      "sc": "你受到的治疗量增加 25%。",
+      "tc": "你受到的治療量增加 25%。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
     }
   },
   {
@@ -1759,7 +1785,7 @@
       }
     ],
     "name": {
-      "en": "Rosricon Badge",
+      "en": "Rosriconian Badge",
       "sc": "罗斯里坎徽章",
       "tc": "羅斯里坎徽章"
     },
@@ -1769,7 +1795,7 @@
       "tc": "可在營地用於升級或強化裝備。"
     },
     "lore": {
-      "en": "A gleaming Rosricon badge, awarded to Pluton as a token of his standing as the kingdom's representative in this campaign. Pluton was born into poverty, but his shrewd business mind quickly earned him a fortune. He went on to donate vast sums to the church, becoming a renowned priest of Evinor.",
+      "en": "A gleaming Rosriconian badge, awarded to Pluton as a token of his standing as the kingdom's representative in this campaign. Pluton was born into poverty, but his shrewd business mind quickly earned him a fortune. He went on to donate vast sums to the church, becoming a renowned priest of Evinor.",
       "sc": "闪耀的罗斯里坎徽章，作为代表王国出征的象征颁发予普鲁顿。普鲁顿出生于一个贫困的家庭，但由于其出色的经商头脑很快的累积了财富，其随后向教会捐赠了大量金钱，成为了声名显赫的伊维诺祭司。",
       "tc": "閃耀的羅斯里坎徽章，作為代表王國出征的象徵頒發予普魯頓。普魯頓出生於一個貧困的家庭，但由於其出色的經商頭腦很快的累積了財富，其隨後向教會捐贈了大量金錢，成為了聲名顯赫的伊維諾祭司。"
     }
@@ -1865,6 +1891,461 @@
       "en": "A glass bottle filled with murky liquid. It's said Volva was originally an ordinary follower of Oculyth, but after accidentally falling into water and miraculously surviving, she began to doubt whether Oculyth could truly foresee the future, and turned to Hedalis instead.",
       "sc": "装满了混浊液体的玻璃瓶。据说薇尔瓦原先只是个普通的奥库莉丝信徒，但在一次意外跌落水中、并奇迹生还的经历后，便开始对奥库莉丝是否真的能预见未来感到动摇，转而投向赫达利斯。",
       "tc": "裝滿了混濁液體的玻璃瓶。據說薇爾瓦原先只是個普通的奧庫莉絲信徒，但在一次意外跌落水中、並奇蹟生還的經歷後，便開始對奧庫莉絲是否真的能預見未來感到動搖，轉而投向赫達利斯。"
+    }
+  },
+  {
+    "id": "520002",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "binded_codex.png",
+    "tint": null,
+    "rarity": 3,
+    "price": null,
+    "stats": {
+      "attack": 47,
+      "hp": 6,
+      "defense": 2
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520001"
+      }
+    ],
+    "name": {
+      "en": "Bound Codex",
+      "sc": "束缚经文",
+      "tc": "束縛經文"
+    },
+    "description": {
+      "en": "At the start of each combat, apply 20% <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> to all enemies for 1 turn. For every 5 attack cards you play, apply 35% <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> to all enemies for 1 turn.",
+      "sc": "每场战斗开始时，对所有敌人施加 20% <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。你每打出 5 张攻击牌，对所有敌人施加 35% <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。",
+      "tc": "每場戰鬥開始時，對所有敵人施加 20% <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。你每打出 5 張攻擊牌，對所有敵人施加 35% <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。"
+    },
+    "lore": {
+      "en": "The Codices of Rosricon cover every manner of decree. In ages past the laws were carved in stone, and only over the centuries were they copied onto paper. Yet whatever the medium, the faithful believe Intereon's power dwells within every line, leaving sinners nowhere to hide.",
+      "sc": "罗斯里坎法典包罗万象。旧时代的律法刻于石碑之上，随着时代推移才逐渐转录至纸页间。然而不论载体为何，人们皆相信条文之中寄宿着英提力恩的力量，能使罪人无所遁形。",
+      "tc": "羅斯里坎法典包羅萬象。舊時代的律法刻於石碑之上，隨著時代推移才逐漸轉錄至紙頁間。然而不論載體為何，人們皆相信條文之中寄宿著英提力恩的力量，能使罪人無所遁形。"
+    }
+  },
+  {
+    "id": "520007",
+    "kind": "equipment",
+    "subType": "Other",
+    "icon": null,
+    "tint": null,
+    "rarity": 3,
+    "price": null,
+    "stats": {
+      "attack": 36,
+      "hp": 9,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520005"
+      }
+    ],
+    "name": {
+      "en": "Mirror of Fate",
+      "sc": "命运之镜",
+      "tc": "命運之鏡"
+    },
+    "description": {
+      "en": "On the first turn of each combat, draw 3 additional cards. Every time you draw a card outside the start of your turn, apply 4% <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> to all enemies for 1 turn.",
+      "sc": "每场战斗的第一回合，额外抽 3 张牌。每当你在回合开始以外抽牌时，对所有敌人施加 4% <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。",
+      "tc": "每場戰鬥的第一回合，額外抽 3 張牌。每當你在回合開始以外抽牌時，對所有敵人施加 4% <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。"
+    },
+    "lore": {
+      "en": "&quot;Apex, ever since those heretics arrived... people in the city have begun seeing all manner of visions. I dreamt of it too, last night: a spiral covered in watching eyes, swirling with dizzying colors. Could the god of truth those heretics speak of... truly exist?&quot;",
+      "sc": "「猎首，自从那群异端到来之后……城里的人们开始陆续见到各式各样的幻象。我昨晚也梦到了：那是一道布满视线的螺旋，伴随着令人眼花撩乱的色彩。难道异端口中那位掌管真理的神灵……真的存在？」",
+      "tc": "「獵首，自從那群異端到來之後……城裡的人們開始陸續見到各式各樣的幻象。我昨晚也夢到了：那是一道佈滿視線的螺旋，伴隨著令人眼花撩亂的色彩。難道異端口中那位掌管真理的神靈……真的存在？」"
+    }
+  },
+  {
+    "id": "520027",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "waterproof_gloves.png",
+    "tint": null,
+    "rarity": 3,
+    "price": null,
+    "stats": {
+      "attack": 5,
+      "hp": 10,
+      "defense": 4
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520026"
+      }
+    ],
+    "name": {
+      "en": "Waterproof Gloves",
+      "sc": "防水手套",
+      "tc": "防水手套"
+    },
+    "description": {
+      "en": "For every 3 instances of damage dealt in the same turn, deal 6 additional damage and gain 10 <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span>.",
+      "sc": "同一回合内每造成 3 次伤害，即额外造成 6 点伤害并获得 10 点<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>。",
+      "tc": "同一回合內每造成 3 次傷害，即額外造成 6 點傷害並獲得 10 點<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>。"
+    },
+    "lore": {
+      "en": "Hedalis is the embodiment of every liquid in the world. A handful of spring water casually scooped up may well be part of the god's own body. Reverent followers regard even an accidental touch as sacrilege, and strictly observe the precept of waterproofing their gloves.",
+      "sc": "赫达利斯即是世间万般液体的化身。凡人随手舀起的一掬清泉，都可能是神灵躯体的一部分。心怀敬畏的信徒将无心的触碰视为亵渎，因而严守在手套上涂布防水层的戒律。",
+      "tc": "赫達利斯即是世間萬般液體的化身。凡人隨手舀起的一掬清泉，都可能是神靈軀體的一部分。心懷敬畏的信徒將無心的觸碰視為褻瀆，因而嚴守在手套上塗佈防水層的戒律。"
+    }
+  },
+  {
+    "id": "520121",
+    "kind": "equipment",
+    "subType": "Defense",
+    "icon": "clotting_wrap.png",
+    "tint": null,
+    "rarity": 3,
+    "price": null,
+    "stats": {
+      "attack": 29,
+      "hp": 21,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520013"
+      }
+    ],
+    "name": {
+      "en": "Clotting Wrap",
+      "sc": "凝血缠布",
+      "tc": "凝血纏布"
+    },
+    "description": {
+      "en": "You are immune to <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span>.",
+      "sc": "你免疫<span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>。",
+      "tc": "你免疫<span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520003",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "convictive_codex.png",
+    "tint": null,
+    "rarity": 4,
+    "price": null,
+    "stats": {
+      "attack": 66,
+      "hp": 11,
+      "defense": 3
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520002"
+      }
+    ],
+    "name": {
+      "en": "Convictive Codex",
+      "sc": "定罪经文",
+      "tc": "定罪經文"
+    },
+    "description": {
+      "en": "At the start of each combat, and for every 3 attack cards you play, apply 35% <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> to all enemies for 1 turn. You are immune to <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span>.",
+      "sc": "每场战斗开始时，以及你每打出 3 张攻击牌时，对所有敌人施加 35% <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。你免疫<span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span>。",
+      "tc": "每場戰鬥開始時，以及你每打出 3 張攻擊牌時，對所有敵人施加 35% <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。你免疫<span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span>。"
+    },
+    "lore": {
+      "en": "Intereon is widely held to be the mightiest of all gods. He holds the scales of law and justice, delivers punishment to sinners, and has never known defeat. To extend His dominion, His faithful have spent generations adding law upon law, now and then drawing complaints of overreach.",
+      "sc": "英提力恩被视为众神之中最强大的存在。祂执掌规则与正义的天平，为罪人降下惩罚，且战无不胜。为了扩展祂的职权，信徒们经年累月地增订法令与规矩，也因此不时传出「管辖过度」的反弹声浪。",
+      "tc": "英提力恩被視為眾神之中最強大的存在。祂執掌規則與正義的天平，為罪人降下懲罰，且戰無不勝。為了擴展祂的職權，信徒們經年累月地增訂法令與規矩，也因此不時傳出「管轄過度」的反彈聲浪。"
+    }
+  },
+  {
+    "id": "520012",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "regrown_flesh.png",
+    "tint": null,
+    "rarity": 4,
+    "price": null,
+    "stats": {
+      "attack": 32,
+      "hp": 16,
+      "defense": 5
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520011"
+      }
+    ],
+    "name": {
+      "en": "Regrown Flesh",
+      "sc": "新生骨肉",
+      "tc": "新生骨肉"
+    },
+    "description": {
+      "en": "When you apply <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span>, gain 2 <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span> for the rest of the combat. When you play a heal card while not <span class=\"kw\" title=\"Debuff · Unstackable<br>For x turns, the owner cannot be healed.\">Cursed</span>, apply 5% <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span> to all enemies.",
+      "sc": "你施加<span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>时，获得 2 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span>，持续到战斗结束。打出回复牌时，若你未处于<span class=\"kw\" title=\"减益・不可叠加<br>x 回合内，持有者无法受到任何治疗。\">诅咒</span>状态，对所有敌人施加 5% <span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>。",
+      "tc": "你施加<span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>時，獲得 2 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span>，持續到戰鬥結束。打出回復牌時，若你未處於<span class=\"kw\" title=\"減益・不可疊加<br>x 回合內，持有者無法受到任何治療。\">詛咒</span>狀態，對所有敵人施加 5% <span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>。"
+    },
+    "lore": {
+      "en": "The druids of Viridillon hold the secret art of reshaping flesh through nature. Ever since the settlement held its first sacrifice, the ancient trees have grown ever taller, and rampant vines have crept into every corner the eye can see. The wounds of the blessed can even sprout branches and grant them new life; the price is to become part of the forest forever.",
+      "sc": "维里迪隆的德鲁伊掌握着以自然重塑血肉的秘术。自聚落首次举行献祭起，古木愈发拔地参天，肆虐的藤蔓也逐渐蔓延至目光所及的每一处角落。受赐福者的伤口甚至能抽芽生枝、借此重获新生；而代价，是永远化为这片森林的一部分。",
+      "tc": "維里迪隆的德魯伊掌握著以自然重塑血肉的秘術。自聚落首次舉行獻祭起，古木愈發拔地參天，肆虐的藤蔓也逐漸蔓延至目光所及的每一處角落。受賜福者的傷口甚至能抽芽生枝、藉此重獲新生；而代價，是永遠化為這片森林的一部分。"
+    }
+  },
+  {
+    "id": "520024",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "majestic_stone_carving.png",
+    "tint": null,
+    "rarity": 4,
+    "price": null,
+    "stats": {
+      "attack": 60,
+      "hp": 10,
+      "defense": 2
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520023"
+      }
+    ],
+    "name": {
+      "en": "Majestic Stone Carving",
+      "sc": "威严石雕",
+      "tc": "威嚴石雕"
+    },
+    "description": {
+      "en": "Deal 8 additional damage to debuffed targets. When you play an attack card, draw 1 additional card with a base cost of 1, if possible.",
+      "sc": "对带有减益的目标额外造成 8 点伤害。打出攻击牌时，若允许，额外抽 1 张原费用为 1 的牌。",
+      "tc": "對帶有減益的目標額外造成 8 點傷害。打出攻擊牌時，若允許，額外抽 1 張原費用為 1 的牌。"
+    },
+    "lore": {
+      "en": "The streets of Rosricon are lined with statues, most of them the work of Evinor's master artisans. People believe that whatever the material, if devout faith is poured into the carving, the will of the gods will take up residence within, becoming an eternal guardian that blesses and watches over the city for ages to come.",
+      "sc": "罗斯里坎的街道上雕像林立，大多出自伊维诺巧匠之手。人们深信无论取材为何，只要在雕琢时倾注虔诚的信念，便能将神灵的意志寄于其中，化为永恒的守护，长久地祝福并眷顾这座城市。",
+      "tc": "羅斯里坎的街道上雕像林立，大多出自伊維諾巧匠之手。人們深信無論取材為何，只要在雕琢時傾注虔誠的信念，便能將神靈的意志寄於其中，化為永恆的守護，長久地祝福並眷顧這座城市。"
+    }
+  },
+  {
+    "id": "520144",
+    "kind": "equipment",
+    "subType": "Defense",
+    "icon": "chocolate_cake.png",
+    "tint": null,
+    "rarity": 4,
+    "price": null,
+    "stats": {
+      "attack": 29,
+      "hp": 18,
+      "defense": 8
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520070"
+      }
+    ],
+    "name": {
+      "en": "Chocolate Cake",
+      "sc": "巧克力蛋糕",
+      "tc": "巧克力蛋糕"
+    },
+    "description": {
+      "en": "Healing you receive is increased by 25%. When you play a heal card, draw 1 card.",
+      "sc": "你受到的治疗量增加 25%。打出回复牌时，抽 1 张牌。",
+      "tc": "你受到的治療量增加 25%。打出回復牌時，抽 1 張牌。"
+    },
+    "lore": {
+      "en": "",
+      "sc": "",
+      "tc": ""
+    }
+  },
+  {
+    "id": "520018",
+    "kind": "equipment",
+    "subType": "Defense",
+    "icon": "holy_communion.png",
+    "tint": null,
+    "rarity": 5,
+    "price": null,
+    "stats": {
+      "attack": 14,
+      "hp": 53,
+      "defense": 3
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520017"
+      }
+    ],
+    "name": {
+      "en": "Sacrament",
+      "sc": "圣餐",
+      "tc": "聖餐"
+    },
+    "description": {
+      "en": "At the start of your turn, heal 7% max HP and gain 10 <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span> and 10 <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span>. When you receive a <span class=\"kw\" title=\"Buff · Lingering<br>May be gained when the Rosriconian Meter or Belgardian Meter overflows.\">Miracle</span> or an <span class=\"kw\" title=\"Debuff · Lingering · Cannot be dispelled<br>May be gained when the Rosriconian Meter or Belgardian Meter overflows.\">Affliction</span>, heal 25% max HP. When you play a buff card, draw 1 heal card from your draw pile.",
+      "sc": "回合开始时，回复 7% 最大生命，并获得 10 点<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>与 10 点<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>。获得<span class=\"kw\" title=\"增益・缠身<br>罗斯里坎量表或贝尔嘉德量表溢出时有机率获得。\">奇迹</span>或<span class=\"kw\" title=\"减益・缠身・无法驱散<br>罗斯里坎量表或贝尔嘉德量表溢出时有机率获得。\">灾厄</span>时，回复 25% 最大生命。打出增益牌时，从牌堆中抽 1 张回复牌。",
+      "tc": "回合開始時，回復 7% 最大生命，並獲得 10 點<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>與 10 點<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>。獲得<span class=\"kw\" title=\"增益・纏身<br>羅斯里坎量表或貝爾嘉德量表溢出時有機率獲得。\">奇蹟</span>或<span class=\"kw\" title=\"減益・纏身・無法驅散<br>羅斯里坎量表或貝爾嘉德量表溢出時有機率獲得。\">災厄</span>時，回復 25% 最大生命。打出增益牌時，從牌堆中抽 1 張回復牌。"
+    },
+    "lore": {
+      "en": "For the sake of social order, and in the name of justice, Rosricon holds regular Sacraments, inviting the public to share a meal and partake together in the protection and grace the gods bestow. To the nobility, it is merely a bland supper; to the paupers on the street corner, it is the charity that keeps them alive.",
+      "sc": "为求社会安定，也出于对公理正义的追求，罗斯里坎会定期举行圣餐，广邀群众一同进食，共享神灵所赐予的护佑与恩泽。对贵族而言，这不过是一顿口味平淡的晚餐；对街角的贫民而言，这却是他们赖以维生的施舍。",
+      "tc": "為求社會安定，也出於對公理正義的追求，羅斯里坎會定期舉行聖餐，廣邀群眾一同進食，共享神靈所賜予的護佑與恩澤。對貴族而言，這不過是一頓口味平淡的晚餐；對街角的貧民而言，這卻是他們賴以維生的施捨。"
+    }
+  },
+  {
+    "id": "520008",
+    "kind": "equipment",
+    "subType": "Other",
+    "icon": "carved_round_mirror.png",
+    "tint": null,
+    "rarity": 6,
+    "price": null,
+    "stats": {
+      "attack": -30,
+      "hp": 22,
+      "defense": 6
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520005"
+      }
+    ],
+    "name": {
+      "en": "Carved Round Mirror",
+      "sc": "雕花圆镜",
+      "tc": "雕花圓鏡"
+    },
+    "description": {
+      "en": "For every 3 cards you play each turn, draw 1 card. When you play a card that draws cards, draw 1 additional card. On the first turn of each combat, draw 3 additional cards. Every time you draw a card outside the start of your turn, deal 5 damage to a random enemy and apply 3% <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> to all enemies for 1 turn.",
+      "sc": "每回合每打出 3 张牌，抽 1 张牌。打出抽牌卡时，额外抽 1 张牌。每场战斗的第一回合，额外抽 3 张牌。每当你在回合开始以外抽牌时，对一名随机敌人造成 5 点伤害，并对所有敌人施加 3% <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span>，持续 1 回合。",
+      "tc": "每回合每打出 3 張牌，抽 1 張牌。打出抽牌卡時，額外抽 1 張牌。每場戰鬥的第一回合，額外抽 3 張牌。每當你在回合開始以外抽牌時，對一名隨機敵人造成 5 點傷害，並對所有敵人施加 3% <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span>，持續 1 回合。"
+    },
+    "lore": {
+      "en": "As Oculyth's power grew, the faithful became convinced they were drawing ever closer to the truth. Yet the truth seemed forever out of reach, shrouded in layer upon layer of illusion. Driven by endless obsession, they hungered ever more for divine blessing, and that madness at last gave other gods their opening.",
+      "sc": "随着奥库莉丝的力量日益强盛，信徒们深信自己正步步逼近真理。然而真理仿佛永无企及之日，始终笼罩在层层虚妄之下。在无尽执念的驱使下，信徒们越发渴求神灵的赐福——而这份疯狂，终究给了其他神灵可乘之机。",
+      "tc": "隨著奧庫莉絲的力量日益強盛，信徒們深信自己正步步逼近真理。然而真理彷彿永無企及之日，始終籠罩在層層虛妄之下。在無盡執念的驅使下，信徒們越發渴求神靈的賜福——而這份瘋狂，終究給了其他神靈可乘之機。"
+    }
+  },
+  {
+    "id": "520016",
+    "kind": "equipment",
+    "subType": "Defense",
+    "icon": "ghostlight_candelabra.png",
+    "tint": null,
+    "rarity": 6,
+    "price": null,
+    "stats": {
+      "attack": 27,
+      "hp": 81,
+      "defense": 7
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520015"
+      }
+    ],
+    "name": {
+      "en": "Ghostlit Candelabrum",
+      "sc": "幽光烛台",
+      "tc": "幽光燭台"
+    },
+    "description": {
+      "en": "At the end of your turn, heal HP equal to half the highest <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> stack count among enemies (rounded down). When you play a <span class=\"kw\" title=\"Playing Fire cards in a row grants Vivid Ember. At 4 stacks, gain Vivid Flame. Playing a Nature card clears Vivid Ember.\">Fire</span> card, heal 5% max HP.",
+      "sc": "回合结束时，回复场上敌人最高<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>层数一半的生命（无条件舍去）。打出<span class=\"kw\" title=\"连续打出火焰牌会累积灵现余烬。达到 4 层时，获得灵现火焰。打出自然牌时清除灵现余烬。\">火焰</span>牌时，回复 5% 最大生命。",
+      "tc": "回合結束時，回復場上敵人最高<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>層數一半的生命（無條件捨去）。打出<span class=\"kw\" title=\"連續打出火焰牌會累積靈現餘燼。達到 4 層時，獲得靈現火焰。打出自然牌時清除靈現餘燼。\">火焰</span>牌時，回復 5% 最大生命。"
+    },
+    "lore": {
+      "en": "Chaos craves life and fulfillment. Having tasted the sweetness of flame and received wave after wave of offerings from the faithful, Chaos too grew enthralled by flickering firelight and the source of life itself. And so it demands that its faithful give everything, if only to fill a hunger that has no end.",
+      "sc": "混沌渴求着生命与满足。在初尝火焰的甜美、又接受了信徒们前仆后继的奉献之后，混沌也开始对摇曳的火光与生命的本源深深着迷。为此，祂要求信徒奉献一切，只为填满那永无止境的饥饿。",
+      "tc": "混沌渴求著生命與滿足。在初嘗火焰的甜美、又接受了信徒們前仆後繼的奉獻之後，混沌也開始對搖曳的火光與生命的本源深深著迷。為此，祂要求信徒奉獻一切，只為填滿那永無止境的飢餓。"
+    }
+  },
+  {
+    "id": "520025",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "hollowed_sculpture.png",
+    "tint": null,
+    "rarity": 6,
+    "price": null,
+    "stats": {
+      "attack": 88,
+      "hp": 17,
+      "defense": 6
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520024"
+      }
+    ],
+    "name": {
+      "en": "Hollowed Sculpture",
+      "sc": "凿空雕塑",
+      "tc": "鑿空雕塑"
+    },
+    "description": {
+      "en": "Deal 15 additional damage to debuffed targets. When you play an attack card, draw 1 additional card with a base cost of 1, if possible. All cards' maximum durability is reduced to 5, but attack cards cost 1 less <span class=\"kw\" title=\"The resource spent to play cards. You gain 3 AP at the start of each turn.\">Action Points</span>.",
+      "sc": "对带有减益的目标额外造成 15 点伤害。打出攻击牌时，若允许，额外抽 1 张原费用为 1 的牌。所有卡牌的耐久值上限降为 5，但攻击牌的<span class=\"kw\" title=\"打出卡牌所需的资源。每回合开始时获得 3 点。\">行动点</span>费用 -1。",
+      "tc": "對帶有減益的目標額外造成 15 點傷害。打出攻擊牌時，若允許，額外抽 1 張原費用為 1 的牌。所有卡牌的耐久值上限降為 5，但攻擊牌的<span class=\"kw\" title=\"打出卡牌所需的資源。每回合開始時獲得 3 點。\">行動點</span>費用 -1。"
+    },
+    "lore": {
+      "en": "The Hollowers remain shrouded in mystery to this day. By some unknown technology, they bored through the mountains and raised magnificent palaces of steel deep within the cliffs. Yet by the time the ancient Rosriconian tribes, beaten in tribal war and barely alive, fled here, the palaces had long been abandoned, with only the bitter wind howling through their empty halls.",
+      "sc": "凿空者至今仍笼罩在谜团之中。他们曾以超乎想像的科技凿穿山体，在绝壁深处筑起宏伟的钢铁宫殿。然而，当那些在部族战争中败北、奄奄一息的古罗斯里坎部族逃亡至此时，宫殿早已荒废多时，唯有凛冽寒风在空旷的殿廊间呼啸肆虐。",
+      "tc": "鑿空者至今仍籠罩在一片謎團之中。他們曾以超乎想像的科技開鑿山體，於絕壁深處築起宏偉的鋼鐵宮殿。然而，當那些在內戰中敗北、奄奄一息的羅斯里坎人逃亡至此時，宮殿早已荒廢多時，唯餘凜冽的寒風在空曠的殿廊間肆虐狂呼。"
+    }
+  },
+  {
+    "id": "520028",
+    "kind": "equipment",
+    "subType": "Offense",
+    "icon": "fiendish_grips.png",
+    "tint": null,
+    "rarity": 6,
+    "price": null,
+    "stats": {
+      "attack": -25,
+      "hp": 19,
+      "defense": 6
+    },
+    "sources": [
+      {
+        "type": "upgrade",
+        "from": "520027"
+      }
+    ],
+    "name": {
+      "en": "Fiendish Grips",
+      "sc": "邪灵指套",
+      "tc": "邪靈指套"
+    },
+    "description": {
+      "en": "At the start of your turn, if your <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span> is above 50, lose 50 <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span>. For every 3 instances of damage dealt in the same turn, deal 15 additional damage and gain 25 <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span>.",
+      "sc": "回合开始时，若<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>大于 50，失去 50 点<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>。同一回合内每造成 3 次伤害，即额外造成 15 点伤害并获得 25 点<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>。",
+      "tc": "回合開始時，若<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>大於 50，失去 50 點<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>。同一回合內每造成 3 次傷害，即額外造成 15 點傷害並獲得 25 點<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>。"
+    },
+    "lore": {
+      "en": "Hedalis stands apart among the gods: He never asks His faithful for offerings or sacrifice of any kind. Yet because water and free will are both bound so closely to mortal survival, this carefree generosity has made Him a power no other god can afford to ignore.",
+      "sc": "赫达利斯在众神之中独树一帜：祂从不向信徒索取任何奉献或代价。然而，正因水脉与自由意志皆与凡人的生存息息相关，这份不求回报的随性，反而使祂成为众神之间绝不容忽视的庞大力量。",
+      "tc": "赫達利斯在眾神之中獨樹一幟：祂從不向信徒索取任何奉獻或代價。然而，正因水脈與自由意志皆與凡人的生存息息相關，這份不求回報的隨性，反而使祂成為眾神之間絕不容忽視的龐大力量。"
     }
   }
 ]

@@ -180,6 +180,127 @@ function formatText(lang, template, slots = []) {
 const formatted = (key, fallback, slots) => allLangs((lang) => formatText(lang, text(lang, key, fallback), slots));
 
 // ---------------------------------------------------------------------------
+// Card steps. Card text names a step from CardEffect.csv ({step:hit.Amount}) instead of holding the number.
+// Ported from StepDescriptionTokens: the number comes from the step's Values column, or from the
+// argument of its Do call. Signatures are read from the game's generated docs/EffectSteps.md.
+
+const signatures = new Map();
+for (const [, name, params] of readFileSync(join(GAME, 'docs/EffectSteps.md'), 'utf8').matchAll(/^`(\w+)\(([^)]*)\)`$/gm)) {
+  if (signatures.has(name)) continue;
+  signatures.set(
+    name,
+    split(params, ',').map((p) => {
+      const [key, fallback] = p.replace('?', '').split('=');
+      return { key: key.trim().toLowerCase(), fallback: fallback?.trim() || null };
+    }),
+  );
+}
+
+// "Amount" for the calls whose main number has another name (StepActionCatalog's AmountIndex).
+const AMOUNT_PARAM = {
+  ApplyBuff: ['amount', 'param'],
+  PersistBuff: ['amount', 'param'],
+  PercentDamage: ['percent'],
+  PercentHeal: ['percent'],
+  Draw: ['count'],
+  Cleanse: ['count'],
+  DestroyFromDeck: ['count'],
+  GenerateToken: ['count'],
+  MeterFloor: ['floor'],
+};
+
+// Splits on commas outside brackets.
+function callArgs(inner) {
+  const args = [];
+  let depth = 0;
+  let current = '';
+  for (const ch of inner) {
+    if (ch === '(') depth++;
+    if (ch === ')') depth--;
+    if (ch === ',' && depth === 0) {
+      args.push(current.trim());
+      current = '';
+    } else current += ch;
+  }
+  if (current.trim()) args.push(current.trim());
+  return args;
+}
+
+// "Damage(Target, 4, hits=3)" -> { fn: 'Damage', args: { target: 'Target', amount: '4', hits: '3', ... } }
+function parseCall(doCell) {
+  const m = doCell.match(/^\s*(\w+)\s*\(([\s\S]*)\)\s*$/);
+  if (!m) return null;
+  const params = signatures.get(m[1]) || [];
+  const args = {};
+  for (const p of params) if (p.fallback != null) args[p.key] = p.fallback;
+  let position = 0;
+  for (const arg of callArgs(m[2])) {
+    const named = arg.match(/^([A-Za-z_]\w*)\s*=(?!=)\s*([\s\S]*)$/);
+    if (named) args[named[1].toLowerCase()] = named[2].trim();
+    else if (params[position]) args[params[position++].key] = arg;
+  }
+  return { fn: m[1], args };
+}
+
+const cardSteps = new Map();
+for (const row of table('CardEffect')) {
+  if (!row.OwnerID || !row.Step) continue;
+  const values = new Map();
+  for (const item of split(row.Values, ';')) {
+    const [name, value] = item.split('=').map((s) => s.trim());
+    if (name && value) values.set(name.toLowerCase(), value);
+  }
+  const steps = cardSteps.get(row.OwnerID) || new Map();
+  steps.set(row.Step.toLowerCase(), { call: parseCall(row.Do), values });
+  cardSteps.set(row.OwnerID, steps);
+}
+
+function stepValue(cardId, stepName, field) {
+  const step = cardSteps.get(cardId)?.get(stepName.toLowerCase());
+  if (!step) return null;
+  const key = field.toLowerCase();
+  if (step.values.has(key)) return step.values.get(key);
+  if (!step.call) return null;
+  const keys = key === 'amount' ? AMOUNT_PARAM[step.call.fn] || ['amount'] : [key];
+  for (const k of keys) {
+    const value = step.call.args[k];
+    if (!value) continue;
+    if (/^-?[\w.+%]+$/.test(value)) return value;
+    const base = baseAmount(value, step.values);
+    if (base != null) return base;
+  }
+  return null;
+}
+
+// A growing amount (4 + per * PlayedThisTurn) shows its starting value, as the game's card face does:
+// every battle variable reads as 0.
+const MATH = ['floor', 'ceil', 'round', 'abs', 'min', 'max'];
+function baseAmount(expression, values) {
+  const js = expression.replace(/[A-Za-z_][\w.]*/g, (name) => {
+    if (MATH.includes(name.toLowerCase())) return `Math.${name.toLowerCase()}`;
+    const value = values.get(name.toLowerCase());
+    return value != null && !value.endsWith('%') ? value : '0';
+  });
+  if (!/^[\d\s.+\-*/(),Mathflorceiundbsmx]*$/.test(js)) return null;
+  const result = Function(`return (${js});`)();
+  return Number.isFinite(result) ? String(Math.round(result * 100) / 100) : null;
+}
+
+const cardKeywords = new Map(
+  table('Card').map((c) => [c.ID, new Map(split(c.Keywords, ',').map((k) => k.split(':').map((s) => s.trim().toLowerCase())))]),
+);
+
+// The game colours an {if:step} lead-in when its condition holds mid-battle; on the site it's plain text.
+const stepText = (lang, template, cardId) =>
+  template
+    .replace(/\{step\s*:\s*([^.}\s]+)\s*\.\s*([^}\s]+)\s*\}/gi, (match, step, field) => {
+      const value = stepValue(cardId, step, field);
+      return value == null ? match : term(lang, value);
+    })
+    .replace(/\{card\s*:\s*([^}\s]+)\s*\}/gi, (match, word) => cardKeywords.get(cardId)?.get(word.toLowerCase()) ?? match)
+    .replace(/\{if\s*:\s*[^}\s]+\s*\}/gi, '');
+
+// ---------------------------------------------------------------------------
 // Scope: dungeons, enemies, items and cards reachable from Windchime Village
 
 const dungeons = table('Dungeon').filter(
@@ -370,7 +491,7 @@ for (const c of table('Card')) {
     cost: num(c.ActionCost),
     actionTypes: split(c.ActionType),
     name: localized(`Card_${c.ID}`, c.DisplayName),
-    description: formatted(`CardEff_${c.ID}`, c.Description, slots),
+    description: allLangs((lang) => formatText(lang, stepText(lang, text(lang, `CardEff_${c.ID}`, c.Description), c.ID), slots)),
   });
 }
 

@@ -5,7 +5,6 @@
     "110005": "unstable-cleric",
     "120001": "mad-cleric",
     "120002": "bandit",
-    "120003": "hound",
     "120004": "dying-villager",
     "120005": "hand-puppet",
     "120006": "hound-masta",
@@ -16,6 +15,7 @@
     "130004": "dying-villager",
     "130005": "hand-puppet",
     "130006": "hound-masta",
+    "130007": "hound",
     "131001": "pluton-the-rich"
   }
 }

@@ -6,14 +6,14 @@
       "tc": "中立"
     },
     "Angel": {
-      "en": "Angel",
-      "sc": "天使",
-      "tc": "天使"
+      "en": "Rosriconian",
+      "sc": "罗斯里坎",
+      "tc": "羅斯里坎"
     },
     "Demon": {
-      "en": "Demon",
-      "sc": "恶魔",
-      "tc": "惡魔"
+      "en": "Belgardian",
+      "sc": "贝尔嘉德",
+      "tc": "貝爾嘉德"
     }
   },
   "gods": {

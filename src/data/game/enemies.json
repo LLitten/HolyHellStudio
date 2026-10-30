@@ -15,87 +15,7 @@
         "attack": 10,
         "defense": 0,
         "dungeons": [
-          "WindChime_Tutorial1",
-          "WindChime_1"
-        ],
-        "summonedBy": "120006",
-        "skills": [
-          {
-            "id": "300018",
-            "trigger": "turn",
-            "name": {
-              "en": "Violent Rend",
-              "sc": "狂暴撕裂",
-              "tc": "狂暴撕裂"
-            },
-            "detail": {
-              "en": "Inflicts <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> upon you.",
-              "sc": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
-              "tc": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
-            }
-          },
-          {
-            "id": "300019",
-            "trigger": "turn",
-            "name": {
-              "en": "Mindless Jaw",
-              "sc": "盲目撕咬",
-              "tc": "盲目撕咬"
-            },
-            "detail": {
-              "en": "Deals heavy damage at the cost of its own HP.",
-              "sc": "消耗自身生命值并造成严重伤害。",
-              "tc": "消耗自身生命值並造成嚴重傷害。"
-            }
-          }
-        ],
-        "drops": [
-          {
-            "item": "500011",
-            "chance": 15,
-            "min": 2,
-            "max": 4
-          },
-          {
-            "item": "500012",
-            "chance": 15,
-            "min": 2,
-            "max": 4
-          },
-          {
-            "item": "500013",
-            "chance": 15,
-            "min": 2,
-            "max": 4
-          },
-          {
-            "item": "500014",
-            "chance": 15,
-            "min": 2,
-            "max": 4
-          },
-          {
-            "item": "500015",
-            "chance": 15,
-            "min": 2,
-            "max": 4
-          },
-          {
-            "item": "500016",
-            "chance": 15,
-            "min": 2,
-            "max": 4
-          }
-        ]
-      },
-      {
-        "id": "120003",
-        "rank": "Minion",
-        "hp": 53,
-        "attack": 12,
-        "defense": 0,
-        "dungeons": [
-          "WindChime_1"
+          "WindChime_Tutorial"
         ],
         "summonedBy": null,
         "skills": [
@@ -108,9 +28,9 @@
               "tc": "狂暴撕裂"
             },
             "detail": {
-              "en": "Inflicts <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> upon you.",
-              "sc": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
-              "tc": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+              "en": "Inflicts <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span> upon you.",
+              "sc": "对你施加 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>。",
+              "tc": "對你施加 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>。"
             }
           },
           {
@@ -131,68 +51,92 @@
         "drops": [
           {
             "item": "500011",
-            "chance": 9,
-            "min": 1,
-            "max": 3
+            "chance": 15,
+            "min": 2,
+            "max": 4
           },
           {
             "item": "500012",
-            "chance": 9,
-            "min": 1,
-            "max": 3
+            "chance": 15,
+            "min": 2,
+            "max": 4
           },
           {
             "item": "500013",
-            "chance": 9,
-            "min": 1,
-            "max": 3
+            "chance": 15,
+            "min": 2,
+            "max": 4
           },
           {
             "item": "500014",
-            "chance": 9,
-            "min": 1,
-            "max": 3
+            "chance": 15,
+            "min": 2,
+            "max": 4
           },
           {
             "item": "500015",
-            "chance": 9,
-            "min": 1,
-            "max": 3
+            "chance": 15,
+            "min": 2,
+            "max": 4
           },
           {
             "item": "500016",
-            "chance": 9,
-            "min": 1,
-            "max": 3
-          },
-          {
-            "item": "500021",
-            "chance": 9,
-            "min": 1,
-            "max": 3
-          },
-          {
-            "item": "500022",
-            "chance": 4,
-            "min": 1,
-            "max": 2
-          },
-          {
-            "item": "520013",
-            "chance": 10,
-            "min": 1,
-            "max": 1
+            "chance": 15,
+            "min": 2,
+            "max": 4
           }
         ]
       },
       {
-        "id": "100000",
+        "id": "130007",
         "rank": "Minion",
-        "hp": 65,
-        "attack": 8,
+        "hp": 58,
+        "attack": 15,
         "defense": 0,
         "dungeons": [
-          "WindChime_Tutorial1"
+          "WindChime_2"
+        ],
+        "summonedBy": null,
+        "skills": [
+          {
+            "id": "300081",
+            "trigger": "turn",
+            "name": {
+              "en": "Violent Rend",
+              "sc": "狂暴撕裂",
+              "tc": "狂暴撕裂"
+            },
+            "detail": {
+              "en": "Inflicts <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span> upon you.",
+              "sc": "对你施加 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>。",
+              "tc": "對你施加 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>。"
+            }
+          },
+          {
+            "id": "300019",
+            "trigger": "turn",
+            "name": {
+              "en": "Mindless Jaw",
+              "sc": "盲目撕咬",
+              "tc": "盲目撕咬"
+            },
+            "detail": {
+              "en": "Deals heavy damage at the cost of its own HP.",
+              "sc": "消耗自身生命值并造成严重伤害。",
+              "tc": "消耗自身生命值並造成嚴重傷害。"
+            }
+          }
+        ],
+        "drops": []
+      },
+      {
+        "id": "100000",
+        "rank": "Minion",
+        "hp": 55,
+        "attack": 15,
+        "defense": 0,
+        "dungeons": [
+          "WindChime_Tutorial"
         ],
         "summonedBy": null,
         "skills": [
@@ -219,9 +163,9 @@
               "tc": "躬身蓄力"
             },
             "detail": {
-              "en": "The hound is charged up, preparing for a devastating attack.",
-              "sc": "猎犬躬身蓄力，准备释放残暴的一击。",
-              "tc": "獵犬躬身蓄力，準備釋放殘暴的一擊。"
+              "en": "The hound is charged up, preparing for a devastating attack. Gains massive <span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span> while charging.",
+              "sc": "猎犬躬身蓄力，准备释放残暴的一击。蓄力期间获得大量<span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span>。",
+              "tc": "獵犬躬身蓄力，準備釋放殘暴的一擊。蓄力期間獲得大量<span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span>。"
             }
           },
           {
@@ -259,7 +203,7 @@
         "attack": 14,
         "defense": 0,
         "dungeons": [
-          "WindChime_Tutorial1"
+          "WindChime_Tutorial"
         ],
         "summonedBy": null,
         "skills": [
@@ -286,9 +230,9 @@
               "tc": "神性呼喚"
             },
             "detail": {
-              "en": "Accept the embrance of the Gods...<br>Increases both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>.",
-              "sc": "接受众神之拥吧…<br>同时增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
-              "tc": "接受眾神之擁吧…<br>同時增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
+              "en": "Accept the embrance of the Gods...<br>Increases both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Rosriconian Meter\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Belgardian Meter\"></span>.",
+              "sc": "接受众神之拥吧…<br>同时增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"罗斯里坎量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"贝尔嘉德量表\"></span>。",
+              "tc": "接受眾神之擁吧…<br>同時增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"羅斯里坎量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"貝爾嘉德量表\"></span>。"
             }
           },
           {
@@ -300,9 +244,9 @@
               "tc": "持續呼喚..."
             },
             "detail": {
-              "en": "They are coming...<br>Increases both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Angel Meter\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>.",
-              "sc": "祂们即将到来…<br>同时增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
-              "tc": "祂們即將到來…<br>同時增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"天使量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
+              "en": "They are coming...<br>Increases both your <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Rosriconian Meter\"></span> and <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Belgardian Meter\"></span>, and gains <span class=\"kw\" title=\"Buff · Unstackable<br>For x turns, completely blocks the next attack the owner receives.\">Guard</span> for 1 turn.",
+              "sc": "祂们即将到来…<br>同时增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"罗斯里坎量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"贝尔嘉德量表\"></span>，并使自身获得 <span class=\"kw\" title=\"增益・不可叠加<br>x 回合内，完全抵挡持有者受到的下一次攻击。\">守护</span>（1 回合）。",
+              "tc": "祂們即將到來…<br>同時增加你的<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"羅斯里坎量表\"></span>和<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"貝爾嘉德量表\"></span>，並使自身獲得 <span class=\"kw\" title=\"增益・不可疊加<br>x 回合內，完全抵擋持有者受到的下一次攻擊。\">守護</span>（1 回合）。"
             }
           },
           {
@@ -393,7 +337,7 @@
       {
         "id": "120001",
         "rank": "Minion",
-        "hp": 105,
+        "hp": 89,
         "attack": 9,
         "defense": 0,
         "dungeons": [
@@ -424,9 +368,9 @@
               "tc": "恢復禱言"
             },
             "detail": {
-              "en": "Gains moderate <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span> effect for a few turns.",
-              "sc": "获得中等 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span> 效果，持续数回合。",
-              "tc": "獲得中等 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span> 效果，持續數回合。"
+              "en": "Gains moderate <span class=\"kw\" title=\"Buff · Stackable<br>For y turns, restores x% of the owner's max HP at the end of each turn.\">Blessed</span> effect for a few turns.",
+              "sc": "获得中等 <span class=\"kw\" title=\"增益・可叠加<br>y 回合内，每回合结束时回复持有者 x% 的最大生命。\">祝福</span> 效果，持续数回合。",
+              "tc": "獲得中等 <span class=\"kw\" title=\"增益・可疊加<br>y 回合內，每回合結束時回復持有者 x% 的最大生命。\">祝福</span> 效果，持續數回合。"
             }
           },
           {
@@ -438,9 +382,9 @@
               "tc": "灼燒"
             },
             "detail": {
-              "en": "Inflicts <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> upon you.",
-              "sc": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。",
-              "tc": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。"
+              "en": "Inflicts <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> upon you.",
+              "sc": "对你施加 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。",
+              "tc": "對你施加 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。"
             }
           }
         ],
@@ -483,13 +427,13 @@
           },
           {
             "item": "500017",
-            "chance": 18,
+            "chance": 40,
             "min": 1,
             "max": 3
           },
           {
             "item": "500018",
-            "chance": 8,
+            "chance": 30,
             "min": 1,
             "max": 2
           },
@@ -510,7 +454,7 @@
       {
         "id": "130001",
         "rank": "Minion",
-        "hp": 125,
+        "hp": 100,
         "attack": 12,
         "defense": 0,
         "dungeons": [
@@ -541,9 +485,9 @@
               "tc": "恢復禱言"
             },
             "detail": {
-              "en": "Gains moderate <span class=\"kw\" title=\"A stackable buff that restores x percent of the owner’s Max HP at the end of each turn within y turns.\">Blessed</span> effect for a few turns.",
-              "sc": "获得中等 <span class=\"kw\" title=\"可叠加的增益，在 y 回合内于每回合结束时回复持有者 x% 的最大生命。\">祝福</span> 效果，持续数回合。",
-              "tc": "獲得中等 <span class=\"kw\" title=\"可疊加的增益，在 y 回合內於每回合結束時回復持有者 x% 的最大生命。\">祝福</span> 效果，持續數回合。"
+              "en": "Gains moderate <span class=\"kw\" title=\"Buff · Stackable<br>For y turns, restores x% of the owner's max HP at the end of each turn.\">Blessed</span> effect for a few turns.",
+              "sc": "获得中等 <span class=\"kw\" title=\"增益・可叠加<br>y 回合内，每回合结束时回复持有者 x% 的最大生命。\">祝福</span> 效果，持续数回合。",
+              "tc": "獲得中等 <span class=\"kw\" title=\"增益・可疊加<br>y 回合內，每回合結束時回復持有者 x% 的最大生命。\">祝福</span> 效果，持續數回合。"
             }
           },
           {
@@ -555,9 +499,9 @@
               "tc": "灼燒"
             },
             "detail": {
-              "en": "Inflicts <span class=\"kw\" title=\"A stackable, Lingering, durationless debuff that deals damage equal to its stacks at the end of every 2 turns, then halves its stacks (rounded up). It is removed once it drops below 3 stacks.\">Burn</span> upon you.",
-              "sc": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每 2 回合结束时造成等同于层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。\">燃烧</span>。",
-              "tc": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每 2 回合結束時造成等同於層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。\">燃燒</span>。"
+              "en": "Inflicts <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> upon you.",
+              "sc": "对你施加 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。",
+              "tc": "對你施加 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。"
             }
           }
         ],
@@ -600,25 +544,25 @@
           },
           {
             "item": "500017",
-            "chance": 18,
+            "chance": 40,
             "min": 1,
             "max": 3
           },
           {
             "item": "500018",
-            "chance": 18,
+            "chance": 40,
             "min": 1,
             "max": 2
           },
           {
             "item": "520001",
-            "chance": 12,
+            "chance": 14,
             "min": 1,
             "max": 1
           },
           {
             "item": "520014",
-            "chance": 17,
+            "chance": 14,
             "min": 1,
             "max": 1
           }
@@ -638,7 +582,7 @@
       {
         "id": "120002",
         "rank": "Minion",
-        "hp": 72,
+        "hp": 61,
         "attack": 17,
         "defense": 0,
         "dungeons": [
@@ -655,9 +599,9 @@
               "tc": "利刃劈砍"
             },
             "detail": {
-              "en": "Deals moderate damage. Gains a <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> for a few turns.",
-              "sc": "造成中等伤害。获得 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span> 效果，持续数回合。",
-              "tc": "造成中等傷害。獲得 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span> 效果，持續數回合。"
+              "en": "Deals moderate damage. Gains a <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span> for a few turns.",
+              "sc": "造成中等伤害。获得 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span> 效果，持续数回合。",
+              "tc": "造成中等傷害。獲得 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span> 效果，持續數回合。"
             }
           },
           {
@@ -728,13 +672,13 @@
           },
           {
             "item": "500019",
-            "chance": 18,
+            "chance": 40,
             "min": 1,
             "max": 3
           },
           {
             "item": "500020",
-            "chance": 8,
+            "chance": 30,
             "min": 1,
             "max": 2
           },
@@ -755,7 +699,7 @@
       {
         "id": "130002",
         "rank": "Minion",
-        "hp": 82,
+        "hp": 66,
         "attack": 21,
         "defense": 5,
         "dungeons": [
@@ -772,9 +716,9 @@
               "tc": "利刃劈砍"
             },
             "detail": {
-              "en": "Deals moderate damage. Gains a <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage additively by a flat amount within x turns.\">Fervor</span> for a few turns.",
-              "sc": "造成中等伤害。获得 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害增加固定数值。\">狂热</span> 效果，持续数回合。",
-              "tc": "造成中等傷害。獲得 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害增加固定數值。\">狂熱</span> 效果，持續數回合。"
+              "en": "Deals moderate damage. Gains a <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attacks deal a flat amount of extra damage.\">Fervor</span> for a few turns.",
+              "sc": "造成中等伤害。获得 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害增加固定数值。\">狂热</span> 效果，持续数回合。",
+              "tc": "造成中等傷害。獲得 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害增加固定數值。\">狂熱</span> 效果，持續數回合。"
             }
           },
           {
@@ -845,25 +789,25 @@
           },
           {
             "item": "500019",
-            "chance": 18,
+            "chance": 40,
             "min": 1,
             "max": 3
           },
           {
             "item": "500020",
-            "chance": 18,
+            "chance": 40,
             "min": 1,
             "max": 2
           },
           {
             "item": "520004",
-            "chance": 12,
+            "chance": 14,
             "min": 1,
             "max": 1
           },
           {
             "item": "520017",
-            "chance": 17,
+            "chance": 14,
             "min": 1,
             "max": 1
           }
@@ -883,7 +827,7 @@
       {
         "id": "120004",
         "rank": "Minion",
-        "hp": 48,
+        "hp": 41,
         "attack": 15,
         "defense": 0,
         "dungeons": [
@@ -973,13 +917,13 @@
           },
           {
             "item": "500023",
-            "chance": 9,
+            "chance": 22,
             "min": 1,
             "max": 3
           },
           {
             "item": "500024",
-            "chance": 4,
+            "chance": 20,
             "min": 1,
             "max": 2
           },
@@ -994,7 +938,7 @@
       {
         "id": "130004",
         "rank": "Minion",
-        "hp": 53,
+        "hp": 42,
         "attack": 18,
         "defense": 0,
         "dungeons": [
@@ -1084,13 +1028,13 @@
           },
           {
             "item": "500023",
-            "chance": 19,
+            "chance": 44,
             "min": 1,
             "max": 3
           },
           {
             "item": "500024",
-            "chance": 10,
+            "chance": 40,
             "min": 1,
             "max": 2
           },
@@ -1116,9 +1060,9 @@
       {
         "id": "120005",
         "rank": "Elite",
-        "hp": 165,
-        "attack": 16,
-        "defense": 8,
+        "hp": 140,
+        "attack": 12,
+        "defense": 10,
         "dungeons": [
           "WindChime_1"
         ],
@@ -1133,9 +1077,9 @@
               "tc": "肢體延展"
             },
             "detail": {
-              "en": "Gains massive <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for a short duration, and inflicts <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> to themselves.",
-              "sc": "获得大幅 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span> 效果持续短暂时间，并使自身获得 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
-              "tc": "獲得大幅 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span> 效果持續短暫時間，並使自身獲得 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+              "en": "Gains massive <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attack damage is multiplied by a percentage.\">Imbue</span> for a short duration, and inflicts <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span> to themselves.",
+              "sc": "获得大幅 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害以百分比乘算提升。\">灌注</span> 效果持续短暂时间，并使自身获得 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>。",
+              "tc": "獲得大幅 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害以百分比乘算提升。\">灌注</span> 效果持續短暫時間，並使自身獲得 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>。"
             }
           },
           {
@@ -1147,9 +1091,9 @@
               "tc": "手臂重擊"
             },
             "detail": {
-              "en": "Deals heavy damage, but gains <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> for 1 turn.",
-              "sc": "造成严重伤害，但自身获得 <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span> 1 回合。",
-              "tc": "造成嚴重傷害，但自身獲得 <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span> 1 回合。"
+              "en": "Deals heavy damage, but gains <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> for 1 turn.",
+              "sc": "造成严重伤害，但自身获得 <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span> 1 回合。",
+              "tc": "造成嚴重傷害，但自身獲得 <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span> 1 回合。"
             }
           }
         ],
@@ -1192,13 +1136,13 @@
           },
           {
             "item": "500025",
-            "chance": 27,
-            "min": 1,
+            "chance": 65,
+            "min": 2,
             "max": 3
           },
           {
             "item": "500026",
-            "chance": 12,
+            "chance": 30,
             "min": 1,
             "max": 2
           },
@@ -1225,8 +1169,8 @@
       {
         "id": "130005",
         "rank": "Elite",
-        "hp": 210,
-        "attack": 24,
+        "hp": 144,
+        "attack": 18,
         "defense": 12,
         "dungeons": [
           "WindChime_2"
@@ -1242,9 +1186,9 @@
               "tc": "肢體延展"
             },
             "detail": {
-              "en": "Gains massive <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for a short duration, and inflicts <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> to themselves.",
-              "sc": "获得大幅 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span> 效果持续短暂时间，并使自身获得 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
-              "tc": "獲得大幅 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span> 效果持續短暫時間，並使自身獲得 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+              "en": "Gains massive <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attack damage is multiplied by a percentage.\">Imbue</span> for a short duration, and inflicts <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span> to themselves.",
+              "sc": "获得大幅 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害以百分比乘算提升。\">灌注</span> 效果持续短暂时间，并使自身获得 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>。",
+              "tc": "獲得大幅 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害以百分比乘算提升。\">灌注</span> 效果持續短暫時間，並使自身獲得 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>。"
             }
           },
           {
@@ -1256,9 +1200,9 @@
               "tc": "手臂重擊"
             },
             "detail": {
-              "en": "Deals heavy damage, but gains <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> for 1 turn.",
-              "sc": "造成严重伤害，但自身获得 <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span> 1 回合。",
-              "tc": "造成嚴重傷害，但自身獲得 <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span> 1 回合。"
+              "en": "Deals heavy damage, but gains <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> for 1 turn.",
+              "sc": "造成严重伤害，但自身获得 <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span> 1 回合。",
+              "tc": "造成嚴重傷害，但自身獲得 <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span> 1 回合。"
             }
           }
         ],
@@ -1301,13 +1245,13 @@
           },
           {
             "item": "500025",
-            "chance": 27,
-            "min": 1,
+            "chance": 65,
+            "min": 2,
             "max": 3
           },
           {
             "item": "500026",
-            "chance": 12,
+            "chance": 30,
             "min": 1,
             "max": 2
           },
@@ -1345,7 +1289,7 @@
       {
         "id": "120006",
         "rank": "Elite",
-        "hp": 140,
+        "hp": 119,
         "attack": 18,
         "defense": 15,
         "dungeons": [
@@ -1372,13 +1316,13 @@
             "trigger": "turn",
             "name": {
               "en": "Chain Slash",
-              "sc": "铁锁链斩",
-              "tc": "鐵鎖鏈斬"
+              "sc": "铁链挥斩",
+              "tc": "鐵鏈揮斬"
             },
             "detail": {
-              "en": "Deals heavy damage.",
-              "sc": "造成严重伤害。",
-              "tc": "造成嚴重傷害。"
+              "en": "Deals heavy damage and applies <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> to you for 2 turns.",
+              "sc": "造成严重伤害，并对你施加 <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span>，持续 2 回合。",
+              "tc": "造成嚴重傷害，並對你施加 <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span>，持續 2 回合。"
             }
           },
           {
@@ -1390,9 +1334,23 @@
               "tc": "保護窩"
             },
             "detail": {
-              "en": "Gains a <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> Boost for a short duration.",
-              "sc": "获得 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span> 提升，持续短暂时间。",
-              "tc": "獲得 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span> 提升，持續短暫時間。"
+              "en": "Gains a <span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span> Boost for a short duration.",
+              "sc": "获得 <span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span> 提升，持续短暂时间。",
+              "tc": "獲得 <span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span> 提升，持續短暫時間。"
+            }
+          },
+          {
+            "id": "300076",
+            "trigger": "death",
+            "name": {
+              "en": "Le Hunt is Ova",
+              "sc": "狩猎结束了",
+              "tc": "狩獵結束了"
+            },
+            "detail": {
+              "en": "Deals lethal damage to all other enemies.",
+              "sc": "对其他所有敌人造成致命伤害。",
+              "tc": "對其他所有敵人造成致命傷害。"
             }
           }
         ],
@@ -1435,13 +1393,13 @@
           },
           {
             "item": "500027",
-            "chance": 27,
-            "min": 1,
+            "chance": 65,
+            "min": 2,
             "max": 3
           },
           {
             "item": "500028",
-            "chance": 12,
+            "chance": 30,
             "min": 1,
             "max": 2
           },
@@ -1474,7 +1432,7 @@
       {
         "id": "130006",
         "rank": "Elite",
-        "hp": 165,
+        "hp": 108,
         "attack": 22,
         "defense": 25,
         "dungeons": [
@@ -1491,9 +1449,9 @@
               "tc": "狗哨"
             },
             "detail": {
-              "en": "Summons a Savage Hound.",
-              "sc": "召唤一只凶残猎犬。",
-              "tc": "召喚一隻兇殘獵犬。"
+              "en": "Summons two hounds.",
+              "sc": "召唤两只猎犬。",
+              "tc": "召喚兩隻獵犬。"
             }
           },
           {
@@ -1501,13 +1459,13 @@
             "trigger": "turn",
             "name": {
               "en": "Chain Slash",
-              "sc": "铁锁链斩",
-              "tc": "鐵鎖鏈斬"
+              "sc": "铁链挥斩",
+              "tc": "鐵鏈揮斬"
             },
             "detail": {
-              "en": "Deals heavy damage.",
-              "sc": "造成严重伤害。",
-              "tc": "造成嚴重傷害。"
+              "en": "Deals heavy damage and applies <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> to you for 2 turns.",
+              "sc": "造成严重伤害，并对你施加 <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span>，持续 2 回合。",
+              "tc": "造成嚴重傷害，並對你施加 <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span>，持續 2 回合。"
             }
           },
           {
@@ -1519,9 +1477,51 @@
               "tc": "保護窩"
             },
             "detail": {
-              "en": "Gains a <span class=\"kw\" title=\"Defense reduces incoming damage by 1% per point. Player Defense is capped at 90% damage reduction.\">Defense</span> Boost for a short duration.",
-              "sc": "获得 <span class=\"kw\" title=\"每点防御可使受到的伤害降低1%。玩家防御最高生效值为90%伤害减免。\">防御</span> 提升，持续短暂时间。",
-              "tc": "獲得 <span class=\"kw\" title=\"每點防禦可使受到的傷害降低1%。玩家防禦最高生效值為90%傷害減免。\">防禦</span> 提升，持續短暫時間。"
+              "en": "Gains a <span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span> Boost for a short duration.",
+              "sc": "获得 <span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span> 提升，持续短暂时间。",
+              "tc": "獲得 <span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span> 提升，持續短暫時間。"
+            }
+          },
+          {
+            "id": "300079",
+            "trigger": "turn",
+            "name": {
+              "en": "Dog Whistle",
+              "sc": "狗哨",
+              "tc": "狗哨"
+            },
+            "detail": {
+              "en": "Summons two hounds.",
+              "sc": "召唤两只猎犬。",
+              "tc": "召喚兩隻獵犬。"
+            }
+          },
+          {
+            "id": "300080",
+            "trigger": "turn",
+            "name": {
+              "en": "Dog Whistle",
+              "sc": "狗哨",
+              "tc": "狗哨"
+            },
+            "detail": {
+              "en": "Summons two hounds.",
+              "sc": "召唤两只猎犬。",
+              "tc": "召喚兩隻獵犬。"
+            }
+          },
+          {
+            "id": "300076",
+            "trigger": "death",
+            "name": {
+              "en": "Le Hunt is Ova",
+              "sc": "狩猎结束了",
+              "tc": "狩獵結束了"
+            },
+            "detail": {
+              "en": "Deals lethal damage to all other enemies.",
+              "sc": "对其他所有敌人造成致命伤害。",
+              "tc": "對其他所有敵人造成致命傷害。"
             }
           }
         ],
@@ -1564,13 +1564,13 @@
           },
           {
             "item": "500027",
-            "chance": 27,
-            "min": 1,
+            "chance": 65,
+            "min": 2,
             "max": 3
           },
           {
             "item": "500028",
-            "chance": 12,
+            "chance": 30,
             "min": 1,
             "max": 2
           },
@@ -1614,8 +1614,8 @@
       {
         "id": "121001",
         "rank": "Boss",
-        "hp": 280,
-        "attack": 18,
+        "hp": 157,
+        "attack": 14,
         "defense": 10,
         "dungeons": [
           "WindChime_1"
@@ -1659,9 +1659,9 @@
               "tc": "腐蝕迷霧"
             },
             "detail": {
-              "en": "Applies a moderate <span class=\"kw\" title=\"A stackable debuff that increases the owner's taken damage by x percent within y turns.\">Fragile</span> effect to you for 3 turns.",
-              "sc": "对你施加中度 <span class=\"kw\" title=\"可叠加的减益，在 y 回合内使持有者受到的伤害提升 x%。\">脆弱</span> 效果 3 回合。",
-              "tc": "對你施加中度 <span class=\"kw\" title=\"可疊加的減益，在 y 回合內使持有者受到的傷害提升 x%。\">脆弱</span> 效果 3 回合。"
+              "en": "Applies a moderate <span class=\"kw\" title=\"Debuff · Stackable<br>For y turns, the owner takes x% more damage.\">Fragile</span> effect to you for 3 turns.",
+              "sc": "对你施加中度 <span class=\"kw\" title=\"减益・可叠加<br>y 回合内，持有者受到的伤害提升 x%。\">脆弱</span> 效果 3 回合。",
+              "tc": "對你施加中度 <span class=\"kw\" title=\"減益・可疊加<br>y 回合內，持有者受到的傷害提升 x%。\">脆弱</span> 效果 3 回合。"
             }
           },
           {
@@ -1673,9 +1673,9 @@
               "tc": "褻瀆碎片"
             },
             "detail": {
-              "en": "Deals moderate damage and increases your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Demon Meter\"></span>.",
-              "sc": "造成中等伤害，并增加你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"恶魔量表\"></span>。",
-              "tc": "造成中等傷害，並增加你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"惡魔量表\"></span>。"
+              "en": "Deals moderate damage and increases your <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Belgardian Meter\"></span>.",
+              "sc": "造成中等伤害，并增加你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"贝尔嘉德量表\"></span>。",
+              "tc": "造成中等傷害，並增加你的 <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"貝爾嘉德量表\"></span>。"
             }
           },
           {
@@ -1696,43 +1696,37 @@
         "drops": [
           {
             "item": "500004",
-            "chance": 25,
+            "chance": 40,
             "min": 1,
             "max": 2
           },
           {
             "item": "500008",
-            "chance": 50,
+            "chance": 70,
             "min": 1,
             "max": 2
           },
           {
             "item": "500009",
-            "chance": 50,
+            "chance": 70,
             "min": 1,
             "max": 2
           },
           {
             "item": "500031",
-            "chance": 50,
-            "min": 1,
+            "chance": 100,
+            "min": 2,
             "max": 3
           },
           {
             "item": "500032",
-            "chance": 35,
+            "chance": 75,
             "min": 1,
             "max": 2
           },
           {
-            "item": "520001",
-            "chance": 22,
-            "min": 1,
-            "max": 1
-          },
-          {
             "item": "520026",
-            "chance": 25,
+            "chance": 75,
             "min": 1,
             "max": 1
           }
@@ -1752,13 +1746,13 @@
       {
         "id": "130003",
         "rank": "Minion",
-        "hp": 59,
-        "attack": 17,
+        "hp": 62,
+        "attack": 14,
         "defense": 0,
         "dungeons": [
           "WindChime_2"
         ],
-        "summonedBy": "130006",
+        "summonedBy": null,
         "skills": [
           {
             "id": "300035",
@@ -1769,9 +1763,9 @@
               "tc": "野性撕裂"
             },
             "detail": {
-              "en": "Inflicts <span class=\"kw\" title=\"A stackable, Lingering, and durationless debuff that deals x percent HP damage to the owner at the end of each turn.\">Bleeding</span> upon you.",
-              "sc": "对你施加 <span class=\"kw\" title=\"可叠加、缠身、且无持续时间限制的减益，会于每回合结束时对持有者造成 x% 生命的伤害。\">流血</span>。",
-              "tc": "對你施加 <span class=\"kw\" title=\"可疊加、纏身、且無持續時間限制的減益，會於每回合結束時對持有者造成 x% 生命的傷害。\">流血</span>。"
+              "en": "Inflicts <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span> upon you.",
+              "sc": "对你施加 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>。",
+              "tc": "對你施加 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>。"
             }
           },
           {
@@ -1786,6 +1780,34 @@
               "en": "Deals heavy damage at the cost of its own HP.",
               "sc": "消耗自身生命值并造成严重伤害。",
               "tc": "消耗自身生命值並造成嚴重傷害。"
+            }
+          },
+          {
+            "id": "300082",
+            "trigger": "turn",
+            "name": {
+              "en": "Charge Up",
+              "sc": "躬身蓄力",
+              "tc": "躬身蓄力"
+            },
+            "detail": {
+              "en": "The hound is charged up, preparing for a devastating attack.",
+              "sc": "猎犬躬身蓄力，准备释放残暴的一击。",
+              "tc": "獵犬躬身蓄力，準備釋放殘暴的一擊。"
+            }
+          },
+          {
+            "id": "300031",
+            "trigger": "turn",
+            "name": {
+              "en": "Brutal Charge",
+              "sc": "残暴猛冲",
+              "tc": "殘暴猛衝"
+            },
+            "detail": {
+              "en": "Deals devastating damage.",
+              "sc": "造成猛烈伤害。",
+              "tc": "造成猛烈傷害。"
             }
           }
         ],
@@ -1828,13 +1850,13 @@
           },
           {
             "item": "500021",
-            "chance": 19,
+            "chance": 44,
             "min": 1,
             "max": 3
           },
           {
             "item": "500022",
-            "chance": 10,
+            "chance": 23,
             "min": 1,
             "max": 2
           },
@@ -1852,7 +1874,7 @@
     "slug": "pluton-the-rich",
     "art": "VillageBoss2.png",
     "name": {
-      "en": "Pluton, the Rich",
+      "en": "Pluton, the Abundant",
       "sc": "丰裕者．普鲁顿",
       "tc": "豐裕者．普魯頓"
     },
@@ -1860,9 +1882,9 @@
       {
         "id": "131001",
         "rank": "Boss",
-        "hp": 350,
-        "attack": 20,
-        "defense": 12,
+        "hp": 233,
+        "attack": 18,
+        "defense": 10,
         "dungeons": [
           "WindChime_2"
         ],
@@ -1891,9 +1913,9 @@
               "tc": "堅毅意志"
             },
             "detail": {
-              "en": "Gains <span class=\"kw\" title=\"An unstackable buff that grants complete immunity to the next incoming attack within x turns.\">Guard</span> and moderate <span class=\"kw\" title=\"A stackable buff that increases the owner's attack damage multiplicatively by a percentage within x turns.\">Imbue</span> for a few turns.",
-              "sc": "获得 <span class=\"kw\" title=\"不可叠加的增益，在 x 回合内完全免疫下一次受到的攻击。\">守护</span> 与中等 <span class=\"kw\" title=\"可叠加的增益，在 x 回合内使持有者的攻击伤害以百分比乘算提升。\">灌注</span> 效果，持续数回合。",
-              "tc": "獲得 <span class=\"kw\" title=\"不可疊加的增益，在 x 回合內完全免疫下一次受到的攻擊。\">守護</span> 與中等 <span class=\"kw\" title=\"可疊加的增益，在 x 回合內使持有者的攻擊傷害以百分比乘算提升。\">灌注</span> 效果，持續數回合。"
+              "en": "Gains <span class=\"kw\" title=\"Buff · Unstackable<br>For x turns, completely blocks the next attack the owner receives.\">Guard</span> and moderate <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attack damage is multiplied by a percentage.\">Imbue</span> for a few turns.",
+              "sc": "获得 <span class=\"kw\" title=\"增益・不可叠加<br>x 回合内，完全抵挡持有者受到的下一次攻击。\">守护</span> 与中等 <span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害以百分比乘算提升。\">灌注</span> 效果，持续数回合。",
+              "tc": "獲得 <span class=\"kw\" title=\"增益・不可疊加<br>x 回合內，完全抵擋持有者受到的下一次攻擊。\">守護</span> 與中等 <span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害以百分比乘算提升。\">灌注</span> 效果，持續數回合。"
             }
           },
           {
@@ -1919,9 +1941,23 @@
               "tc": "卸志禱告"
             },
             "detail": {
-              "en": "Applies <span class=\"kw\" title=\"A stackable debuff that reduces the owner's attack by a percentage within x turns.\">Intimidate</span> to you for 1 turn and increases your Angel Meter.",
-              "sc": "对你施加 <span class=\"kw\" title=\"可叠加的减益，在 x 回合内使持有者的攻击降低一定百分比。\">威吓</span> 1 回合，并增加你的天使量表。",
-              "tc": "對你施加 <span class=\"kw\" title=\"可疊加的減益，在 x 回合內使持有者的攻擊降低一定百分比。\">威嚇</span> 1 回合，並增加你的天使量表。"
+              "en": "Applies <span class=\"kw\" title=\"Debuff · Stackable<br>For x turns, the owner deals a percentage less damage, up to 75%.\">Intimidate</span> to you for 3 turns and increases your Rosriconian Meter.",
+              "sc": "对你施加 <span class=\"kw\" title=\"减益・可叠加<br>x 回合内，持有者造成的伤害降低一定百分比，最多 75%。\">威吓</span> 3 回合，并增加你的罗斯里坎量表。",
+              "tc": "對你施加 <span class=\"kw\" title=\"減益・可疊加<br>x 回合內，持有者造成的傷害降低一定百分比，最多 75%。\">威嚇</span> 3 回合，並增加你的羅斯里坎量表。"
+            }
+          },
+          {
+            "id": "300077",
+            "trigger": "turn",
+            "name": {
+              "en": "Time's Up",
+              "sc": "时间到了",
+              "tc": "時間到了"
+            },
+            "detail": {
+              "en": "Loses patience and starts attacking in earnest.",
+              "sc": "失去耐心，开始认真攻击。",
+              "tc": "失去耐心，開始認真攻擊。"
             }
           },
           {
@@ -1942,37 +1978,37 @@
         "drops": [
           {
             "item": "500029",
-            "chance": 50,
-            "min": 1,
+            "chance": 100,
+            "min": 2,
             "max": 3
           },
           {
             "item": "500030",
-            "chance": 35,
+            "chance": 75,
             "min": 1,
             "max": 2
           },
           {
             "item": "500003",
-            "chance": 25,
+            "chance": 40,
             "min": 1,
             "max": 2
           },
           {
             "item": "500007",
-            "chance": 50,
+            "chance": 70,
             "min": 1,
             "max": 2
           },
           {
-            "item": "520001",
-            "chance": 22,
+            "item": "520070",
+            "chance": 50,
             "min": 1,
             "max": 1
           },
           {
             "item": "520009",
-            "chance": 25,
+            "chance": 50,
             "min": 1,
             "max": 1
           }
