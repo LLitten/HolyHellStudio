@@ -35,9 +35,11 @@ const groups = order
   </ul>
 </nav>
 
+<p class="none" hidden data-none>{t('filter.noneItems')}</p>
+
 {
   groups.map((g) => (
-    <section class="group">
+    <section class="group" data-item-group>
       <h2 id={g.id}>{g.label}</h2>
       <div class="tile-grid">
         {g.items.map((item) => (
@@ -53,5 +55,9 @@ const groups = order
 <style>
   h1 {
     color: var(--text);
+  }
+
+  .none {
+    color: var(--text-muted);
   }
 </style>

@@ -47,6 +47,8 @@ export interface Item {
   name: Text;
   description: Text;
   lore: Text;
+  areas: string[];
+  keywords: string[];
 }
 
 export interface EnemySkill {
@@ -100,6 +102,9 @@ export const glossary = glossaryJson as GlossaryEntry[];
 export const terms = termsJson as Record<'factions' | 'gods' | 'actionTypes', Record<string, Text>>;
 
 export const itemById = new Map(items.map((i) => [i.id, i]));
+
+// Filter values for an item (the item filters and the data attributes on item tiles).
+export const itemSources = (i: Item) => [...new Set(i.sources.map((s) => s.type))];
 export const enemyBySlug = new Map(enemies.map((e) => [e.slug, e]));
 export const enemySlugById = new Map(Object.entries(metaJson.enemySlugById));
 export const dungeonById = new Map(locations.flatMap((l) => l.dungeons.map((d) => [d.id, d])));

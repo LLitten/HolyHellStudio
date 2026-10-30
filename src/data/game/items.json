@@ -96,7 +96,12 @@
       "en": "Born from the first flickers of civilization, Intereon stands as the iron architect of law, authority, and the enforced balance of the world.",
       "sc": "诞生于文明最初的微光，英提力恩是律法、权威与世界强制平衡的铁腕建构者。",
       "tc": "誕生於文明最初的微光，英提力恩是律法、權威與世界強制平衡的鐵腕建構者。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500012",
@@ -199,7 +204,12 @@
       "en": "Born from the desperate prayers of a frozen world, Florentis first appeared as the quiet warmth that allowed humanity to endure the ice.",
       "sc": "诞生于冰封世界的绝望祈祷，佛洛伦蒂斯最初显现为一缕静谧的暖意，让人类得以熬过寒冰。",
       "tc": "誕生於冰封世界的絕望祈禱，弗洛倫蒂斯最初顯現為一縷靜謐的暖意，讓人類得以熬過寒冰。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500013",
@@ -302,7 +312,12 @@
       "en": "Born from the fundamental hungers for security and abundance, Evinor is the shifting mirror of Razenian desire.",
       "sc": "诞生于对安全与富足最根本的渴求，伊维诺是拉泽尼亚欲望的变幻之镜。",
       "tc": "誕生於對安全與富足最根本的渴求，伊維諾是拉澤尼亞慾望的變幻之鏡。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500014",
@@ -401,7 +416,12 @@
       "en": "Born from the heretical realization that belief can reshape reality, Oculyth is the god of the manifesting mind and the divine power of human will.",
       "sc": "诞生于“信念能重塑现实”的异端顿悟，奥库莉丝是显现心智之神，象征人类意志的神力。",
       "tc": "誕生於「信念能重塑現實」的異端頓悟，奧庫莉絲是顯現心智之神，象徵人類意志的神力。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500015",
@@ -500,7 +520,12 @@
       "en": "Born from the primal urge to shatter all restraint, Hedalis is the divine spark of unchained will and the pursuit of absolute self-satisfaction.",
       "sc": "诞生于粉碎一切束缚的原始冲动，赫达利斯是无拘意志的神圣火花，象征对绝对自我满足的追求。",
       "tc": "誕生於粉碎一切束縛的原始衝動，赫達利斯是無拘意志的神聖火花，象徵對絕對自我滿足的追求。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500016",
@@ -595,7 +620,12 @@
       "en": "Born from fractured intent and discarded power, Vortherect is the abrupt anomaly that shattered Razenia's history, a chaotic amalgamation.",
       "sc": "诞生于破碎的意图与被舍弃的力量，沃索勒克特 是撕裂拉泽尼亚历史的突发异象，一团混沌的聚合体。",
       "tc": "誕生於破碎的意圖與被捨棄的力量，沃索勒克特是撕裂拉澤尼亞歷史的突發異象，一團混沌的聚合體。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500017",
@@ -630,7 +660,11 @@
       "en": "The hem of a Rosriconian robe, soaked in blood. In the eyes of most Rosriconians, heretics are cursed, unclean beings blinded by dark gods, no different from beasts.",
       "sc": "浸满了鲜血的罗斯里坎长袍衣摆。在绝大多数罗斯里坎人的眼中，异教徒们是受到诅咒、被邪神蒙蔽了的不洁存在，和畜生并无差别。",
       "tc": "浸滿了鮮血的羅斯里坎長袍衣襬。在絕大多數羅斯里坎人的眼中，異教徒們是受到詛咒、被邪神蒙蔽了的不潔存在，和畜生並無差別。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500018",
@@ -665,7 +699,11 @@
       "en": "An iron candle-lantern. Beyond its use for light, the candle's flame is believed to be a vessel through which Florentis dwells in the mortal world. Some of his followers believe that once the flame begins to dim, its life must be prolonged by any means necessary, even at the cost of becoming kindling themselves.",
       "sc": "铁制的烛型提灯。除了用于照明以外，烛光也被视为弗洛伦蒂斯在现世的寄宿之处。其部分信徒认为一旦烛光开始变的黯淡，就必须想方设法的延续火焰的寿命，即使是将自身化为柴薪也在所不惜。",
       "tc": "鐵製的燭型提燈。除了用於照明以外，燭光也被視為弗洛倫蒂斯在現世的寄宿之處。其部分信徒認為一旦燭光開始變的黯淡，就必須想方設法的延續火焰的壽命，即使是將自身化為柴薪也在所不惜。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500019",
@@ -700,7 +738,11 @@
       "en": "A battered knife, its blade already splitting and warped. Most bandits of the Pale are displaced wanderers turned outlaw, so their gear tends to be everyday tools like sickles and brush knives.",
       "sc": "有些破损的小刀，刀锋处已经有些分岔变形。苍白之地的盗贼多半是落草为寇的流民，因此装备也多半是镰刀、柴刀等日常用具。",
       "tc": "有些破損的小刀，刀鋒處已經有些分岔變形。蒼白之地的盜賊多半是落草為寇的流民，因此裝備也多半是鐮刀、柴刀等日常用具。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500020",
@@ -735,7 +777,11 @@
       "en": "A heavily worn pair of leather handwraps. With its vast forests, the Pale is home to many hunters, for whom handwraps are a popular accessory, protecting and supporting the wrists during exertion. Naturally, in the hands of a bandit, they also greatly improve the odds of a successful crime.",
       "sc": "磨损严重的皮手套。苍白之地由于林木广袤，因此猎户众多，皮手套是十分受欢迎的配件，可以良好的保护和辅助施力时的腕部。当然，落于盗贼手中时也会大大的增加犯行的成功机率。",
       "tc": "磨損嚴重的皮手套。蒼白之地由於林木廣袤，因此獵戶眾多，皮手套是十分受歡迎的配件，可以良好的保護和輔助施力時的腕部。當然，落於盜賊手中時也會大大的增加犯行的成功機率。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500021",
@@ -766,7 +812,11 @@
       "en": "A sharp canine tooth, crawling with bacteria and scraps of flesh. Most bandits worship Hedalis, believing the free will he grants maximizes their strength when committing atrocities. Because of this, the hounds they keep are largely left unrestrained, living much like strays.",
       "sc": "锋利的犬科动物牙齿，上面布满了病菌和血肉残渣。盗贼们多半信奉着赫达利斯，认为其所赋予的自由意志能最大化他们在犯下暴行时的力量。有鉴于此，其所饲养的猎犬们多半缺乏管束，过着流浪犬般的生活。",
       "tc": "鋒利的犬科動物牙齒，上面佈滿了病菌和血肉殘渣。盜賊們多半信奉著赫達利斯，認為其所賦予的自由意志能最大化他們在犯下暴行時的力量。有鑑於此，其所飼養的獵犬們多半缺乏管束，過著流浪犬般的生活。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500022",
@@ -797,7 +847,11 @@
       "en": "A broken collar. Not every bandit gang is made up of Hedalis's followers, and members do not police one another's beliefs. Bandits who don't follow Hedalis mostly try to tame their hounds, but a beast that has tasted the sweetness of freedom can never again be kept quietly caged.",
       "sc": "断裂的项圈。盗贼团伙并非全部都是赫达利斯的信徒，而彼此之间也并不会加以约束其他成员的信仰。非赫达利斯信徒的盗贼大多会试图驯化猎犬，但尝惯自由甜头的野兽却再也无法被安分的囚于笼中。",
       "tc": "斷裂的項圈。盜賊團夥並非全部都是赫達利斯的信徒，而彼此之間也並不會加以約束其他成員的信仰。非赫達利斯信徒的盜賊大多會試圖馴化獵犬，但嘗慣自由甜頭的野獸卻再也無法被安分的囚於籠中。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500023",
@@ -832,7 +886,11 @@
       "en": "A limb burned beyond recognition. When Windchime Village was invaded, followers of Florentis set it ablaze without restraint. The crackle of burning bone and flesh, and the screams of those burned alive, sounded to the faithful like celestial music rewarding their devotion.",
       "sc": "被焚毁的难辨部位的残肢。风铃村遭到入侵之时，受到了弗洛伦蒂斯信徒们的肆意纵火。骨肉劈啪作响、和被活活焚烧的惨叫声，在信徒们的耳中就如同嘉奖其虔诚的仙乐。",
       "tc": "被焚毀的難辨部位的殘肢。風鈴村遭到入侵之時，受到了弗洛倫蒂斯信徒們的肆意縱火。骨肉劈啪作響、和被活活焚燒的慘叫聲，在信徒們的耳中就如同嘉獎其虔誠的仙樂。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500024",
@@ -867,7 +925,11 @@
       "en": "A swollen human eyeball. Followers of Oculyth from Belgard excel at inflicting visions and hallucinations on others, numbing or even paralyzing a target's sight. Victims' eyes swell in proportion to the effect, sometimes rupturing outright in their sockets.",
       "sc": "浮肿的人类眼球。来自贝尔嘉德的奥库莉丝信徒擅于让人看见异象和幻觉，借此麻痹甚至瘫痪目标的视觉。受害者们的眼球会随着影响程度而胀大，甚至直接在眼眶中破裂。",
       "tc": "浮腫的人類眼球。來自貝爾嘉德的奧庫莉絲信徒擅於讓人看見異象和幻覺，藉此麻痺甚至癱瘓目標的視覺。受害者們的眼球會隨著影響程度而脹大，甚至直接在眼眶中破裂。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "520001",
@@ -906,7 +968,13 @@
       "en": "Rosricon is notorious for its harsh laws, though it was not always so. When the Great War broke out, humanity split in two: obedient sheep and savage beasts. Countless codices were written to impose order, yet as the centuries passed, decree piled upon decree until the law itself... grew twisted.",
       "sc": "罗斯里坎以严刑峻法闻名，然而昔日并非总是如此。当那场大战爆发时，人类社会一分为二：顺从的羔羊，与野蛮的猛兽。无数古老法典为了强加秩序而诞生；然而随着世纪更迭，律法条文层层堆叠，最终……走向了扭曲。",
       "tc": "羅斯里坎以嚴刑峻法聞名，然而昔日並非總是如此。當那場大戰爆發時，人類社會一分為二：順從的羔羊，與野蠻的猛獸。無數古老法典為了強加秩序而誕生；然而隨著世紀更迭，律法條文層層堆疊，最終……走向了扭曲。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Fragile"
+    ]
   },
   {
     "id": "520004",
@@ -953,7 +1021,11 @@
       "en": "People have always feared their reflections, seeing them as false shadows that invert reality. For that very reason, the followers of Oculyth came to believe all the more that truth could be glimpsed within. They always carried a round mirror on their person. This one has since shattered.",
       "sc": "人们总是畏惧镜中的倒影，认为那是与现实相反的虚假之影。然而正因如此，奥库莉丝的信徒才愈发相信能从中窥见真理。他们总是随身携带圆镜，而这面镜子如今已然破碎。",
       "tc": "人們總是畏懼鏡中的倒影，認為那是與現實相反的虛假之影。然而正因如此，奧庫莉絲的信徒才愈發相信能從中窺見真理。他們總是隨身攜帶圓鏡，而這面鏡子如今已然破碎。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "520009",
@@ -988,7 +1060,11 @@
       "en": "&quot;I hereby declare the Flesh Circulation Act in full effect. The Kingdom shall distribute divinity-infused fertilizer to farmers across the land, so that the earth may flourish once more and bask forever in the grace of Florentis.&quot; — Malakor, the Divine",
       "sc": "「吾于此正式宣告，《血肉循环法案》即刻生效。王国将颁发蕴含神性的肥料予各地农人，使大地重获丰饶，永世沐浴于弗洛伦蒂斯的恩典之中。」——圣者．马拉科",
       "tc": "「吾於此正式宣告，《血肉循環法案》即刻生效。王國將頒發蘊含神性的肥料予各地農人，使大地重獲豐饒，永世沐浴於弗洛倫蒂斯的恩典之中。」——聖者．馬拉科"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "520010",
@@ -1027,7 +1103,13 @@
       "en": "Through centuries of worship and sacrifice, divinity has seeped into every corner of Razenia. Beast, mortal, even the land itself: none can escape the fate of being blessed, or damned.",
       "sc": "经历数个世纪的崇拜与祭献，神性早已渗透拉泽尼亚的每一个角落。无论是走兽、凡人，抑或是这片大地本身，皆无法逃脱受到赐福或沦为诅咒的宿命。",
       "tc": "經歷數個世紀的崇拜與祭獻，神性早已滲透拉澤尼亞的每一個角落。無論是走獸、凡人，抑或是這片大地本身，皆無法逃脫受到賜福或淪為詛咒的宿命。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Fervor"
+    ]
   },
   {
     "id": "520013",
@@ -1062,7 +1144,14 @@
       "en": "Freely flowing blood is hailed as the truest expression of Hedalis's free will. Yet the bandages that stanch it are revered as divine gifts as well. Is freedom found in letting the blood run, or in binding the wound? The faithful argue it still.",
       "sc": "汩汩流淌的鲜血，被视为赫达利斯自由意志的体现；然而能扼止血流的绷带，却也被视为神灵所赐予的恩典。究竟是任血奔流，抑或是止血疗伤才是真正的自由？信徒之间至今仍争执不休。",
       "tc": "汩汩流淌的鮮血，被視為赫達利斯自由意志的體現；然而能扼止血流的繃帶，卻也被視為神靈所賜予的恩典。究竟是任血奔流，抑或是止血療傷才是真正的自由？信徒之間至今仍爭執不休。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Bleeding",
+      "Defense"
+    ]
   },
   {
     "id": "520014",
@@ -1101,7 +1190,13 @@
       "en": "Florentis may be one of the oldest gods in Razenia. Long ago, when the land lay under endless frost, mortals survived on nothing but the faint warmth of the sun. Only when fire was discovered and spread did civilization, blessed by Florentis, take its first step.",
       "sc": "弗洛伦蒂斯或许是拉泽尼亚最古老的神灵之一。很久以前，拉泽尼亚曾笼罩于无尽的严霜之下，凡人仅能仰赖日光的微温苟活。直到火焰首次被发现与普及，文明才伴随着弗洛伦蒂斯的赐福，踏出了第一步。",
       "tc": "弗洛倫蒂斯或許是拉澤尼亞最古老的神靈之一。很久以前，拉澤尼亞曾籠罩於無盡的嚴霜之下，凡人僅能仰賴日光的微溫苟活。直到火焰首次被發現與普及，文明才伴隨著弗洛倫蒂斯的賜福，踏出了第一步。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Burn"
+    ]
   },
   {
     "id": "520017",
@@ -1140,7 +1235,11 @@
       "en": "Hunger is the primal instinct of every living thing, and the most chaotic of desires. This untamable greed, tangled with countless unspeakable impurities and obsessions, at last settled into a form that even the gods cannot ignore.",
       "sc": "饥饿是一切生灵的本能，亦是最为混乱的欲望。这股无法驾驭的贪婪夹杂着无数不可言说的杂质与执念，最终沉淀为某种连神灵都无法忽视的形体。",
       "tc": "飢餓是一切生靈的本能，亦是最為混亂的慾望。這股無法駕馭的貪婪夾雜著無數不可言說的雜質與執念，最終沉澱為某種連神靈都無法忽視的形體。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "520020",
@@ -1179,7 +1278,11 @@
       "en": "&quot;Here, take this. Every household hangs one under the eaves. They say that even when family are far from home, the sound of the chimes will guide them back... Me? Oh, I can see already.&quot; — Mara",
       "sc": "「给你，这是家家户户都要挂在屋檐下的风铃。就算亲友远在他乡，只要听见这铃声，就能找到回家的路……我吗？我本来就已经看得见了哦。」——玛拉",
       "tc": "「給你，這是家家戶戶都要掛在屋簷下的風鈴。就算親友遠在他鄉，只要聽見這鈴聲，就能找到回家的路……我嗎？我本來就已經看得見了哦。」——瑪拉"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "520023",
@@ -1218,7 +1321,11 @@
       "en": "Statues are among the most common forms faith takes. Through countless blows of hammer and chisel, mortals give real form to formless gods, or recreate the living creatures of this world.",
       "sc": "雕像是信仰最常见的具象形式之一。在无数次的捶打与雕琢之中，凡人为无形的神灵赋予了真实的形体，抑或是仿造着世间真实存在的生灵。",
       "tc": "雕像是信仰最常見的具象形式之一。在無數次的捶打與雕琢之中，凡人為無形的神靈賦予了真實的形體，抑或是仿造著世間真實存在的生靈。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "520140",
@@ -1253,7 +1360,13 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Lowlife"
+    ]
   },
   {
     "id": "500002",
@@ -1308,7 +1421,12 @@
       "en": "The lost find shelter in faith; the pure find traps in religion.",
       "sc": "迷途者在信仰中寻得庇护；纯洁者在宗教中发现陷阱。",
       "tc": "迷途者在信仰中尋得庇護；純潔者在宗教中發現陷阱。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500003",
@@ -1355,7 +1473,12 @@
       "en": "Walls that cannot break; warmth that should comfort. You are safe here, yet you have never felt more like an outsider.",
       "sc": "无法击破的高墙；本应抚慰人心的温暖。你在这里很安全，却从未如此感到格格不入。",
       "tc": "無法擊破的高牆；本應撫慰人心的溫暖。你在這裡很安全，卻從未如此感到格格不入。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500004",
@@ -1394,7 +1517,11 @@
       "en": "The desert does not apologize for the heat, and a man born of hardship does not apologize for the blood on his hands.",
       "sc": "沙漠不会为酷热道歉，生于苦难的人也不会为手上的鲜血道歉。",
       "tc": "沙漠不會為酷熱道歉，生於苦難的人也不會為手上的鮮血道歉。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500005",
@@ -1425,7 +1552,14 @@
       "en": "Without laws, we are just beasts; with them, we are just livestock.",
       "sc": "没有律法，我们只是野兽；有了律法，我们只是牲畜。",
       "tc": "沒有律法，我們只是野獸；有了律法，我們只是牲畜。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": [
+      "Ameter"
+    ]
   },
   {
     "id": "500006",
@@ -1460,7 +1594,12 @@
       "en": "Spring is the first season for a reason: life must return simply so it can perish again.",
       "sc": "春天之所以是第一个季节自有其道理：生命必须归来，只为了能再次凋零。",
       "tc": "春天之所以是第一個季節自有其道理：生命必須歸來，只為了能再次凋零。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500007",
@@ -1499,7 +1638,12 @@
       "en": "In the shadow of the mountain and the silence of the abyss, humanity finds its natural state. Not awe, but fear.",
       "sc": "在高山的阴影与深渊的寂静中，人类寻回了自己的本性。不是敬畏，而是恐惧。",
       "tc": "在高山的陰影與深淵的寂靜中，人類尋回了自己的本性。不是敬畏，而是恐懼。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500008",
@@ -1538,7 +1682,15 @@
       "en": "The mind forgets its dreams for a reason. Waking up isn't a fresh start; it is a desperate flight from the truth.",
       "sc": "心智遗忘梦境自有其理由。苏醒并非崭新的开始，而是对真相的仓皇逃离。",
       "tc": "心智遺忘夢境自有其理由。甦醒並非嶄新的開始，而是對真相的倉皇逃離。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": [
+      "DelayedDamage",
+      "AP"
+    ]
   },
   {
     "id": "500009",
@@ -1577,7 +1729,14 @@
       "en": "Freedom is merely an excuse to overwhelm others with your strength. It is desire given teeth, and power stripped of its leash.",
       "sc": "自由不过是以力量压倒他人的借口。它是长出利齿的欲望，是挣脱缰绳的力量。",
       "tc": "自由不過是以力量壓倒他人的藉口。它是長出利齒的慾望，是掙脫韁繩的力量。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": [
+      "AP"
+    ]
   },
   {
     "id": "500010",
@@ -1608,7 +1767,14 @@
       "en": "Choice is an illusion; the world decides for us. In this life, the only thing guaranteed is uncertainty.",
       "sc": "选择只是幻觉，世界早已替我们做了决定。此生唯一能确定的，只有不确定本身。",
       "tc": "選擇只是幻覺，世界早已替我們做了決定。此生唯一能確定的，只有不確定本身。"
-    }
+    },
+    "areas": [
+      "1",
+      "2"
+    ],
+    "keywords": [
+      "Bleeding"
+    ]
   },
   {
     "id": "500025",
@@ -1643,7 +1809,11 @@
       "en": "A thick sinew that still twitches. Evinor presides over strength and amplification, and his blessing brings unimaginable changes to a follower's body. Most of the blessed find their bodily functions drastically affected afterward: tissue necrosis, disrupted blood flow, and similar afflictions.",
       "sc": "仍在跳动的粗壮肌腱。伊维诺掌管着力量和倍化的权责，其赐福会使信徒们的肉体发生难以想像的变化。绝大多数赐福者的身体机能在受到赐福后会被剧烈影响，导致部位坏死或是血液流通失常等问题。",
       "tc": "仍在跳動的粗壯肌腱。伊維諾掌管著力量和倍化的權責，其賜福會使信徒們的肉體發生難以想像的變化。絕大多數賜福者的身體機能在受到賜福後會被劇烈影響，導致部位壞死或是血液流通失常等問題。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500026",
@@ -1678,7 +1848,11 @@
       "en": "Blackened blood, badly corrupted. Though those blessed by Evinor gain strength beyond ordinary reach, wielding it carries an irreversible price. Some followers even hope to be blessed in a way that lets them tear themselves apart and die while unleashing their full power.",
       "sc": "受到严重污染的黑色血液。伊维诺赐福者们虽然获得了常人无法企及的力量，使用该力量却也伴随着不可逆的代价。一部分信徒甚至盼望着能受到神灵赐福，以在施展全力时将自身撕裂而死。",
       "tc": "受到嚴重汙染的黑色血液。伊維諾賜福者們雖然獲得了常人無法企及的力量，使用該力量卻也伴隨著不可逆的代價。一部分信徒甚至盼望著能受到神靈賜福，以在施展全力時將自身撕裂而死。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500027",
@@ -1713,7 +1887,11 @@
       "en": "A broken iron chain, covered in scratches. The hound master holds a special position within a bandit gang. Their chain is used not only to restrain hounds, but also to discipline members who grow too unruly. Such a member is bound to a tree with it and subjected to an unimaginable beating.",
       "sc": "断裂的铁链，上面布满了划痕。驯犬师在盗贼团伙中是个身分特殊的职位。其手中的铁链不只用于管束猎犬，同时也适用于管束过于不受控的个别成员。成员会被铁链缠于树木之上，并遭受难以想像的毒打。",
       "tc": "斷裂的鐵鍊，上面佈滿了劃痕。馴犬師在盜賊團夥中是個身分特殊的職位。其手中的鐵鍊不只用於管束獵犬，同時也適用於管束過於不受控的個別成員。成員會被鐵鍊纏於樹木之上，並遭受難以想像的毒打。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500028",
@@ -1748,7 +1926,11 @@
       "en": "An arrowhead coated in poison. So they can still fight even without their hounds, hound masters have taken up the habit of coating their arrows with a highly toxic tree sap. This tree grows throughout the Pale Lands, killing many humans and animals every year, and is regarded by villagers everywhere as a curse of Florentis.",
       "sc": "涂满了毒药的箭头。驯犬师们为了使自身在脱离猎犬时也有一战之力，于是养成了在箭上涂抹带有剧毒的树液的习惯。这种树遍布苍白之地的各处，每年都会毒死许多人类和动物，被各地村民认为是弗洛伦蒂斯的诅咒。",
       "tc": "塗滿了毒藥的箭頭。馴犬師們為了使自身在脫離獵犬時也有一戰之力，於是養成了在箭上塗抹帶有劇毒的樹液的習慣。這種樹遍布蒼白之地的各處，每年都會毒死許多人類和動物，被各地村民認為是弗洛倫蒂斯的詛咒。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500033",
@@ -1783,7 +1965,11 @@
       "en": "Foul-smelling, low-grade gunpowder. The mercenary company secretly buys its supplies from the black market beneath Denlitin Court, but with funds tight, it can only afford the defective stock no one else will take. A few members have sworn to develop a stronger powder themselves, though so far all they have to show for it is a handful of dead comrades.",
       "sc": "散发着难闻气味的劣质火药。佣兵团秘密地从丹立庭地下的黑市进货，然而因为资金不足，只能使用被市场淘汰的残缺品。某些成员因此立志自主研发更强力的火药，但除了炸死了几名同袍以外并无进展。",
       "tc": "散發著難聞氣味的劣質火藥。傭兵團秘密地從丹立庭地下的黑市進貨，然而因為資金不足，只能使用被市場淘汰的殘缺品。某些成員因此立志自主研發更強力的火藥，但除了炸死了幾名同袍以外並無進展。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500034",
@@ -1818,7 +2004,11 @@
       "en": "A green cloak covered in patches. Green is the mercenary commander's favorite color, so the company has required everyone to wear a green uniform since its founding. Sadly, after years of campaigning, the veterans who never received replacement gear have been left to mend their own cloaks as best they can.",
       "sc": "上头满是补丁的绿色披风。绿色是佣兵团团长最喜欢的颜色，因此自组织成立以来就一直强制规定穿着绿色的统一制服。遗憾的是，在经年累月的作战后，迟迟等不到装备更新的老资历成员只能笨拙地自行修补。",
       "tc": "上頭滿是補丁的綠色披風。綠色是傭兵團團長最喜歡的顏色，因此自組織成立以來就一直強制規定穿著綠色的統一制服。遺憾的是，在經年累月的作戰後，遲遲等不到裝備更新的老資歷成員只能笨拙地自行修補。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500035",
@@ -1849,7 +2039,11 @@
       "en": "A sturdy iron shield frame. In its early days, the company mostly took security jobs handed down by the kingdom, where a heavy shield was ideal for blunting attacks and holding back crowds. But years of nothing but taking hits have bred resentment among the shield-bearers, who now seem to be quietly plotting how to make their shields deadlier.",
       "sc": "严实的铁制盾牌框。早期佣兵团承接的多是王国派下来的维安任务，厚重的盾牌能够有效挡下攻势、隔开人群。但是长年干着挨打的工作，逐渐让持盾者们心生怨言，似乎正秘密地计画着如何增加盾牌的杀伤力。",
       "tc": "嚴實的鐵製盾牌框。早期傭兵團承接的多是王國派下來的維安任務，厚重的盾牌能夠有效擋下攻勢、隔開人群。但是長年幹著挨打的工作，逐漸讓持盾者們心生怨言，似乎正秘密地計畫著如何增加盾牌的殺傷力。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500036",
@@ -1880,7 +2074,11 @@
       "en": "A doodle with a childlike touch, showing a burly man holding a child's hand. The company takes in people from all walks of life, including plenty of veterans with families. To make a living, these men carry out all manner of jobs coldly outside their doors, then step inside and warmly play the part of father.",
       "sc": "一幅散发童真笔触的涂鸦，上头画着一名牵着小孩的壮汉。佣兵团接纳了来自各种背景的人士，其中不乏带着家庭的退伍军人。为了生计，男人们冷酷地在家门外进行着各式任务、而又温暖地在门内扮演着父亲的角色。",
       "tc": "一幅散發童真筆觸的塗鴉，上頭畫著一名牽著小孩的壯漢。傭兵團接納了來自各種背景的人士，其中不乏帶著家庭的退伍軍人。為了生計，男人們冷酷地在家門外進行著各式任務、而又溫暖地在門內扮演著父親的角色。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500037",
@@ -1911,7 +2109,11 @@
       "en": "A tattered drawstring. Berserkers are the people of Belgard best suited to its harsh climate, the rage burning within them serving as armor against the cold. But when they leave Belgard to fight abroad, that surplus energy becomes a double-edged sword, leaving them more volatile and harder to control.",
       "sc": "有些残破的束绳。狂战士们是贝尔嘉德之中最为适应严酷气候的一群人，他们体内燃烧着的怒火成为了抵御寒冷的资本。然而当他们离开贝尔嘉德到外地作战时，过剩的能量反而成了双刃剑，使他们的性情变得更加暴躁、难以控制。",
       "tc": "有些殘破的束繩。狂戰士們是貝爾嘉德之中最為適應嚴酷氣候的一群人，他們體內燃燒著的怒火成為了抵禦寒冷的資本。然而當他們離開貝爾嘉德到外地作戰時，過剩的能量反而成了雙刃劍，使他們的性情變得更加暴躁、難以控制。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500038",
@@ -1942,7 +2144,11 @@
       "en": "A heart that keeps beating long after leaving the body, its surface covered in strange markings. Most berserkers have received a god's blessing, trading their sanity for immense power. After they die, the heart, steeped in divinity, will often keep beating for years.",
       "sc": "离开了身体却仍在跳动的心脏，上面布满了奇异的纹路。绝大多数的狂战士们都接受过神灵的赐福，以失去理智作为代价换取无比的力量。在他们死后，那颗被神性浸染的心脏往往还能持续跳动数年之久。",
       "tc": "離開了身體卻仍在跳動的心臟，上面佈滿了奇異的紋路。絕大多數的狂戰士們都接受過神靈的賜福，以失去理智作為代價換取無比的力量。在他們死後，那顆被神性浸染的心臟往往還能持續跳動數年之久。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500039",
@@ -1973,7 +2179,11 @@
       "en": "A sword hilt inlaid with thorn motifs. The divine order of the Rosriconian kingdom is a tangled one, and its three gods have long been woven into the life of every citizen. For that reason, military equipment is issued in several decorative variants, so that knights can choose according to their own tastes and faith.",
       "sc": "镶嵌着荆棘装饰的剑柄。罗斯里坎王国之内神系错综复杂，三神早已深入王国每一位国民的生活之中。因此在颁发军备时也会多准备数种版本的装饰，以供骑士们根据自己的喜好和信仰挑选。",
       "tc": "鑲嵌著荊棘裝飾的劍柄。羅斯里坎王國之內神系錯綜複雜，三神早已深入王國每一位國民的生活之中。因此在頒發軍備時也會多準備數種版本的裝飾，以供騎士們根據自己的喜好和信仰挑選。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500040",
@@ -2004,7 +2214,11 @@
       "en": "A sturdy helmet forged from refined steel. The Rosriconian plains are not rich in ore, so the kingdom relies on imports mined in Belgard and shipped through the Pale. At the kingdom's behest, the Church of Significance, devoted to Evinor, is now researching ways to create metal.",
       "sc": "由精钢打造的坚固头盔。罗斯里坎平原之上的矿藏实际上并不丰富，因此仰赖着从贝尔嘉德开采、经由苍白之地运输的外贸物资。在王国的授意之下，信仰伊维诺的显赫教会目前正在研究创造金属的途径。",
       "tc": "由精鋼打造的堅固頭盔。羅斯里坎平原之上的礦藏實際上並不豐富，因此仰賴著從貝爾嘉德開採、經由蒼白之地運輸的外貿物資。在王國的授意之下，信仰伊維諾的顯赫教會目前正在研究創造金屬的途徑。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500041",
@@ -2035,7 +2249,11 @@
       "en": "An amulet carved in Evinor's likeness. Because Evinor's domains are so tangled, the god's appearance is a frequent point of dispute among the faithful. Two accounts dominate: a giant of rock as massive as a mountain, or a full-figured goddess.",
       "sc": "雕有伊维诺外形的护符。伊维诺的形象由于职权复杂，而在信徒之间时常带有争议。主要的说法分为两派：一名身躯和山峰一样巨大的岩石巨人、或是一名身材丰腴的女神。",
       "tc": "雕有伊維諾外形的護符。伊維諾的形象由於職權複雜，而在信徒之間時常帶有爭議。主要的說法分為兩派：一名身軀和山峰一樣巨大的岩石巨人、或是一名身材豐腴的女神。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500042",
@@ -2066,7 +2284,11 @@
       "en": "A fine pouch heavy with gold coins. Churches devoted to Evinor, whatever their sect, agree that Evinor is the guardian of the family. Whether by strength that protects loved ones or by material plenty that provides for them, the god's grace is closely bound to the lives of the faithful.",
       "sc": "装着沉甸甸金币的精美钱袋。信奉伊维诺的教会不论派系，都一致认为祂是家庭的护佑之神。不论是透过力量保卫家人，还是透过物质上的富足满足家人的需求，祂的神泽都和信徒的生活紧密相连。",
       "tc": "裝著沉甸甸金幣的精美錢袋。信奉伊維諾的教會不論派系，都一致認為祂是家庭的護佑之神。不論是透過力量保衛家人，還是透過物質上的富足滿足家人的需求，祂的神澤都和信徒的生活緊密相連。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "520005",
@@ -2101,7 +2323,11 @@
       "en": "&quot;If the reflection in the mirror is truth, why do the gods, and their power, never appear in it? Perhaps... there is no truth at all. Everything we believe is illusion, and falsehood and phantasm are the truth itself.&quot; — Oral tradition of the Pale Lands",
       "sc": "「倘若镜中的倒影即是真理，为何神灵、乃至神灵的力量，从未一同映现其中？或许……真理根本不存在。我等所信奉的一切皆为虚妄，而虚假与幻影，便是真理本身。」——苍白之地的口传",
       "tc": "「倘若鏡中的倒影即是真理，為何神靈、乃至神靈的力量，從未一同映現其中？或許……真理根本不存在。我等所信奉的一切皆為虛妄，而虛假與幻影，便是真理本身。」——蒼白之地的口傳"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "520006",
@@ -2136,7 +2362,11 @@
       "en": "As the faith of Razenia began to waver, a group of scholars from the Pale Lands seized the moment to proclaim that the gods were nothing more than the gathered consciousness of mankind. Yet even with faith on the verge of collapse, the whole continent condemned the idea as the vilest heresy, and the scholars were brutally silenced.",
       "sc": "在拉泽尼亚人的信仰动摇之际，一群苍白之地的学者看准时机，宣扬神灵其实是由人类意识汇聚而成。然而即使信仰已濒临崩溃，这番言论仍被整片大陆视为万恶的异端，学者们也遭到了残忍的灭口。",
       "tc": "在拉澤尼亞人的信仰動搖之際，一群蒼白之地的學者看準時機，宣揚神靈其實是由人類意識匯聚而成。然而即使信仰已瀕臨崩潰，這番言論仍被整片大陸視為萬惡的異端，學者們也遭到了殘忍的滅口。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "520011",
@@ -2171,7 +2401,14 @@
       "en": "&quot;Have you heard? The family by the village gate had one of their own turn Cursed. Word is they'd been secretly worshiping some heretical god... By the time the village chief and the others got there, the thing had already gnawed its parents beyond recognition, with bits of bone still hanging from its mouth.&quot;",
       "sc": "「你听说了吗？村口那户人家好像出了一名受诅者。据说是暗中崇拜了某位邪神的缘故……等村长他们赶到的时候，它早已把自己的父母啃咬得面目全非，嘴角还挂着没嚼碎的骨渣呢。」",
       "tc": "「你聽說了嗎？村口那戶人家好像出了一名受詛者。據說是暗中崇拜了某位邪神的緣故……等村長他們趕到的時候，它早已把自己的父母啃咬得面目全非，嘴角還掛著沒嚼碎的骨渣呢。」"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Fervor",
+      "Bleeding"
+    ]
   },
   {
     "id": "520015",
@@ -2206,7 +2443,14 @@
       "en": "As the ages passed, some of Florentis's faithful were no longer content with small flames. They turned to worshiping roaring, all-devouring infernos, even setting fire to everything around them. It is said that in those wild, flickering flames, they could glimpse the very origin of life.",
       "sc": "随着岁月流逝，一部分弗洛伦蒂斯的信徒不再满足于微小的火苗。他们转而崇拜熊熊燃烧、吞天噬地的烈焰，甚至纵火焚毁一切——据说，他们能在那摇曳的狂火之中，窥见生命最初的源头。",
       "tc": "隨著歲月流逝，一部分弗洛倫蒂斯的信徒不再滿足於微小的火苗。他們轉而崇拜熊熊燃燒、吞天噬地的烈焰，甚至縱火焚毀一切——據說，他們能在那搖曳的狂火之中，窺見生命最初的源頭。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Burn",
+      "Fire"
+    ]
   },
   {
     "id": "520026",
@@ -2241,7 +2485,11 @@
       "en": "To the faithful of Hedalis, the hand is one of the most important parts of the body; its unmatched dexterity and versatility embody the free will Hedalis stands for. For this reason, most of the faithful wear gloves year-round, removing them only on the most momentous occasions as a mark of the highest respect.",
       "sc": "在赫达利斯的信徒眼中，手是身上最重要的部位之一，其无与伦比的灵巧与万变，体现了赫达利斯所代表的自由意志。正因如此，信徒们大多常年配戴手套，唯有在至关重要的场合才会将其脱下，以示最崇高的敬意。",
       "tc": "在赫達利斯的信徒眼中，手是身上最重要的部位之一，其無與倫比的靈巧與萬變，體現了赫達利斯所代表的自由意志。正因如此，信徒們大多常年配戴手套，唯有在至關重要的場合才會將其脫下，以示最崇高的敬意。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "520029",
@@ -2276,7 +2524,11 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "520031",
@@ -2315,7 +2567,14 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Fire",
+      "Burn"
+    ]
   },
   {
     "id": "520044",
@@ -2350,7 +2609,11 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "520045",
@@ -2393,7 +2656,14 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Swift",
+      "Fervor"
+    ]
   },
   {
     "id": "520047",
@@ -2428,7 +2698,13 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Burn"
+    ]
   },
   {
     "id": "520048",
@@ -2463,7 +2739,13 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Fervor"
+    ]
   },
   {
     "id": "520049",
@@ -2498,7 +2780,11 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "520070",
@@ -2533,7 +2819,11 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "520141",
@@ -2568,7 +2858,14 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Lowlife",
+      "Blessed"
+    ]
   },
   {
     "id": "500029",
@@ -2599,7 +2896,11 @@
       "en": "A gleaming Rosriconian badge, awarded to Pluton as a token of his standing as the kingdom's representative in this campaign. Pluton was born into poverty, but his shrewd business mind quickly earned him a fortune. He went on to donate vast sums to the church, becoming a renowned priest of Evinor.",
       "sc": "闪耀的罗斯里坎徽章，作为代表王国出征的象征颁发予普鲁顿。普鲁顿出生于一个贫困的家庭，但由于其出色的经商头脑很快的累积了财富，其随后向教会捐赠了大量金钱，成为了声名显赫的伊维诺祭司。",
       "tc": "閃耀的羅斯里坎徽章，作為代表王國出征的象徵頒發予普魯頓。普魯頓出生於一個貧困的家庭，但由於其出色的經商頭腦很快的累積了財富，其隨後向教會捐贈了大量金錢，成為了聲名顯赫的伊維諾祭司。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500030",
@@ -2630,7 +2931,11 @@
       "en": "A pure gold necklace Pluton never removes. Gold is a scarce metal in Razenia, most of it held by the wealthy Church of Evinor. This has occasionally caused rifts within the church, split over whether Evinor's &quot;vastness&quot; refers to physical strength or to wealth.",
       "sc": "普鲁顿不离身的纯金项链。黄金在拉泽尼亚上属于稀缺金属，绝大多数都被掌控在富裕的伊维诺教会手中。这也使得教会内部偶有分岐，两分针对伊维诺的「庞大」究竟意味着肉体力量还是财富而争论不下。",
       "tc": "普魯頓不離身的純金項鍊。黃金在拉澤尼亞上屬於稀缺金屬，絕大多數都被掌控在富裕的伊維諾教會手中。這也使得教會內部偶有分岐，兩分針對伊維諾的「龐大」究竟意味著肉體力量還是財富而爭論不下。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500031",
@@ -2661,7 +2966,11 @@
       "en": "A Belgard emblem set with rare gemstones. Volva, a follower of both Hedalis and Oculyth, is regarded as a renowned figure who embodies both freedom and truth. Yet because she must satisfy the ritual demands of two gods at once, it was for money that she came to Windchime Village to take part in the war.",
       "sc": "镶满了珍稀宝石的贝尔嘉德纹章。薇尔瓦作为同时信奉赫达利斯和奥库莉丝的信徒，被认为是贯彻了自由和真实的著名人物。然而，也是因为其同时需要满足两位神祇的祭祀需求，因此为了钱才前来风铃村参予战事。",
       "tc": "鑲滿了珍稀寶石的貝爾嘉德紋章。薇爾瓦作為同時信奉赫達利斯和奧庫莉絲的信徒，被認為是貫徹了自由和真實的著名人物。然而，也是因為其同時需要滿足兩位神祇的祭祀需求，因此為了錢才前來風鈴村參予戰事。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500032",
@@ -2692,7 +3001,11 @@
       "en": "A glass bottle filled with murky liquid. It's said Volva was originally an ordinary follower of Oculyth, but after accidentally falling into water and miraculously surviving, she began to doubt whether Oculyth could truly foresee the future, and turned to Hedalis instead.",
       "sc": "装满了混浊液体的玻璃瓶。据说薇尔瓦原先只是个普通的奥库莉丝信徒，但在一次意外跌落水中、并奇迹生还的经历后，便开始对奥库莉丝是否真的能预见未来感到动摇，转而投向赫达利斯。",
       "tc": "裝滿了混濁液體的玻璃瓶。據說薇爾瓦原先只是個普通的奧庫莉絲信徒，但在一次意外跌落水中、並奇蹟生還的經歷後，便開始對奧庫莉絲是否真的能預見未來感到動搖，轉而投向赫達利斯。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "500043",
@@ -2723,7 +3036,11 @@
       "en": "A sharp shard of stone riddled with cracks. Of those blessed by Evinor, only a few can petrify their own bodies. Yet this boon cannot be controlled at will: the recipient's skin and muscle turn to stone uncontrollably, causing unimaginable pain and torment along the way.",
       "sc": "满是裂痕的锐利石片。在伊维诺的赐福者之中，能够石化自身的人也是少数。然而这份恩泽却无法由自己掌控，赐福者的皮肤和肌肉将会不受控制地石化，在过程中带来无法想像的疼痛和折磨。",
       "tc": "滿是裂痕的銳利石片。在伊維諾的賜福者之中，能夠石化自身的人也是少數。然而這份恩澤卻無法由自己掌控，賜福者的皮膚和肌肉將會不受控制地石化，在過程中帶來無法想像的疼痛和折磨。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500044",
@@ -2754,7 +3071,11 @@
       "en": "A core embedded within a Stoneborn Giant. Though there is no proof, most of the faithful believe the core is the source of a blessed one's power and life, since it only appears in the body after the blessing is received. The Church treats it as a priceless treasure and sometimes sells it for a high price at charity auctions.",
       "sc": "蕴藏在石裔巨人之中的核心。尽管没有证据表明，但多数信徒都认为核心是赐福者们能力和生命的来源，因为这颗核心是在受到赐福后才出现在体内的。教会视它为无上的珍宝，有时也会在慈善拍卖会上将它高价售出。",
       "tc": "蘊藏在石裔巨人之中的核心。儘管沒有證據表明，但多數信徒都認為核心是賜福者們能力和生命的來源，因為這顆核心是在受到賜福後才出現在體內的。教會視它為無上的珍寶，有時也會在慈善拍賣會上將它高價售出。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500045",
@@ -2785,7 +3106,11 @@
       "en": "Bloodstained ashes. Ashbringers endure burning flames at every moment, and are regarded among Florentis's followers as the most exalted of the blessed. Their power does not come from immunity to flame, but from a supernatural regeneration that keeps pace with the fire.",
       "sc": "带有血迹的余灰。焚烬者们无时无刻地经受着烈火焚烧，在弗洛伦蒂斯信徒之中被视为最崇高的一群赐福者。他们的力量并非源于对火焰的免疫，而是透过超常的再生能力与火焰抗衡。",
       "tc": "帶有血跡的餘灰。焚燼者們無時無刻地經受著烈火焚燒，在弗洛倫蒂斯信徒之中被視為最崇高的一群賜福者。他們的力量並非源於對火焰的免疫，而是透過超常的再生能力與火焰抗衡。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "500046",
@@ -2816,7 +3141,11 @@
       "en": "A skull burned black. When an Ashbringer takes too much damage, the balance between regeneration and destruction breaks, and their life dies out along with the flames. The faithful believe that, at the moment of death, the flames can be passed on to another, extending this curse-like blessing.",
       "sc": "被焚烧的焦黑头骨。焚烬者们在受到过高的伤害时，再生和破坏的平衡将会被打破，他们的生命会随着火焰一同消亡。信徒们认为在他们濒死之际，可以透过将火焰转嫁给他人的方式，延续这份诅咒般的恩惠。",
       "tc": "被焚燒的焦黑頭骨。焚燼者們在受到過高的傷害時，再生和破壞的平衡將會被打破，他們的生命會隨著火焰一同消亡。信徒們認為在他們瀕死之際，可以透過將火焰轉嫁給他人的方式，延續這份詛咒般的恩惠。"
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "520002",
@@ -2851,7 +3180,13 @@
       "en": "The Codices of Rosricon cover every manner of decree. In ages past the laws were carved in stone, and only over the centuries were they copied onto paper. Yet whatever the medium, the faithful believe Intereon's power dwells within every line, leaving sinners nowhere to hide.",
       "sc": "罗斯里坎法典包罗万象。旧时代的律法刻于石碑之上，随着时代推移才逐渐转录至纸页间。然而不论载体为何，人们皆相信条文之中寄宿着英提力恩的力量，能使罪人无所遁形。",
       "tc": "羅斯里坎法典包羅萬象。舊時代的律法刻於石碑之上，隨著時代推移才逐漸轉錄至紙頁間。然而不論載體為何，人們皆相信條文之中寄宿著英提力恩的力量，能使罪人無所遁形。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Fragile"
+    ]
   },
   {
     "id": "520007",
@@ -2886,7 +3221,13 @@
       "en": "&quot;Apex, ever since those heretics arrived... people in the city have begun seeing all manner of visions. I dreamt of it too, last night: a spiral covered in watching eyes, swirling with dizzying colors. Could the god of truth those heretics speak of... truly exist?&quot;",
       "sc": "「猎首，自从那群异端到来之后……城里的人们开始陆续见到各式各样的幻象。我昨晚也梦到了：那是一道布满视线的螺旋，伴随着令人眼花撩乱的色彩。难道异端口中那位掌管真理的神灵……真的存在？」",
       "tc": "「獵首，自從那群異端到來之後……城裡的人們開始陸續見到各式各樣的幻象。我昨晚也夢到了：那是一道佈滿視線的螺旋，伴隨著令人眼花撩亂的色彩。難道異端口中那位掌管真理的神靈……真的存在？」"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Fragile"
+    ]
   },
   {
     "id": "520027",
@@ -2921,7 +3262,13 @@
       "en": "Hedalis is the embodiment of every liquid in the world. A handful of spring water casually scooped up may well be part of the god's own body. Reverent followers regard even an accidental touch as sacrilege, and strictly observe the precept of waterproofing their gloves.",
       "sc": "赫达利斯即是世间万般液体的化身。凡人随手舀起的一掬清泉，都可能是神灵躯体的一部分。心怀敬畏的信徒将无心的触碰视为亵渎，因而严守在手套上涂布防水层的戒律。",
       "tc": "赫達利斯即是世間萬般液體的化身。凡人隨手舀起的一掬清泉，都可能是神靈軀體的一部分。心懷敬畏的信徒將無心的觸碰視為褻瀆，因而嚴守在手套上塗佈防水層的戒律。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Dmeter"
+    ]
   },
   {
     "id": "520032",
@@ -2956,7 +3303,14 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Burn",
+      "Ameter"
+    ]
   },
   {
     "id": "520112",
@@ -2991,7 +3345,14 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Fervor",
+      "Purified"
+    ]
   },
   {
     "id": "520113",
@@ -3026,7 +3387,14 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Fire",
+      "Burn"
+    ]
   },
   {
     "id": "520121",
@@ -3061,7 +3429,13 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Bleeding"
+    ]
   },
   {
     "id": "520122",
@@ -3096,7 +3470,13 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Dispel"
+    ]
   },
   {
     "id": "520003",
@@ -3131,7 +3511,13 @@
       "en": "Intereon is widely held to be the mightiest of all gods. He holds the scales of law and justice, delivers punishment to sinners, and has never known defeat. To extend His dominion, His faithful have spent generations adding law upon law, now and then drawing complaints of overreach.",
       "sc": "英提力恩被视为众神之中最强大的存在。祂执掌规则与正义的天平，为罪人降下惩罚，且战无不胜。为了扩展祂的职权，信徒们经年累月地增订法令与规矩，也因此不时传出「管辖过度」的反弹声浪。",
       "tc": "英提力恩被視為眾神之中最強大的存在。祂執掌規則與正義的天平，為罪人降下懲罰，且戰無不勝。為了擴展祂的職權，信徒們經年累月地增訂法令與規矩，也因此不時傳出「管轄過度」的反彈聲浪。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Fragile"
+    ]
   },
   {
     "id": "520012",
@@ -3166,7 +3552,15 @@
       "en": "The druids of Viridillon hold the secret art of reshaping flesh through nature. Ever since the settlement held its first sacrifice, the ancient trees have grown ever taller, and rampant vines have crept into every corner the eye can see. The wounds of the blessed can even sprout branches and grant them new life; the price is to become part of the forest forever.",
       "sc": "维里迪隆的德鲁伊掌握着以自然重塑血肉的秘术。自聚落首次举行献祭起，古木愈发拔地参天，肆虐的藤蔓也逐渐蔓延至目光所及的每一处角落。受赐福者的伤口甚至能抽芽生枝、借此重获新生；而代价，是永远化为这片森林的一部分。",
       "tc": "維里迪隆的德魯伊掌握著以自然重塑血肉的秘術。自聚落首次舉行獻祭起，古木愈發拔地參天，肆虐的藤蔓也逐漸蔓延至目光所及的每一處角落。受賜福者的傷口甚至能抽芽生枝、藉此重獲新生；而代價，是永遠化為這片森林的一部分。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Bleeding",
+      "Fervor",
+      "Cursed"
+    ]
   },
   {
     "id": "520024",
@@ -3201,7 +3595,11 @@
       "en": "The streets of Rosricon are lined with statues, most of them the work of Evinor's master artisans. People believe that whatever the material, if devout faith is poured into the carving, the will of the gods will take up residence within, becoming an eternal guardian that blesses and watches over the city for ages to come.",
       "sc": "罗斯里坎的街道上雕像林立，大多出自伊维诺巧匠之手。人们深信无论取材为何，只要在雕琢时倾注虔诚的信念，便能将神灵的意志寄于其中，化为永恒的守护，长久地祝福并眷顾这座城市。",
       "tc": "羅斯里坎的街道上雕像林立，大多出自伊維諾巧匠之手。人們深信無論取材為何，只要在雕琢時傾注虔誠的信念，便能將神靈的意志寄於其中，化為永恆的守護，長久地祝福並眷顧這座城市。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "520030",
@@ -3236,7 +3634,11 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": []
   },
   {
     "id": "520033",
@@ -3271,7 +3673,13 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Burn"
+    ]
   },
   {
     "id": "520046",
@@ -3306,7 +3714,14 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Swift",
+      "Fervor"
+    ]
   },
   {
     "id": "520114",
@@ -3341,7 +3756,15 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Burn",
+      "Fire",
+      "AP"
+    ]
   },
   {
     "id": "520144",
@@ -3376,7 +3799,11 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": []
   },
   {
     "id": "520018",
@@ -3411,7 +3838,16 @@
       "en": "For the sake of social order, and in the name of justice, Rosricon holds regular Sacraments, inviting the public to share a meal and partake together in the protection and grace the gods bestow. To the nobility, it is merely a bland supper; to the paupers on the street corner, it is the charity that keeps them alive.",
       "sc": "为求社会安定，也出于对公理正义的追求，罗斯里坎会定期举行圣餐，广邀群众一同进食，共享神灵所赐予的护佑与恩泽。对贵族而言，这不过是一顿口味平淡的晚餐；对街角的贫民而言，这却是他们赖以维生的施舍。",
       "tc": "為求社會安定，也出於對公理正義的追求，羅斯里坎會定期舉行聖餐，廣邀群眾一同進食，共享神靈所賜予的護佑與恩澤。對貴族而言，這不過是一頓口味平淡的晚餐；對街角的貧民而言，這卻是他們賴以維生的施捨。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Ameter",
+      "Dmeter",
+      "Miracle",
+      "Affliction"
+    ]
   },
   {
     "id": "520115",
@@ -3446,7 +3882,15 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Fire",
+      "Burn",
+      "Ameter"
+    ]
   },
   {
     "id": "520008",
@@ -3481,7 +3925,13 @@
       "en": "As Oculyth's power grew, the faithful became convinced they were drawing ever closer to the truth. Yet the truth seemed forever out of reach, shrouded in layer upon layer of illusion. Driven by endless obsession, they hungered ever more for divine blessing, and that madness at last gave other gods their opening.",
       "sc": "随着奥库莉丝的力量日益强盛，信徒们深信自己正步步逼近真理。然而真理仿佛永无企及之日，始终笼罩在层层虚妄之下。在无尽执念的驱使下，信徒们越发渴求神灵的赐福——而这份疯狂，终究给了其他神灵可乘之机。",
       "tc": "隨著奧庫莉絲的力量日益強盛，信徒們深信自己正步步逼近真理。然而真理彷彿永無企及之日，始終籠罩在層層虛妄之下。在無盡執念的驅使下，信徒們越發渴求神靈的賜福——而這份瘋狂，終究給了其他神靈可乘之機。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Fragile"
+    ]
   },
   {
     "id": "520016",
@@ -3516,7 +3966,14 @@
       "en": "Chaos craves life and fulfillment. Having tasted the sweetness of flame and received wave after wave of offerings from the faithful, Chaos too grew enthralled by flickering firelight and the source of life itself. And so it demands that its faithful give everything, if only to fill a hunger that has no end.",
       "sc": "混沌渴求着生命与满足。在初尝火焰的甜美、又接受了信徒们前仆后继的奉献之后，混沌也开始对摇曳的火光与生命的本源深深着迷。为此，祂要求信徒奉献一切，只为填满那永无止境的饥饿。",
       "tc": "混沌渴求著生命與滿足。在初嘗火焰的甜美、又接受了信徒們前仆後繼的奉獻之後，混沌也開始對搖曳的火光與生命的本源深深著迷。為此，祂要求信徒奉獻一切，只為填滿那永無止境的飢餓。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Burn",
+      "Fire"
+    ]
   },
   {
     "id": "520025",
@@ -3551,7 +4008,13 @@
       "en": "The Hollowers remain shrouded in mystery to this day. By some unknown technology, they bored through the mountains and raised magnificent palaces of steel deep within the cliffs. Yet by the time the ancient Rosriconian tribes, beaten in tribal war and barely alive, fled here, the palaces had long been abandoned, with only the bitter wind howling through their empty halls.",
       "sc": "凿空者至今仍笼罩在谜团之中。他们曾以超乎想像的科技凿穿山体，在绝壁深处筑起宏伟的钢铁宫殿。然而，当那些在部族战争中败北、奄奄一息的古罗斯里坎部族逃亡至此时，宫殿早已荒废多时，唯有凛冽寒风在空旷的殿廊间呼啸肆虐。",
       "tc": "鑿空者至今仍籠罩在一片謎團之中。他們曾以超乎想像的科技開鑿山體，於絕壁深處築起宏偉的鋼鐵宮殿。然而，當那些在內戰中敗北、奄奄一息的羅斯里坎人逃亡至此時，宮殿早已荒廢多時，唯餘凜冽的寒風在空曠的殿廊間肆虐狂呼。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "AP"
+    ]
   },
   {
     "id": "520028",
@@ -3586,7 +4049,13 @@
       "en": "Hedalis stands apart among the gods: He never asks His faithful for offerings or sacrifice of any kind. Yet because water and free will are both bound so closely to mortal survival, this carefree generosity has made Him a power no other god can afford to ignore.",
       "sc": "赫达利斯在众神之中独树一帜：祂从不向信徒索取任何奉献或代价。然而，正因水脉与自由意志皆与凡人的生存息息相关，这份不求回报的随性，反而使祂成为众神之间绝不容忽视的庞大力量。",
       "tc": "赫達利斯在眾神之中獨樹一幟：祂從不向信徒索取任何奉獻或代價。然而，正因水脈與自由意志皆與凡人的生存息息相關，這份不求回報的隨性，反而使祂成為眾神之間絕不容忽視的龐大力量。"
-    }
+    },
+    "areas": [
+      "1"
+    ],
+    "keywords": [
+      "Dmeter"
+    ]
   },
   {
     "id": "520116",
@@ -3621,6 +4090,14 @@
       "en": "",
       "sc": "",
       "tc": ""
-    }
+    },
+    "areas": [
+      "2"
+    ],
+    "keywords": [
+      "Burn",
+      "Blessed",
+      "NatureTrigger"
+    ]
   }
 ]

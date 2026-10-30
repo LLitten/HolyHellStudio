@@ -425,6 +425,40 @@ for (let changed = true; changed; ) {
   }
 }
 
+// Areas (dungeon groups) each item can be found in, for the item filters: where its dropping enemies
+// and its events are, and for upgrades and merges, wherever the item they're made from is found.
+const groupOfDungeon = new Map(dungeons.map((d) => [d.Id, d.DungeonGroup]));
+const itemAreas = new Map();
+const addAreas = (itemId, groups) => {
+  const set = itemAreas.get(itemId) || new Set();
+  const before = set.size;
+  for (const g of groups) if (g) set.add(g);
+  itemAreas.set(itemId, set);
+  return set.size > before;
+};
+for (const d of drops) addAreas(d.ItemID, [...(enemyScope.get(d.EnemyID)?.dungeons ?? [])].map((id) => groupOfDungeon.get(id)));
+const eventGroups = new Map(
+  events.map((e) => [
+    e.Event_ID,
+    e.Is_Global.toUpperCase() === 'TRUE' ? IN_SCOPE_GROUPS : split(e.Dungeon_Bound).map((id) => groupOfDungeon.get(id)),
+  ]),
+);
+for (const outcome of table('DungeonEvent_Outcome').filter((o) => eventIds.has(o.Event_ID))) {
+  for (let i = 1; i <= 3; i++) {
+    if (outcome[`Effect_Action${i}`] !== 'GainItem') continue;
+    for (const line of outcome[`Effect_Value${i}`].split('\n')) {
+      const [itemId] = split(line, ',');
+      if (itemId) addAreas(itemId, eventGroups.get(outcome.Event_ID));
+    }
+  }
+}
+for (let changed = true; changed; ) {
+  changed = false;
+  for (const [id, list] of sources) {
+    for (const s of list) if (s.from && addAreas(id, itemAreas.get(s.from) ?? [])) changed = true;
+  }
+}
+
 const PURE_PACK = '500002';
 const ANGEL_PACK = '500003';
 const DEMON_PACK = '500004';
@@ -555,6 +589,15 @@ for (const [id, list] of sources) {
     name: localized(`Item_${id}`, row.DisplayName),
     description: formatted(`ItemEff_${id}`, row.EffDes),
     lore: formatted(`ItemDes_${id}`, row.LoreDes),
+    areas: [...(itemAreas.get(id) ?? [])].sort(),
+    // Keywords and meters its effect mentions, for the item filters.
+    keywords: [
+      ...new Set(
+        [...text('en', `ItemEff_${id}`, row.EffDes).matchAll(/\{(?:keyword|icon):(\w+)\}/gi)]
+          .map(([, word]) => word[0].toUpperCase() + word.slice(1))
+          .filter((word) => !['Hp', 'Durability', 'Type'].includes(word)),
+      ),
+    ],
   });
 }
 
