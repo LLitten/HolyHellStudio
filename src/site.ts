@@ -25,6 +25,8 @@ export const site = {
 
   // Demo feedback form (the "send" link from Google Forms), used on every language's Play page.
   feedback: 'https://forms.gle/qSsJtYWaE4ZTyKft9',
+  // Hidden for now. Set to true to show the feedback section again.
+  showFeedback: false,
 
   // Paste the analytics snippet's script URL and site id here when there is one (GoatCounter, Plausible, etc.).
   analytics: null as { src: string; attrs?: Record<string, string> } | null,

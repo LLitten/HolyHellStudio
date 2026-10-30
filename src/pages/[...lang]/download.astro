@@ -68,13 +68,17 @@ const downloadUrl = build && `https://drive.google.com/uc?export=download&id=${b
       )
     }
 
-    <section class="panel feedback">
-      <h2>{t('download.feedback')}</h2>
-      <p>{t('download.feedback.body')}</p>
-      <a class="button" href={site.feedback} target="_blank" rel="noopener">
-        {t('download.feedback.button')} ↗
-      </a>
-    </section>
+    {
+      site.showFeedback && (
+        <section class="panel feedback">
+          <h2>{t('download.feedback')}</h2>
+          <p>{t('download.feedback.body')}</p>
+          <a class="button" href={site.feedback} target="_blank" rel="noopener">
+            {t('download.feedback.button')} ↗
+          </a>
+        </section>
+      )
+    }
   </div>
 </Base>
 
