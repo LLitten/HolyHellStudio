@@ -584,6 +584,104 @@ for (const [id, scope] of enemyScope) {
 const enemySlugById = Object.fromEntries([...enemyPages.values()].flatMap((p) => p.variants.map((v) => [v.id, p.slug])));
 
 // ---------------------------------------------------------------------------
+// Glossary: the game's keywords, plus the status effects used by the cards, enemies and
+// equipment in scope that no keyword covers.
+
+const buffRows = new Map(table('Buff').map((b) => [b['Buff ID'], b]));
+
+// Keywords that describe a buff stored under another id.
+const KEYWORD_BUFF = {
+  Lifesteal: 'LifeSteal',
+  Intimidate: 'ReduceAtk',
+  Purified: 'IncreaseHealing',
+  Fervor: 'DamageFlat',
+  Imbue: 'DamagePerc',
+  HeavyArmor: 'MinimumDamage',
+};
+// Buffs that share another buff's entry (enemy versions, the primed half of True Sight).
+const BUFF_TWINS = new Set(['Guard_Monster', 'ResonateOnAttack', 'RevealIntent_Apply']);
+
+// Mirrors BuffIconPath.KeyFor.
+function iconKey(id) {
+  if (id.startsWith('Oath_')) return 'Oath';
+  if (id.startsWith('Tag_')) return 'Charge';
+  return { Guard_Monster: 'Guard', ResonateOnAttack: 'Resonate', RevealIntent_Apply: 'RevealIntent', AmeterFloor: 'MeterFreezeA', DmeterFloor: 'MeterFreezeD' }[id] ?? id;
+}
+const glossaryIcon = (id) => {
+  const key = iconKey(id);
+  return existsSync(join(RES, `UI/Buffs/${key}.png`)) ? copyArt('glossary', `UI/Buffs/${key}.png`, `${key}.png`) : null;
+};
+
+// Every buff id named in the steps of in-scope cards, enemy skills and equipment.
+const usedBuffs = new Set();
+function scanForBuffs(row) {
+  for (const word of Object.values(row).join(' ').match(/[A-Za-z_]+/g) || []) if (buffRows.has(word)) usedBuffs.add(word);
+}
+const cardIds = new Set(cards.map((c) => c.id));
+const skillIds = new Set([...enemyPages.values()].flatMap((p) => p.variants.flatMap((v) => v.skills.map((s) => s.id))));
+const equipmentEffectIds = new Set(items.filter((i) => i.kind === 'equipment').flatMap((i) => split(itemRows.get(i.id).AccessID)));
+for (const row of table('CardEffect')) if (cardIds.has(row.OwnerID)) scanForBuffs(row);
+for (const row of table('MonsterSkillEffect')) if (skillIds.has(row.OwnerID)) scanForBuffs(row);
+for (const id of skillIds) scanForBuffs(skillRows.get(id));
+for (const row of table('EquipmentEffect')) if (equipmentEffectIds.has(row.ID)) scanForBuffs(row);
+
+// The game's own words for the tag line ("Buff · Stackable"), taken from keyword definitions.
+const tagWord = (keywordId) => allLangs((lang) => text(lang, `KeywordEff_${keywordId}`).split(/\s*[·・]\s*/)[0]);
+const BUFF_WORD = tagWord('Guard');
+const DEBUFF_WORD = tagWord('Fragile');
+
+const glossary = [];
+const coveredBuffs = new Set();
+for (const k of table('Keyword')) {
+  const id = k.KeywordID;
+  const buffId = KEYWORD_BUFF[id] ?? id;
+  coveredBuffs.add(buffId);
+  const [first, ...rest] = (k.Definition || '').split('\n');
+  const kind = /^Buff\b/.test(first) ? 'buff' : /^Debuff\b/.test(first) ? 'debuff' : 'keyword';
+  glossary.push({
+    id,
+    kind,
+    icon: glossaryIcon(buffId),
+    name: localized(`Keyword_${id}`, k.DisplayName),
+    // Status keywords open with a tag line ("Buff · Stackable"); it's shown apart from the definition.
+    tags: kind === 'keyword' ? null : allLangs((lang) => formatText(lang, text(lang, `KeywordEff_${id}`, k.Definition).split('\n')[0])),
+    description: allLangs((lang) => {
+      const lines = text(lang, `KeywordEff_${id}`, k.Definition).split('\n');
+      return formatText(lang, (kind === 'keyword' ? lines : lines.slice(1)).join('\n'));
+    }),
+  });
+  if (!rest.length && kind !== 'keyword') console.log(`  Keyword ${id} has a tag line but no definition`);
+}
+
+// Buff names and texts carry the live numbers ({0}% Blessed); the glossary shows them without.
+// The number becomes x, and is dropped where it only sits in front of or after the name (Heated x).
+function withoutNumbers(s) {
+  const name = s
+    .replace(/\{(?:0|param|bufftype)\}/gi, 'x')
+    .replace(/\{(?!icon:|keyword:)[^}]*\}/gi, '')
+    .replace(/^x%?\s+/, '')
+    .replace(/(?<!\bby)\s+x%?$/, '')
+    .trim();
+  return name[0].toUpperCase() + name.slice(1);
+}
+const placeholders = (s) =>
+  s.replace(/\{0\}|\{param\}|\{bufftype\}/gi, 'x').replace(/\{1\}|\{duration\}/gi, 'y').replace(/\{target\}/gi, '');
+
+for (const id of [...usedBuffs].sort()) {
+  if (coveredBuffs.has(id) || coveredBuffs.has(iconKey(id)) || BUFF_TWINS.has(id)) continue;
+  const row = buffRows.get(id);
+  const kind = row.Types === '0' ? 'debuff' : 'buff';
+  glossary.push({
+    id,
+    kind,
+    icon: glossaryIcon(id),
+    name: allLangs((lang) => formatText(lang, withoutNumbers(text(lang, `Buff_${id}`, row.DisplayName)))),
+    tags: kind === 'buff' ? BUFF_WORD : DEBUFF_WORD,
+    description: allLangs((lang) => formatText(lang, placeholders(text(lang, `BuffEff_${id}`, row['Buff Description'])))),
+  });
+}
+
+// ---------------------------------------------------------------------------
 // Locations and labels
 
 const locations = IN_SCOPE_GROUPS.map((group) => ({
@@ -631,6 +729,8 @@ const LABELS = {
   'enemy.rank.Boss': 'UI_Map_NodeBoss',
   'lore.equipment': 'Term_ItemCategory_Equipment',
   'lore.materials': 'UI_Item_Materials',
+  'glossary.statusEffects': 'UI_EntityDetail_Buffs',
+  'glossary.keywords': 'UI_DeckBuild_Keywords',
 };
 
 const missingLabels = [];
@@ -667,6 +767,7 @@ write('locations', locations);
 write('terms', terms);
 write('meta', { enemySlugById });
 write('labels', labels);
+write('glossary', glossary);
 
 const equipment = items.filter((i) => i.kind === 'equipment');
 const materials = items.filter((i) => i.kind === 'material');
@@ -682,7 +783,7 @@ if (missingLabels.length) console.log(`  Missing labels:\n    ${missingLabels.jo
 // Any {token} left in the output is one the formatter above doesn't know yet (the game added a
 // new kind). It would show up on the site as raw text, so say where.
 const leftovers = new Map();
-for (const [file, data] of [['cards', cards], ['items', items], ['enemies', [...enemyPages.values()]]]) {
+for (const [file, data] of [['cards', cards], ['items', items], ['enemies', [...enemyPages.values()]], ['glossary', glossary]]) {
   for (const match of JSON.stringify(data).matchAll(/\{[A-Za-z]+\d*[:,][^}"]*\}/g)) {
     leftovers.set(match[0], `${file}.json`);
   }

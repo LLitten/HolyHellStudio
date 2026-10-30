@@ -8,7 +8,7 @@ export const getStaticPaths = langPaths;
 const lang = getLang(Astro.params.lang);
 const t = useTranslations(lang);
 
-const sections = (['characters', 'locations', 'enemies', 'cards', 'equipment', 'materials'] as const).map((key) => ({
+const sections = (['characters', 'locations', 'enemies', 'cards', 'equipment', 'materials', 'glossary'] as const).map((key) => ({
   href: localePath(lang, `lore/${key}`),
   label: t(`lore.${key}`),
   blurb: t(`lore.${key}.blurb`),

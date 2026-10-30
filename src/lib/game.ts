@@ -7,6 +7,7 @@ import enemiesJson from '../data/game/enemies.json';
 import locationsJson from '../data/game/locations.json';
 import termsJson from '../data/game/terms.json';
 import metaJson from '../data/game/meta.json';
+import glossaryJson from '../data/game/glossary.json';
 
 export type Text = Record<Lang, string>;
 
@@ -80,10 +81,20 @@ export interface Location {
   dungeons: { id: string; name: Text; description: Text }[];
 }
 
+export interface GlossaryEntry {
+  id: string;
+  kind: 'buff' | 'debuff' | 'keyword';
+  icon: string | null;
+  name: Text;
+  tags: Text | null;
+  description: Text;
+}
+
 export const cards = cardsJson as Card[];
 export const items = itemsJson as Item[];
 export const enemies = enemiesJson as Enemy[];
 export const locations = locationsJson as Location[];
+export const glossary = glossaryJson as GlossaryEntry[];
 export const terms = termsJson as Record<'factions' | 'gods' | 'actionTypes', Record<string, Text>>;
 
 export const itemById = new Map(items.map((i) => [i.id, i]));
@@ -97,7 +108,7 @@ export const GOD_ORDER = ['Intereon', 'Florentis', 'Evinor', 'Oculyth', 'Hedalis
 
 const art = import.meta.glob<{ default: ImageMetadata }>('../assets/game/**/*.{png,jpg}', { eager: true });
 
-export function gameArt(kind: 'cards' | 'items' | 'enemies', file: string | null) {
+export function gameArt(kind: 'cards' | 'items' | 'enemies' | 'glossary', file: string | null) {
   return file ? art[`../assets/game/${kind}/${file}`]?.default : undefined;
 }
 

@@ -1,0 +1,134 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../../../layouts/Base.astro';
+import LoreShell from '../../../components/LoreShell.astro';
+import { getLang, langPaths, useTranslations } from '../../../i18n/utils';
+import { gameArt, glossary } from '../../../lib/game';
+
+export const getStaticPaths = langPaths;
+
+const lang = getLang(Astro.params.lang);
+const t = useTranslations(lang);
+
+// Buffs before debuffs; within each, the game's own order.
+const statuses = [...glossary.filter((e) => e.kind === 'buff'), ...glossary.filter((e) => e.kind === 'debuff')];
+const keywords = glossary.filter((e) => e.kind === 'keyword');
+
+const groups = [
+  { title: t('glossary.statusEffects'), entries: statuses },
+  { title: t('glossary.keywords'), entries: keywords },
+];
+---
+
+<Base lang={lang} title={t('lore.glossary')} description={t('lore.glossary.blurb')}>
+  <LoreShell lang={lang} current="glossary">
+    <h1>{t('lore.glossary')}</h1>
+    <p class="intro">{t('glossary.intro')}</p>
+
+    {
+      groups.map((g) => (
+        <section>
+          <h2>{g.title}</h2>
+          <dl class="entries">
+            {g.entries.map((e) => {
+              const icon = gameArt('glossary', e.icon);
+              return (
+                <div class="entry frame" id={e.id.toLowerCase()}>
+                  <div class="icon">
+                    {icon ? (
+                      <Image src={icon} alt="" width={64} loading="lazy" />
+                    ) : (
+                      <span class="placeholder" aria-hidden="true">◆</span>
+                    )}
+                  </div>
+                  <div>
+                    <dt>
+                      <span class="name" set:html={e.name[lang]} />
+                      {e.tags && <span class="tags" set:html={e.tags[lang]} />}
+                    </dt>
+                    <dd set:html={e.description[lang]} />
+                  </div>
+                </div>
+              );
+            })}
+          </dl>
+        </section>
+      ))
+    }
+  </LoreShell>
+</Base>
+
+<style>
+  h1 {
+    color: var(--text);
+  }
+
+  .intro {
+    color: var(--text-muted);
+  }
+
+  section + section {
+    margin-top: 2.5rem;
+  }
+
+  .entries {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+    gap: 1rem;
+    margin: 0;
+  }
+
+  .entry {
+    display: grid;
+    grid-template-columns: 3rem minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+    padding: 1rem;
+    background: var(--surface);
+    scroll-margin-top: 1rem;
+  }
+
+  .entry:target {
+    border-color: var(--gold);
+  }
+
+  .icon {
+    display: grid;
+    place-items: center;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .icon img {
+    width: 100%;
+    height: auto;
+  }
+
+  .placeholder {
+    color: var(--gold-dim);
+    font-size: 1.5rem;
+  }
+
+  dt {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem 0.75rem;
+  }
+
+  .name {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    color: var(--gold);
+  }
+
+  .tags {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  dd {
+    margin: 0.35rem 0 0;
+    font-size: 0.95rem;
+  }
+</style>
