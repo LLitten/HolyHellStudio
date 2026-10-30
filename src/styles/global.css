@@ -341,24 +341,43 @@ hr,
   margin: 0 0.1em;
 }
 
+/* The game's faction icons are white; the meter color is painted through them. */
+.icon-ameter::before,
+.icon-dmeter::before {
+  content: '';
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.2em;
+  mask: var(--mask) center / contain no-repeat;
+  -webkit-mask: var(--mask) center / contain no-repeat;
+}
+
 .icon-ameter::before {
-  content: '✦';
-  color: var(--gold-bright);
+  --mask: url('../assets/game/icons/ameter.png');
+  background: var(--gold-bright);
 }
 
 .icon-dmeter::before {
-  content: '✦';
-  color: var(--demon-bright);
+  --mask: url('../assets/game/icons/dmeter.png');
+  background: var(--demon-bright);
+}
+
+/* The game's own heart and durability sprites, already in color. */
+.icon-hp::before,
+.icon-durability::before {
+  content: '';
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.2em;
+  background: var(--image) center / contain no-repeat;
 }
 
 .icon-hp::before {
-  content: '♥';
-  color: #e0525a;
+  --image: url('../assets/game/icons/hp.png');
 }
 
 .icon-durability::before {
-  content: '◈';
-  color: var(--text-muted);
+  --image: url('../assets/game/icons/durability.png');
 }
 
 /* Note under game-data page titles about what's included. */

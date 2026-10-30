@@ -29,9 +29,7 @@
     "enemy.rank.Elite": "Elite",
     "enemy.rank.Boss": "Boss",
     "lore.equipment": "Equipment",
-    "lore.materials": "Materials",
-    "glossary.statusEffects": "Status Effects",
-    "glossary.keywords": "Keywords"
+    "lore.materials": "Materials"
   },
   "sc": {
     "card.cost": "费用",
@@ -63,9 +61,7 @@
     "enemy.rank.Elite": "精英",
     "enemy.rank.Boss": "头目",
     "lore.equipment": "装备",
-    "lore.materials": "素材",
-    "glossary.statusEffects": "状态效果",
-    "glossary.keywords": "关键词"
+    "lore.materials": "素材"
   },
   "tc": {
     "card.cost": "費用",
@@ -97,8 +93,6 @@
     "enemy.rank.Elite": "精英",
     "enemy.rank.Boss": "頭目",
     "lore.equipment": "裝備",
-    "lore.materials": "素材",
-    "glossary.statusEffects": "狀態效果",
-    "glossary.keywords": "關鍵字"
+    "lore.materials": "素材"
   }
 }

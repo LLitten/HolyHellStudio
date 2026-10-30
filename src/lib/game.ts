@@ -84,7 +84,9 @@ export interface Location {
 export interface GlossaryEntry {
   id: string;
   kind: 'buff' | 'debuff' | 'keyword';
+  group: string;
   icon: string | null;
+  tint: string | null;
   name: Text;
   tags: Text | null;
   description: Text;

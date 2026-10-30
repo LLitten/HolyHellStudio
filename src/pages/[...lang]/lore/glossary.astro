@@ -1,5 +1,4 @@
 ---
-import { Image } from 'astro:assets';
 import Base from '../../../layouts/Base.astro';
 import LoreShell from '../../../components/LoreShell.astro';
 import { getLang, langPaths, useTranslations } from '../../../i18n/utils';
@@ -10,14 +9,11 @@ export const getStaticPaths = langPaths;
 const lang = getLang(Astro.params.lang);
 const t = useTranslations(lang);
 
-// Buffs before debuffs; within each, the game's own order.
-const statuses = [...glossary.filter((e) => e.kind === 'buff'), ...glossary.filter((e) => e.kind === 'debuff')];
-const keywords = glossary.filter((e) => e.kind === 'keyword');
-
-const groups = [
-  { title: t('glossary.statusEffects'), entries: statuses },
-  { title: t('glossary.keywords'), entries: keywords },
-];
+// The sync already sorts entries into their groups (GLOSSARY_GROUPS in the sync script).
+const groups = [...new Set(glossary.map((e) => e.group))].map((group) => ({
+  title: t(`glossary.group.${group}` as any),
+  entries: glossary.filter((e) => e.group === group),
+}));
 ---
 
 <Base lang={lang} title={t('lore.glossary')} description={t('lore.glossary.blurb')}>
@@ -35,8 +31,11 @@ const groups = [
               return (
                 <div class="entry frame" id={e.id.toLowerCase()}>
                   <div class="icon">
-                    {icon ? (
-                      <Image src={icon} alt="" width={64} loading="lazy" />
+                    {icon && e.tint ? (
+                      <span class="tinted" style={`--tint: ${e.tint}; mask-image: url(${icon.src}); -webkit-mask-image: url(${icon.src})`} />
+                    ) : icon ? (
+                      // Unconverted, because global.css links some of the same files (the heart and durability icons).
+                      <img src={icon.src} alt="" width="64" height="64" loading="lazy" />
                     ) : (
                       <span class="placeholder" aria-hidden="true">◆</span>
                     )}
@@ -102,6 +101,19 @@ const groups = [
   .icon img {
     width: 100%;
     height: auto;
+  }
+
+  /* White icons the game colors in (the faction icons for the meters). */
+  .tinted {
+    width: 100%;
+    height: 100%;
+    background: var(--tint);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
   }
 
   .placeholder {

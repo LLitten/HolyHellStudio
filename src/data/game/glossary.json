@@ -1,280 +1,9 @@
 [
   {
-    "id": "Guard",
-    "kind": "buff",
-    "icon": "Guard.png",
-    "name": {
-      "en": "Guard",
-      "sc": "守护",
-      "tc": "守護"
-    },
-    "tags": {
-      "en": "Buff · Unstackable",
-      "sc": "增益・不可叠加",
-      "tc": "增益・不可疊加"
-    },
-    "description": {
-      "en": "For x turns, completely blocks the next attack the owner receives.",
-      "sc": "x 回合内，完全抵挡持有者受到的下一次攻击。",
-      "tc": "x 回合內，完全抵擋持有者受到的下一次攻擊。"
-    }
-  },
-  {
-    "id": "Fragile",
-    "kind": "debuff",
-    "icon": "Fragile.png",
-    "name": {
-      "en": "Fragile",
-      "sc": "脆弱",
-      "tc": "脆弱"
-    },
-    "tags": {
-      "en": "Debuff · Stackable",
-      "sc": "减益・可叠加",
-      "tc": "減益・可疊加"
-    },
-    "description": {
-      "en": "For y turns, the owner takes x% more damage.",
-      "sc": "y 回合内，持有者受到的伤害提升 x%。",
-      "tc": "y 回合內，持有者受到的傷害提升 x%。"
-    }
-  },
-  {
-    "id": "Blessed",
-    "kind": "buff",
-    "icon": "Blessed.png",
-    "name": {
-      "en": "Blessed",
-      "sc": "祝福",
-      "tc": "祝福"
-    },
-    "tags": {
-      "en": "Buff · Stackable",
-      "sc": "增益・可叠加",
-      "tc": "增益・可疊加"
-    },
-    "description": {
-      "en": "For y turns, restores x% of the owner's max HP at the end of each turn.",
-      "sc": "y 回合内，每回合结束时回复持有者 x% 的最大生命。",
-      "tc": "y 回合內，每回合結束時回復持有者 x% 的最大生命。"
-    }
-  },
-  {
-    "id": "Bleeding",
-    "kind": "debuff",
-    "icon": "Bleeding.png",
-    "name": {
-      "en": "Bleeding",
-      "sc": "流血",
-      "tc": "流血"
-    },
-    "tags": {
-      "en": "Debuff · Stackable · <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span>",
-      "sc": "减益・可叠加・<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>",
-      "tc": "減益・可疊加・<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>"
-    },
-    "description": {
-      "en": "At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.",
-      "sc": "每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。",
-      "tc": "每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。"
-    }
-  },
-  {
-    "id": "Gifted",
-    "kind": "buff",
-    "icon": "Gifted.png",
-    "name": {
-      "en": "Gifted",
-      "sc": "馈赠",
-      "tc": "饋贈"
-    },
-    "tags": {
-      "en": "Buff · Stackable",
-      "sc": "增益・可叠加",
-      "tc": "增益・可疊加"
-    },
-    "description": {
-      "en": "At the start of each turn, the owner gains 1 random card.",
-      "sc": "每回合开始时，持有者获得 1 张随机卡牌。",
-      "tc": "每回合開始時，持有者獲得 1 張隨機卡牌。"
-    }
-  },
-  {
-    "id": "Cursed",
-    "kind": "debuff",
-    "icon": "Cursed.png",
-    "name": {
-      "en": "Cursed",
-      "sc": "诅咒",
-      "tc": "詛咒"
-    },
-    "tags": {
-      "en": "Debuff · Unstackable",
-      "sc": "减益・不可叠加",
-      "tc": "減益・不可疊加"
-    },
-    "description": {
-      "en": "For x turns, the owner cannot be healed.",
-      "sc": "x 回合内，持有者无法受到任何治疗。",
-      "tc": "x 回合內，持有者無法受到任何治療。"
-    }
-  },
-  {
-    "id": "Lifesteal",
-    "kind": "buff",
-    "icon": "LifeSteal.png",
-    "name": {
-      "en": "Lifesteal",
-      "sc": "生命偷取",
-      "tc": "生命偷取"
-    },
-    "tags": {
-      "en": "Buff · Stackable",
-      "sc": "增益・可叠加",
-      "tc": "增益・可疊加"
-    },
-    "description": {
-      "en": "For y turns, the owner's next x hits heal for the damage dealt.",
-      "sc": "y 回合内，持有者接下来的 x 次命中会依造成的伤害回复生命。",
-      "tc": "y 回合內，持有者接下來的 x 次命中會依造成的傷害回復生命。"
-    }
-  },
-  {
-    "id": "Swift",
-    "kind": "buff",
-    "icon": "Swift.png",
-    "name": {
-      "en": "Swift",
-      "sc": "迅捷",
-      "tc": "迅捷"
-    },
-    "tags": {
-      "en": "Buff · Stackable",
-      "sc": "增益・可叠加",
-      "tc": "增益・可疊加"
-    },
-    "description": {
-      "en": "For x turns, the next card you play also plays its neighboring cards for free: the left one only, or both sides (never the right one only). The left card resolves first. Swift cannot trigger another Swift.",
-      "sc": "x 回合内，你打出的下一张牌会免费连带打出相邻的牌：只有左侧，或左右两侧（没有只有右侧）。左侧的牌先结算。迅捷无法触发另一个迅捷。",
-      "tc": "x 回合內，你打出的下一張牌會免費連帶打出相鄰的牌：只有左側，或左右兩側（沒有只有右側）。左側的牌先結算。迅捷無法觸發另一個迅捷。"
-    }
-  },
-  {
-    "id": "Destroy",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Destroy",
-      "sc": "摧毁",
-      "tc": "摧毀"
-    },
-    "tags": null,
-    "description": {
-      "en": "A card whose durability reaches 0 is destroyed and cannot be played for the rest of the dungeon.",
-      "sc": "耐久归零的卡牌会被摧毁，在离开地城之前无法使用。",
-      "tc": "耐久歸零的卡牌會被摧毀，在離開地城之前無法使用。"
-    }
-  },
-  {
-    "id": "Intimidate",
-    "kind": "debuff",
-    "icon": "ReduceAtk.png",
-    "name": {
-      "en": "Intimidate",
-      "sc": "威吓",
-      "tc": "威嚇"
-    },
-    "tags": {
-      "en": "Debuff · Stackable",
-      "sc": "减益・可叠加",
-      "tc": "減益・可疊加"
-    },
-    "description": {
-      "en": "For x turns, the owner deals a percentage less damage, up to 75%.",
-      "sc": "x 回合内，持有者造成的伤害降低一定百分比，最多 75%。",
-      "tc": "x 回合內，持有者造成的傷害降低一定百分比，最多 75%。"
-    }
-  },
-  {
-    "id": "Purified",
-    "kind": "buff",
-    "icon": "IncreaseHealing.png",
-    "name": {
-      "en": "Purified",
-      "sc": "净化",
-      "tc": "淨化"
-    },
-    "tags": {
-      "en": "Buff · Stackable",
-      "sc": "增益・可叠加",
-      "tc": "增益・可疊加"
-    },
-    "description": {
-      "en": "For x turns, the owner receives a percentage more healing.",
-      "sc": "x 回合内，持有者受到的治疗量提升一定百分比。",
-      "tc": "x 回合內，持有者受到的治療量提升一定百分比。"
-    }
-  },
-  {
-    "id": "Burn",
-    "kind": "debuff",
-    "icon": "Burn.png",
-    "name": {
-      "en": "Burn",
-      "sc": "燃烧",
-      "tc": "燃燒"
-    },
-    "tags": {
-      "en": "Debuff · Stackable · <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span>",
-      "sc": "减益・可叠加・<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>",
-      "tc": "減益・可疊加・<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>"
-    },
-    "description": {
-      "en": "Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.",
-      "sc": "每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。",
-      "tc": "每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。"
-    }
-  },
-  {
-    "id": "Onkill",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Onkill",
-      "sc": "击杀时",
-      "tc": "擊殺時"
-    },
-    "tags": null,
-    "description": {
-      "en": "Triggers when this card deals a lethal blow.",
-      "sc": "此牌造成致命一击时触发。",
-      "tc": "此牌造成致命一擊時觸發。"
-    }
-  },
-  {
-    "id": "Fervor",
-    "kind": "buff",
-    "icon": "DamageFlat.png",
-    "name": {
-      "en": "Fervor",
-      "sc": "狂热",
-      "tc": "狂熱"
-    },
-    "tags": {
-      "en": "Buff · Stackable",
-      "sc": "增益・可叠加",
-      "tc": "增益・可疊加"
-    },
-    "description": {
-      "en": "For x turns, the owner's attacks deal a flat amount of extra damage.",
-      "sc": "x 回合内，持有者的攻击伤害增加固定数值。",
-      "tc": "x 回合內，持有者的攻擊傷害增加固定數值。"
-    }
-  },
-  {
     "id": "Imbue",
     "kind": "buff",
     "icon": "DamagePerc.png",
+    "tint": null,
     "name": {
       "en": "Imbue",
       "sc": "灌注",
@@ -289,608 +18,36 @@
       "en": "For x turns, the owner's attack damage is multiplied by a percentage.",
       "sc": "x 回合内，持有者的攻击伤害以百分比乘算提升。",
       "tc": "x 回合內，持有者的攻擊傷害以百分比乘算提升。"
-    }
-  },
-  {
-    "id": "Defense",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Defense",
-      "sc": "防御",
-      "tc": "防禦"
     },
-    "tags": null,
-    "description": {
-      "en": "Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.",
-      "sc": "每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。",
-      "tc": "每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。"
-    }
+    "group": "damage"
   },
   {
-    "id": "Resonate",
+    "id": "Fervor",
     "kind": "buff",
-    "icon": "Resonate.png",
+    "icon": "DamageFlat.png",
+    "tint": null,
     "name": {
-      "en": "Resonate",
-      "sc": "共鸣",
-      "tc": "共鳴"
+      "en": "Fervor",
+      "sc": "狂热",
+      "tc": "狂熱"
     },
     "tags": {
-      "en": "Buff · Unstackable",
-      "sc": "增益・不可叠加",
-      "tc": "增益・不可疊加"
+      "en": "Buff · Stackable",
+      "sc": "增益・可叠加",
+      "tc": "增益・可疊加"
     },
     "description": {
-      "en": "For y turns, the next card you play triggers its effect x more times.",
-      "sc": "y 回合内，你打出的下一张牌效果额外发动 x 次。",
-      "tc": "y 回合內，你打出的下一張牌效果額外發動 x 次。"
-    }
-  },
-  {
-    "id": "Ameter",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Rosriconian Meter",
-      "sc": "罗斯里坎量表",
-      "tc": "羅斯里坎量表"
+      "en": "For x turns, the owner's attacks deal a flat amount of extra damage.",
+      "sc": "x 回合内，持有者的攻击伤害增加固定数值。",
+      "tc": "x 回合內，持有者的攻擊傷害增加固定數值。"
     },
-    "tags": null,
-    "description": {
-      "en": "The yellow meter at the top of the screen. God cards shift its value.",
-      "sc": "画面上方的黄色量表，数值会被神祇牌改变。",
-      "tc": "畫面上方的黃色量表，數值會被神祇牌改變。"
-    }
-  },
-  {
-    "id": "Dmeter",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Belgardian Meter",
-      "sc": "贝尔嘉德量表",
-      "tc": "貝爾嘉德量表"
-    },
-    "tags": null,
-    "description": {
-      "en": "The purple meter at the top of the screen. God cards shift its value.",
-      "sc": "画面上方的紫色量表，数值会被神祇牌改变。",
-      "tc": "畫面上方的紫色量表，數值會被神祇牌改變。"
-    }
-  },
-  {
-    "id": "Intuitive",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Intuitive",
-      "sc": "直觉",
-      "tc": "直覺"
-    },
-    "tags": null,
-    "description": {
-      "en": "Only takes effect if this is the first card you play this turn.",
-      "sc": "只有在本回合第一张打出时才会生效。",
-      "tc": "只有在本回合第一張打出時才會生效。"
-    }
-  },
-  {
-    "id": "DelayedDamage",
-    "kind": "debuff",
-    "icon": "DelayedDamage.png",
-    "name": {
-      "en": "Delayed Damage",
-      "sc": "延迟伤害",
-      "tc": "延遲傷害"
-    },
-    "tags": {
-      "en": "Debuff · Timed separately",
-      "sc": "减益・各自计时",
-      "tc": "減益・各自計時"
-    },
-    "description": {
-      "en": "Deals damage after the stated number of turns, based on the caster's stats when it lands. Each application keeps its own timer.",
-      "sc": "指定回合数后造成伤害，伤害依触发当下施放者的数值计算。每次施加各自计时。",
-      "tc": "指定回合數後造成傷害，傷害依觸發當下施放者的數值計算。每次施加各自計時。"
-    }
-  },
-  {
-    "id": "Nature",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Nature",
-      "sc": "自然",
-      "tc": "自然"
-    },
-    "tags": null,
-    "description": {
-      "en": "Playing Nature cards in a row grants Woken Flower. At 4 stacks, gain <span class=\"kw\" title=\"Buff · Stackable · Lingering<br>Your next Fire card costs 0 Action Points.\">Woken Spring</span>. Playing a Fire card clears Woken Flower.",
-      "sc": "连续打出自然牌会累积苏醒之花。达到 4 层时，获得<span class=\"kw\" title=\"增益・可叠加・缠身<br>你下一张打出的火焰牌消耗 0 点行动点。\">苏醒之春</span>。打出火焰牌时清除苏醒之花。",
-      "tc": "連續打出自然牌會累積甦醒之花。達到 4 層時，獲得<span class=\"kw\" title=\"增益・可疊加・纏身<br>你下一張打出的火焰牌消耗 0 點行動點。\">甦醒之春</span>。打出火焰牌時清除甦醒之花。"
-    }
-  },
-  {
-    "id": "Fire",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Fire",
-      "sc": "火焰",
-      "tc": "火焰"
-    },
-    "tags": null,
-    "description": {
-      "en": "Playing Fire cards in a row grants Vivid Ember. At 4 stacks, gain <span class=\"kw\" title=\"Buff · Stackable · Lingering<br>Your next Nature card costs 0 Action Points.\">Vivid Flame</span>. Playing a Nature card clears Vivid Ember.",
-      "sc": "连续打出火焰牌会累积灵现余烬。达到 4 层时，获得<span class=\"kw\" title=\"增益・可叠加・缠身<br>你下一张打出的自然牌消耗 0 点行动点。\">灵现火焰</span>。打出自然牌时清除灵现余烬。",
-      "tc": "連續打出火焰牌會累積靈現餘燼。達到 4 層時，獲得<span class=\"kw\" title=\"增益・可疊加・纏身<br>你下一張打出的自然牌消耗 0 點行動點。\">靈現火焰</span>。打出自然牌時清除靈現餘燼。"
-    }
-  },
-  {
-    "id": "NatureTrigger",
-    "kind": "buff",
-    "icon": "NatureTrigger.png",
-    "name": {
-      "en": "Woken Spring",
-      "sc": "苏醒之春",
-      "tc": "甦醒之春"
-    },
-    "tags": {
-      "en": "Buff · Stackable · <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span>",
-      "sc": "增益・可叠加・<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>",
-      "tc": "增益・可疊加・<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>"
-    },
-    "description": {
-      "en": "Your next Fire card costs 0 <span class=\"kw\" title=\"The resource spent to play cards. You gain 3 AP at the start of each turn.\">Action Points</span>.",
-      "sc": "你下一张打出的火焰牌消耗 0 点<span class=\"kw\" title=\"打出卡牌所需的资源。每回合开始时获得 3 点。\">行动点</span>。",
-      "tc": "你下一張打出的火焰牌消耗 0 點<span class=\"kw\" title=\"打出卡牌所需的資源。每回合開始時獲得 3 點。\">行動點</span>。"
-    }
-  },
-  {
-    "id": "FireTrigger",
-    "kind": "buff",
-    "icon": "FireTrigger.png",
-    "name": {
-      "en": "Vivid Flame",
-      "sc": "灵现火焰",
-      "tc": "靈現火焰"
-    },
-    "tags": {
-      "en": "Buff · Stackable · <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span>",
-      "sc": "增益・可叠加・<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>",
-      "tc": "增益・可疊加・<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>"
-    },
-    "description": {
-      "en": "Your next Nature card costs 0 <span class=\"kw\" title=\"The resource spent to play cards. You gain 3 AP at the start of each turn.\">Action Points</span>.",
-      "sc": "你下一张打出的自然牌消耗 0 点<span class=\"kw\" title=\"打出卡牌所需的资源。每回合开始时获得 3 点。\">行动点</span>。",
-      "tc": "你下一張打出的自然牌消耗 0 點<span class=\"kw\" title=\"打出卡牌所需的資源。每回合開始時獲得 3 點。\">行動點</span>。"
-    }
-  },
-  {
-    "id": "Lingering",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Lingering",
-      "sc": "缠身",
-      "tc": "纏身"
-    },
-    "tags": null,
-    "description": {
-      "en": "Stays after combat and keeps taking effect throughout the dungeon until removed.",
-      "sc": "战斗结束后仍会保留，在地城中持续生效，直到被移除为止。",
-      "tc": "戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。"
-    }
-  },
-  {
-    "id": "AP",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Action Points",
-      "sc": "行动点",
-      "tc": "行動點"
-    },
-    "tags": null,
-    "description": {
-      "en": "The resource spent to play cards. You gain 3 AP at the start of each turn.",
-      "sc": "打出卡牌所需的资源。每回合开始时获得 3 点。",
-      "tc": "打出卡牌所需的資源。每回合開始時獲得 3 點。"
-    }
-  },
-  {
-    "id": "Affliction",
-    "kind": "debuff",
-    "icon": "Affliction.png",
-    "name": {
-      "en": "Affliction",
-      "sc": "灾厄",
-      "tc": "災厄"
-    },
-    "tags": {
-      "en": "Debuff · <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span> · Cannot be dispelled",
-      "sc": "减益・<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>・无法驱散",
-      "tc": "減益・<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>・無法驅散"
-    },
-    "description": {
-      "en": "May be gained when the <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span> or <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span> overflows.",
-      "sc": "<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>或<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>溢出时有机率获得。",
-      "tc": "<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>或<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>溢出時有機率獲得。"
-    }
-  },
-  {
-    "id": "Miracle",
-    "kind": "buff",
-    "icon": "Miracle.png",
-    "name": {
-      "en": "Miracle",
-      "sc": "奇迹",
-      "tc": "奇蹟"
-    },
-    "tags": {
-      "en": "Buff · <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span>",
-      "sc": "增益・<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>",
-      "tc": "增益・<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>"
-    },
-    "description": {
-      "en": "May be gained when the <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span> or <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span> overflows.",
-      "sc": "<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>或<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>溢出时有机率获得。",
-      "tc": "<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>或<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>溢出時有機率獲得。"
-    }
-  },
-  {
-    "id": "Restrained",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Restrained",
-      "sc": "束缚",
-      "tc": "束縛"
-    },
-    "tags": null,
-    "description": {
-      "en": "Can only be played a limited number of times per turn. The limit is shown on the card.",
-      "sc": "每回合只能打出有限次数，上限显示于卡牌上。",
-      "tc": "每回合只能打出有限次數，上限顯示於卡牌上。"
-    }
-  },
-  {
-    "id": "Burden",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Burden",
-      "sc": "负担",
-      "tc": "負擔"
-    },
-    "tags": null,
-    "description": {
-      "en": "A deck can only hold a limited number of copies. The limit is shown on the card.",
-      "sc": "同一牌组只能放入有限张数，上限显示于卡牌上。",
-      "tc": "同一牌組只能放入有限張數，上限顯示於卡牌上。"
-    }
-  },
-  {
-    "id": "Manifest",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Manifest",
-      "sc": "显现",
-      "tc": "顯現"
-    },
-    "tags": null,
-    "description": {
-      "en": "When drawn, triggers its effect and loses 1 durability, then enters your hand.",
-      "sc": "抽到时立即触发效果并消耗 1 点耐久，然后进入手牌。",
-      "tc": "抽到時立即觸發效果並消耗 1 點耐久，然後進入手牌。"
-    }
-  },
-  {
-    "id": "Funnel",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Funnel",
-      "sc": "倾注",
-      "tc": "傾注"
-    },
-    "tags": null,
-    "description": {
-      "en": "Spend up to the listed maximum of a resource. The effect triggers once for each increment spent.",
-      "sc": "最多消耗所列上限的资源，每消耗一个单位便触发一次效果。",
-      "tc": "最多消耗所列上限的資源，每消耗一個單位便觸發一次效果。"
-    }
-  },
-  {
-    "id": "Oath",
-    "kind": "keyword",
-    "icon": "Oath.png",
-    "name": {
-      "en": "Oath",
-      "sc": "誓约",
-      "tc": "誓約"
-    },
-    "tags": null,
-    "description": {
-      "en": "If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath has no penalty; you simply lose the reward.",
-      "sc": "若本回合剩余时间只打出指定的牌，即达成誓约并触发奖励。破誓没有惩罚，只是不会获得奖励。",
-      "tc": "若本回合剩餘時間只打出指定的牌，即達成誓約並觸發獎勵。破誓沒有懲罰，只是不會獲得獎勵。"
-    }
-  },
-  {
-    "id": "Generated",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Generated",
-      "sc": "衍生",
-      "tc": "衍生"
-    },
-    "tags": null,
-    "description": {
-      "en": "Created during combat. Removed when combat ends and never added to your deck.",
-      "sc": "战斗中产生的牌。战斗结束时移除，不会加入你的牌组。",
-      "tc": "戰鬥中產生的牌。戰鬥結束時移除，不會加入你的牌組。"
-    }
-  },
-  {
-    "id": "Lowlife",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Low Life",
-      "sc": "贫血",
-      "tc": "貧血"
-    },
-    "tags": null,
-    "description": {
-      "en": "Your HP is at or below 30% of your max HP.",
-      "sc": "当前生命不高于最大生命的 30%。",
-      "tc": "當前生命不高於最大生命的 30%。"
-    }
-  },
-  {
-    "id": "HeavyArmor",
-    "kind": "buff",
-    "icon": null,
-    "name": {
-      "en": "Heavy Armor",
-      "sc": "重甲",
-      "tc": "重甲"
-    },
-    "tags": {
-      "en": "Buff · Unstackable",
-      "sc": "增益・不可叠加",
-      "tc": "增益・不可疊加"
-    },
-    "description": {
-      "en": "Negates every direct hit dealing less than x damage. Does not block damage from statuses such as <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> and <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span>.",
-      "sc": "抵销所有低于 x 的直接伤害。无法抵挡<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>、<span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>等状态造成的伤害。",
-      "tc": "抵銷所有低於 x 的直接傷害。無法抵擋<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>、<span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>等狀態造成的傷害。"
-    }
-  },
-  {
-    "id": "Dispel",
-    "kind": "keyword",
-    "icon": null,
-    "name": {
-      "en": "Dispel",
-      "sc": "驱散",
-      "tc": "驅散"
-    },
-    "tags": null,
-    "description": {
-      "en": "Removes the stated number of debuffs. <span class=\"kw\" title=\"Debuff · Lingering · Cannot be dispelled<br>May be gained when the Rosriconian Meter or Belgardian Meter overflows.\">Affliction</span> cannot be dispelled.",
-      "sc": "移除指定数量的减益。<span class=\"kw\" title=\"减益・缠身・无法驱散<br>罗斯里坎量表或贝尔嘉德量表溢出时有机率获得。\">灾厄</span>无法被驱散。",
-      "tc": "移除指定數量的減益。<span class=\"kw\" title=\"減益・纏身・無法驅散<br>羅斯里坎量表或貝爾嘉德量表溢出時有機率獲得。\">災厄</span>無法被驅散。"
-    }
-  },
-  {
-    "id": "BurnOnHit",
-    "kind": "buff",
-    "icon": null,
-    "name": {
-      "en": "Heated",
-      "sc": "炽热",
-      "tc": "熾熱"
-    },
-    "tags": {
-      "en": "Buff",
-      "sc": "增益",
-      "tc": "增益"
-    },
-    "description": {
-      "en": "The player gains x <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> whenever they hit this unit. Only direct damage and delayed damage count as hits.",
-      "sc": "玩家每次击中此单位时，获得 x 层 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。仅直接伤害与延迟伤害算作击中。",
-      "tc": "玩家每次擊中此單位時，獲得 x 層 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。僅直接傷害與延遲傷害算作擊中。"
-    }
-  },
-  {
-    "id": "DamageAccumulate",
-    "kind": "debuff",
-    "icon": null,
-    "name": {
-      "en": "Poisoned",
-      "sc": "中毒",
-      "tc": "中毒"
-    },
-    "tags": {
-      "en": "Debuff",
-      "sc": "减益",
-      "tc": "減益"
-    },
-    "description": {
-      "en": "The player will take x damage at the end of each turn, and that damage increases by x the next turn. This debuff is removed when the holder plays a Heal action type card.",
-      "sc": "玩家在每回合结束时受到 x 点伤害，且该伤害会在下一回合再增加 x 点。当持有者打出治疗类型的牌时，此减益会被清除。",
-      "tc": "玩家在每回合結束時受到 x 點傷害，且該傷害會在下一回合再增加 x 點。當持有者打出治療類型的牌時，此減益會被清除。"
-    }
-  },
-  {
-    "id": "DebuffImmune",
-    "kind": "buff",
-    "icon": null,
-    "name": {
-      "en": "Immunity",
-      "sc": "免疫",
-      "tc": "免疫"
-    },
-    "tags": {
-      "en": "Buff",
-      "sc": "增益",
-      "tc": "增益"
-    },
-    "description": {
-      "en": "This unit is immune to x.",
-      "sc": "此单位免疫 x。",
-      "tc": "此單位免疫 x。"
-    }
-  },
-  {
-    "id": "DecAmterlimit",
-    "kind": "debuff",
-    "icon": "DecAmterlimit.png",
-    "name": {
-      "en": "Decrease <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Rosriconian Meter\"></span> limit by x",
-      "sc": "<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"罗斯里坎量表\"></span> 上限 -x",
-      "tc": "<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"羅斯里坎量表\"></span> 上限 -x"
-    },
-    "tags": {
-      "en": "Debuff",
-      "sc": "减益",
-      "tc": "減益"
-    },
-    "description": {
-      "en": "Decrease the <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span>'s limit by x.",
-      "sc": "<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>的上限降低 x。",
-      "tc": "<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>的上限降低 x。"
-    }
-  },
-  {
-    "id": "FireStreak",
-    "kind": "buff",
-    "icon": "FireStreak.png",
-    "name": {
-      "en": "Vivid Ember",
-      "sc": "灵现余烬",
-      "tc": "靈現餘燼"
-    },
-    "tags": {
-      "en": "Buff",
-      "sc": "增益",
-      "tc": "增益"
-    },
-    "description": {
-      "en": "At 4 stacks, reduce this to 0 and grant the player a <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span> <span class=\"kw\" title=\"Buff · Stackable · Lingering<br>Your next Nature card costs 0 Action Points.\">Vivid Flame</span> buff. This buff is cleared whenever a Nature card is played.",
-      "sc": "累积至 4 层时，将其归零并使玩家获得一层<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>的<span class=\"kw\" title=\"增益・可叠加・缠身<br>你下一张打出的自然牌消耗 0 点行动点。\">灵现火焰</span>增益。打出自然牌时，此增益会被清除。",
-      "tc": "累積至 4 層時，將其歸零並使玩家獲得一層<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>的<span class=\"kw\" title=\"增益・可疊加・纏身<br>你下一張打出的自然牌消耗 0 點行動點。\">靈現火焰</span>增益。打出自然牌時，此增益會被清除。"
-    }
-  },
-  {
-    "id": "IncreaseDef",
-    "kind": "buff",
-    "icon": "IncreaseDef.png",
-    "name": {
-      "en": "<span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span> Increase",
-      "sc": "<span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span>提升",
-      "tc": "<span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span>提升"
-    },
-    "tags": {
-      "en": "Buff",
-      "sc": "增益",
-      "tc": "增益"
-    },
-    "description": {
-      "en": "This unit gains x additional <span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span>.",
-      "sc": "此单位获得 x 点额外<span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span>。",
-      "tc": "此單位獲得 x 點額外<span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span>。"
-    }
-  },
-  {
-    "id": "LessAmeter",
-    "kind": "buff",
-    "icon": "LessAmeter.png",
-    "name": {
-      "en": "Less Rosriconian Meter",
-      "sc": "罗斯里坎量表效果 -x%",
-      "tc": "羅斯里坎量表效果 -x%"
-    },
-    "tags": {
-      "en": "Buff",
-      "sc": "增益",
-      "tc": "增益"
-    },
-    "description": {
-      "en": "This unit's <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span> change effectiveness is decreased by x%.",
-      "sc": "此单位的<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>变化效果降低 x%。",
-      "tc": "此單位的<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>變化效果降低 x%。"
-    }
-  },
-  {
-    "id": "MoreAmeter",
-    "kind": "buff",
-    "icon": "MoreAmeter.png",
-    "name": {
-      "en": "More Rosriconian Meter",
-      "sc": "罗斯里坎量表效果 +x%",
-      "tc": "羅斯里坎量表效果 +x%"
-    },
-    "tags": {
-      "en": "Buff",
-      "sc": "增益",
-      "tc": "增益"
-    },
-    "description": {
-      "en": "This unit's <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span> change effectiveness is increased by x%.",
-      "sc": "此单位的<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>变化效果提升 x%。",
-      "tc": "此單位的<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>變化效果提升 x%。"
-    }
-  },
-  {
-    "id": "MoreDmeter",
-    "kind": "buff",
-    "icon": "MoreDmeter.png",
-    "name": {
-      "en": "More Belgardian Meter",
-      "sc": "贝尔嘉德量表效果 +x%",
-      "tc": "貝爾嘉德量表效果 +x%"
-    },
-    "tags": {
-      "en": "Buff",
-      "sc": "增益",
-      "tc": "增益"
-    },
-    "description": {
-      "en": "This unit's <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span> change effectiveness is increased by x%.",
-      "sc": "此单位的<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>变化效果提升 x%。",
-      "tc": "此單位的<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>變化效果提升 x%。"
-    }
-  },
-  {
-    "id": "NatureStreak",
-    "kind": "buff",
-    "icon": "NatureStreak.png",
-    "name": {
-      "en": "Woken Flower",
-      "sc": "苏醒之花",
-      "tc": "甦醒之花"
-    },
-    "tags": {
-      "en": "Buff",
-      "sc": "增益",
-      "tc": "增益"
-    },
-    "description": {
-      "en": "At 4 stacks, reduce this to 0 and grant the player a <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span> <span class=\"kw\" title=\"Buff · Stackable · Lingering<br>Your next Fire card costs 0 Action Points.\">Woken Spring</span> buff. This buff is cleared whenever a Fire card is played.",
-      "sc": "累积至 4 层时，将其归零并使玩家获得一层<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>的<span class=\"kw\" title=\"增益・可叠加・缠身<br>你下一张打出的火焰牌消耗 0 点行动点。\">苏醒之春</span>增益。打出火焰牌时，此增益会被清除。",
-      "tc": "累積至 4 層時，將其歸零並使玩家獲得一層<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>的<span class=\"kw\" title=\"增益・可疊加・纏身<br>你下一張打出的火焰牌消耗 0 點行動點。\">甦醒之春</span>增益。打出火焰牌時，此增益會被清除。"
-    }
+    "group": "damage"
   },
   {
     "id": "PercDmgOnHit",
     "kind": "buff",
     "icon": null,
+    "tint": null,
     "name": {
       "en": "Enraged",
       "sc": "狂怒",
@@ -905,12 +62,98 @@
       "en": "Each time this unit is hit, it permanently gains x% <span class=\"kw\" title=\"Buff · Stackable<br>For x turns, the owner's attack damage is multiplied by a percentage.\">Imbue</span>.",
       "sc": "此单位每次被击中时，永久获得 x% 的<span class=\"kw\" title=\"增益・可叠加<br>x 回合内，持有者的攻击伤害以百分比乘算提升。\">灌注</span>。",
       "tc": "此單位每次被擊中時，永久獲得 x% 的<span class=\"kw\" title=\"增益・可疊加<br>x 回合內，持有者的攻擊傷害以百分比乘算提升。\">灌注</span>。"
-    }
+    },
+    "group": "damage"
+  },
+  {
+    "id": "Intimidate",
+    "kind": "debuff",
+    "icon": "ReduceAtk.png",
+    "tint": null,
+    "name": {
+      "en": "Intimidate",
+      "sc": "威吓",
+      "tc": "威嚇"
+    },
+    "tags": {
+      "en": "Debuff · Stackable",
+      "sc": "减益・可叠加",
+      "tc": "減益・可疊加"
+    },
+    "description": {
+      "en": "For x turns, the owner deals a percentage less damage, up to 75%.",
+      "sc": "x 回合内，持有者造成的伤害降低一定百分比，最多 75%。",
+      "tc": "x 回合內，持有者造成的傷害降低一定百分比，最多 75%。"
+    },
+    "group": "damage"
+  },
+  {
+    "id": "Defense",
+    "kind": "keyword",
+    "icon": "Defense.png",
+    "tint": null,
+    "name": {
+      "en": "Defense",
+      "sc": "防御",
+      "tc": "防禦"
+    },
+    "tags": null,
+    "description": {
+      "en": "Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.",
+      "sc": "每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。",
+      "tc": "每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。"
+    },
+    "group": "defense"
+  },
+  {
+    "id": "Guard",
+    "kind": "buff",
+    "icon": "Guard.png",
+    "tint": null,
+    "name": {
+      "en": "Guard",
+      "sc": "守护",
+      "tc": "守護"
+    },
+    "tags": {
+      "en": "Buff · Unstackable",
+      "sc": "增益・不可叠加",
+      "tc": "增益・不可疊加"
+    },
+    "description": {
+      "en": "For x turns, completely blocks the next attack the owner receives.",
+      "sc": "x 回合内，完全抵挡持有者受到的下一次攻击。",
+      "tc": "x 回合內，完全抵擋持有者受到的下一次攻擊。"
+    },
+    "group": "defense"
+  },
+  {
+    "id": "IncreaseDef",
+    "kind": "buff",
+    "icon": "IncreaseDef.png",
+    "tint": null,
+    "name": {
+      "en": "<span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span> Increase",
+      "sc": "<span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span>提升",
+      "tc": "<span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span>提升"
+    },
+    "tags": {
+      "en": "Buff",
+      "sc": "增益",
+      "tc": "增益"
+    },
+    "description": {
+      "en": "This unit gains x additional <span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span>.",
+      "sc": "此单位获得 x 点额外<span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span>。",
+      "tc": "此單位獲得 x 點額外<span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span>。"
+    },
+    "group": "defense"
   },
   {
     "id": "ReduceDefense",
     "kind": "debuff",
     "icon": null,
+    "tint": null,
     "name": {
       "en": "Brittle",
       "sc": "易碎",
@@ -925,12 +168,628 @@
       "en": "Each time this unit is hit, it loses x stacks of <span class=\"kw\" title=\"Each point reduces incoming damage by 1%. Player Defense is capped at 75% damage reduction.\">Defense</span> Increase.",
       "sc": "此单位每次被击中时，失去 x 层<span class=\"kw\" title=\"每点防御使受到的伤害降低 1%。玩家防御最多减免 75% 伤害。\">防御</span>提升。",
       "tc": "此單位每次被擊中時，失去 x 層<span class=\"kw\" title=\"每點防禦使受到的傷害降低 1%。玩家防禦最多減免 75% 傷害。\">防禦</span>提升。"
-    }
+    },
+    "group": "defense"
+  },
+  {
+    "id": "HeavyArmor",
+    "kind": "buff",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Heavy Armor",
+      "sc": "重甲",
+      "tc": "重甲"
+    },
+    "tags": {
+      "en": "Buff · Unstackable",
+      "sc": "增益・不可叠加",
+      "tc": "增益・不可疊加"
+    },
+    "description": {
+      "en": "Negates every direct hit dealing less than x damage. Does not block damage from statuses such as <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> and <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.\">Bleeding</span>.",
+      "sc": "抵销所有低于 x 的直接伤害。无法抵挡<span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>、<span class=\"kw\" title=\"减益・可叠加・缠身<br>每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。\">流血</span>等状态造成的伤害。",
+      "tc": "抵銷所有低於 x 的直接傷害。無法抵擋<span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>、<span class=\"kw\" title=\"減益・可疊加・纏身<br>每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。\">流血</span>等狀態造成的傷害。"
+    },
+    "group": "defense"
+  },
+  {
+    "id": "Fragile",
+    "kind": "debuff",
+    "icon": "Fragile.png",
+    "tint": null,
+    "name": {
+      "en": "Fragile",
+      "sc": "脆弱",
+      "tc": "脆弱"
+    },
+    "tags": {
+      "en": "Debuff · Stackable",
+      "sc": "减益・可叠加",
+      "tc": "減益・可疊加"
+    },
+    "description": {
+      "en": "For y turns, the owner takes x% more damage.",
+      "sc": "y 回合内，持有者受到的伤害提升 x%。",
+      "tc": "y 回合內，持有者受到的傷害提升 x%。"
+    },
+    "group": "defense"
+  },
+  {
+    "id": "Burn",
+    "kind": "debuff",
+    "icon": "Burn.png",
+    "tint": null,
+    "name": {
+      "en": "Burn",
+      "sc": "燃烧",
+      "tc": "燃燒"
+    },
+    "tags": {
+      "en": "Debuff · Stackable · <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span>",
+      "sc": "减益・可叠加・<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>",
+      "tc": "減益・可疊加・<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>"
+    },
+    "description": {
+      "en": "Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.",
+      "sc": "每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。",
+      "tc": "每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。"
+    },
+    "group": "overTime"
+  },
+  {
+    "id": "BurnOnHit",
+    "kind": "buff",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Heated",
+      "sc": "炽热",
+      "tc": "熾熱"
+    },
+    "tags": {
+      "en": "Buff",
+      "sc": "增益",
+      "tc": "增益"
+    },
+    "description": {
+      "en": "The player gains x <span class=\"kw\" title=\"Debuff · Stackable · Lingering<br>Every 2 turns, at the end of the turn, deals damage equal to its stacks, then halves its stacks (rounded up). Removed once below 3 stacks. Does not expire.\">Burn</span> whenever they hit this unit. Only direct damage and delayed damage count as hits.",
+      "sc": "玩家每次击中此单位时，获得 x 层 <span class=\"kw\" title=\"减益・可叠加・缠身<br>每 2 回合结束时，造成等同层数的伤害，接着层数减半（无条件进位）；层数低于 3 时消失。不会随回合消失。\">燃烧</span>。仅直接伤害与延迟伤害算作击中。",
+      "tc": "玩家每次擊中此單位時，獲得 x 層 <span class=\"kw\" title=\"減益・可疊加・纏身<br>每 2 回合結束時，造成等同層數的傷害，接著層數減半（無條件進位）；層數低於 3 時消失。不會隨回合消失。\">燃燒</span>。僅直接傷害與延遲傷害算作擊中。"
+    },
+    "group": "overTime"
+  },
+  {
+    "id": "Bleeding",
+    "kind": "debuff",
+    "icon": "Bleeding.png",
+    "tint": null,
+    "name": {
+      "en": "Bleeding",
+      "sc": "流血",
+      "tc": "流血"
+    },
+    "tags": {
+      "en": "Debuff · Stackable · <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span>",
+      "sc": "减益・可叠加・<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>",
+      "tc": "減益・可疊加・<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>"
+    },
+    "description": {
+      "en": "At the end of each turn, deals x% of the owner's max HP as damage. Does not expire.",
+      "sc": "每回合结束时，对持有者造成其最大生命 x% 的伤害。不会随回合消失。",
+      "tc": "每回合結束時，對持有者造成其最大生命 x% 的傷害。不會隨回合消失。"
+    },
+    "group": "overTime"
+  },
+  {
+    "id": "DamageAccumulate",
+    "kind": "debuff",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Poisoned",
+      "sc": "中毒",
+      "tc": "中毒"
+    },
+    "tags": {
+      "en": "Debuff",
+      "sc": "减益",
+      "tc": "減益"
+    },
+    "description": {
+      "en": "The player will take x damage at the end of each turn, and that damage increases by x the next turn. This debuff is removed when the holder plays a Heal action type card.",
+      "sc": "玩家在每回合结束时受到 x 点伤害，且该伤害会在下一回合再增加 x 点。当持有者打出治疗类型的牌时，此减益会被清除。",
+      "tc": "玩家在每回合結束時受到 x 點傷害，且該傷害會在下一回合再增加 x 點。當持有者打出治療類型的牌時，此減益會被清除。"
+    },
+    "group": "overTime"
+  },
+  {
+    "id": "DelayedDamage",
+    "kind": "debuff",
+    "icon": "DelayedDamage.png",
+    "tint": null,
+    "name": {
+      "en": "Delayed Damage",
+      "sc": "延迟伤害",
+      "tc": "延遲傷害"
+    },
+    "tags": {
+      "en": "Debuff · Timed separately",
+      "sc": "减益・各自计时",
+      "tc": "減益・各自計時"
+    },
+    "description": {
+      "en": "Deals damage after the stated number of turns, based on the caster's stats when it lands. Each application keeps its own timer.",
+      "sc": "指定回合数后造成伤害，伤害依触发当下施放者的数值计算。每次施加各自计时。",
+      "tc": "指定回合數後造成傷害，傷害依觸發當下施放者的數值計算。每次施加各自計時。"
+    },
+    "group": "overTime"
+  },
+  {
+    "id": "Blessed",
+    "kind": "buff",
+    "icon": "Blessed.png",
+    "tint": null,
+    "name": {
+      "en": "Blessed",
+      "sc": "祝福",
+      "tc": "祝福"
+    },
+    "tags": {
+      "en": "Buff · Stackable",
+      "sc": "增益・可叠加",
+      "tc": "增益・可疊加"
+    },
+    "description": {
+      "en": "For y turns, restores x% of the owner's max HP at the end of each turn.",
+      "sc": "y 回合内，每回合结束时回复持有者 x% 的最大生命。",
+      "tc": "y 回合內，每回合結束時回復持有者 x% 的最大生命。"
+    },
+    "group": "healing"
+  },
+  {
+    "id": "Purified",
+    "kind": "buff",
+    "icon": "IncreaseHealing.png",
+    "tint": null,
+    "name": {
+      "en": "Purified",
+      "sc": "净化",
+      "tc": "淨化"
+    },
+    "tags": {
+      "en": "Buff · Stackable",
+      "sc": "增益・可叠加",
+      "tc": "增益・可疊加"
+    },
+    "description": {
+      "en": "For x turns, the owner receives a percentage more healing.",
+      "sc": "x 回合内，持有者受到的治疗量提升一定百分比。",
+      "tc": "x 回合內，持有者受到的治療量提升一定百分比。"
+    },
+    "group": "healing"
+  },
+  {
+    "id": "Lifesteal",
+    "kind": "buff",
+    "icon": "LifeSteal.png",
+    "tint": null,
+    "name": {
+      "en": "Lifesteal",
+      "sc": "生命偷取",
+      "tc": "生命偷取"
+    },
+    "tags": {
+      "en": "Buff · Stackable",
+      "sc": "增益・可叠加",
+      "tc": "增益・可疊加"
+    },
+    "description": {
+      "en": "For y turns, the owner's next x hits heal for the damage dealt.",
+      "sc": "y 回合内，持有者接下来的 x 次命中会依造成的伤害回复生命。",
+      "tc": "y 回合內，持有者接下來的 x 次命中會依造成的傷害回復生命。"
+    },
+    "group": "healing"
+  },
+  {
+    "id": "Cursed",
+    "kind": "debuff",
+    "icon": "Cursed.png",
+    "tint": null,
+    "name": {
+      "en": "Cursed",
+      "sc": "诅咒",
+      "tc": "詛咒"
+    },
+    "tags": {
+      "en": "Debuff · Unstackable",
+      "sc": "减益・不可叠加",
+      "tc": "減益・不可疊加"
+    },
+    "description": {
+      "en": "For x turns, the owner cannot be healed.",
+      "sc": "x 回合内，持有者无法受到任何治疗。",
+      "tc": "x 回合內，持有者無法受到任何治療。"
+    },
+    "group": "healing"
+  },
+  {
+    "id": "Lowlife",
+    "kind": "keyword",
+    "icon": "Lowlife.png",
+    "tint": null,
+    "name": {
+      "en": "Low Life",
+      "sc": "贫血",
+      "tc": "貧血"
+    },
+    "tags": null,
+    "description": {
+      "en": "Your HP is at or below 30% of your max HP.",
+      "sc": "当前生命不高于最大生命的 30%。",
+      "tc": "當前生命不高於最大生命的 30%。"
+    },
+    "group": "healing"
+  },
+  {
+    "id": "Ameter",
+    "kind": "keyword",
+    "icon": "Ameter.png",
+    "tint": "#FFE680",
+    "name": {
+      "en": "Rosriconian Meter",
+      "sc": "罗斯里坎量表",
+      "tc": "羅斯里坎量表"
+    },
+    "tags": null,
+    "description": {
+      "en": "The yellow meter at the top of the screen. God cards shift its value.",
+      "sc": "画面上方的黄色量表，数值会被神祇牌改变。",
+      "tc": "畫面上方的黃色量表，數值會被神祇牌改變。"
+    },
+    "group": "meters"
+  },
+  {
+    "id": "Dmeter",
+    "kind": "keyword",
+    "icon": "Dmeter.png",
+    "tint": "#B366D9",
+    "name": {
+      "en": "Belgardian Meter",
+      "sc": "贝尔嘉德量表",
+      "tc": "貝爾嘉德量表"
+    },
+    "tags": null,
+    "description": {
+      "en": "The purple meter at the top of the screen. God cards shift its value.",
+      "sc": "画面上方的紫色量表，数值会被神祇牌改变。",
+      "tc": "畫面上方的紫色量表，數值會被神祇牌改變。"
+    },
+    "group": "meters"
+  },
+  {
+    "id": "MoreAmeter",
+    "kind": "buff",
+    "icon": "MoreAmeter.png",
+    "tint": null,
+    "name": {
+      "en": "More Rosriconian Meter",
+      "sc": "罗斯里坎量表效果 +x%",
+      "tc": "羅斯里坎量表效果 +x%"
+    },
+    "tags": {
+      "en": "Buff",
+      "sc": "增益",
+      "tc": "增益"
+    },
+    "description": {
+      "en": "This unit's <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span> change effectiveness is increased by x%.",
+      "sc": "此单位的<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>变化效果提升 x%。",
+      "tc": "此單位的<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>變化效果提升 x%。"
+    },
+    "group": "meters"
+  },
+  {
+    "id": "MoreDmeter",
+    "kind": "buff",
+    "icon": "MoreDmeter.png",
+    "tint": null,
+    "name": {
+      "en": "More Belgardian Meter",
+      "sc": "贝尔嘉德量表效果 +x%",
+      "tc": "貝爾嘉德量表效果 +x%"
+    },
+    "tags": {
+      "en": "Buff",
+      "sc": "增益",
+      "tc": "增益"
+    },
+    "description": {
+      "en": "This unit's <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span> change effectiveness is increased by x%.",
+      "sc": "此单位的<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>变化效果提升 x%。",
+      "tc": "此單位的<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>變化效果提升 x%。"
+    },
+    "group": "meters"
+  },
+  {
+    "id": "LessAmeter",
+    "kind": "buff",
+    "icon": "LessAmeter.png",
+    "tint": null,
+    "name": {
+      "en": "Less Rosriconian Meter",
+      "sc": "罗斯里坎量表效果 -x%",
+      "tc": "羅斯里坎量表效果 -x%"
+    },
+    "tags": {
+      "en": "Buff",
+      "sc": "增益",
+      "tc": "增益"
+    },
+    "description": {
+      "en": "This unit's <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span> change effectiveness is decreased by x%.",
+      "sc": "此单位的<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>变化效果降低 x%。",
+      "tc": "此單位的<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>變化效果降低 x%。"
+    },
+    "group": "meters"
+  },
+  {
+    "id": "LessDmeter",
+    "kind": "buff",
+    "icon": "LessDmeter.png",
+    "tint": null,
+    "name": {
+      "en": "Less Belgardian Meter",
+      "sc": "贝尔嘉德量表效果 -x%",
+      "tc": "貝爾嘉德量表效果 -x%"
+    },
+    "tags": {
+      "en": "Buff",
+      "sc": "增益",
+      "tc": "增益"
+    },
+    "description": {
+      "en": "This unit's <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span> change effectiveness is decreased by x%.",
+      "sc": "此单位的<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>变化效果降低 x%。",
+      "tc": "此單位的<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>變化效果降低 x%。"
+    },
+    "group": "meters"
+  },
+  {
+    "id": "DecAmterlimit",
+    "kind": "debuff",
+    "icon": "DecAmterlimit.png",
+    "tint": null,
+    "name": {
+      "en": "Decrease <span class=\"icon icon-ameter\" role=\"img\" aria-label=\"Rosriconian Meter\"></span> limit by x",
+      "sc": "<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"罗斯里坎量表\"></span> 上限 -x",
+      "tc": "<span class=\"icon icon-ameter\" role=\"img\" aria-label=\"羅斯里坎量表\"></span> 上限 -x"
+    },
+    "tags": {
+      "en": "Debuff",
+      "sc": "减益",
+      "tc": "減益"
+    },
+    "description": {
+      "en": "Decrease the <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span>'s limit by x.",
+      "sc": "<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>的上限降低 x。",
+      "tc": "<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>的上限降低 x。"
+    },
+    "group": "meters"
+  },
+  {
+    "id": "DecDmterlimit",
+    "kind": "debuff",
+    "icon": "DecDmterlimit.png",
+    "tint": null,
+    "name": {
+      "en": "Decrease <span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"Belgardian Meter\"></span> limit by x",
+      "sc": "<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"贝尔嘉德量表\"></span> 上限 -x",
+      "tc": "<span class=\"icon icon-dmeter\" role=\"img\" aria-label=\"貝爾嘉德量表\"></span> 上限 -x"
+    },
+    "tags": {
+      "en": "Debuff",
+      "sc": "减益",
+      "tc": "減益"
+    },
+    "description": {
+      "en": "Decrease the <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span>'s limit by x.",
+      "sc": "<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>的上限降低 x。",
+      "tc": "<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>的上限降低 x。"
+    },
+    "group": "meters"
+  },
+  {
+    "id": "Miracle",
+    "kind": "buff",
+    "icon": "Miracle.png",
+    "tint": null,
+    "name": {
+      "en": "Miracle",
+      "sc": "奇迹",
+      "tc": "奇蹟"
+    },
+    "tags": {
+      "en": "Buff · <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span>",
+      "sc": "增益・<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>",
+      "tc": "增益・<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>"
+    },
+    "description": {
+      "en": "May be gained when the <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span> or <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span> overflows.",
+      "sc": "<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>或<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>溢出时有机率获得。",
+      "tc": "<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>或<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>溢出時有機率獲得。"
+    },
+    "group": "meters"
+  },
+  {
+    "id": "Affliction",
+    "kind": "debuff",
+    "icon": "Affliction.png",
+    "tint": null,
+    "name": {
+      "en": "Affliction",
+      "sc": "灾厄",
+      "tc": "災厄"
+    },
+    "tags": {
+      "en": "Debuff · <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span> · Cannot be dispelled",
+      "sc": "减益・<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>・无法驱散",
+      "tc": "減益・<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>・無法驅散"
+    },
+    "description": {
+      "en": "May be gained when the <span class=\"kw\" title=\"The yellow meter at the top of the screen. God cards shift its value.\">Rosriconian Meter</span> or <span class=\"kw\" title=\"The purple meter at the top of the screen. God cards shift its value.\">Belgardian Meter</span> overflows.",
+      "sc": "<span class=\"kw\" title=\"画面上方的黄色量表，数值会被神祇牌改变。\">罗斯里坎量表</span>或<span class=\"kw\" title=\"画面上方的紫色量表，数值会被神祇牌改变。\">贝尔嘉德量表</span>溢出时有机率获得。",
+      "tc": "<span class=\"kw\" title=\"畫面上方的黃色量表，數值會被神祇牌改變。\">羅斯里坎量表</span>或<span class=\"kw\" title=\"畫面上方的紫色量表，數值會被神祇牌改變。\">貝爾嘉德量表</span>溢出時有機率獲得。"
+    },
+    "group": "meters"
+  },
+  {
+    "id": "Nature",
+    "kind": "keyword",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Nature",
+      "sc": "自然",
+      "tc": "自然"
+    },
+    "tags": null,
+    "description": {
+      "en": "Playing Nature cards in a row grants Woken Flower. At 4 stacks, gain <span class=\"kw\" title=\"Buff · Stackable · Lingering<br>Your next Fire card costs 0 Action Points.\">Woken Spring</span>. Playing a Fire card clears Woken Flower.",
+      "sc": "连续打出自然牌会累积苏醒之花。达到 4 层时，获得<span class=\"kw\" title=\"增益・可叠加・缠身<br>你下一张打出的火焰牌消耗 0 点行动点。\">苏醒之春</span>。打出火焰牌时清除苏醒之花。",
+      "tc": "連續打出自然牌會累積甦醒之花。達到 4 層時，獲得<span class=\"kw\" title=\"增益・可疊加・纏身<br>你下一張打出的火焰牌消耗 0 點行動點。\">甦醒之春</span>。打出火焰牌時清除甦醒之花。"
+    },
+    "group": "elements"
+  },
+  {
+    "id": "Fire",
+    "kind": "keyword",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Fire",
+      "sc": "火焰",
+      "tc": "火焰"
+    },
+    "tags": null,
+    "description": {
+      "en": "Playing Fire cards in a row grants Vivid Ember. At 4 stacks, gain <span class=\"kw\" title=\"Buff · Stackable · Lingering<br>Your next Nature card costs 0 Action Points.\">Vivid Flame</span>. Playing a Nature card clears Vivid Ember.",
+      "sc": "连续打出火焰牌会累积灵现余烬。达到 4 层时，获得<span class=\"kw\" title=\"增益・可叠加・缠身<br>你下一张打出的自然牌消耗 0 点行动点。\">灵现火焰</span>。打出自然牌时清除灵现余烬。",
+      "tc": "連續打出火焰牌會累積靈現餘燼。達到 4 層時，獲得<span class=\"kw\" title=\"增益・可疊加・纏身<br>你下一張打出的自然牌消耗 0 點行動點。\">靈現火焰</span>。打出自然牌時清除靈現餘燼。"
+    },
+    "group": "elements"
+  },
+  {
+    "id": "NatureStreak",
+    "kind": "buff",
+    "icon": "NatureStreak.png",
+    "tint": null,
+    "name": {
+      "en": "Woken Flower",
+      "sc": "苏醒之花",
+      "tc": "甦醒之花"
+    },
+    "tags": {
+      "en": "Buff",
+      "sc": "增益",
+      "tc": "增益"
+    },
+    "description": {
+      "en": "At 4 stacks, reduce this to 0 and grant the player a <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span> <span class=\"kw\" title=\"Buff · Stackable · Lingering<br>Your next Fire card costs 0 Action Points.\">Woken Spring</span> buff. This buff is cleared whenever a Fire card is played.",
+      "sc": "累积至 4 层时，将其归零并使玩家获得一层<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>的<span class=\"kw\" title=\"增益・可叠加・缠身<br>你下一张打出的火焰牌消耗 0 点行动点。\">苏醒之春</span>增益。打出火焰牌时，此增益会被清除。",
+      "tc": "累積至 4 層時，將其歸零並使玩家獲得一層<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>的<span class=\"kw\" title=\"增益・可疊加・纏身<br>你下一張打出的火焰牌消耗 0 點行動點。\">甦醒之春</span>增益。打出火焰牌時，此增益會被清除。"
+    },
+    "group": "elements"
+  },
+  {
+    "id": "FireStreak",
+    "kind": "buff",
+    "icon": "FireStreak.png",
+    "tint": null,
+    "name": {
+      "en": "Vivid Ember",
+      "sc": "灵现余烬",
+      "tc": "靈現餘燼"
+    },
+    "tags": {
+      "en": "Buff",
+      "sc": "增益",
+      "tc": "增益"
+    },
+    "description": {
+      "en": "At 4 stacks, reduce this to 0 and grant the player a <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span> <span class=\"kw\" title=\"Buff · Stackable · Lingering<br>Your next Nature card costs 0 Action Points.\">Vivid Flame</span> buff. This buff is cleared whenever a Nature card is played.",
+      "sc": "累积至 4 层时，将其归零并使玩家获得一层<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>的<span class=\"kw\" title=\"增益・可叠加・缠身<br>你下一张打出的自然牌消耗 0 点行动点。\">灵现火焰</span>增益。打出自然牌时，此增益会被清除。",
+      "tc": "累積至 4 層時，將其歸零並使玩家獲得一層<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>的<span class=\"kw\" title=\"增益・可疊加・纏身<br>你下一張打出的自然牌消耗 0 點行動點。\">靈現火焰</span>增益。打出自然牌時，此增益會被清除。"
+    },
+    "group": "elements"
+  },
+  {
+    "id": "NatureTrigger",
+    "kind": "buff",
+    "icon": "NatureTrigger.png",
+    "tint": null,
+    "name": {
+      "en": "Woken Spring",
+      "sc": "苏醒之春",
+      "tc": "甦醒之春"
+    },
+    "tags": {
+      "en": "Buff · Stackable · <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span>",
+      "sc": "增益・可叠加・<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>",
+      "tc": "增益・可疊加・<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>"
+    },
+    "description": {
+      "en": "Your next Fire card costs 0 <span class=\"kw\" title=\"The resource spent to play cards. You gain 3 AP at the start of each turn.\">Action Points</span>.",
+      "sc": "你下一张打出的火焰牌消耗 0 点<span class=\"kw\" title=\"打出卡牌所需的资源。每回合开始时获得 3 点。\">行动点</span>。",
+      "tc": "你下一張打出的火焰牌消耗 0 點<span class=\"kw\" title=\"打出卡牌所需的資源。每回合開始時獲得 3 點。\">行動點</span>。"
+    },
+    "group": "elements"
+  },
+  {
+    "id": "FireTrigger",
+    "kind": "buff",
+    "icon": "FireTrigger.png",
+    "tint": null,
+    "name": {
+      "en": "Vivid Flame",
+      "sc": "灵现火焰",
+      "tc": "靈現火焰"
+    },
+    "tags": {
+      "en": "Buff · Stackable · <span class=\"kw\" title=\"Stays after combat and keeps taking effect throughout the dungeon until removed.\">Lingering</span>",
+      "sc": "增益・可叠加・<span class=\"kw\" title=\"战斗结束后仍会保留，在地城中持续生效，直到被移除为止。\">缠身</span>",
+      "tc": "增益・可疊加・<span class=\"kw\" title=\"戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。\">纏身</span>"
+    },
+    "description": {
+      "en": "Your next Nature card costs 0 <span class=\"kw\" title=\"The resource spent to play cards. You gain 3 AP at the start of each turn.\">Action Points</span>.",
+      "sc": "你下一张打出的自然牌消耗 0 点<span class=\"kw\" title=\"打出卡牌所需的资源。每回合开始时获得 3 点。\">行动点</span>。",
+      "tc": "你下一張打出的自然牌消耗 0 點<span class=\"kw\" title=\"打出卡牌所需的資源。每回合開始時獲得 3 點。\">行動點</span>。"
+    },
+    "group": "elements"
+  },
+  {
+    "id": "AP",
+    "kind": "keyword",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Action Points",
+      "sc": "行动点",
+      "tc": "行動點"
+    },
+    "tags": null,
+    "description": {
+      "en": "The resource spent to play cards. You gain 3 AP at the start of each turn.",
+      "sc": "打出卡牌所需的资源。每回合开始时获得 3 点。",
+      "tc": "打出卡牌所需的資源。每回合開始時獲得 3 點。"
+    },
+    "group": "cards"
   },
   {
     "id": "ReqChange",
     "kind": "buff",
     "icon": "ReqChange.png",
+    "tint": null,
     "name": {
       "en": "Cost Reduction (x)",
       "sc": "费用减免 (x)",
@@ -945,12 +804,300 @@
       "en": "Reduce next played card cost by x.",
       "sc": "下一张打出的牌费用减少 x。",
       "tc": "下一張打出的牌費用減少 x。"
-    }
+    },
+    "group": "cards"
+  },
+  {
+    "id": "Swift",
+    "kind": "buff",
+    "icon": "Swift.png",
+    "tint": null,
+    "name": {
+      "en": "Swift",
+      "sc": "迅捷",
+      "tc": "迅捷"
+    },
+    "tags": {
+      "en": "Buff · Stackable",
+      "sc": "增益・可叠加",
+      "tc": "增益・可疊加"
+    },
+    "description": {
+      "en": "For x turns, the next card you play also plays its neighboring cards for free: the left one only, or both sides (never the right one only). The left card resolves first. Swift cannot trigger another Swift.",
+      "sc": "x 回合内，你打出的下一张牌会免费连带打出相邻的牌：只有左侧，或左右两侧（没有只有右侧）。左侧的牌先结算。迅捷无法触发另一个迅捷。",
+      "tc": "x 回合內，你打出的下一張牌會免費連帶打出相鄰的牌：只有左側，或左右兩側（沒有只有右側）。左側的牌先結算。迅捷無法觸發另一個迅捷。"
+    },
+    "group": "cards"
+  },
+  {
+    "id": "Resonate",
+    "kind": "buff",
+    "icon": "Resonate.png",
+    "tint": null,
+    "name": {
+      "en": "Resonate",
+      "sc": "共鸣",
+      "tc": "共鳴"
+    },
+    "tags": {
+      "en": "Buff · Unstackable",
+      "sc": "增益・不可叠加",
+      "tc": "增益・不可疊加"
+    },
+    "description": {
+      "en": "For y turns, the next card you play triggers its effect x more times.",
+      "sc": "y 回合内，你打出的下一张牌效果额外发动 x 次。",
+      "tc": "y 回合內，你打出的下一張牌效果額外發動 x 次。"
+    },
+    "group": "cards"
+  },
+  {
+    "id": "Gifted",
+    "kind": "buff",
+    "icon": "Gifted.png",
+    "tint": null,
+    "name": {
+      "en": "Gifted",
+      "sc": "馈赠",
+      "tc": "饋贈"
+    },
+    "tags": {
+      "en": "Buff · Stackable",
+      "sc": "增益・可叠加",
+      "tc": "增益・可疊加"
+    },
+    "description": {
+      "en": "At the start of each turn, the owner gains 1 random card.",
+      "sc": "每回合开始时，持有者获得 1 张随机卡牌。",
+      "tc": "每回合開始時，持有者獲得 1 張隨機卡牌。"
+    },
+    "group": "cards"
+  },
+  {
+    "id": "Intuitive",
+    "kind": "keyword",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Intuitive",
+      "sc": "直觉",
+      "tc": "直覺"
+    },
+    "tags": null,
+    "description": {
+      "en": "Only takes effect if this is the first card you play this turn.",
+      "sc": "只有在本回合第一张打出时才会生效。",
+      "tc": "只有在本回合第一張打出時才會生效。"
+    },
+    "group": "cards"
+  },
+  {
+    "id": "Oath",
+    "kind": "keyword",
+    "icon": "Oath.png",
+    "tint": null,
+    "name": {
+      "en": "Oath",
+      "sc": "誓约",
+      "tc": "誓約"
+    },
+    "tags": null,
+    "description": {
+      "en": "If you play only the stated cards for the rest of this turn, the Oath is kept and its reward triggers. Breaking an Oath has no penalty; you simply lose the reward.",
+      "sc": "若本回合剩余时间只打出指定的牌，即达成誓约并触发奖励。破誓没有惩罚，只是不会获得奖励。",
+      "tc": "若本回合剩餘時間只打出指定的牌，即達成誓約並觸發獎勵。破誓沒有懲罰，只是不會獲得獎勵。"
+    },
+    "group": "cards"
+  },
+  {
+    "id": "Restrained",
+    "kind": "keyword",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Restrained",
+      "sc": "束缚",
+      "tc": "束縛"
+    },
+    "tags": null,
+    "description": {
+      "en": "Can only be played a limited number of times per turn. The limit is shown on the card.",
+      "sc": "每回合只能打出有限次数，上限显示于卡牌上。",
+      "tc": "每回合只能打出有限次數，上限顯示於卡牌上。"
+    },
+    "group": "cards"
+  },
+  {
+    "id": "Funnel",
+    "kind": "keyword",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Funnel",
+      "sc": "倾注",
+      "tc": "傾注"
+    },
+    "tags": null,
+    "description": {
+      "en": "Spend up to the listed maximum of a resource. The effect triggers once for each increment spent.",
+      "sc": "最多消耗所列上限的资源，每消耗一个单位便触发一次效果。",
+      "tc": "最多消耗所列上限的資源，每消耗一個單位便觸發一次效果。"
+    },
+    "group": "cards"
+  },
+  {
+    "id": "Onkill",
+    "kind": "keyword",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Onkill",
+      "sc": "击杀时",
+      "tc": "擊殺時"
+    },
+    "tags": null,
+    "description": {
+      "en": "Triggers when this card deals a lethal blow.",
+      "sc": "此牌造成致命一击时触发。",
+      "tc": "此牌造成致命一擊時觸發。"
+    },
+    "group": "cards"
+  },
+  {
+    "id": "Burden",
+    "kind": "keyword",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Burden",
+      "sc": "负担",
+      "tc": "負擔"
+    },
+    "tags": null,
+    "description": {
+      "en": "A deck can only hold a limited number of copies. The limit is shown on the card.",
+      "sc": "同一牌组只能放入有限张数，上限显示于卡牌上。",
+      "tc": "同一牌組只能放入有限張數，上限顯示於卡牌上。"
+    },
+    "group": "deck"
+  },
+  {
+    "id": "Manifest",
+    "kind": "keyword",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Manifest",
+      "sc": "显现",
+      "tc": "顯現"
+    },
+    "tags": null,
+    "description": {
+      "en": "When drawn, triggers its effect and loses 1 durability, then enters your hand.",
+      "sc": "抽到时立即触发效果并消耗 1 点耐久，然后进入手牌。",
+      "tc": "抽到時立即觸發效果並消耗 1 點耐久，然後進入手牌。"
+    },
+    "group": "deck"
+  },
+  {
+    "id": "Generated",
+    "kind": "keyword",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Generated",
+      "sc": "衍生",
+      "tc": "衍生"
+    },
+    "tags": null,
+    "description": {
+      "en": "Created during combat. Removed when combat ends and never added to your deck.",
+      "sc": "战斗中产生的牌。战斗结束时移除，不会加入你的牌组。",
+      "tc": "戰鬥中產生的牌。戰鬥結束時移除，不會加入你的牌組。"
+    },
+    "group": "deck"
+  },
+  {
+    "id": "Destroy",
+    "kind": "keyword",
+    "icon": "Destroy.png",
+    "tint": null,
+    "name": {
+      "en": "Destroy",
+      "sc": "摧毁",
+      "tc": "摧毀"
+    },
+    "tags": null,
+    "description": {
+      "en": "A card whose durability reaches 0 is destroyed and cannot be played for the rest of the dungeon.",
+      "sc": "耐久归零的卡牌会被摧毁，在离开地城之前无法使用。",
+      "tc": "耐久歸零的卡牌會被摧毀，在離開地城之前無法使用。"
+    },
+    "group": "deck"
+  },
+  {
+    "id": "Lingering",
+    "kind": "keyword",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Lingering",
+      "sc": "缠身",
+      "tc": "纏身"
+    },
+    "tags": null,
+    "description": {
+      "en": "Stays after combat and keeps taking effect throughout the dungeon until removed.",
+      "sc": "战斗结束后仍会保留，在地城中持续生效，直到被移除为止。",
+      "tc": "戰鬥結束後仍會保留，在地城中持續生效，直到被移除為止。"
+    },
+    "group": "other"
+  },
+  {
+    "id": "Dispel",
+    "kind": "keyword",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Dispel",
+      "sc": "驱散",
+      "tc": "驅散"
+    },
+    "tags": null,
+    "description": {
+      "en": "Removes the stated number of debuffs. <span class=\"kw\" title=\"Debuff · Lingering · Cannot be dispelled<br>May be gained when the Rosriconian Meter or Belgardian Meter overflows.\">Affliction</span> cannot be dispelled.",
+      "sc": "移除指定数量的减益。<span class=\"kw\" title=\"减益・缠身・无法驱散<br>罗斯里坎量表或贝尔嘉德量表溢出时有机率获得。\">灾厄</span>无法被驱散。",
+      "tc": "移除指定數量的減益。<span class=\"kw\" title=\"減益・纏身・無法驅散<br>羅斯里坎量表或貝爾嘉德量表溢出時有機率獲得。\">災厄</span>無法被驅散。"
+    },
+    "group": "other"
+  },
+  {
+    "id": "DebuffImmune",
+    "kind": "buff",
+    "icon": null,
+    "tint": null,
+    "name": {
+      "en": "Immunity",
+      "sc": "免疫",
+      "tc": "免疫"
+    },
+    "tags": {
+      "en": "Buff",
+      "sc": "增益",
+      "tc": "增益"
+    },
+    "description": {
+      "en": "This unit is immune to x.",
+      "sc": "此单位免疫 x。",
+      "tc": "此單位免疫 x。"
+    },
+    "group": "other"
   },
   {
     "id": "RevealIntent",
     "kind": "debuff",
     "icon": "RevealIntent.png",
+    "tint": null,
     "name": {
       "en": "True Sight",
       "sc": "真视",
@@ -965,6 +1112,7 @@
       "en": "This unit's intent is revealed.",
       "sc": "此单位的意图会被揭示。",
       "tc": "此單位的意圖會被揭示。"
-    }
+    },
+    "group": "other"
   }
 ]

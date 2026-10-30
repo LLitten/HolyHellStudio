@@ -11,6 +11,7 @@
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync, rmSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { parse } from 'csv-parse/sync';
+import sharp from 'sharp';
 
 const IN_SCOPE_GROUPS = ['1', '2'];
 // The Stage 1 tutorial fight lives in Battle.csv rather than a dungeon's enemy pool.
@@ -457,6 +458,27 @@ if (existsSync(TITLE_SCREEN)) {
   missingArt.push('home/title-screen.png');
 }
 
+// The meter icons in game text ({icon:Ameter}) are the faction icons; global.css colors them in.
+for (const [from, name] of [['Rosricon', 'ameter'], ['Belgard', 'dmeter']]) {
+  const src = join(GAME, `HolyHell/Assets/Arts/UI/Icons/Faction/${from}.png`);
+  if (!existsSync(src)) {
+    missingArt.push(`icons/${name}.png`);
+    continue;
+  }
+  mkdirSync(join(OUT_ART, 'icons'), { recursive: true });
+  copyFileSync(src, join(OUT_ART, 'icons', `${name}.png`));
+}
+// {icon:HP} and {icon:Durability} come from the Basics text sprites (128px each: attack, heart, defense, durability).
+const BASICS = join(GAME, 'HolyHell/Assets/Arts/UI/TextSprites/Basics.png');
+for (const [sprite, name] of [[1, 'hp'], [3, 'durability']]) {
+  if (!existsSync(BASICS)) {
+    missingArt.push(`icons/${name}.png`);
+    continue;
+  }
+  mkdirSync(join(OUT_ART, 'icons'), { recursive: true });
+  await sharp(BASICS).extract({ left: sprite * 128, top: 0, width: 128, height: 128 }).toFile(join(OUT_ART, 'icons', `${name}.png`));
+}
+
 // ---------------------------------------------------------------------------
 // Cards
 
@@ -612,6 +634,48 @@ const glossaryIcon = (id) => {
   return existsSync(join(RES, `UI/Buffs/${key}.png`)) ? copyArt('glossary', `UI/Buffs/${key}.png`, `${key}.png`) : null;
 };
 
+// Terms that aren't buffs but have an icon elsewhere in the game. The meters use the faction icons,
+// tinted like FactionPalette (Belgard's purple is its on-dark shade); stats use the Basics text sprites.
+const ARTS = join(GAME, 'HolyHell/Assets/Arts/UI');
+const OTHER_ICONS = {
+  Ameter: { file: 'Icons/Faction/Rosricon.png', tint: '#FFE680' },
+  Dmeter: { file: 'Icons/Faction/Belgard.png', tint: '#B366D9' },
+  Lowlife: { sprite: 1 },
+  Defense: { sprite: 2 },
+  Destroy: { sprite: 3 },
+};
+async function otherIcon(id) {
+  const icon = OTHER_ICONS[id];
+  if (!icon) return null;
+  const name = `${id}.png`;
+  mkdirSync(join(OUT_ART, 'glossary'), { recursive: true });
+  if (icon.file) {
+    if (!existsSync(join(ARTS, icon.file))) return missingArt.push(`glossary/${name}`), null;
+    copyFileSync(join(ARTS, icon.file), join(OUT_ART, 'glossary', name));
+  } else {
+    // Basics.png is a row of 128px sprites: attack, heart, defense, durability.
+    const sheet = join(ARTS, 'TextSprites/Basics.png');
+    if (!existsSync(sheet)) return missingArt.push(`glossary/${name}`), null;
+    await sharp(sheet).extract({ left: icon.sprite * 128, top: 0, width: 128, height: 128 }).toFile(join(OUT_ART, 'glossary', name));
+  }
+  return name;
+}
+
+// Glossary sections, in page order. The page lays entries out two to a row, so related ones are
+// listed in pairs: the positive version next to the negative one, Nature next to Fire. Anything new from the game lands in "other" until it's placed.
+const GLOSSARY_GROUPS = {
+  damage: ['Imbue', 'Fervor', 'PercDmgOnHit', 'Intimidate'],
+  defense: ['Defense', 'Guard', 'IncreaseDef', 'ReduceDefense', 'HeavyArmor', 'Fragile'],
+  overTime: ['Burn', 'BurnOnHit', 'Bleeding', 'DamageAccumulate', 'DelayedDamage'],
+  healing: ['Blessed', 'Purified', 'Lifesteal', 'Cursed', 'Lowlife'],
+  meters: ['Ameter', 'Dmeter', 'MoreAmeter', 'MoreDmeter', 'LessAmeter', 'LessDmeter', 'DecAmterlimit', 'DecDmterlimit', 'Miracle', 'Affliction'],
+  elements: ['Nature', 'Fire', 'NatureStreak', 'FireStreak', 'NatureTrigger', 'FireTrigger'],
+  cards: ['AP', 'ReqChange', 'Swift', 'Resonate', 'Gifted', 'Intuitive', 'Oath', 'Restrained', 'Funnel', 'Onkill'],
+  deck: ['Burden', 'Manifest', 'Generated', 'Destroy'],
+  other: ['Lingering', 'Dispel', 'DebuffImmune', 'RevealIntent'],
+};
+const groupOf = new Map(Object.entries(GLOSSARY_GROUPS).flatMap(([group, ids]) => ids.map((id, i) => [id, { group, i }])));
+
 // Every buff id named in the steps of in-scope cards, enemy skills and equipment.
 const usedBuffs = new Set();
 function scanForBuffs(row) {
@@ -624,6 +688,9 @@ for (const row of table('CardEffect')) if (cardIds.has(row.OwnerID)) scanForBuff
 for (const row of table('MonsterSkillEffect')) if (skillIds.has(row.OwnerID)) scanForBuffs(row);
 for (const id of skillIds) scanForBuffs(skillRows.get(id));
 for (const row of table('EquipmentEffect')) if (equipmentEffectIds.has(row.ID)) scanForBuffs(row);
+// The meter effects come in Rosriconian / Belgardian pairs; when one is shown, so is the other.
+const METER_PAIRS = [['MoreAmeter', 'MoreDmeter'], ['LessAmeter', 'LessDmeter'], ['DecAmterlimit', 'DecDmterlimit']];
+for (const pair of METER_PAIRS) if (pair.some((id) => usedBuffs.has(id))) pair.forEach((id) => usedBuffs.add(id));
 
 // The game's own words for the tag line ("Buff · Stackable"), taken from keyword definitions.
 const tagWord = (keywordId) => allLangs((lang) => text(lang, `KeywordEff_${keywordId}`).split(/\s*[·・]\s*/)[0]);
@@ -641,7 +708,8 @@ for (const k of table('Keyword')) {
   glossary.push({
     id,
     kind,
-    icon: glossaryIcon(buffId),
+    icon: glossaryIcon(buffId) ?? (await otherIcon(id)),
+    tint: OTHER_ICONS[id]?.tint ?? null,
     name: localized(`Keyword_${id}`, k.DisplayName),
     // Status keywords open with a tag line ("Buff · Stackable"); it's shown apart from the definition.
     tags: kind === 'keyword' ? null : allLangs((lang) => formatText(lang, text(lang, `KeywordEff_${id}`, k.Definition).split('\n')[0])),
@@ -675,11 +743,23 @@ for (const id of [...usedBuffs].sort()) {
     id,
     kind,
     icon: glossaryIcon(id),
+    tint: null,
     name: allLangs((lang) => formatText(lang, withoutNumbers(text(lang, `Buff_${id}`, row.DisplayName)))),
     tags: kind === 'buff' ? BUFF_WORD : DEBUFF_WORD,
     description: allLangs((lang) => formatText(lang, placeholders(text(lang, `BuffEff_${id}`, row['Buff Description'])))),
   });
 }
+
+const unplaced = glossary.filter((e) => !groupOf.has(e.id)).map((e) => e.id);
+if (unplaced.length) console.log(`  Glossary entries not in GLOSSARY_GROUPS (shown under Other): ${unplaced.join(', ')}`);
+const groupNames = Object.keys(GLOSSARY_GROUPS);
+for (const e of glossary) e.group = groupOf.get(e.id)?.group ?? 'other';
+const place = (e) => [groupNames.indexOf(e.group), groupOf.get(e.id)?.i ?? Infinity];
+glossary.sort((a, b) => {
+  const [ga, ia] = place(a);
+  const [gb, ib] = place(b);
+  return ga - gb || ia - ib;
+});
 
 // ---------------------------------------------------------------------------
 // Locations and labels
@@ -729,8 +809,6 @@ const LABELS = {
   'enemy.rank.Boss': 'UI_Map_NodeBoss',
   'lore.equipment': 'Term_ItemCategory_Equipment',
   'lore.materials': 'UI_Item_Materials',
-  'glossary.statusEffects': 'UI_EntityDetail_Buffs',
-  'glossary.keywords': 'UI_DeckBuild_Keywords',
 };
 
 const missingLabels = [];
