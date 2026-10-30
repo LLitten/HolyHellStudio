@@ -106,6 +106,15 @@ export const dungeonById = new Map(locations.flatMap((l) => l.dungeons.map((d) =
 
 export const enemyById = (id: string) => enemyBySlug.get(enemySlugById.get(id) ?? '');
 
+// Enemies grouped by the area (dungeon group) they're found in. An enemy found in two areas is listed in both.
+const groupOfDungeon = new Map(locations.flatMap((l) => l.dungeons.map((d) => [d.id, l.group])));
+const areaGroups = (e: Enemy) => new Set(e.variants.flatMap((v) => v.dungeons.map((d) => groupOfDungeon.get(d))));
+export const enemyAreas = locations.map((l) => ({
+  slug: l.name.en.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+  name: l.name,
+  enemies: enemies.filter((e) => areaGroups(e).has(l.group)),
+}));
+
 export const GOD_ORDER = ['Intereon', 'Florentis', 'Evinor', 'Oculyth', 'Hedalis', 'Vortherect'];
 
 const art = import.meta.glob<{ default: ImageMetadata }>('../assets/game/**/*.{png,jpg}', { eager: true });

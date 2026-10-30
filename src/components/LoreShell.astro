@@ -2,7 +2,7 @@
 import type { Lang } from '../i18n/ui';
 import { localePath, useTranslations } from '../i18n/utils';
 import { getLocalized } from '../lib/content';
-import { enemies } from '../lib/game';
+import { enemyAreas } from '../lib/game';
 
 interface Props {
   lang: Lang;
@@ -16,10 +16,23 @@ const t = useTranslations(lang);
 const characters = (await getLocalized('characters', lang)).sort((a, b) => a.data.order - b.data.order);
 const locations = (await getLocalized('locations', lang)).sort((a, b) => a.data.order - b.data.order);
 
+const page = (key: string, slug: string, label: string) => ({
+  href: localePath(lang, `lore/${key}/${slug}`),
+  label,
+  active: current === `${key}/${slug}`,
+});
+
+// Enemies are listed by area rather than one by one; an enemy's page highlights its area.
+const enemyLinks = enemyAreas.map((a) => ({
+  href: `${localePath(lang, 'lore/enemies')}#${a.slug}`,
+  label: a.name[lang],
+  active: a.enemies.some((e) => current === `enemies/${e.slug}`),
+}));
+
 const sections = [
-  { key: 'characters', label: t('lore.characters'), pages: characters.map((c) => ({ slug: c.slug, label: c.data.name })) },
-  { key: 'locations', label: t('lore.locations'), pages: locations.map((l) => ({ slug: l.slug, label: l.data.name })) },
-  { key: 'enemies', label: t('lore.enemies'), pages: enemies.map((e) => ({ slug: e.slug, label: e.name[lang] })) },
+  { key: 'characters', label: t('lore.characters'), pages: characters.map((c) => page('characters', c.slug, c.data.name)) },
+  { key: 'locations', label: t('lore.locations'), pages: locations.map((l) => page('locations', l.slug, l.data.name)) },
+  { key: 'enemies', label: t('lore.enemies'), pages: enemyLinks },
   { key: 'cards', label: t('lore.cards'), pages: [] },
   { key: 'equipment', label: t('lore.equipment'), pages: [] },
   { key: 'materials', label: t('lore.materials'), pages: [] },
@@ -44,7 +57,7 @@ const section = current.split('/')[0];
                 <ul>
                   {s.pages.map((p) => (
                     <li>
-                      <a href={localePath(lang, `lore/${s.key}/${p.slug}`)} aria-current={current === `${s.key}/${p.slug}` ? 'page' : undefined}>
+                      <a href={p.href} aria-current={p.active ? 'page' : undefined}>
                         {p.label}
                       </a>
                     </li>

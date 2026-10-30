@@ -3,7 +3,7 @@ import Base from '../../../../layouts/Base.astro';
 import LoreShell from '../../../../components/LoreShell.astro';
 import EnemyGrid from '../../../../components/EnemyGrid.astro';
 import { getLang, langPaths, useTranslations } from '../../../../i18n/utils';
-import { enemies } from '../../../../lib/game';
+import { enemyAreas } from '../../../../lib/game';
 
 export const getStaticPaths = langPaths;
 
@@ -15,12 +15,29 @@ const t = useTranslations(lang);
   <LoreShell lang={lang} current="enemies">
     <h1>{t('lore.enemies')}</h1>
     <p class="scope-note">{t('lore.scope')}</p>
-    <EnemyGrid lang={lang} enemies={enemies} />
+    {
+      enemyAreas
+        .filter((a) => a.enemies.length > 0)
+        .map((a) => (
+          <section>
+            <h2 id={a.slug}>{a.name[lang]}</h2>
+            <EnemyGrid lang={lang} enemies={a.enemies} />
+          </section>
+        ))
+    }
   </LoreShell>
 </Base>
 
 <style>
   h1 {
     color: var(--text);
+  }
+
+  h2 {
+    scroll-margin-top: 1rem;
+  }
+
+  section + section {
+    margin-top: 2.5rem;
   }
 </style>
