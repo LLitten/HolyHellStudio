@@ -6,14 +6,17 @@ interface Props {
   title: string;
   image?: ImageMetadata;
   rows?: { label: string; value: string }[];
+  // Shown under the image ("Art by: …").
+  credit?: string;
 }
 
-const { title, image, rows = [] } = Astro.props;
+const { title, image, rows = [], credit } = Astro.props;
 ---
 
 <aside class="infobox frame">
   <h2>{title}</h2>
   {image && <Image src={image} alt={title} width={480} class="art" />}
+  {image && credit && <p class="credit">{credit}</p>}
   {
     rows.length > 0 && (
       <dl>

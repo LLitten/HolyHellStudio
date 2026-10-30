@@ -4,7 +4,8 @@ import Base from '../../../../layouts/Base.astro';
 import LoreShell from '../../../../components/LoreShell.astro';
 import Infobox from '../../../../components/Infobox.astro';
 import TranslationNote from '../../../../components/TranslationNote.astro';
-import { getLang, langPaths } from '../../../../i18n/utils';
+import { characterArt } from '../../../../credits';
+import { getLang, langPaths, useTranslations } from '../../../../i18n/utils';
 import { getLocalized } from '../../../../lib/content';
 
 export async function getStaticPaths() {
@@ -19,7 +20,9 @@ export async function getStaticPaths() {
 
 const { character } = Astro.props;
 const lang = getLang(Astro.params.lang);
+const t = useTranslations(lang);
 const { Content } = await render(character);
+const artist = characterArt[character.slug];
 ---
 
 <Base lang={lang} title={character.data.name}>
@@ -27,7 +30,7 @@ const { Content } = await render(character);
     <div class="entry">
       <h1 class="title">{character.data.name}</h1>
       <div class="infobox">
-        <Infobox title={character.data.name} image={character.data.portrait} rows={character.data.infobox} />
+        <Infobox title={character.data.name} image={character.data.portrait} rows={character.data.infobox} credit={artist && t('credit.art', { name: artist })} />
       </div>
       <div class="text">
         <TranslationNote lang={lang} translation={character.data.translation} isFallback={character.isFallback} />

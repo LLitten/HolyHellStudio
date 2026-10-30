@@ -380,6 +380,13 @@ hr,
   --image: url('../assets/game/icons/durability.png');
 }
 
+/* "Art by" lines under game art and on pages of icons or cards. */
+.credit {
+  margin: 0.35rem 0 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
 /* Note under game-data page titles about what's included. */
 .scope-note {
   font-size: 0.95rem;

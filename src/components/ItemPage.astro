@@ -1,6 +1,7 @@
 ---
 // Shared body of the Equipment and Materials pages: items grouped by sub-type, with jump links.
 import type { Lang } from '../i18n/ui';
+import { iconArt } from '../credits';
 import { useTranslations } from '../i18n/utils';
 import type { Item } from '../lib/game';
 import ItemTile from './ItemTile.astro';
@@ -26,7 +27,7 @@ const groups = order
 ---
 
 <h1>{title}</h1>
-<p class="scope-note">{t('lore.scope')}</p>
+<p class="scope-note">{t('lore.scope')}<br /><span class="credit">{t('credit.icons', { name: iconArt })}</span></p>
 
 <nav aria-label={t('lore.jump')}>
   <ul class="jump">

@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import LoreShell from '../../../components/LoreShell.astro';
+import { iconArt } from '../../../credits';
 import { getLang, langPaths, useTranslations } from '../../../i18n/utils';
 import { gameArt, glossary } from '../../../lib/game';
 
@@ -19,7 +20,7 @@ const groups = [...new Set(glossary.map((e) => e.group))].map((group) => ({
 <Base lang={lang} title={t('lore.glossary')} description={t('lore.glossary.blurb')}>
   <LoreShell lang={lang} current="glossary">
     <h1>{t('lore.glossary')}</h1>
-    <p class="intro">{t('glossary.intro')}</p>
+    <p class="intro">{t('glossary.intro')}<br /><span class="credit">{t('credit.icons', { name: iconArt })}</span></p>
 
     {
       groups.map((g) => (

@@ -3,6 +3,7 @@ import type { ImageMetadata } from 'astro';
 import { Image } from 'astro:assets';
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
+import { titleArt } from '../../credits';
 import { getLang, langPaths, localePath, useTranslations } from '../../i18n/utils';
 import { getPosts } from '../../lib/content';
 import { site } from '../../site';
@@ -43,6 +44,7 @@ const loreLinks = [
 <Base lang={lang}>
   <section class="hero">
     {heroArt && <Image src={heroArt} alt="" class="hero-art" widths={[800, 1280, 1920]} sizes="100vw" loading="eager" fetchpriority="high" />}
+    {heroArt && <p class="credit hero-credit">{t('credit.art', { name: titleArt })}</p>}
     <div class="container hero-text">
       {
         lang === 'en' ? (
@@ -118,6 +120,15 @@ const loreLinks = [
     overflow: hidden;
     border-bottom: 1px solid var(--gold-dim);
     background: var(--surface-sunk);
+  }
+
+  .hero-credit {
+    position: absolute;
+    right: 1rem;
+    bottom: 0.75rem;
+    z-index: 2;
+    margin: 0;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 0.8);
   }
 
   .hero-art {
