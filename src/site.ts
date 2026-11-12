@@ -17,10 +17,10 @@ export const site = {
   // (drive.google.com/file/d/<id>/view).
   // Set to null to hide the Download page's button and the home page link.
   build: {
-    version: '0.3.1',
-    date: '2026-10-28',
-    size: '164 MB',
-    driveId: '1Ix35V1oYtl6iN4v0zHLGCu-h4rbYXala',
+    version: '0.3.2',
+    date: '2026-11-11',
+    size: '188 MB',
+    driveId: '1OHq6d044PfhEIkMCdnbWub-AJtldOzZg',
   } as { version: string; date: string; size: string; driveId: string } | null,
 
   // Demo feedback form (the "send" link from Google Forms), used on every language's Play page.
