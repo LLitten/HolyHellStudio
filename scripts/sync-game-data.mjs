@@ -5,14 +5,15 @@
 //   npm run sync-data                       (expects ../HolyHell next to this repo)
 //   HOLYHELL_PATH=/path/to/HolyHell npm run sync-data
 //
-// Only content reachable from Windchime Village (dungeon group 1) is included.
+// Only content reachable from Windchime Village and Denlitin Court (dungeon groups 1 and 2) is included.
 // Widen IN_SCOPE_GROUPS when later regions are ready.
 
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync, rmSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { parse } from 'csv-parse/sync';
+import sharp from 'sharp';
 
-const IN_SCOPE_GROUPS = ['1'];
+const IN_SCOPE_GROUPS = ['1', '2'];
 // The Stage 1 tutorial fight lives in Battle.csv rather than a dungeon's enemy pool.
 const EXTRA_BATTLES = ['tut_battle'];
 // Debug entries borrow real art, so they're caught by name instead (XddHit, xddDummyNo.1, ...).
@@ -180,7 +181,128 @@ function formatText(lang, template, slots = []) {
 const formatted = (key, fallback, slots) => allLangs((lang) => formatText(lang, text(lang, key, fallback), slots));
 
 // ---------------------------------------------------------------------------
-// Scope: dungeons, enemies, items and cards reachable from Windchime Village
+// Card steps. Card text names a step from CardEffect.csv ({step:hit.Amount}) instead of holding the number.
+// Ported from StepDescriptionTokens: the number comes from the step's Values column, or from the
+// argument of its Do call. Signatures are read from the game's generated docs/EffectSteps.md.
+
+const signatures = new Map();
+for (const [, name, params] of readFileSync(join(GAME, 'docs/EffectSteps.md'), 'utf8').matchAll(/^`(\w+)\(([^)]*)\)`$/gm)) {
+  if (signatures.has(name)) continue;
+  signatures.set(
+    name,
+    split(params, ',').map((p) => {
+      const [key, fallback] = p.replace('?', '').split('=');
+      return { key: key.trim().toLowerCase(), fallback: fallback?.trim() || null };
+    }),
+  );
+}
+
+// "Amount" for the calls whose main number has another name (StepActionCatalog's AmountIndex).
+const AMOUNT_PARAM = {
+  ApplyBuff: ['amount', 'param'],
+  PersistBuff: ['amount', 'param'],
+  PercentDamage: ['percent'],
+  PercentHeal: ['percent'],
+  Draw: ['count'],
+  Cleanse: ['count'],
+  DestroyFromDeck: ['count'],
+  GenerateToken: ['count'],
+  MeterFloor: ['floor'],
+};
+
+// Splits on commas outside brackets.
+function callArgs(inner) {
+  const args = [];
+  let depth = 0;
+  let current = '';
+  for (const ch of inner) {
+    if (ch === '(') depth++;
+    if (ch === ')') depth--;
+    if (ch === ',' && depth === 0) {
+      args.push(current.trim());
+      current = '';
+    } else current += ch;
+  }
+  if (current.trim()) args.push(current.trim());
+  return args;
+}
+
+// "Damage(Target, 4, hits=3)" -> { fn: 'Damage', args: { target: 'Target', amount: '4', hits: '3', ... } }
+function parseCall(doCell) {
+  const m = doCell.match(/^\s*(\w+)\s*\(([\s\S]*)\)\s*$/);
+  if (!m) return null;
+  const params = signatures.get(m[1]) || [];
+  const args = {};
+  for (const p of params) if (p.fallback != null) args[p.key] = p.fallback;
+  let position = 0;
+  for (const arg of callArgs(m[2])) {
+    const named = arg.match(/^([A-Za-z_]\w*)\s*=(?!=)\s*([\s\S]*)$/);
+    if (named) args[named[1].toLowerCase()] = named[2].trim();
+    else if (params[position]) args[params[position++].key] = arg;
+  }
+  return { fn: m[1], args };
+}
+
+const cardSteps = new Map();
+for (const row of table('CardEffect')) {
+  if (!row.OwnerID || !row.Step) continue;
+  const values = new Map();
+  for (const item of split(row.Values, ';')) {
+    const [name, value] = item.split('=').map((s) => s.trim());
+    if (name && value) values.set(name.toLowerCase(), value);
+  }
+  const steps = cardSteps.get(row.OwnerID) || new Map();
+  steps.set(row.Step.toLowerCase(), { call: parseCall(row.Do), values });
+  cardSteps.set(row.OwnerID, steps);
+}
+
+function stepValue(cardId, stepName, field) {
+  const step = cardSteps.get(cardId)?.get(stepName.toLowerCase());
+  if (!step) return null;
+  const key = field.toLowerCase();
+  if (step.values.has(key)) return step.values.get(key);
+  if (!step.call) return null;
+  const keys = key === 'amount' ? AMOUNT_PARAM[step.call.fn] || ['amount'] : [key];
+  for (const k of keys) {
+    const value = step.call.args[k];
+    if (!value) continue;
+    if (/^-?[\w.+%]+$/.test(value)) return value;
+    const base = baseAmount(value, step.values);
+    if (base != null) return base;
+  }
+  return null;
+}
+
+// A growing amount (4 + per * PlayedThisTurn) shows its starting value, as the game's card face does:
+// every battle variable reads as 0.
+const MATH = ['floor', 'ceil', 'round', 'abs', 'min', 'max'];
+function baseAmount(expression, values) {
+  const js = expression.replace(/[A-Za-z_][\w.]*/g, (name) => {
+    if (MATH.includes(name.toLowerCase())) return `Math.${name.toLowerCase()}`;
+    const value = values.get(name.toLowerCase());
+    return value != null && !value.endsWith('%') ? value : '0';
+  });
+  if (!/^[\d\s.+\-*/(),Mathflorceiundbsmx]*$/.test(js)) return null;
+  const result = Function(`return (${js});`)();
+  return Number.isFinite(result) ? String(Math.round(result * 100) / 100) : null;
+}
+
+const cardKeywords = new Map(
+  table('Card').map((c) => [c.ID, new Map(split(c.Keywords, ',').map((k) => k.split(':').map((s) => s.trim().toLowerCase())))]),
+);
+
+// The game colours an {if:step} lead-in when its condition holds mid-battle; on the site it's plain text.
+const stepText = (lang, template, cardId) =>
+  template
+    .replace(/\{step\s*:\s*([^.}\s]+)\s*\.\s*([^}\s]+)\s*\}/gi, (match, step, field) => {
+      const value = stepValue(cardId, step, field);
+      return value == null ? match : term(lang, value);
+    })
+    .replace(/\{card\s*:\s*([^}\s]+)\s*\}/gi, (match, word) => cardKeywords.get(cardId)?.get(word.toLowerCase()) ?? match)
+    .replace(/\{if\s*:\s*[^}\s]+\s*\}/gi, '');
+
+// ---------------------------------------------------------------------------
+// Scope: dungeons, enemies, items and cards reachable from the dungeon groups in scope
 
 const dungeons = table('Dungeon').filter(
   (d) => IN_SCOPE_GROUPS.includes(d.DungeonGroup) && d.DevOnly !== '1' && !d.Id.startsWith('Test'),
@@ -303,6 +425,40 @@ for (let changed = true; changed; ) {
   }
 }
 
+// Areas (dungeon groups) each item can be found in, for the item filters: where its dropping enemies
+// and its events are, and for upgrades and merges, wherever the item they're made from is found.
+const groupOfDungeon = new Map(dungeons.map((d) => [d.Id, d.DungeonGroup]));
+const itemAreas = new Map();
+const addAreas = (itemId, groups) => {
+  const set = itemAreas.get(itemId) || new Set();
+  const before = set.size;
+  for (const g of groups) if (g) set.add(g);
+  itemAreas.set(itemId, set);
+  return set.size > before;
+};
+for (const d of drops) addAreas(d.ItemID, [...(enemyScope.get(d.EnemyID)?.dungeons ?? [])].map((id) => groupOfDungeon.get(id)));
+const eventGroups = new Map(
+  events.map((e) => [
+    e.Event_ID,
+    e.Is_Global.toUpperCase() === 'TRUE' ? IN_SCOPE_GROUPS : split(e.Dungeon_Bound).map((id) => groupOfDungeon.get(id)),
+  ]),
+);
+for (const outcome of table('DungeonEvent_Outcome').filter((o) => eventIds.has(o.Event_ID))) {
+  for (let i = 1; i <= 3; i++) {
+    if (outcome[`Effect_Action${i}`] !== 'GainItem') continue;
+    for (const line of outcome[`Effect_Value${i}`].split('\n')) {
+      const [itemId] = split(line, ',');
+      if (itemId) addAreas(itemId, eventGroups.get(outcome.Event_ID));
+    }
+  }
+}
+for (let changed = true; changed; ) {
+  changed = false;
+  for (const [id, list] of sources) {
+    for (const s of list) if (s.from && addAreas(id, itemAreas.get(s.from) ?? [])) changed = true;
+  }
+}
+
 const PURE_PACK = '500002';
 const ANGEL_PACK = '500003';
 const DEMON_PACK = '500004';
@@ -334,6 +490,27 @@ if (existsSync(TITLE_SCREEN)) {
   copyFileSync(TITLE_SCREEN, join(OUT_ART, 'home', 'title-screen.png'));
 } else {
   missingArt.push('home/title-screen.png');
+}
+
+// The meter icons in game text ({icon:Ameter}) are the faction icons; global.css colors them in.
+for (const [from, name] of [['Rosricon', 'ameter'], ['Belgard', 'dmeter']]) {
+  const src = join(GAME, `HolyHell/Assets/Arts/UI/Icons/Faction/${from}.png`);
+  if (!existsSync(src)) {
+    missingArt.push(`icons/${name}.png`);
+    continue;
+  }
+  mkdirSync(join(OUT_ART, 'icons'), { recursive: true });
+  copyFileSync(src, join(OUT_ART, 'icons', `${name}.png`));
+}
+// {icon:HP} and {icon:Durability} come from the Basics text sprites (128px each: attack, heart, defense, durability).
+const BASICS = join(GAME, 'HolyHell/Assets/Arts/UI/TextSprites/Basics.png');
+for (const [sprite, name] of [[1, 'hp'], [3, 'durability']]) {
+  if (!existsSync(BASICS)) {
+    missingArt.push(`icons/${name}.png`);
+    continue;
+  }
+  mkdirSync(join(OUT_ART, 'icons'), { recursive: true });
+  await sharp(BASICS).extract({ left: sprite * 128, top: 0, width: 128, height: 128 }).toFile(join(OUT_ART, 'icons', `${name}.png`));
 }
 
 // ---------------------------------------------------------------------------
@@ -370,7 +547,7 @@ for (const c of table('Card')) {
     cost: num(c.ActionCost),
     actionTypes: split(c.ActionType),
     name: localized(`Card_${c.ID}`, c.DisplayName),
-    description: formatted(`CardEff_${c.ID}`, c.Description, slots),
+    description: allLangs((lang) => formatText(lang, stepText(lang, text(lang, `CardEff_${c.ID}`, c.Description), c.ID), slots)),
   });
 }
 
@@ -412,6 +589,15 @@ for (const [id, list] of sources) {
     name: localized(`Item_${id}`, row.DisplayName),
     description: formatted(`ItemEff_${id}`, row.EffDes),
     lore: formatted(`ItemDes_${id}`, row.LoreDes),
+    areas: [...(itemAreas.get(id) ?? [])].sort(),
+    // Keywords and meters its effect mentions, for the item filters.
+    keywords: [
+      ...new Set(
+        [...text('en', `ItemEff_${id}`, row.EffDes).matchAll(/\{(?:keyword|icon):(\w+)\}/gi)]
+          .map(([, word]) => word[0].toUpperCase() + word.slice(1))
+          .filter((word) => !['Hp', 'Durability', 'Type'].includes(word)),
+      ),
+    ],
   });
 }
 
@@ -451,8 +637,9 @@ for (const [id, scope] of enemyScope) {
         detail: allLangs((lang) => formatText(lang, text(lang, `SkillDetail_${s.id}`, skill.SkillDetail))),
       };
     }),
+    // Only items the site lists (readables and test items have no page).
     drops: drops
-      .filter((d) => d.EnemyID === id)
+      .filter((d) => d.EnemyID === id && items.some((i) => i.id === d.ItemID))
       .map((d) => ({ item: d.ItemID, chance: num(d.Chance), min: num(d.AmountMin), max: num(d.AmountMax) })),
   });
   enemyPages.set(slug, page);
@@ -460,6 +647,162 @@ for (const [id, scope] of enemyScope) {
 
 // Item sources point at enemy ids; the site links to the enemy's page.
 const enemySlugById = Object.fromEntries([...enemyPages.values()].flatMap((p) => p.variants.map((v) => [v.id, p.slug])));
+
+// ---------------------------------------------------------------------------
+// Glossary: the game's keywords, plus the status effects used by the cards, enemies and
+// equipment in scope that no keyword covers.
+
+const buffRows = new Map(table('Buff').map((b) => [b['Buff ID'], b]));
+
+// Keywords that describe a buff stored under another id.
+const KEYWORD_BUFF = {
+  Lifesteal: 'LifeSteal',
+  Intimidate: 'ReduceAtk',
+  Purified: 'IncreaseHealing',
+  Fervor: 'DamageFlat',
+  Imbue: 'DamagePerc',
+  HeavyArmor: 'MinimumDamage',
+};
+// Buffs that share another buff's entry (enemy versions, the primed half of True Sight).
+const BUFF_TWINS = new Set(['Guard_Monster', 'ResonateOnAttack', 'RevealIntent_Apply']);
+
+// Mirrors BuffIconPath.KeyFor.
+function iconKey(id) {
+  if (id.startsWith('Oath_')) return 'Oath';
+  if (id.startsWith('Tag_')) return 'Charge';
+  return { Guard_Monster: 'Guard', ResonateOnAttack: 'Resonate', RevealIntent_Apply: 'RevealIntent', AmeterFloor: 'MeterFreezeA', DmeterFloor: 'MeterFreezeD' }[id] ?? id;
+}
+const glossaryIcon = (id) => {
+  const key = iconKey(id);
+  return existsSync(join(RES, `UI/Buffs/${key}.png`)) ? copyArt('glossary', `UI/Buffs/${key}.png`, `${key}.png`) : null;
+};
+
+// Terms that aren't buffs but have an icon elsewhere in the game. The meters use the faction icons,
+// tinted like FactionPalette (Belgard's purple is its on-dark shade); stats use the Basics text sprites.
+const ARTS = join(GAME, 'HolyHell/Assets/Arts/UI');
+const OTHER_ICONS = {
+  Ameter: { file: 'Icons/Faction/Rosricon.png', tint: '#FFE680' },
+  Dmeter: { file: 'Icons/Faction/Belgard.png', tint: '#B366D9' },
+  Lowlife: { sprite: 1 },
+  Defense: { sprite: 2 },
+  Destroy: { sprite: 3 },
+};
+async function otherIcon(id) {
+  const icon = OTHER_ICONS[id];
+  if (!icon) return null;
+  const name = `${id}.png`;
+  mkdirSync(join(OUT_ART, 'glossary'), { recursive: true });
+  if (icon.file) {
+    if (!existsSync(join(ARTS, icon.file))) return missingArt.push(`glossary/${name}`), null;
+    copyFileSync(join(ARTS, icon.file), join(OUT_ART, 'glossary', name));
+  } else {
+    // Basics.png is a row of 128px sprites: attack, heart, defense, durability.
+    const sheet = join(ARTS, 'TextSprites/Basics.png');
+    if (!existsSync(sheet)) return missingArt.push(`glossary/${name}`), null;
+    await sharp(sheet).extract({ left: icon.sprite * 128, top: 0, width: 128, height: 128 }).toFile(join(OUT_ART, 'glossary', name));
+  }
+  return name;
+}
+
+// Glossary sections, in page order. The page lays entries out two to a row, so related ones are
+// listed in pairs: the positive version next to the negative one, Nature next to Fire. Anything new from the game lands in "other" until it's placed.
+const GLOSSARY_GROUPS = {
+  damage: ['Imbue', 'Fervor', 'PercDmgOnHit', 'Intimidate'],
+  defense: ['Defense', 'Guard', 'IncreaseDef', 'ReduceDefense', 'HeavyArmor', 'Fragile'],
+  overTime: ['Burn', 'BurnOnHit', 'Bleeding', 'DamageAccumulate', 'DelayedDamage'],
+  healing: ['Blessed', 'Purified', 'Lifesteal', 'Cursed', 'Lowlife'],
+  meters: ['Ameter', 'Dmeter', 'MoreAmeter', 'MoreDmeter', 'LessAmeter', 'LessDmeter', 'DecAmterlimit', 'DecDmterlimit', 'Miracle', 'Affliction'],
+  elements: ['Nature', 'Fire', 'NatureStreak', 'FireStreak', 'NatureTrigger', 'FireTrigger'],
+  cards: ['AP', 'ReqChange', 'Swift', 'Resonate', 'Gifted', 'Intuitive', 'Oath', 'Restrained', 'Funnel', 'Onkill'],
+  deck: ['Burden', 'Manifest', 'Generated', 'Destroy'],
+  other: ['Lingering', 'Dispel', 'DebuffImmune', 'RevealIntent'],
+};
+const groupOf = new Map(Object.entries(GLOSSARY_GROUPS).flatMap(([group, ids]) => ids.map((id, i) => [id, { group, i }])));
+
+// Every buff id named in the steps of in-scope cards, enemy skills and equipment.
+const usedBuffs = new Set();
+function scanForBuffs(row) {
+  for (const word of Object.values(row).join(' ').match(/[A-Za-z_]+/g) || []) if (buffRows.has(word)) usedBuffs.add(word);
+}
+const cardIds = new Set(cards.map((c) => c.id));
+const skillIds = new Set([...enemyPages.values()].flatMap((p) => p.variants.flatMap((v) => v.skills.map((s) => s.id))));
+const equipmentEffectIds = new Set(items.filter((i) => i.kind === 'equipment').flatMap((i) => split(itemRows.get(i.id).AccessID)));
+for (const row of table('CardEffect')) if (cardIds.has(row.OwnerID)) scanForBuffs(row);
+for (const row of table('MonsterSkillEffect')) if (skillIds.has(row.OwnerID)) scanForBuffs(row);
+for (const id of skillIds) scanForBuffs(skillRows.get(id));
+for (const row of table('EquipmentEffect')) if (equipmentEffectIds.has(row.ID)) scanForBuffs(row);
+// The meter effects come in Rosriconian / Belgardian pairs; when one is shown, so is the other.
+const METER_PAIRS = [['MoreAmeter', 'MoreDmeter'], ['LessAmeter', 'LessDmeter'], ['DecAmterlimit', 'DecDmterlimit']];
+for (const pair of METER_PAIRS) if (pair.some((id) => usedBuffs.has(id))) pair.forEach((id) => usedBuffs.add(id));
+
+// The game's own words for the tag line ("Buff · Stackable"), taken from keyword definitions.
+const tagWord = (keywordId) => allLangs((lang) => text(lang, `KeywordEff_${keywordId}`).split(/\s*[·・]\s*/)[0]);
+const BUFF_WORD = tagWord('Guard');
+const DEBUFF_WORD = tagWord('Fragile');
+
+const glossary = [];
+const coveredBuffs = new Set();
+for (const k of table('Keyword')) {
+  const id = k.KeywordID;
+  const buffId = KEYWORD_BUFF[id] ?? id;
+  coveredBuffs.add(buffId);
+  const [first, ...rest] = (k.Definition || '').split('\n');
+  const kind = /^Buff\b/.test(first) ? 'buff' : /^Debuff\b/.test(first) ? 'debuff' : 'keyword';
+  glossary.push({
+    id,
+    kind,
+    icon: glossaryIcon(buffId) ?? (await otherIcon(id)),
+    tint: OTHER_ICONS[id]?.tint ?? null,
+    name: localized(`Keyword_${id}`, k.DisplayName),
+    // Status keywords open with a tag line ("Buff · Stackable"); it's shown apart from the definition.
+    tags: kind === 'keyword' ? null : allLangs((lang) => formatText(lang, text(lang, `KeywordEff_${id}`, k.Definition).split('\n')[0])),
+    description: allLangs((lang) => {
+      const lines = text(lang, `KeywordEff_${id}`, k.Definition).split('\n');
+      return formatText(lang, (kind === 'keyword' ? lines : lines.slice(1)).join('\n'));
+    }),
+  });
+  if (!rest.length && kind !== 'keyword') console.log(`  Keyword ${id} has a tag line but no definition`);
+}
+
+// Buff names and texts carry the live numbers ({0}% Blessed); the glossary shows them without.
+// The number becomes x, and is dropped where it only sits in front of or after the name (Heated x).
+function withoutNumbers(s) {
+  const name = s
+    .replace(/\{(?:0|param|bufftype)\}/gi, 'x')
+    .replace(/\{(?!icon:|keyword:)[^}]*\}/gi, '')
+    .replace(/^x%?\s+/, '')
+    .replace(/(?<!\bby)\s+x%?$/, '')
+    .trim();
+  return name[0].toUpperCase() + name.slice(1);
+}
+const placeholders = (s) =>
+  s.replace(/\{0\}|\{param\}|\{bufftype\}/gi, 'x').replace(/\{1\}|\{duration\}/gi, 'y').replace(/\{target\}/gi, '');
+
+for (const id of [...usedBuffs].sort()) {
+  if (coveredBuffs.has(id) || coveredBuffs.has(iconKey(id)) || BUFF_TWINS.has(id)) continue;
+  const row = buffRows.get(id);
+  const kind = row.Types === '0' ? 'debuff' : 'buff';
+  glossary.push({
+    id,
+    kind,
+    icon: glossaryIcon(id),
+    tint: null,
+    name: allLangs((lang) => formatText(lang, withoutNumbers(text(lang, `Buff_${id}`, row.DisplayName)))),
+    tags: kind === 'buff' ? BUFF_WORD : DEBUFF_WORD,
+    description: allLangs((lang) => formatText(lang, placeholders(text(lang, `BuffEff_${id}`, row['Buff Description'])))),
+  });
+}
+
+const unplaced = glossary.filter((e) => !groupOf.has(e.id)).map((e) => e.id);
+if (unplaced.length) console.log(`  Glossary entries not in GLOSSARY_GROUPS (shown under Other): ${unplaced.join(', ')}`);
+const groupNames = Object.keys(GLOSSARY_GROUPS);
+for (const e of glossary) e.group = groupOf.get(e.id)?.group ?? 'other';
+const place = (e) => [groupNames.indexOf(e.group), groupOf.get(e.id)?.i ?? Infinity];
+glossary.sort((a, b) => {
+  const [ga, ia] = place(a);
+  const [gb, ib] = place(b);
+  return ga - gb || ia - ib;
+});
 
 // ---------------------------------------------------------------------------
 // Locations and labels
@@ -545,6 +888,7 @@ write('locations', locations);
 write('terms', terms);
 write('meta', { enemySlugById });
 write('labels', labels);
+write('glossary', glossary);
 
 const equipment = items.filter((i) => i.kind === 'equipment');
 const materials = items.filter((i) => i.kind === 'material');
@@ -560,7 +904,7 @@ if (missingLabels.length) console.log(`  Missing labels:\n    ${missingLabels.jo
 // Any {token} left in the output is one the formatter above doesn't know yet (the game added a
 // new kind). It would show up on the site as raw text, so say where.
 const leftovers = new Map();
-for (const [file, data] of [['cards', cards], ['items', items], ['enemies', [...enemyPages.values()]]]) {
+for (const [file, data] of [['cards', cards], ['items', items], ['enemies', [...enemyPages.values()]], ['glossary', glossary]]) {
   for (const match of JSON.stringify(data).matchAll(/\{[A-Za-z]+\d*[:,][^}"]*\}/g)) {
     leftovers.set(match[0], `${file}.json`);
   }

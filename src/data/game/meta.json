@@ -5,7 +5,6 @@
     "110005": "unstable-cleric",
     "120001": "mad-cleric",
     "120002": "bandit",
-    "120003": "hound",
     "120004": "dying-villager",
     "120005": "hand-puppet",
     "120006": "hound-masta",
@@ -16,6 +15,16 @@
     "130004": "dying-villager",
     "130005": "hand-puppet",
     "130006": "hound-masta",
-    "131001": "pluton-the-rich"
+    "130007": "hound",
+    "131001": "pluton-the-rich",
+    "210001": "cautious-bomber",
+    "210002": "reckless-bomber",
+    "210003": "mercenary-bastion",
+    "210004": "belgardian-barbarian",
+    "210005": "rosriconian-knight",
+    "210006": "follower-of-significance",
+    "210007": "stoneborn-giant",
+    "210008": "ashbringer",
+    "210009": "panurgo-mercenary-commander"
   }
 }

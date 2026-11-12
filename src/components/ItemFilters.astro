@@ -1,0 +1,63 @@
+---
+// Filters for the Equipment and Materials pages. The tiles carry the matching data attributes (ItemTile).
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+import { glossary, itemSources, locations, type Item } from '../lib/game';
+import FilterPanel, { type FilterGroup } from './FilterPanel.astro';
+
+interface Props {
+  lang: Lang;
+  items: Item[];
+  // Sub-types in page order.
+  order: string[];
+}
+
+const { lang, items, order } = Astro.props;
+const t = useTranslations(lang);
+
+// Only offer values that some item on the page actually has.
+const has = (pick: (i: Item) => string[]) => new Set(items.flatMap(pick));
+const rarities = [...has((i) => [String(i.rarity)])].map(Number).sort((a, b) => a - b);
+const areas = has((i) => i.areas);
+const effects = has((i) => i.keywords);
+const sources = has((i) => itemSources(i));
+
+const plain = (html: string) => html.replace(/<[^>]+>/g, '').trim();
+const effectName = (id: string) => {
+  const entry = glossary.find((e) => e.id === id);
+  return entry ? plain(entry.name[lang]) : id;
+};
+
+const groups: FilterGroup[] = [
+  {
+    name: 'type',
+    label: t('item.type'),
+    options: order.filter((s) => items.some((i) => i.subType === s)).map((s) => ({ value: s, label: t(`subtype.${s}` as any) })),
+  },
+  {
+    name: 'rarity',
+    label: t('rarity'),
+    options: rarities.map((r) => ({ value: String(r), label: '◆'.repeat(r), title: t('rarity.value', { n: r }), tier: r })),
+  },
+  {
+    name: 'area',
+    label: t('filter.area'),
+    options: locations.filter((l) => areas.has(l.group)).map((l) => ({ value: l.group, label: l.name[lang] })),
+  },
+  {
+    name: 'effect',
+    label: t('filter.effect'),
+    // In glossary order, so related effects sit together.
+    options: glossary.filter((e) => effects.has(e.id)).map((e) => ({ value: e.id, label: effectName(e.id) })),
+  },
+  {
+    name: 'source',
+    label: t('filter.source'),
+    options: (['drop', 'upgrade', 'merge', 'event'] as const)
+      .filter((s) => sources.has(s))
+      .map((s) => ({ value: s, label: t(`filter.source.${s}`) })),
+  },
+].filter((g) => g.options.length > 1);
+---
+
+<FilterPanel lang={lang} target="item" groups={groups} countText={t('filter.countItems')} />

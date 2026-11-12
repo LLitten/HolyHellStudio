@@ -7,6 +7,7 @@ import enemiesJson from '../data/game/enemies.json';
 import locationsJson from '../data/game/locations.json';
 import termsJson from '../data/game/terms.json';
 import metaJson from '../data/game/meta.json';
+import glossaryJson from '../data/game/glossary.json';
 
 export type Text = Record<Lang, string>;
 
@@ -46,6 +47,8 @@ export interface Item {
   name: Text;
   description: Text;
   lore: Text;
+  areas: string[];
+  keywords: string[];
 }
 
 export interface EnemySkill {
@@ -80,24 +83,48 @@ export interface Location {
   dungeons: { id: string; name: Text; description: Text }[];
 }
 
+export interface GlossaryEntry {
+  id: string;
+  kind: 'buff' | 'debuff' | 'keyword';
+  group: string;
+  icon: string | null;
+  tint: string | null;
+  name: Text;
+  tags: Text | null;
+  description: Text;
+}
+
 export const cards = cardsJson as Card[];
 export const items = itemsJson as Item[];
 export const enemies = enemiesJson as Enemy[];
 export const locations = locationsJson as Location[];
+export const glossary = glossaryJson as GlossaryEntry[];
 export const terms = termsJson as Record<'factions' | 'gods' | 'actionTypes', Record<string, Text>>;
 
 export const itemById = new Map(items.map((i) => [i.id, i]));
+
+// Filter values for an item (the item filters and the data attributes on item tiles).
+export const itemSources = (i: Item) => [...new Set(i.sources.map((s) => s.type))];
 export const enemyBySlug = new Map(enemies.map((e) => [e.slug, e]));
 export const enemySlugById = new Map(Object.entries(metaJson.enemySlugById));
 export const dungeonById = new Map(locations.flatMap((l) => l.dungeons.map((d) => [d.id, d])));
 
 export const enemyById = (id: string) => enemyBySlug.get(enemySlugById.get(id) ?? '');
 
+// Enemies grouped by the area (dungeon group) they're found in. An enemy found in two areas is listed in both.
+const groupOfDungeon = new Map(locations.flatMap((l) => l.dungeons.map((d) => [d.id, l.group])));
+const areaGroups = (e: Enemy) => new Set(e.variants.flatMap((v) => v.dungeons.map((d) => groupOfDungeon.get(d))));
+export const enemyAreas = locations.map((l) => ({
+  slug: l.name.en.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+  name: l.name,
+  enemies: enemies.filter((e) => areaGroups(e).has(l.group)),
+}));
+
 export const GOD_ORDER = ['Intereon', 'Florentis', 'Evinor', 'Oculyth', 'Hedalis', 'Vortherect'];
 
 const art = import.meta.glob<{ default: ImageMetadata }>('../assets/game/**/*.{png,jpg}', { eager: true });
 
-export function gameArt(kind: 'cards' | 'items' | 'enemies', file: string | null) {
+export function gameArt(kind: 'cards' | 'items' | 'enemies' | 'glossary', file: string | null) {
   return file ? art[`../assets/game/${kind}/${file}`]?.default : undefined;
 }
 

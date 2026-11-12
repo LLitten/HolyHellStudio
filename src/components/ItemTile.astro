@@ -2,7 +2,7 @@
 import { Image } from 'astro:assets';
 import type { Lang } from '../i18n/ui';
 import { localePath, useTranslations } from '../i18n/utils';
-import { enemyById, gameArt, itemById, type Item } from '../lib/game';
+import { enemyById, gameArt, itemById, itemSources, type Item } from '../lib/game';
 import Rarity from './Rarity.astro';
 
 interface Props {
@@ -44,7 +44,16 @@ const stats = item.stats && [
 ].filter(Boolean) as { label: string; value: string }[];
 ---
 
-<article class="item frame" id={`item-${item.id}`}>
+<article
+  class="item frame"
+  id={`item-${item.id}`}
+  data-item={item.id}
+  data-type={item.subType}
+  data-rarity={String(item.rarity)}
+  data-area={item.areas.join(' ')}
+  data-effect={item.keywords.join(' ')}
+  data-source={itemSources(item).join(' ')}
+>
   <header>
     <div class="icon" style={item.tint ? `--tint: ${item.tint}` : undefined}>
       {

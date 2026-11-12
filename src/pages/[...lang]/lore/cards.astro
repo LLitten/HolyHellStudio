@@ -4,6 +4,7 @@ import LoreShell from '../../../components/LoreShell.astro';
 import CardTile from '../../../components/CardTile.astro';
 import CardFilters from '../../../components/CardFilters.astro';
 import ToTop from '../../../components/ToTop.astro';
+import { cardArt } from '../../../credits';
 import { getLang, langPaths, useTranslations } from '../../../i18n/utils';
 import { cards, GOD_ORDER, term, type Card } from '../../../lib/game';
 
@@ -30,7 +31,7 @@ const groups: { id: string; label: string; cards: Card[] }[] = [
 <Base lang={lang} title={t('lore.cards')} description={t('lore.cards.blurb')}>
   <LoreShell lang={lang} current="cards">
     <h1>{t('lore.cards')}</h1>
-    <p class="scope-note">{t('lore.scope')}</p>
+    <p class="scope-note">{t('lore.scope')}<br /><span class="credit">{t('credit.cards', { name: cardArt })}</span></p>
 
     <CardFilters lang={lang} slot="side" />
     <p class="none" hidden data-none>{t('filter.none')}</p>

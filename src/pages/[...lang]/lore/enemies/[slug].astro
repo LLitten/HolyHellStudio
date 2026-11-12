@@ -4,6 +4,7 @@ import { render } from 'astro:content';
 import Base from '../../../../layouts/Base.astro';
 import LoreShell from '../../../../components/LoreShell.astro';
 import TranslationNote from '../../../../components/TranslationNote.astro';
+import { enemyArt } from '../../../../credits';
 import { getLang, langPaths, localePath, useTranslations } from '../../../../i18n/utils';
 import { getLocalized } from '../../../../lib/content';
 import { dungeonById, enemies, enemyById, gameArt, itemById, type EnemySkill } from '../../../../lib/game';
@@ -16,6 +17,7 @@ const { enemy } = Astro.props;
 const lang = getLang(Astro.params.lang);
 const t = useTranslations(lang);
 const art = gameArt('enemies', enemy.art);
+const artist = enemy.art ? enemyArt[enemy.art] : undefined;
 
 const lore = (await getLocalized('enemyLore', lang)).find((l) => l.slug === enemy.slug);
 const Lore = lore ? (await render(lore)).Content : null;
@@ -54,6 +56,7 @@ const itemHref = (id: string) => {
       <aside class="infobox frame">
         <h2>{enemy.name[lang]}</h2>
         {art && <Image src={art} alt={enemy.name[lang]} width={480} class="art" />}
+        {art && artist && <p class="credit">{t('credit.art', { name: artist })}</p>}
         <dl>
           <div><dt>{t('enemy.rank')}</dt><dd>{ranks.map((r) => t(`enemy.rank.${r}`)).join(' / ')}</dd></div>
           {

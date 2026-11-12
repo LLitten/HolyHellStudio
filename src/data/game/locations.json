@@ -8,7 +8,7 @@
     },
     "dungeons": [
       {
-        "id": "WindChime_Tutorial1",
+        "id": "WindChime_Tutorial",
         "name": {
           "en": "Windchime Village Trails",
           "sc": "风铃村小径",
@@ -44,6 +44,29 @@
           "en": "The instigators praise the name of the Divine, acting without restraint in broad daylight.",
           "sc": "始作俑者正在歌颂着神祇的名讳，在光天化日下肆意妄为。",
           "tc": "始作俑者正在歌頌著神祇的名諱，在光天化日下肆意妄為。"
+        }
+      }
+    ]
+  },
+  {
+    "group": "2",
+    "name": {
+      "en": "Denlitin Court",
+      "sc": "丹立庭",
+      "tc": "丹立庭"
+    },
+    "dungeons": [
+      {
+        "id": "DanLiTin_1",
+        "name": {
+          "en": "Denlitin Court",
+          "sc": "丹立庭",
+          "tc": "丹立庭"
+        },
+        "description": {
+          "en": "Ravaged by flames and smoke, the former trading hub has lost all of its past splendor.",
+          "sc": "受到战火与硝烟波及，曾经的贸易重镇早已失去了过往荣光。",
+          "tc": "受到戰火與硝煙波及，曾經的貿易重鎮早已失去了過往榮光。"
         }
       }
     ]

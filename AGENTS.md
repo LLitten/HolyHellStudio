@@ -10,14 +10,18 @@ Read README.md and CONTRIBUTING.md first; they cover how the site works. This fi
 
 ## The game repo (koapower/HolyHell)
 
-- Read only. Never edit, commit to, pull or otherwise write to the game repo from this project. Pulling it is left to the user.
+- It's the source of truth for game information (cards, equipment, materials, enemies, locations, rules). Check it before writing about the game, rather than relying on the website's copy or older notes.
+- Always read the latest `main` from GitHub, not a copy on someone's machine, which may be out of date. In a cloud session, attach the repo and make a fresh shallow clone; on a local machine, fetch first.
+- Art is stored in Git LFS. Run `git lfs pull` for `HolyHell/Assets/Res_Local/Global` and `HolyHell/Assets/Arts/UI/MainMenu/TitleScreen.png` before syncing, or the sync copies 130-byte pointer files instead of images.
+- Read only. Never edit, commit to or push to the game repo from this project.
 - `scripts/sync-game-data.mjs` reads from a local clone (`../HolyHell` or `HOLYHELL_PATH`) and writes only to this repo.
-- The game's CSVs come from Google Sheets via the game repo's own tooling (see its AGENTS.md). The site reflects what has been pulled into the repo, not the live sheets. Never fix game data on the website side; problems get reported to the team.
+- The game's CSVs come from Google Sheets via the game repo's own tooling (see its AGENTS.md). The site reflects what has been pushed to the repo, not the live sheets. Never fix game data on the website side; problems get reported to the team.
+- Card text names steps in `CardEffect.csv` (`{step:hit.Amount}`). The sync fills in the numbers using the call signatures in the game's `docs/EffectSteps.md`. If it reports unrecognized tokens, the game has added syntax the sync doesn't handle yet.
 - `src/data/game/` and `src/assets/game/` are generated. Change the sync script and re-run it instead of editing them.
 
 ## Game data scope
 
-- Only content reachable from Windchime Village (dungeon group 1) is shown. Later regions are unfinished. Widen `IN_SCOPE_GROUPS` only when told to.
+- Only content reachable from Windchime Village and Denlitin Court (dungeon groups 1 and 2) is shown. Later regions are unfinished. Widen `IN_SCOPE_GROUPS` only when told to.
 - Shops are hidden until they're finished (`INCLUDE_SHOP = false`).
 - Debug entries have no flag in the data. They're named with an `xdd` prefix and filtered by name.
 - Inherent cards (durability below 0) are shown even though they're `ExcludeFromPool`. That flag means "not in card packs", not "unplayable".
@@ -32,6 +36,8 @@ Read README.md and CONTRIBUTING.md first; they cover how the site works. This fi
 - Translations of posts and lore start as `translation: machine`. Only the team's proofreader marks them `reviewed`.
 - Only one Chinese version gets translated and proofread; the other is converted from it and marked `reviewed` straight away. Usually that means Simplified is converted from Traditional (OpenCC `tw2sp`, then mainland wording and “” quotes). If a piece starts in Simplified, convert the other way (OpenCC `s2twp`, then Taiwan wording and 「」 quotes). When the proofread version changes, regenerate the converted one from it.
 - When writing lore, stick to what the game's own text or the team's docs say. Don't invent story details.
+- Lore is written in Traditional Chinese first, so `tc` is the source. When the team has already written English for a passage (the Narrative_Dialogue doc's EN sections, or the game's `Localization/En.csv`), use that English as is and mark it `reviewed`. Only English we translate ourselves starts as `machine`.
+- Hold back story spoilers (plot events beyond a place's setup) unless the user asks for them.
 
 ## Patch notes
 
