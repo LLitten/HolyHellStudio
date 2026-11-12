@@ -7,7 +7,8 @@ import { titleArt } from '../../credits';
 import { getLang, langPaths, localePath, useTranslations } from '../../i18n/utils';
 import { getPosts } from '../../lib/content';
 import { site } from '../../site';
-import logoSvg from '../../assets/brand/lost-faith-logo.svg?raw';
+import logoPng from '../../assets/brand/lost-faith-logo.png';
+import panelsPng from '../../assets/brand/lost-faith-panels.png';
 import frameSvg from '../../assets/brand/lost-faith-frame.svg?raw';
 
 export const getStaticPaths = langPaths;
@@ -16,17 +17,18 @@ const lang = getLang(Astro.params.lang);
 const t = useTranslations(lang);
 const posts = (await getPosts(lang)).slice(0, 3);
 
-// The logo files are white; drawing them inline lets CSS color them gold.
-// The logo is in English, so the Chinese sites put their title inside the frame instead: the frame's top
-// (arches and star) and bottom (divider and panels) are the same file cropped two ways.
+// The logo files are white; CSS colors them gold (the SVG inline, the PNGs as masks).
+// The logo is in English, so the Chinese sites put their title inside the frame instead: the arches and star
+// from the frame SVG on top, and the divider and panels cut from the logo PNG below.
+// The logo is a PNG until there's an SVG of the current version (the god emblems on the panels).
 const gold = (svg: string, viewBox?: string) => {
   const colored = svg.replaceAll('"white"', '"currentColor"').replace(/ width="\d+" height="\d+"/, '');
   const cropped = viewBox ? colored.replace(/viewBox="[^"]*"/, `viewBox="${viewBox}"`) : colored;
   return cropped.replace('<svg', '<svg aria-hidden="true" focusable="false"');
 };
-const logo = gold(logoSvg);
 const frameTop = gold(frameSvg, '0 0 336 106');
-const frameBottom = gold(frameSvg, '0 194 336 111');
+const mask = (img: ImageMetadata) =>
+  `mask-image: url(${img.src}); -webkit-mask-image: url(${img.src}); aspect-ratio: ${img.width} / ${img.height}`;
 
 // Title screen art from the game, copied in by `npm run sync-data`.
 const heroArt = import.meta.glob<{ default: ImageMetadata }>('../../assets/game/home/title-screen.png', { eager: true })[
@@ -49,14 +51,14 @@ const loreLinks = [
       {
         lang === 'en' ? (
           <h1 class="logo">
-            <Fragment set:html={logo} />
+            <span class="logo-img" style={mask(logoPng)} />
             <span class="visually-hidden">{t('site.game')}</span>
           </h1>
         ) : (
           <div class="logo">
             <Fragment set:html={frameTop} />
             <h1 class="native-title">{t('site.game')}</h1>
-            <Fragment set:html={frameBottom} />
+            <span class="logo-img" style={mask(panelsPng)} />
           </div>
         )
       }
@@ -221,6 +223,16 @@ const loreLinks = [
     display: block;
     width: 100%;
     height: auto;
+  }
+
+  .logo-img {
+    display: block;
+    width: 100%;
+    background: currentColor;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
   }
 
   .native-title {
